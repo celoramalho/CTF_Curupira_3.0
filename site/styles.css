@@ -229,7 +229,7 @@ a { color: var(--neon); }
   background: var(--neon);
   color: #041018;
   border: 1px solid var(--neon);
-  padding: 14px 40px;
+  padding: 0 40px;
   font-size: 15px;
   letter-spacing: 2px;
   border-radius: var(--radius);
@@ -237,6 +237,7 @@ a { color: var(--neon); }
   transition: background 0.15s ease, color 0.15s ease;
   text-transform: uppercase;
   width: 280px;
+  height: 48px;
 }
 
 .btn-primary:hover {
@@ -249,11 +250,12 @@ a { color: var(--neon); }
   background: transparent;
   color: var(--text-dim);
   border: 1px solid var(--border);
-  padding: 9px 22px;
+  padding: 0 22px;
   border-radius: var(--radius);
   cursor: pointer;
   font-size: 12px;
   width: 280px;
+  height: 48px;
 }
 
 .btn-secondary:hover { color: var(--neon); border-color: var(--neon); }
