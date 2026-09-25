@@ -1,0 +1,152 @@
+[
+  {
+    "title": "DNSTAP",
+    "points": 10,
+    "category": "Telecom",
+    "description": "Este lit-dns.dnstap é o tap do recursor da Litoral na Campanha Relé. A degradação é seletiva, e o plantão precisa do identity do dnstap antes de achar a SERVFAIL. Qual o identity do dnstap? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "DNSTAP - 10 pts\nTelecom\nEste lit-dns.dnstap é o tap do recursor da Litoral na Campanha Relé. A degradação é seletiva, e o plantão precisa do identity do dnstap antes de achar a SERVFAIL. Qual o identity do dnstap? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Porta SERVFAIL",
+    "points": 10,
+    "category": "Telecom",
+    "description": "O query_port da resposta SERVFAIL identifica a query que o recursor falhou neste tap. Qual o query_port da resposta SERVFAIL? Padrão da resposta: valor direto. Exemplo: 53000",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "Porta SERVFAIL - 10 pts\nTelecom\nO query_port da resposta SERVFAIL identifica a query que o recursor falhou neste tap. Qual o query_port da resposta SERVFAIL? Padrão da resposta: valor direto. Exemplo: 53000",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "QNAME SERVFAIL",
+    "points": 10,
+    "category": "Telecom",
+    "description": "O QNAME dessa SERVFAIL é o nome que o recursor recusou de forma seletiva. Qual o QNAME dessa SERVFAIL? Padrão da resposta: valor direto. Exemplo: a.b.local",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "QNAME SERVFAIL - 10 pts\nTelecom\nO QNAME dessa SERVFAIL é o nome que o recursor recusou de forma seletiva. Qual o QNAME dessa SERVFAIL? Padrão da resposta: valor direto. Exemplo: a.b.local",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Rcode SERVFAIL",
+    "points": 10,
+    "category": "Telecom",
+    "description": "O rcode (texto) dessa resposta confirma o código da falha seletiva, não um NXDOMAIN genérico. Qual o rcode (texto) dessa resposta? Padrão da resposta: valor direto. Exemplo: NXDOMAIN",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "Rcode SERVFAIL - 10 pts\nTelecom\nO rcode (texto) dessa resposta confirma o código da falha seletiva, não um NXDOMAIN genérico. Qual o rcode (texto) dessa resposta? Padrão da resposta: valor direto. Exemplo: NXDOMAIN",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Flag TXT hold",
+    "points": 10,
+    "category": "Telecom",
+    "description": "A Flag no TXT UTF-16LE de hold.litoral.local é a marca deste tap da Litoral. Qual a Flag no TXT UTF-16LE de hold.litoral.local? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "Flag TXT hold - 10 pts\nTelecom\nA Flag no TXT UTF-16LE de hold.litoral.local é a marca deste tap da Litoral. Qual a Flag no TXT UTF-16LE de hold.litoral.local? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "MRT BGP",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Este tn-rib.mrt é o dump MRT BGP4MP do PE da Litoral na Campanha Relé. O enlace não caiu: só um prefixo da SE-03 some, e o plantão precisa do type MRT em offset 4 antes do withdraw. Qual o type MRT em hex (2 bytes em offset 4)? Padrão da resposta: valor direto. Exemplo: 000d",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "MRT BGP - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nEste tn-rib.mrt é o dump MRT BGP4MP do PE da Litoral na Campanha Relé. O enlace não caiu: só um prefixo da SE-03 some, e o plantão precisa do type MRT em offset 4 antes do withdraw. Qual o type MRT em hex (2 bytes em offset 4)? Padrão da resposta: valor direto. Exemplo: 000d",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Subtype MRT",
+    "points": 10,
+    "category": "Telecom",
+    "description": "O subtype MRT em hex (2 bytes em offset 6) fecha a variante BGP4MP deste dump. Qual o subtype MRT em hex (2 bytes em offset 6)? Padrão da resposta: valor direto. Exemplo: 0001",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "Subtype MRT - 10 pts\nTelecom\nO subtype MRT em hex (2 bytes em offset 6) fecha a variante BGP4MP deste dump. Qual o subtype MRT em hex (2 bytes em offset 6)? Padrão da resposta: valor direto. Exemplo: 0001",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Peer AS",
+    "points": 10,
+    "category": "Telecom",
+    "description": "O Peer AS (uint32 BE) do UPDATE de withdraw é o AS do peer que anunciou a retirada. Qual o Peer AS (uint32 BE) do UPDATE de withdraw? Padrão da resposta: valor direto. Exemplo: 65000",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "Peer AS - 10 pts\nTelecom\nO Peer AS (uint32 BE) do UPDATE de withdraw é o AS do peer que anunciou a retirada. Qual o Peer AS (uint32 BE) do UPDATE de withdraw? Padrão da resposta: valor direto. Exemplo: 65000",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Withdraw SE-03",
+    "points": 10,
+    "category": "Telecom",
+    "description": "O withdrawn (plen+prefix) em hex do UPDATE da SE-03 é o prefixo que sumiu sem o enlace cair. Qual o withdrawn (plen+prefix) em hex do UPDATE da SE-03? Padrão da resposta: valor direto. Exemplo: 18010101",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "Withdraw SE-03 - 10 pts\nTelecom\nO withdrawn (plen+prefix) em hex do UPDATE da SE-03 é o prefixo que sumiu sem o enlace cair. Qual o withdrawn (plen+prefix) em hex do UPDATE da SE-03? Padrão da resposta: valor direto. Exemplo: 18010101",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Flag attr",
+    "points": 10,
+    "category": "Telecom",
+    "description": "A Flag UTF-16LE no path attribute opcional é a marca deste dump MRT. Qual a Flag UTF-16LE no path attribute opcional? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "Flag attr - 10 pts\nTelecom\nA Flag UTF-16LE no path attribute opcional é a marca deste dump MRT. Qual a Flag UTF-16LE no path attribute opcional? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "SNMP QoS",
+    "points": 10,
+    "category": "Telecom",
+    "description": "Este clm-qos.snmp é o SET SNMPv2c (BER) do PE da liquidação na Campanha Relé. Não é cabo cortado: o VRF settle só tem CIR baixo, e o plantão precisa do sysName antes do ifSpeed. Qual o sysName? Padrão da resposta: valor direto. Exemplo: pe-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "SNMP QoS - 10 pts\nTelecom\nEste clm-qos.snmp é o SET SNMPv2c (BER) do PE da liquidação na Campanha Relé. Não é cabo cortado: o VRF settle só tem CIR baixo, e o plantão precisa do sysName antes do ifSpeed. Qual o sysName? Padrão da resposta: valor direto. Exemplo: pe-01",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Community SET",
+    "points": 10,
+    "category": "Telecom",
+    "description": "A community SNMPv2c é a comunidade que este SET usou no PE da Câmara. Qual a community SNMPv2c? Padrão da resposta: valor direto. Exemplo: public",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "Community SET - 10 pts\nTelecom\nA community SNMPv2c é a comunidade que este SET usou no PE da Câmara. Qual a community SNMPv2c? Padrão da resposta: valor direto. Exemplo: public",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "CIR settle",
+    "points": 10,
+    "category": "Telecom",
+    "description": "O ifSpeed (CIR em bps) do settle é o CIR baixo que o SET aplicou neste VRF. Qual o ifSpeed (CIR em bps) do settle? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "CIR settle - 10 pts\nTelecom\nO ifSpeed (CIR em bps) do settle é o CIR baixo que o SET aplicou neste VRF. Qual o ifSpeed (CIR em bps) do settle? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "ifDescr settle",
+    "points": 10,
+    "category": "Telecom",
+    "description": "O ifDescr desse interface nomeia a interface settle neste SET. Qual o ifDescr desse interface? Padrão da resposta: valor direto. Exemplo: uplink",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "ifDescr settle - 10 pts\nTelecom\nO ifDescr desse interface nomeia a interface settle neste SET. Qual o ifDescr desse interface? Padrão da resposta: valor direto. Exemplo: uplink",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Flag enterprise",
+    "points": 10,
+    "category": "Telecom",
+    "description": "A Flag UTF-16LE no OCTET STRING do enterprise 4200 é a marca deste SET SNMP da Câmara. Qual a Flag UTF-16LE no OCTET STRING do enterprise 4200? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "Flag enterprise - 10 pts\nTelecom\nA Flag UTF-16LE no OCTET STRING do enterprise 4200 é a marca deste SET SNMP da Câmara. Qual a Flag UTF-16LE no OCTET STRING do enterprise 4200? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Telecom",
+    "downloaded": true
+  }
+]

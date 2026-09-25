@@ -1,0 +1,472 @@
+[
+  {
+    "title": "Nota hex",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Este arquivo é a nota cifrada da IndusCom recolhida na estação de finanças da Transnorte na Campanha Relé, o recado do vendor que só fecha depois de hex e Base64. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Nota hex - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nEste arquivo é a nota cifrada da IndusCom recolhida na estação de finanças da Transnorte na Campanha Relé, o recado do vendor que só fecha depois de hex e Base64. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Operador hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Operator no cabeçalho em claro aponta quem o vendor associou a esta nota da estação de trabalho. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Operador hex - 10 pts\nCrypto\nO Operator no cabeçalho em claro aponta quem o vendor associou a esta nota da estação de trabalho. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Canal hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Channel no cabeçalho em claro nomeia o canal operacional desta nota da IndusCom. Qual o Channel no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Canal hex - 10 pts\nCrypto\nO Channel no cabeçalho em claro nomeia o canal operacional desta nota da IndusCom. Qual o Channel no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Camadas hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Encoding no cabeçalho diz como o plaintext foi empacotado antes da cifra. Qual o Encoding no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Camadas hex - 10 pts\nCrypto\nO Encoding no cabeçalho diz como o plaintext foi empacotado antes da cifra. Qual o Encoding no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "Depois de hex e Base64, o plaintext ainda nomeia o gateway da SE-03. Qual o Gateway no plaintext depois de hex e base64? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Gateway hex - 10 pts\nCrypto\nDepois de hex e Base64, o plaintext ainda nomeia o gateway da SE-03. Qual o Gateway no plaintext depois de hex e base64? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Firmware no plaintext decifrado é a versão que o recado do vendor citava para o ICG. Qual o Firmware no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Firmware hex - 10 pts\nCrypto\nO Firmware no plaintext decifrado é a versão que o recado do vendor citava para o ICG. Qual o Firmware no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Model no plaintext fecha a família ICG citada nesta nota. Qual o Model no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Modelo hex - 10 pts\nCrypto\nO Model no plaintext fecha a família ICG citada nesta nota. Qual o Model no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "C2 hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "A URL C2 no plaintext é o canal que a nota mandava a estação de trabalho usar. Qual a URL C2 no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "C2 hex - 10 pts\nCrypto\nA URL C2 no plaintext é o canal que a nota mandava a estação de trabalho usar. Qual a URL C2 no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "IP C2 hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O C2_IP no plaintext fecha o IPv4 do canal citado nesta nota. Qual o C2_IP no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "IP C2 hex - 10 pts\nCrypto\nO C2_IP no plaintext fecha o IPv4 do canal citado nesta nota. Qual o C2_IP no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Setpoint no plaintext é o valor que o recado já antecipava para a SE-03. Qual o Setpoint no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Setpoint hex - 10 pts\nCrypto\nO Setpoint no plaintext é o valor que o recado já antecipava para a SE-03. Qual o Setpoint no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Origem hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Src no plaintext aponta o IP interno que o recado associava à escrita anômala. Qual o Src no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Origem hex - 10 pts\nCrypto\nO Src no plaintext aponta o IP interno que o recado associava à escrita anômala. Qual o Src no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Build hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Build no plaintext fecha a revisão do pacote citado nesta nota. Qual o Build no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: R1",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Build hex - 10 pts\nCrypto\nO Build no plaintext fecha a revisão do pacote citado nesta nota. Qual o Build no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: R1",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Caso OCC hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Case no plaintext é o código IR que o vendor ou o operador colou neste recado. Qual o Case no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: IR-1",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Caso OCC hex - 10 pts\nCrypto\nO Case no plaintext é o código IR que o vendor ou o operador colou neste recado. Qual o Case no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: IR-1",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Flag hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "A Flag no plaintext decifrado é a marca do caso nesta nota da IndusCom. Qual a Flag no plaintext decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Flag hex - 10 pts\nCrypto\nA Flag no plaintext decifrado é a marca do caso nesta nota da IndusCom. Qual a Flag no plaintext decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Beacon XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "Este arquivo é o blob XOR do heartbeat capturado na estação de finanças da Transnorte na Campanha Relé, o mesmo pulso periódico que o pcap já tinha mostrado sem decifrar. Qual a Key no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Beacon XOR - 10 pts\nCrypto\nEste arquivo é o blob XOR do heartbeat capturado na estação de finanças da Transnorte na Campanha Relé, o mesmo pulso periódico que o pcap já tinha mostrado sem decifrar. Qual a Key no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "estação XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Host no cabeçalho em claro identifica a estação de onde este heartbeat XOR saiu. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "estação XOR - 10 pts\nCrypto\nO Host no cabeçalho em claro identifica a estação de onde este heartbeat XOR saiu. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Operador XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Operator no cabeçalho em claro aponta quem o vendor associou a este pulso. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Operador XOR - 10 pts\nCrypto\nO Operator no cabeçalho em claro aponta quem o vendor associou a este pulso. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Cifra XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Cipher no cabeçalho diz qual cifra este blob de heartbeat declara usar. Qual o Cipher no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Cifra XOR - 10 pts\nCrypto\nO Cipher no cabeçalho diz qual cifra este blob de heartbeat declara usar. Qual o Cipher no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "UA XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "Depois do XOR, o UA no plaintext é o mesmo agente periódico visto no pcap da Transnorte. Qual o UA no plaintext depois do XOR? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "UA XOR - 10 pts\nCrypto\nDepois do XOR, o UA no plaintext é o mesmo agente periódico visto no pcap da Transnorte. Qual o UA no plaintext depois do XOR? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "C2 XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "A URL C2 no plaintext é o canal que este heartbeat descreve. Qual a URL C2 no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "C2 XOR - 10 pts\nCrypto\nA URL C2 no plaintext é o canal que este heartbeat descreve. Qual a URL C2 no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Path XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Path no plaintext é o URI do heartbeat que o blob descreve. Qual o Path no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: /x",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Path XOR - 10 pts\nCrypto\nO Path no plaintext é o URI do heartbeat que o blob descreve. Qual o Path no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: /x",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Intervalo XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Interval no plaintext é o período do pulso do implante. Qual o Interval no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 60",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Intervalo XOR - 10 pts\nCrypto\nO Interval no plaintext é o período do pulso do implante. Qual o Interval no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 60",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Dominio XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Beacon no plaintext nomeia o tipo ou o canal deste pulso. Qual o Beacon no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Dominio XOR - 10 pts\nCrypto\nO Beacon no plaintext nomeia o tipo ou o canal deste pulso. Qual o Beacon no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Origem XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Src no plaintext é o IPv4 de origem do heartbeat na estação de trabalho de finanças. Qual o Src no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Origem XOR - 10 pts\nCrypto\nO Src no plaintext é o IPv4 de origem do heartbeat na estação de trabalho de finanças. Qual o Src no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Destino XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Dst no plaintext é o IPv4 de destino deste heartbeat. Qual o Dst no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Destino XOR - 10 pts\nCrypto\nO Dst no plaintext é o IPv4 de destino deste heartbeat. Qual o Dst no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Flag XOR",
+    "points": 10,
+    "category": "Crypto",
+    "description": "A Flag no plaintext decifrado é a marca deste blob XOR do heartbeat. Qual a Flag no plaintext decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Flag XOR - 10 pts\nCrypto\nA Flag no plaintext decifrado é a marca deste blob XOR do heartbeat. Qual a Flag no plaintext decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Pacote AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "Este arquivo é o pacote AES do updater da IndusCom recolhido na estação de finanças da Transnorte na Campanha Relé, a receita do drop que o Defender classificou como ObsidianUpdater. Qual o Pass no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Pacote AES - 10 pts\nCrypto\nEste arquivo é o pacote AES do updater da IndusCom recolhido na estação de finanças da Transnorte na Campanha Relé, a receita do drop que o Defender classificou como ObsidianUpdater. Qual o Pass no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "estação AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Host no cabeçalho em claro identifica a estação de onde este pacote AES do updater saiu. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "estação AES - 10 pts\nCrypto\nO Host no cabeçalho em claro identifica a estação de onde este pacote AES do updater saiu. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Operador AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Operator no cabeçalho em claro aponta quem o vendor associou a este updater. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Operador AES - 10 pts\nCrypto\nO Operator no cabeçalho em claro aponta quem o vendor associou a este updater. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Cifra AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Cipher no cabeçalho diz qual cifra este pacote do updater declara usar. Qual o Cipher no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Cifra AES - 10 pts\nCrypto\nO Cipher no cabeçalho diz qual cifra este pacote do updater declara usar. Qual o Cipher no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "KDF AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O KDF no cabeçalho diz como a senha vira chave neste pacote AES. Qual o KDF no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "KDF AES - 10 pts\nCrypto\nO KDF no cabeçalho diz como a senha vira chave neste pacote AES. Qual o KDF no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "URL updater AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "Depois do AES, a URL no plaintext é de onde o updater deveria se puxar. Qual a URL no plaintext depois do AES? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "URL updater AES - 10 pts\nCrypto\nDepois do AES, a URL no plaintext é de onde o updater deveria se puxar. Qual a URL no plaintext depois do AES? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Drop AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Drop no plaintext é o path em que o updater deveria cair no disco da estação de trabalho. Qual o Drop no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Drop AES - 10 pts\nCrypto\nO Drop no plaintext é o path em que o updater deveria cair no disco da estação de trabalho. Qual o Drop no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Hash AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Hash no plaintext fecha o binário que este pacote AES descreve. Qual o Hash no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Hash AES - 10 pts\nCrypto\nO Hash no plaintext fecha o binário que este pacote AES descreve. Qual o Hash no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "UA AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O UA no plaintext é o agente que o updater usaria na saída. Qual o UA no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "UA AES - 10 pts\nCrypto\nO UA no plaintext é o agente que o updater usaria na saída. Qual o UA no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "C2 AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "A URL C2 no plaintext é o canal que o updater da IndusCom deveria usar. Qual a URL C2 no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "C2 AES - 10 pts\nCrypto\nA URL C2 no plaintext é o canal que o updater da IndusCom deveria usar. Qual a URL C2 no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Flag AES",
+    "points": 10,
+    "category": "Crypto",
+    "description": "A Flag no plaintext decifrado é a marca deste pacote AES do updater. Qual a Flag no plaintext decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Flag AES - 10 pts\nCrypto\nA Flag no plaintext decifrado é a marca deste pacote AES do updater. Qual a Flag no plaintext decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Kit RSA",
+    "points": 10,
+    "category": "Crypto",
+    "description": "Este PEM é o kit RSA de recuperação da IndusCom recolhido com o sync do vendor na Campanha Relé, a chave que o operador do Obsidian deixou junto do canal de sync. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Kit RSA - 10 pts\nCrypto\nEste PEM é o kit RSA de recuperação da IndusCom recolhido com o sync do vendor na Campanha Relé, a chave que o operador do Obsidian deixou junto do canal de sync. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Operador RSA",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Operator no cabeçalho em claro aponta quem o vendor associou a este kit RSA. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Operador RSA - 10 pts\nCrypto\nO Operator no cabeçalho em claro aponta quem o vendor associou a este kit RSA. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Tipo chave",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O KeyType no cabeçalho declara o tamanho e o tipo da chave RSA deste kit. Qual o KeyType no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: RSA-1024",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Tipo chave - 10 pts\nCrypto\nO KeyType no cabeçalho declara o tamanho e o tipo da chave RSA deste kit. Qual o KeyType no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: RSA-1024",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Padding RSA",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Padding no cabeçalho diz como o RSA deste kit foi aplicado. Qual o Padding no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Padding RSA - 10 pts\nCrypto\nO Padding no cabeçalho diz como o RSA deste kit foi aplicado. Qual o Padding no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway RSA",
+    "points": 10,
+    "category": "Crypto",
+    "description": "Depois do RSA, o plaintext ainda nomeia o gateway da SE-03. Qual o Gateway no plaintext depois do RSA? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Gateway RSA - 10 pts\nCrypto\nDepois do RSA, o plaintext ainda nomeia o gateway da SE-03. Qual o Gateway no plaintext depois do RSA? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware RSA",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Firmware no plaintext decifrado é a versão do ICG citada neste kit de recuperação. Qual o Firmware no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Firmware RSA - 10 pts\nCrypto\nO Firmware no plaintext decifrado é a versão do ICG citada neste kit de recuperação. Qual o Firmware no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "C2 RSA",
+    "points": 10,
+    "category": "Crypto",
+    "description": "A URL C2 no plaintext é o canal que este kit RSA descreve. Qual a URL C2 no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "C2 RSA - 10 pts\nCrypto\nA URL C2 no plaintext é o canal que este kit RSA descreve. Qual a URL C2 no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Origem RSA",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Src no plaintext aponta o IP interno que o kit associava à escrita na SE-03. Qual o Src no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Origem RSA - 10 pts\nCrypto\nO Src no plaintext aponta o IP interno que o kit associava à escrita na SE-03. Qual o Src no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "estação RSA",
+    "points": 10,
+    "category": "Crypto",
+    "description": "A Station no plaintext amarra o kit RSA à estação ou subestação do caso. Qual o Station no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "estação RSA - 10 pts\nCrypto\nA Station no plaintext amarra o kit RSA à estação ou subestação do caso. Qual o Station no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Flag RSA",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "A Flag no plaintext decifrado é a marca deste kit RSA da IndusCom. Qual a Flag no plaintext decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Flag RSA - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nA Flag no plaintext decifrado é a marca deste kit RSA da IndusCom. Qual a Flag no plaintext decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Crypto",
+    "downloaded": true
+  }
+]

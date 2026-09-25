@@ -1,0 +1,212 @@
+[
+  {
+    "title": "GPO PReg",
+    "points": 10,
+    "category": "Persistência",
+    "description": "Este tn-registry.pol é o Registry.pol (PReg) da GPO da Transnorte depois do DCSync na Campanha Relé. Offsets TypeOff/HashOff/PayOff no cabeçalho, e o plantão precisa do Domain antes de achar o record Type=RegBin da chave Run. Qual o Domain? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "GPO PReg - 10 pts\nPersistência\nEste tn-registry.pol é o Registry.pol (PReg) da GPO da Transnorte depois do DCSync na Campanha Relé. Offsets TypeOff/HashOff/PayOff no cabeçalho, e o plantão precisa do Domain antes de achar o record Type=RegBin da chave Run. Qual o Domain? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Nome GPO",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O Gpo no cabeçalho nomeia a política INDUSCOM que este PReg carrega. Qual o Gpo no cabeçalho? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Nome GPO - 10 pts\nPersistência\nO Gpo no cabeçalho nomeia a política INDUSCOM que este PReg carrega. Qual o Gpo no cabeçalho? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize PReg",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O RecSize no cabeçalho fecha o tamanho de cada record PReg neste pol. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "RecSize PReg - 10 pts\nPersistência\nO RecSize no cabeçalho fecha o tamanho de cada record PReg neste pol. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Chave Run",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O Name KEY do KeyId no record Type=RegBin (3) da chave Run é o path de persistência que a GPO escreve. Qual o Name KEY do KeyId no record Type=RegBin (3) da chave Run? Padrão da resposta: valor direto. Exemplo: Software\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Chave Run - 10 pts\nPersistência\nO Name KEY do KeyId no record Type=RegBin (3) da chave Run é o path de persistência que a GPO escreve. Qual o Name KEY do KeyId no record Type=RegBin (3) da chave Run? Padrão da resposta: valor direto. Exemplo: Software\\xxxx",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Valor Run",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O Name VAL do ValId nesse record é o valor Run que a GPO cria para o updater. Qual o Name VAL do ValId nesse record? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Valor Run - 10 pts\nPersistência\nO Name VAL do ValId nesse record é o valor Run que a GPO cria para o updater. Qual o Name VAL do ValId nesse record? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Hash Run",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O SHA256 em hex no HashOff desse record é o mesmo do update.bin da ISO e do disco. Qual o SHA256 em hex no HashOff desse record (o mesmo do update.bin)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Hash Run - 10 pts\nPersistência\nO SHA256 em hex no HashOff desse record é o mesmo do update.bin da ISO e do disco. Qual o SHA256 em hex no HashOff desse record (o mesmo do update.bin)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Conta Run",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O Name RID da conta nesse record aponta quem a GPO associa a este Run. Qual o Name RID da conta nesse record? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Conta Run - 10 pts\nPersistência\nO Name RID da conta nesse record aponta quem a GPO associa a este Run. Qual o Name RID da conta nesse record? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Flag PReg",
+    "points": 10,
+    "category": "Persistência",
+    "description": "A Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o PolIv é a marca deste PReg da Transnorte. Qual a Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o PolIv? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Flag PReg - 10 pts\nPersistência\nA Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o PolIv é a marca deste PReg da Transnorte. Qual a Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o PolIv? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Spool atd",
+    "points": 10,
+    "category": "Persistência",
+    "description": "Este lit-atjobs.bin é o spool atd (AtJb) do LIT-NMS-02 depois do kerberoast na Campanha Relé. Não é o cron do disco. UidOff/CmdIdOff no cabeçalho, e o plantão precisa do Domain antes de achar o job do dropper DNS. Qual o Domain? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "Spool atd - 10 pts\nPersistência\nEste lit-atjobs.bin é o spool atd (AtJb) do LIT-NMS-02 depois do kerberoast na Campanha Relé. Não é o cron do disco. UidOff/CmdIdOff no cabeçalho, e o plantão precisa do Domain antes de achar o job do dropper DNS. Qual o Domain? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize atd",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O RecSize no cabeçalho fecha o tamanho de cada record AtJb neste spool. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "RecSize atd - 10 pts\nPersistência\nO RecSize no cabeçalho fecha o tamanho de cada record AtJb neste spool. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "CMD atd",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O Name CMD do job com Uid 0 e CmdId do dropper DNS é o binário que o atd agendou, fora do cron. Qual o Name CMD do job com Uid 0 e CmdId do dropper DNS? Padrão da resposta: valor direto. Exemplo: /usr/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "CMD atd - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO Name CMD do job com Uid 0 e CmdId do dropper DNS é o binário que o atd agendou, fora do cron. Qual o Name CMD do job com Uid 0 e CmdId do dropper DNS? Padrão da resposta: valor direto. Exemplo: /usr/xxxx",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Hash atd",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O SHA256 em hex no HashOff desse job fecha o dropper que o atd aponta. Qual o SHA256 em hex no HashOff desse job? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "Hash atd - 10 pts\nPersistência\nO SHA256 em hex no HashOff desse job fecha o dropper que o atd aponta. Qual o SHA256 em hex no HashOff desse job? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "UID atd",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O Name UID desse job traduz o Uid 0 para a conta que o job usa. Qual o Name UID desse job? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "UID atd - 10 pts\nPersistência\nO Name UID desse job traduz o Uid 0 para a conta que o job usa. Qual o Name UID desse job? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Flag atd",
+    "points": 10,
+    "category": "Persistência",
+    "description": "A Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o AtIv é a marca deste spool atd da Litoral. Qual a Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o AtIv? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "Flag atd - 10 pts\nPersistência\nA Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o AtIv é a marca deste spool atd da Litoral. Qual a Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o AtIv? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "WMI CLM",
+    "points": 10,
+    "category": "Persistência",
+    "description": "Este clm-wmi.bin é o repositório WMI (WmiE) do CLM-FILE-01 depois da criação do SVC-WIPE na Campanha Relé. Binding Kind=3, offsets no cabeçalho, e o plantão precisa do Domain antes de ligar FilterId e ConsumerId à conta 1300. Qual o Domain? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "WMI CLM - 10 pts\nPersistência\nEste clm-wmi.bin é o repositório WMI (WmiE) do CLM-FILE-01 depois da criação do SVC-WIPE na Campanha Relé. Binding Kind=3, offsets no cabeçalho, e o plantão precisa do Domain antes de ligar FilterId e ConsumerId à conta 1300. Qual o Domain? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize WMI",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O RecSize no cabeçalho fecha o tamanho de cada record WmiE neste repositório. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "RecSize WMI - 10 pts\nPersistência\nO RecSize no cabeçalho fecha o tamanho de cada record WmiE neste repositório. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Filtro WMI",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O Name FIL do FilterId no binding Kind=3 da conta RID 1300 é o filtro que dispara o consumer. Qual o Name FIL do FilterId no binding Kind=3 da conta RID 1300? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Filtro WMI - 10 pts\nPersistência\nO Name FIL do FilterId no binding Kind=3 da conta RID 1300 é o filtro que dispara o consumer. Qual o Name FIL do FilterId no binding Kind=3 da conta RID 1300? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Consumer WMI",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O Name CON do ConsumerId nesse binding é o consumer que o WMI chama no gatilho. Qual o Name CON do ConsumerId nesse binding? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Consumer WMI - 10 pts\nPersistência\nO Name CON do ConsumerId nesse binding é o consumer que o WMI chama no gatilho. Qual o Name CON do ConsumerId nesse binding? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Conta WMI",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O Name RID nesse binding traduz o RID 1300 para a conta do wiper. Qual o Name RID nesse binding? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Conta WMI - 10 pts\nPersistência\nO Name RID nesse binding traduz o RID 1300 para a conta do wiper. Qual o Name RID nesse binding? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Hash WMI",
+    "points": 10,
+    "category": "Persistência",
+    "description": "O SHA256 em hex no HashOff desse binding fecha o payload que o binding carrega. Qual o SHA256 em hex no HashOff desse binding? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Hash WMI - 10 pts\nPersistência\nO SHA256 em hex no HashOff desse binding fecha o payload que o binding carrega. Qual o SHA256 em hex no HashOff desse binding? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WMI",
+    "points": 10,
+    "category": "Persistência",
+    "description": "A Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o WmiIv é a marca deste WMI da Câmara. Qual a Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o WmiIv? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Flag WMI - 10 pts\nPersistência\nA Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o WmiIv é a marca deste WMI da Câmara. Qual a Flag no PayOff depois de openssl enc -d -aes-256-cbc com os 32 bytes do HashOff e o WmiIv? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Persistência",
+    "downloaded": true
+  }
+]

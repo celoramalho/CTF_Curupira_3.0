@@ -1,0 +1,172 @@
+[
+  {
+    "title": "OCC cifrado",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "Este tn-occ.enc é o export OCC da TN-FIN-WS042 cifrado no ensaio da Campanha Relé. A chave AES-256 está truncada (KeyLen + BakLen), e o plantão precisa do Domain no cabeçalho antes de juntar os dois pedaços. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "OCC cifrado - 10 pts\nRansomware\nEste tn-occ.enc é o export OCC da TN-FIN-WS042 cifrado no ensaio da Campanha Relé. A chave AES-256 está truncada (KeyLen + BakLen), e o plantão precisa do Domain no cabeçalho antes de juntar os dois pedaços. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "KeyLen",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "O KeyLen no cabeçalho é o tamanho do pedaço em KeyOff, bytes da chave que não bastam sozinhos. Qual o KeyLen no cabeçalho (bytes da chave que não bastam sozinhos)? Padrão da resposta: valor direto. Exemplo: 16",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "KeyLen - 10 pts\nRansomware\nO KeyLen no cabeçalho é o tamanho do pedaço em KeyOff, bytes da chave que não bastam sozinhos. Qual o KeyLen no cabeçalho (bytes da chave que não bastam sozinhos)? Padrão da resposta: valor direto. Exemplo: 16",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Chave OCC",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "A chave AES em hex concatenando KeyOff (KeyLen bytes) com BakOff (BakLen bytes) fecha os 32 bytes do OCC. Qual a chave AES em hex concatenando KeyOff (KeyLen bytes) com BakOff (BakLen bytes)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "Chave OCC - 10 pts\nRansomware\nA chave AES em hex concatenando KeyOff (KeyLen bytes) com BakOff (BakLen bytes) fecha os 32 bytes do OCC. Qual a chave AES em hex concatenando KeyOff (KeyLen bytes) com BakOff (BakLen bytes)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint OCC",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "O Setpoint no OCC depois do decrypt AES-256-CBC com EncIv é o valor da SE-03 neste export. Qual o Setpoint no OCC depois do decrypt AES-256-CBC com EncIv? Padrão da resposta: valor direto. Exemplo: 12000",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "Setpoint OCC - 10 pts\nRansomware\nO Setpoint no OCC depois do decrypt AES-256-CBC com EncIv é o valor da SE-03 neste export. Qual o Setpoint no OCC depois do decrypt AES-256-CBC com EncIv? Padrão da resposta: valor direto. Exemplo: 12000",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag OCC",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "A Flag nesse plaintext é a marca deste OCC cifrado da Transnorte. Qual a Flag nesse plaintext? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "Flag OCC - 10 pts\nRansomware\nA Flag nesse plaintext é a marca deste OCC cifrado da Transnorte. Qual a Flag nesse plaintext? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Zona cifrada",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Este lit-zone.enc é a zona do LIT-NMS-02 cifrada no ensaio da Campanha Relé. AES-128, chave = primeiros 16 bytes do SHA256(KeyOff||BakOff), e o plantão precisa do Computer no cabeçalho antes do KDF. Qual o Computer no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Zona cifrada - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nEste lit-zone.enc é a zona do LIT-NMS-02 cifrada no ensaio da Campanha Relé. AES-128, chave = primeiros 16 bytes do SHA256(KeyOff||BakOff), e o plantão precisa do Computer no cabeçalho antes do KDF. Qual o Computer no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Cipher zona",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "O Cipher no cabeçalho declara o modo real desta zona, não o AES-256 do OCC. Qual o Cipher no cabeçalho? Padrão da resposta: valor direto. Exemplo: AES-256-CBC",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Cipher zona - 10 pts\nRansomware\nO Cipher no cabeçalho declara o modo real desta zona, não o AES-256 do OCC. Qual o Cipher no cabeçalho? Padrão da resposta: valor direto. Exemplo: AES-256-CBC",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Kdf zona",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "O Kdf no cabeçalho diz como a chave desta zona é derivada. Qual o Kdf no cabeçalho? Padrão da resposta: valor direto. Exemplo: pbkdf2",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Kdf zona - 10 pts\nRansomware\nO Kdf no cabeçalho diz como a chave desta zona é derivada. Qual o Kdf no cabeçalho? Padrão da resposta: valor direto. Exemplo: pbkdf2",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Chave zona",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "A chave AES-128 em hex são os primeiros 16 bytes do SHA256 da concatenação KeyOff||BakOff. Qual a chave AES-128 em hex (primeiros 16 bytes do SHA256 da concatenação KeyOff||BakOff)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Chave zona - 10 pts\nRansomware\nA chave AES-128 em hex são os primeiros 16 bytes do SHA256 da concatenação KeyOff||BakOff. Qual a chave AES-128 em hex (primeiros 16 bytes do SHA256 da concatenação KeyOff||BakOff)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Serial zona",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "O Serial da zona depois do decrypt AES-128-CBC com ZnIv é o SOA que este ensaio cifrou. Qual o Serial da zona depois do decrypt AES-128-CBC com ZnIv? Padrão da resposta: valor direto. Exemplo: 2026010101",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Serial zona - 10 pts\nRansomware\nO Serial da zona depois do decrypt AES-128-CBC com ZnIv é o SOA que este ensaio cifrou. Qual o Serial da zona depois do decrypt AES-128-CBC com ZnIv? Padrão da resposta: valor direto. Exemplo: 2026010101",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zona",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "A Flag nesse plaintext é a marca desta zona cifrada da Litoral. Qual a Flag nesse plaintext? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx:xxxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Flag zona - 10 pts\nRansomware\nA Flag nesse plaintext é a marca desta zona cifrada da Litoral. Qual a Flag nesse plaintext? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx:xxxxx}",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Lote cifrado",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "Este clm-settle.enc é o settlement_batch da CLM cifrado no ensaio da Campanha Relé. Não pague: KeyOff é isca, a chave está na sombra VSS, e o plantão precisa do Target no cabeçalho antes de ir ao BakOff. Qual o Target no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Lote cifrado - 10 pts\nRansomware\nEste clm-settle.enc é o settlement_batch da CLM cifrado no ensaio da Campanha Relé. Não pague: KeyOff é isca, a chave está na sombra VSS, e o plantão precisa do Target no cabeçalho antes de ir ao BakOff. Qual o Target no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Isca PAYNOW",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "O ASCII nos 6 primeiros bytes do KeyOff é a isca que tenta mandar pagar o lote. Qual o ASCII nos 6 primeiros bytes do KeyOff? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Isca PAYNOW - 10 pts\nRansomware\nO ASCII nos 6 primeiros bytes do KeyOff é a isca que tenta mandar pagar o lote. Qual o ASCII nos 6 primeiros bytes do KeyOff? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Chave VSS",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "A chave AES-256 em hex no BakOff (BakKind VSS) é a chave real na sombra, não a isca. Qual a chave AES-256 em hex no BakOff (BakKind VSS)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Chave VSS - 10 pts\nRansomware\nA chave AES-256 em hex no BakOff (BakKind VSS) é a chave real na sombra, não a isca. Qual a chave AES-256 em hex no BakOff (BakKind VSS)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "BatchId",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "O BatchId no lote depois do decrypt AES-256-CBC com BatIv identifica o settlement que o wiper aponta. Qual o BatchId no lote depois do decrypt AES-256-CBC com BatIv? Padrão da resposta: valor direto. Exemplo: SB-xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "BatchId - 10 pts\nRansomware\nO BatchId no lote depois do decrypt AES-256-CBC com BatIv identifica o settlement que o wiper aponta. Qual o BatchId no lote depois do decrypt AES-256-CBC com BatIv? Padrão da resposta: valor direto. Exemplo: SB-xxxx",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Amount lote",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "O Amount nesse lote é o valor do settlement_batch depois do decrypt. Qual o Amount nesse lote? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Amount lote - 10 pts\nRansomware\nO Amount nesse lote é o valor do settlement_batch depois do decrypt. Qual o Amount nesse lote? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag lote",
+    "points": 10,
+    "category": "Ransomware",
+    "description": "A Flag nesse plaintext é a marca deste lote cifrado da Câmara. Qual a Flag nesse plaintext? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Flag lote - 10 pts\nRansomware\nA Flag nesse plaintext é a marca deste lote cifrado da Câmara. Qual a Flag nesse plaintext? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Ransomware",
+    "downloaded": true
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "title": "FAT12 wiper",
+    "points": 10,
+    "category": "Wiper",
+    "description": "Este tn-wipe.ima é a mídia FAT12 do wiper de boot recolhida na SE-03 na Campanha Relé. Ainda não foi gravada no disco da OCC, e o plantão precisa do Volume Label do boot sector antes do alvo. Qual o Volume Label do boot sector? Padrão da resposta: valor direto. Exemplo: BOOTWIPE",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "FAT12 wiper - 10 pts\nWiper\nEste tn-wipe.ima é a mídia FAT12 do wiper de boot recolhida na SE-03 na Campanha Relé. Ainda não foi gravada no disco da OCC, e o plantão precisa do Volume Label do boot sector antes do alvo. Qual o Volume Label do boot sector? Padrão da resposta: valor direto. Exemplo: BOOTWIPE",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "OEM FAT12",
+    "points": 10,
+    "category": "Wiper",
+    "description": "O OEM Name do boot sector denuncia o vendor que assinou esta mídia FAT12. Qual o OEM Name do boot sector? Padrão da resposta: valor direto. Exemplo: MSDOS5.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "OEM FAT12 - 10 pts\nWiper\nO OEM Name do boot sector denuncia o vendor que assinou esta mídia FAT12. Qual o OEM Name do boot sector? Padrão da resposta: valor direto. Exemplo: MSDOS5.0",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo FAT12",
+    "points": 10,
+    "category": "Wiper",
+    "description": "O alvo em target.txt é o que o wiper sobrescreveria se esta mídia fosse gravada na OCC. Qual o alvo em target.txt (o que o wiper sobrescreveria)? Padrão da resposta: valor direto. Exemplo: sda",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "Alvo FAT12 - 10 pts\nWiper\nO alvo em target.txt é o que o wiper sobrescreveria se esta mídia fosse gravada na OCC. Qual o alvo em target.txt (o que o wiper sobrescreveria)? Padrão da resposta: valor direto. Exemplo: sda",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho FAT12",
+    "points": 10,
+    "category": "Wiper",
+    "description": "O gatilho em trigger.txt é a janela que o wiper espera, e ainda não disparou. Qual o gatilho em trigger.txt (ainda não disparou)? Padrão da resposta: valor direto. Exemplo: reboot",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "Gatilho FAT12 - 10 pts\nWiper\nO gatilho em trigger.txt é a janela que o wiper espera, e ainda não disparou. Qual o gatilho em trigger.txt (ainda não disparou)? Padrão da resposta: valor direto. Exemplo: reboot",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag FAT12",
+    "points": 10,
+    "category": "Wiper",
+    "description": "A Flag UTF-16LE em flag.bin é a marca desta mídia FAT12 da SE-03. Qual a Flag UTF-16LE em flag.bin? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "Flag FAT12 - 10 pts\nWiper\nA Flag UTF-16LE em flag.bin é a marca desta mídia FAT12 da SE-03. Qual a Flag UTF-16LE em flag.bin? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "CramFS wiper",
+    "points": 10,
+    "category": "Wiper",
+    "description": "Este lit-wipe.cramfs é a imagem CramFS do recursor da Litoral na Campanha Relé. O wiper de MTD ainda não foi promovido a flash, e o plantão precisa do Label do CramFS antes da partição. Qual o Label do CramFS? Padrão da resposta: valor direto. Exemplo: ROM-WIP",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "CramFS wiper - 10 pts\nWiper\nEste lit-wipe.cramfs é a imagem CramFS do recursor da Litoral na Campanha Relé. O wiper de MTD ainda não foi promovido a flash, e o plantão precisa do Label do CramFS antes da partição. Qual o Label do CramFS? Padrão da resposta: valor direto. Exemplo: ROM-WIP",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Magic CramFS",
+    "points": 10,
+    "category": "Wiper",
+    "description": "O magic CramFS em hex (4 bytes LE no offset 0) confirma o formato desta imagem do recursor. Qual o magic CramFS em hex (4 bytes LE no offset 0)? Padrão da resposta: valor direto. Exemplo: 00000000",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "Magic CramFS - 10 pts\nWiper\nO magic CramFS em hex (4 bytes LE no offset 0) confirma o formato desta imagem do recursor. Qual o magic CramFS em hex (4 bytes LE no offset 0)? Padrão da resposta: valor direto. Exemplo: 00000000",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo MTD",
+    "points": 10,
+    "category": "Wiper",
+    "description": "O alvo em mtd/name é a partição que seria apagada se o wiper fosse promovido. Qual o alvo em mtd/name (partição que seria apagada)? Padrão da resposta: valor direto. Exemplo: mtd0",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "Alvo MTD - 10 pts\nWiper\nO alvo em mtd/name é a partição que seria apagada se o wiper fosse promovido. Qual o alvo em mtd/name (partição que seria apagada)? Padrão da resposta: valor direto. Exemplo: mtd0",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho CramFS",
+    "points": 10,
+    "category": "Wiper",
+    "description": "O gatilho em wipe/when é o evento que o CramFS espera antes de apagar o MTD. Qual o gatilho em wipe/when? Padrão da resposta: valor direto. Exemplo: reboot",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "Gatilho CramFS - 10 pts\nWiper\nO gatilho em wipe/when é o evento que o CramFS espera antes de apagar o MTD. Qual o gatilho em wipe/when? Padrão da resposta: valor direto. Exemplo: reboot",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag CramFS",
+    "points": 10,
+    "category": "Wiper",
+    "description": "A Flag UTF-16LE em rom/token é a marca desta imagem CramFS da Litoral. Qual a Flag UTF-16LE em rom/token? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "Flag CramFS - 10 pts\nWiper\nA Flag UTF-16LE em rom/token é a marca desta imagem CramFS da Litoral. Qual a Flag UTF-16LE em rom/token? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "WIM wiper",
+    "points": 10,
+    "category": "Wiper",
+    "description": "Este clm-wipe.wim é o pacote WIM staged no file server da liquidação na Campanha Relé. O apply ainda não rodou, e o plantão precisa do hostname em etc/hostname antes do alvo do lote. Qual o hostname em etc/hostname? Padrão da resposta: valor direto. Exemplo: file-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "WIM wiper - 10 pts\nWiper\nEste clm-wipe.wim é o pacote WIM staged no file server da liquidação na Campanha Relé. O apply ainda não rodou, e o plantão precisa do hostname em etc/hostname antes do alvo do lote. Qual o hostname em etc/hostname? Padrão da resposta: valor direto. Exemplo: file-01",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Versão WIM",
+    "points": 10,
+    "category": "Wiper",
+    "description": "A Version do WIM fecha a versão deste pacote staged no file server. Qual a Version do WIM? Padrão da resposta: valor direto. Exemplo: 1.00",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "Versão WIM - 10 pts\nWiper\nA Version do WIM fecha a versão deste pacote staged no file server. Qual a Version do WIM? Padrão da resposta: valor direto. Exemplo: 1.00",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo WIM",
+    "points": 10,
+    "category": "Wiper",
+    "description": "O alvo em settle/target é o que seria apagado se o apply rodasse no lote. Qual o alvo em settle/target (o que seria apagado)? Padrão da resposta: valor direto. Exemplo: ledger",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "Alvo WIM - 10 pts\nWiper\nO alvo em settle/target é o que seria apagado se o apply rodasse no lote. Qual o alvo em settle/target (o que seria apagado)? Padrão da resposta: valor direto. Exemplo: ledger",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho WIM",
+    "points": 10,
+    "category": "Wiper",
+    "description": "O gatilho em settle/trigger é o evento que o WIM espera antes do apply. Qual o gatilho em settle/trigger? Padrão da resposta: valor direto. Exemplo: midnight",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "Gatilho WIM - 10 pts\nWiper\nO gatilho em settle/trigger é o evento que o WIM espera antes do apply. Qual o gatilho em settle/trigger? Padrão da resposta: valor direto. Exemplo: midnight",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WIM",
+    "points": 10,
+    "category": "Wiper",
+    "description": "A Flag UTF-16LE em lib/token é a marca deste WIM da Câmara. Qual a Flag UTF-16LE em lib/token? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "Flag WIM - 10 pts\nWiper\nA Flag UTF-16LE em lib/token é a marca deste WIM da Câmara. Qual a Flag UTF-16LE em lib/token? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Wiper",
+    "downloaded": true
+  }
+]

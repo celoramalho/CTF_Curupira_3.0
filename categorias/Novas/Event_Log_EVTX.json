@@ -1,0 +1,152 @@
+[
+  {
+    "title": "EVTX Transnorte",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "Este tn-security.evtx é o Security do TN-DC-01 depois do DCSync do backup_svc na Campanha Relé. Records ElfFile, nomes só na tabela SID, e o plantão precisa do Domain no cabeçalho antes de achar o 4624 type 3. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "EVTX Transnorte - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nEste tn-security.evtx é o Security do TN-DC-01 depois do DCSync do backup_svc na Campanha Relé. Records ElfFile, nomes só na tabela SID, e o plantão precisa do Domain no cabeçalho antes de achar o 4624 type 3. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize EVTX",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O RecSize no cabeçalho fecha o tamanho de cada record ElfFile neste evtx. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "RecSize EVTX - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO RecSize no cabeçalho fecha o tamanho de cada record ElfFile neste evtx. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "LogonId 4624",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O LogonId em hex do 4624 type 3 na workstation 2100 com SID RID 1002 é a sessão do DCSync neste log. Qual o LogonId em hex do 4624 type 3 na workstation 2100 com SID RID 1002? Padrão da resposta: valor direto. Exemplo: aabbccdd",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "LogonId 4624 - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO LogonId em hex do 4624 type 3 na workstation 2100 com SID RID 1002 é a sessão do DCSync neste log. Qual o LogonId em hex do 4624 type 3 na workstation 2100 com SID RID 1002? Padrão da resposta: valor direto. Exemplo: aabbccdd",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Workstation 4624",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O Name na tabela SID do RID da workstation nesse 4624 aponta o host de onde o logon type 3 saiu. Qual o Name na tabela SID do RID da workstation nesse 4624? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "Workstation 4624 - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO Name na tabela SID do RID da workstation nesse 4624 aponta o host de onde o logon type 3 saiu. Qual o Name na tabela SID do RID da workstation nesse 4624? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "GUID 4662",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "O GUID em hex (16 bytes, ordem do arquivo) no payload do 4662 com esse LogonId é o objeto que o DCSync tocou. Qual o GUID em hex (16 bytes, ordem do arquivo) no payload do 4662 com esse LogonId? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "GUID 4662 - 10 pts\nEvent Log EVTX\nO GUID em hex (16 bytes, ordem do arquivo) no payload do 4662 com esse LogonId é o objeto que o DCSync tocou. Qual o GUID em hex (16 bytes, ordem do arquivo) no payload do 4662 com esse LogonId? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "RID 4662",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "O RID do SID nesse 4662 (uint32 LE no fim do SID) fecha a conta usada na replicação. Qual o RID do SID nesse 4662 (uint32 LE no fim do SID)? Padrão da resposta: valor direto. Exemplo: 500",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "RID 4662 - 10 pts\nEvent Log EVTX\nO RID do SID nesse 4662 (uint32 LE no fim do SID) fecha a conta usada na replicação. Qual o RID do SID nesse 4662 (uint32 LE no fim do SID)? Padrão da resposta: valor direto. Exemplo: 500",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Conta 4662",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O Name na tabela SID desse RID traduz o RID do 4662 para a conta do DCSync. Qual o Name na tabela SID desse RID? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "Conta 4662 - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO Name na tabela SID desse RID traduz o RID do 4662 para a conta do DCSync. Qual o Name na tabela SID desse RID? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Flag 4672",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "A Flag no 4672 com esse LogonId depois de openssl enc -d -aes-256-cbc com SHA256 dos 8 bytes do LogonId e o RecIv é a marca deste evtx da Transnorte. Qual a Flag no 4672 com esse LogonId depois de openssl enc -d -aes-256-cbc com SHA256 dos 8 bytes do LogonId e o RecIv? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "Flag 4672 - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nA Flag no 4672 com esse LogonId depois de openssl enc -d -aes-256-cbc com SHA256 dos 8 bytes do LogonId e o RecIv é a marca deste evtx da Transnorte. Qual a Flag no 4672 com esse LogonId depois de openssl enc -d -aes-256-cbc com SHA256 dos 8 bytes do LogonId e o RecIv? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "ETL CLM",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "Este clm-security.etl é o ETW (Wdc/EvtW) do CLM-DC-01 depois da criação do SVC-WIPE na Campanha Relé. 4720, 4732 e 4624 ligam pelo ActivityId, e o plantão precisa do Domain no cabeçalho antes de seguir essa trilha. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "ETL CLM - 10 pts\nEvent Log EVTX\nEste clm-security.etl é o ETW (Wdc/EvtW) do CLM-DC-01 depois da criação do SVC-WIPE na Campanha Relé. 4720, 4732 e 4624 ligam pelo ActivityId, e o plantão precisa do Domain no cabeçalho antes de seguir essa trilha. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize ETL",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "O RecSize no cabeçalho fecha o tamanho de cada record EvtW neste etl. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "RecSize ETL - 10 pts\nEvent Log EVTX\nO RecSize no cabeçalho fecha o tamanho de cada record EvtW neste etl. Qual o RecSize no cabeçalho? Padrão da resposta: valor direto. Exemplo: 64",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "ActivityId 4720",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "O ActivityId em hex do 4720 cujo alvo é o RID 1300 amarra a criação da conta aos eventos seguintes. Qual o ActivityId em hex do 4720 cujo alvo é o RID 1300? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "ActivityId 4720 - 10 pts\nEvent Log EVTX\nO ActivityId em hex do 4720 cujo alvo é o RID 1300 amarra a criação da conta aos eventos seguintes. Qual o ActivityId em hex do 4720 cujo alvo é o RID 1300? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Grupo 4732",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "O Name na tabela RID do alvo do 4732 com esse ActivityId é o grupo em que o SVC-WIPE entrou. Qual o Name na tabela RID do alvo do 4732 com esse ActivityId? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "Grupo 4732 - 10 pts\nEvent Log EVTX\nO Name na tabela RID do alvo do 4732 com esse ActivityId é o grupo em que o SVC-WIPE entrou. Qual o Name na tabela RID do alvo do 4732 com esse ActivityId? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Host 4624",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "O Name na tabela RID do computer do 4624 com esse ActivityId aponta o host do logon desta trilha. Qual o Name na tabela RID do computer do 4624 com esse ActivityId? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "Host 4624 - 10 pts\nEvent Log EVTX\nO Name na tabela RID do computer do 4624 com esse ActivityId aponta o host do logon desta trilha. Qual o Name na tabela RID do computer do 4624 com esse ActivityId? Padrão da resposta: valor direto. Exemplo: XXXX",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Conta 4624",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "O Name na tabela RID do alvo do 4624 com esse ActivityId é a conta que logou depois da criação. Qual o Name na tabela RID do alvo do 4624 com esse ActivityId? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "Conta 4624 - 10 pts\nEvent Log EVTX\nO Name na tabela RID do alvo do 4624 com esse ActivityId é a conta que logou depois da criação. Qual o Name na tabela RID do alvo do 4624 com esse ActivityId? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Flag 4624",
+    "points": 10,
+    "category": "Event Log EVTX",
+    "description": "A Flag no payload AES do 4624 (chave SHA256 do ActivityId, EtwIv) é a marca deste etl da Câmara. Qual a Flag no payload AES do 4624 (chave SHA256 do ActivityId, EtwIv)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "Flag 4624 - 10 pts\nEvent Log EVTX\nA Flag no payload AES do 4624 (chave SHA256 do ActivityId, EtwIv) é a marca deste etl da Câmara. Qual a Flag no payload AES do 4624 (chave SHA256 do ActivityId, EtwIv)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  }
+]

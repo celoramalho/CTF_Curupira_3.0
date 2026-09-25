@@ -1,0 +1,352 @@
+[
+  {
+    "title": "Disco TN",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Este tn-disk.img é o volume NTFS da estação TN-FIN-WS042 depois do dropper ICG-4200 na Campanha Relé, a imagem de disco em que o plantão ainda acha o update.bin, a lixeira e o ADS do relatório. Qual o Volume Name? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Disco TN - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nEste tn-disk.img é o volume NTFS da estação TN-FIN-WS042 depois do dropper ICG-4200 na Campanha Relé, a imagem de disco em que o plantão ainda acha o update.bin, a lixeira e o ADS do relatório. Qual o Volume Name? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Perfil TN",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O diretório de perfil em /Users além de Public é a conta da estação de trabalho de finanças neste NTFS. Qual o diretório de perfil em /Users além de Public? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Perfil TN - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO diretório de perfil em /Users além de Public é a conta da estação de trabalho de finanças neste NTFS. Qual o diretório de perfil em /Users além de Public? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Startup TN",
+    "points": 10,
+    "category": "Disco",
+    "description": "O arquivo no Startup do ops.cardoso é o .cmd que o updater deixou para subir no logon. Qual o arquivo no Startup do ops.cardoso? Padrão da resposta: valor direto. Exemplo: xxxx.cmd",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Startup TN - 10 pts\nDisco\nO arquivo no Startup do ops.cardoso é o .cmd que o updater deixou para subir no logon. Qual o arquivo no Startup do ops.cardoso? Padrão da resposta: valor direto. Exemplo: xxxx.cmd",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo Startup",
+    "points": 10,
+    "category": "Disco",
+    "description": "O path dentro do ObsidianUpdater.cmd aponta o update.bin que o Startup dispara. Qual o path dentro do ObsidianUpdater.cmd? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Alvo Startup - 10 pts\nDisco\nO path dentro do ObsidianUpdater.cmd aponta o update.bin que o Startup dispara. Qual o path dentro do ObsidianUpdater.cmd? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Path dropper NTFS",
+    "points": 10,
+    "category": "Disco",
+    "description": "O path NTFS do update.bin no volume é onde o dropper ficou gravado neste disco da Transnorte. Qual o path NTFS do update.bin no volume? Padrão da resposta: valor direto. Exemplo: Users/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Path dropper NTFS - 10 pts\nDisco\nO path NTFS do update.bin no volume é onde o dropper ficou gravado neste disco da Transnorte. Qual o path NTFS do update.bin no volume? Padrão da resposta: valor direto. Exemplo: Users/xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hash disco TN",
+    "points": 10,
+    "category": "Disco",
+    "description": "O SHA256 do update.bin no disco deve cruzar com o hash da ISO e do Sysmon. Qual o SHA256 do update.bin no disco? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Hash disco TN - 10 pts\nDisco\nO SHA256 do update.bin no disco deve cruzar com o hash da ISO e do Sysmon. Qual o SHA256 do update.bin no disco? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware icg.cfg",
+    "points": 10,
+    "category": "Disco",
+    "description": "O Firmware em ProgramData/IndusCom/icg.cfg é a versão que o vendor colou no config do ICG. Qual o Firmware em ProgramData/IndusCom/icg.cfg? Padrão da resposta: valor direto. Exemplo: 1.0.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Firmware icg.cfg - 10 pts\nDisco\nO Firmware em ProgramData/IndusCom/icg.cfg é a versão que o vendor colou no config do ICG. Qual o Firmware em ProgramData/IndusCom/icg.cfg? Padrão da resposta: valor direto. Exemplo: 1.0.0",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint Desktop",
+    "points": 10,
+    "category": "Disco",
+    "description": "O Setpoint no occ-note.txt da Desktop é o valor da SE-03 que a estação de trabalho anotou em claro. Qual o Setpoint no occ-note.txt da Desktop? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Setpoint Desktop - 10 pts\nDisco\nO Setpoint no occ-note.txt da Desktop é o valor da SE-03 que a estação de trabalho anotou em claro. Qual o Setpoint no occ-note.txt da Desktop? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "SID lixeira",
+    "points": 10,
+    "category": "Disco",
+    "description": "O SID sob $Recycle.Bin identifica a lixeira desta conta no NTFS da TN-FIN. Qual o SID sob $Recycle.Bin? Padrão da resposta: valor direto. Exemplo: S-1-5-21-1-2-3-1001",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "SID lixeira - 10 pts\nDisco\nO SID sob $Recycle.Bin identifica a lixeira desta conta no NTFS da TN-FIN. Qual o SID sob $Recycle.Bin? Padrão da resposta: valor direto. Exemplo: S-1-5-21-1-2-3-1001",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Path $I",
+    "points": 10,
+    "category": "Disco",
+    "description": "O path original UTF-16 no $I da lixeira, depois dos 28 bytes de cabeçalho, denuncia o arquivo que a estação de trabalho tentou apagar. Qual o path original UTF-16 no $I da lixeira (depois dos 28 bytes de cabeçalho)? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Path $I - 10 pts\nDisco\nO path original UTF-16 no $I da lixeira, depois dos 28 bytes de cabeçalho, denuncia o arquivo que a estação de trabalho tentou apagar. Qual o path original UTF-16 no $I da lixeira (depois dos 28 bytes de cabeçalho)? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "C2 $R",
+    "points": 10,
+    "category": "Disco",
+    "description": "A URL C2 no $R da lixeira é o heartbeat que restou no arquivo apagado. Qual a URL C2 no $R da lixeira (arquivo apagado)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "C2 $R - 10 pts\nDisco\nA URL C2 no $R da lixeira é o heartbeat que restou no arquivo apagado. Qual a URL C2 no $R da lixeira (arquivo apagado)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ADS",
+    "points": 10,
+    "category": "Disco",
+    "description": "A Flag no ADS hidden de Q3-report.txt é a marca deste volume NTFS da Transnorte. Qual a Flag no ADS hidden de Q3-report.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Flag ADS - 10 pts\nDisco\nA Flag no ADS hidden de Q3-report.txt é a marca deste volume NTFS da Transnorte. Qual a Flag no ADS hidden de Q3-report.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Disco LIT",
+    "points": 10,
+    "category": "Disco",
+    "description": "Este lit-disk.img é o volume ext4 do NMS Linux LIT-NMS-02 depois do pacote DNS da Campanha Relé, a imagem em que o RPM deixou cron, unit e um notes apagado. Qual o Volume Name? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Disco LIT - 10 pts\nDisco\nEste lit-disk.img é o volume ext4 do NMS Linux LIT-NMS-02 depois do pacote DNS da Campanha Relé, a imagem em que o RPM deixou cron, unit e um notes apagado. Qual o Volume Name? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hostname ext4",
+    "points": 10,
+    "category": "Disco",
+    "description": "O hostname em etc/hostname confirma que este ext4 é o NMS da Litoral, não outra caixa. Qual o hostname em etc/hostname? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Hostname ext4 - 10 pts\nDisco\nO hostname em etc/hostname confirma que este ext4 é o NMS da Litoral, não outra caixa. Qual o hostname em etc/hostname? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "User UID 1000",
+    "points": 10,
+    "category": "Disco",
+    "description": "O usuário de UID 1000 no passwd é a conta operacional deste NMS. Qual o usuário de UID 1000 no passwd? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "User UID 1000 - 10 pts\nDisco\nO usuário de UID 1000 no passwd é a conta operacional deste NMS. Qual o usuário de UID 1000 no passwd? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Cron IndusCom",
+    "points": 10,
+    "category": "Disco",
+    "description": "O comando no cron IndusCom, último campo da linha que não é comentário, é o binário que o pacote agendou. Qual o comando no cron IndusCom (último campo da linha que não é comentário)? Padrão da resposta: valor direto. Exemplo: /usr/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Cron IndusCom - 10 pts\nDisco\nO comando no cron IndusCom, último campo da linha que não é comentário, é o binário que o pacote agendou. Qual o comando no cron IndusCom (último campo da linha que não é comentário)? Padrão da resposta: valor direto. Exemplo: /usr/xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Unit DNS",
+    "points": 10,
+    "category": "Disco",
+    "description": "O nome do unit systemd da IndusCom é o serviço que o RPM instalou neste NMS. Qual o nome do unit systemd da IndusCom? Padrão da resposta: valor direto. Exemplo: xxxx.service",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Unit DNS - 10 pts\nDisco\nO nome do unit systemd da IndusCom é o serviço que o RPM instalou neste NMS. Qual o nome do unit systemd da IndusCom? Padrão da resposta: valor direto. Exemplo: xxxx.service",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "C2 dns.conf",
+    "points": 10,
+    "category": "Disco",
+    "description": "A URL C2 no dns.conf que restou do pacote RPM é o heartbeat ainda em etc. Qual a URL C2 no dns.conf que restou do pacote RPM? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "C2 dns.conf - 10 pts\nDisco\nA URL C2 no dns.conf que restou do pacote RPM é o heartbeat ainda em etc. Qual a URL C2 no dns.conf que restou do pacote RPM? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hash disco LIT",
+    "points": 10,
+    "category": "Disco",
+    "description": "O SHA256 do dns-update.bin no disco fecha o dropper que o RPM deixou em usr. Qual o SHA256 do dns-update.bin no disco? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Hash disco LIT - 10 pts\nDisco\nO SHA256 do dns-update.bin no disco fecha o dropper que o RPM deixou em usr. Qual o SHA256 do dns-update.bin no disco? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hosts CDN",
+    "points": 10,
+    "category": "Disco",
+    "description": "O IPv4 de update.induscom-cdn.net no etc/hosts é o pin que o NMS usou para o canal. Qual o IPv4 de update.induscom-cdn.net no etc/hosts? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Hosts CDN - 10 pts\nDisco\nO IPv4 de update.induscom-cdn.net no etc/hosts é o pin que o NMS usou para o canal. Qual o IPv4 de update.induscom-cdn.net no etc/hosts? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Inode notes",
+    "points": 10,
+    "category": "Disco",
+    "description": "O inode do litoral-notes.txt apagado (fls -rd) aponta o arquivo que o NMS tentou sumir. Qual o inode do litoral-notes.txt apagado (fls -rd)? Padrão da resposta: valor direto. Exemplo: 12",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Inode notes - 10 pts\nDisco\nO inode do litoral-notes.txt apagado (fls -rd) aponta o arquivo que o NMS tentou sumir. Qual o inode do litoral-notes.txt apagado (fls -rd)? Padrão da resposta: valor direto. Exemplo: 12",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "C2 apagado",
+    "points": 10,
+    "category": "Disco",
+    "description": "A URL C2 no arquivo apagado é o portal DNS, não o heartbeat do dns.conf. Qual a URL C2 no arquivo apagado (não o dns.conf)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "C2 apagado - 10 pts\nDisco\nA URL C2 no arquivo apagado é o portal DNS, não o heartbeat do dns.conf. Qual a URL C2 no arquivo apagado (não o dns.conf)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Flag apagado",
+    "points": 10,
+    "category": "Disco",
+    "description": "A Flag no arquivo apagado é a marca deste volume ext4 da Litoral. Qual a Flag no arquivo apagado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Flag apagado - 10 pts\nDisco\nA Flag no arquivo apagado é a marca deste volume ext4 da Litoral. Qual a Flag no arquivo apagado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Disco CLM",
+    "points": 10,
+    "category": "Disco",
+    "description": "Este clm-disk.dd é o disco MBR da estação de trabalho CLM-MESA-014 depois do HTA da Campanha Relé. O wiper ainda não rodou, e o plantão precisa do start da partição NTFS antes de listar o agente. Qual o Start em setores da partição NTFS? Padrão da resposta: valor direto. Exemplo: 63",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Disco CLM - 10 pts\nDisco\nEste clm-disk.dd é o disco MBR da estação de trabalho CLM-MESA-014 depois do HTA da Campanha Relé. O wiper ainda não rodou, e o plantão precisa do start da partição NTFS antes de listar o agente. Qual o Start em setores da partição NTFS? Padrão da resposta: valor direto. Exemplo: 63",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Tipo 0x07",
+    "points": 10,
+    "category": "Disco",
+    "description": "O tipo da partição NTFS no mmls (hex) fecha a entrada MBR desta estação de trabalho da Câmara. Qual o tipo da partição NTFS no mmls (hex)? Padrão da resposta: valor direto. Exemplo: 0x00",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Tipo 0x07 - 10 pts\nDisco\nO tipo da partição NTFS no mmls (hex) fecha a entrada MBR desta estação de trabalho da Câmara. Qual o tipo da partição NTFS no mmls (hex)? Padrão da resposta: valor direto. Exemplo: 0x00",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Volume NTFS",
+    "points": 10,
+    "category": "Disco",
+    "description": "O Volume Name do NTFS em offset 2048 identifica o volume depois de pular o MBR. Qual o Volume Name do NTFS em offset 2048? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Volume NTFS - 10 pts\nDisco\nO Volume Name do NTFS em offset 2048 identifica o volume depois de pular o MBR. Qual o Volume Name do NTFS em offset 2048? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Perfil CLM",
+    "points": 10,
+    "category": "Disco",
+    "description": "O perfil em Users além de Public é a conta da estação de trabalho em que o HTA caiu. Qual o perfil em Users além de Public? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Perfil CLM - 10 pts\nDisco\nO perfil em Users além de Public é a conta da estação de trabalho em que o HTA caiu. Qual o perfil em Users além de Public? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "HTA Downloads",
+    "points": 10,
+    "category": "Disco",
+    "description": "O nome do HTA em Downloads é o arquivo que a estação de trabalho abriu depois da captura do kit. Qual o nome do HTA em Downloads? Padrão da resposta: valor direto. Exemplo: xxxx.hta",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "HTA Downloads - 10 pts\nDisco\nO nome do HTA em Downloads é o arquivo que a estação de trabalho abriu depois da captura do kit. Qual o nome do HTA em Downloads? Padrão da resposta: valor direto. Exemplo: xxxx.hta",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Path agente",
+    "points": 10,
+    "category": "Disco",
+    "description": "O path NTFS do clm-agent.bin é onde o HTA gravou o agente neste disco. Qual o path NTFS do clm-agent.bin? Padrão da resposta: valor direto. Exemplo: Users/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Path agente - 10 pts\nDisco\nO path NTFS do clm-agent.bin é onde o HTA gravou o agente neste disco. Qual o path NTFS do clm-agent.bin? Padrão da resposta: valor direto. Exemplo: Users/xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hash disco CLM",
+    "points": 10,
+    "category": "Disco",
+    "description": "O SHA256 do clm-agent.bin no disco fecha o agente que restou na estação de trabalho da CLM. Qual o SHA256 do clm-agent.bin no disco? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Hash disco CLM - 10 pts\nDisco\nO SHA256 do clm-agent.bin no disco fecha o agente que restou na estação de trabalho da CLM. Qual o SHA256 do clm-agent.bin no disco? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Pass desk.cred",
+    "points": 10,
+    "category": "Disco",
+    "description": "O Pass no desk.cred da estação de trabalho é a credencial que o kit colheu e deixou neste disco. Qual o Pass no desk.cred da estação de trabalho (credencial colhida)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Pass desk.cred - 10 pts\nDisco\nO Pass no desk.cred da estação de trabalho é a credencial que o kit colheu e deixou neste disco. Qual o Pass no desk.cred da estação de trabalho (credencial colhida)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "State wiper",
+    "points": 10,
+    "category": "Disco",
+    "description": "O State do clm-wipe.bin, ainda não executado, diz em que estágio o wiper está neste dd. Qual o State do clm-wipe.bin (ainda não executado)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "State wiper - 10 pts\nDisco\nO State do clm-wipe.bin, ainda não executado, diz em que estágio o wiper está neste dd. Qual o State do clm-wipe.bin (ainda não executado)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Trigger wiper",
+    "points": 10,
+    "category": "Disco",
+    "description": "O Trigger do wiper é o gatilho que o binário espera antes de apagar o lote. Qual o Trigger do wiper? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Trigger wiper - 10 pts\nDisco\nO Trigger do wiper é o gatilho que o binário espera antes de apagar o lote. Qual o Trigger do wiper? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Target wiper",
+    "points": 10,
+    "category": "Disco",
+    "description": "O Target do wiper é o lote de liquidação que o binário aponta. Qual o Target do wiper? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Target wiper - 10 pts\nDisco\nO Target do wiper é o lote de liquidação que o binário aponta. Qual o Target do wiper? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Flag wiper",
+    "points": 10,
+    "category": "Disco",
+    "description": "A Flag no clm-wipe.bin é a marca deste disco MBR da Câmara. Qual a Flag no clm-wipe.bin? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Flag wiper - 10 pts\nDisco\nA Flag no clm-wipe.bin é a marca deste disco MBR da Câmara. Qual a Flag no clm-wipe.bin? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Disco",
+    "downloaded": true
+  }
+]

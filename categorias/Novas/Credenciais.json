@@ -1,0 +1,262 @@
+[
+  {
+    "title": "NTDS Transnorte",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "Este tn-ntds.bin é o dump NTDS+LSA do TN-DC-01 depois do DCSync do backup_svc na Campanha Relé. A SYSKEY não está concatenada na ordem do arquivo, e o plantão precisa do Domain no cabeçalho antes de montar JD Skew1 GBG Data. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "NTDS Transnorte - 10 pts\nCredenciais\nEste tn-ntds.bin é o dump NTDS+LSA do TN-DC-01 depois do DCSync do backup_svc na Campanha Relé. A SYSKEY não está concatenada na ordem do arquivo, e o plantão precisa do Domain no cabeçalho antes de montar JD Skew1 GBG Data. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "DC NTDS",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O DC no cabeçalho confirma qual controlador gerou este dump NTDS+LSA. Qual o DC no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "DC NTDS - 10 pts\nCredenciais\nO DC no cabeçalho confirma qual controlador gerou este dump NTDS+LSA. Qual o DC no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Classe JD",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O valor da classe SYSKEY JD na área LSA é o primeiro quarto da bootkey, não a concatenação inteira. Qual o valor da classe SYSKEY JD na área LSA? Padrão da resposta: valor direto. Exemplo: aabbccdd",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Classe JD - 10 pts\nCredenciais\nO valor da classe SYSKEY JD na área LSA é o primeiro quarto da bootkey, não a concatenação inteira. Qual o valor da classe SYSKEY JD na área LSA? Padrão da resposta: valor direto. Exemplo: aabbccdd",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Bootkey",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O bootkey em hex concatenando JD Skew1 GBG Data segue a ordem SYSKEY, não a ordem em que as classes aparecem no arquivo. Qual o bootkey em hex concatenando JD Skew1 GBG Data (ordem SYSKEY, não a ordem no arquivo)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Bootkey - 10 pts\nCredenciais\nO bootkey em hex concatenando JD Skew1 GBG Data segue a ordem SYSKEY, não a ordem em que as classes aparecem no arquivo. Qual o bootkey em hex concatenando JD Skew1 GBG Data (ordem SYSKEY, não a ordem no arquivo)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Chave PEK",
+    "points": 7,
+    "category": "Tentativas Realizadas: 6 | Penalidade: -3 pts",
+    "description": "O SHA256 dos bytes do bootkey é a chave AES do PEK neste dump. Qual o SHA256 dos bytes do bootkey (chave AES do PEK)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Chave PEK - 7 pts\nTentativas Realizadas: 6 | Penalidade: -3 pts\nO SHA256 dos bytes do bootkey é a chave AES do PEK neste dump. Qual o SHA256 dos bytes do bootkey (chave AES do PEK)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "NT ops.cardoso",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O hash NT de ops.cardoso na tabela decifrada com o PEK e o HashIv é o NT da estação de trabalho de finanças. Qual o hash NT de ops.cardoso na tabela decifrada com o PEK e o HashIv? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "NT ops.cardoso - 10 pts\nCredenciais\nO hash NT de ops.cardoso na tabela decifrada com o PEK e o HashIv é o NT da estação de trabalho de finanças. Qual o hash NT de ops.cardoso na tabela decifrada com o PEK e o HashIv? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "RID backup_svc",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O RID de backup_svc fecha o identificador da conta que fez o DCSync neste dump. Qual o RID de backup_svc? Padrão da resposta: valor direto. Exemplo: 500",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "RID backup_svc - 10 pts\nCredenciais\nO RID de backup_svc fecha o identificador da conta que fez o DCSync neste dump. Qual o RID de backup_svc? Padrão da resposta: valor direto. Exemplo: 500",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Reuso NT",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "A outra conta que reusa o NT de backup_svc é o reuso de senha que este NTDS denuncia. Qual a outra conta que reusa o NT de backup_svc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Reuso NT - 10 pts\nCredenciais\nA outra conta que reusa o NT de backup_svc é o reuso de senha que este NTDS denuncia. Qual a outra conta que reusa o NT de backup_svc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Flag NTDS",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "A Flag na tabela decifrada é a marca deste dump NTDS da Transnorte. Qual a Flag na tabela decifrada? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Flag NTDS - 10 pts\nCredenciais\nA Flag na tabela decifrada é a marca deste dump NTDS da Transnorte. Qual a Flag na tabela decifrada? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Ccache Litoral",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "Este dns-svc.ccache é o cache Kerberos do NMS da Litoral depois do kerberoast do DNS-SVC na Campanha Relé. O ticket certo não é o primeiro, e o plantão precisa do Realm no cabeçalho antes de achar o record do DNS-SVC. Qual o Realm no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Ccache Litoral - 10 pts\nCredenciais\nEste dns-svc.ccache é o cache Kerberos do NMS da Litoral depois do kerberoast do DNS-SVC na Campanha Relé. O ticket certo não é o primeiro, e o plantão precisa do Realm no cabeçalho antes de achar o record do DNS-SVC. Qual o Realm no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "KDC ccache",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O Kdc no cabeçalho aponta o controlador que emitiu os tickets deste cache. Qual o Kdc no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "KDC ccache - 10 pts\nCredenciais\nO Kdc no cabeçalho aponta o controlador que emitiu os tickets deste cache. Qual o Kdc no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Qtde tickets",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "A contagem de tickets na tabela mostra o volume deste ccache, incluindo o TGT decoy. Quantos tickets tem a tabela? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Qtde tickets - 10 pts\nCredenciais\nA contagem de tickets na tabela mostra o volume deste ccache, incluindo o TGT decoy. Quantos tickets tem a tabela? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Off DNS-SVC",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O Off do record Principal=DNS-SVC@LITORAL.LOCAL é onde o ticket roastável começa neste cache. Qual o Off do record Principal=DNS-SVC@LITORAL.LOCAL? Padrão da resposta: valor direto. Exemplo: 256",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Off DNS-SVC - 10 pts\nCredenciais\nO Off do record Principal=DNS-SVC@LITORAL.LOCAL é onde o ticket roastável começa neste cache. Qual o Off do record Principal=DNS-SVC@LITORAL.LOCAL? Padrão da resposta: valor direto. Exemplo: 256",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Len ticket",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O Len desse record fecha o tamanho do enc-part do DNS-SVC. Qual o Len desse record? Padrão da resposta: valor direto. Exemplo: 100",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Len ticket - 10 pts\nCredenciais\nO Len desse record fecha o tamanho do enc-part do DNS-SVC. Qual o Len desse record? Padrão da resposta: valor direto. Exemplo: 100",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "SPN ticket",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O SPN desse record é o serviço DNS que o ticket roastável declara. Qual o SPN desse record? Padrão da resposta: valor direto. Exemplo: DNS/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "SPN ticket - 10 pts\nCredenciais\nO SPN desse record é o serviço DNS que o ticket roastável declara. Qual o SPN desse record? Padrão da resposta: valor direto. Exemplo: DNS/xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Chave ticket",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O SHA256 do SPN é a chave AES-256 do enc-part deste ticket. Qual o SHA256 do SPN (chave AES-256 do enc-part)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Chave ticket - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO SHA256 do SPN é a chave AES-256 do enc-part deste ticket. Qual o SHA256 do SPN (chave AES-256 do enc-part)? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "C2 ticket",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "A URL C2 no enc-part depois de openssl enc -d -aes-256-cbc com essa chave e o TicketIv é o portal DNS escondido no ticket. Qual a URL C2 no enc-part depois de openssl enc -d -aes-256-cbc com essa chave e o TicketIv? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "C2 ticket - 10 pts\nCredenciais\nA URL C2 no enc-part depois de openssl enc -d -aes-256-cbc com essa chave e o TicketIv é o portal DNS escondido no ticket. Qual a URL C2 no enc-part depois de openssl enc -d -aes-256-cbc com essa chave e o TicketIv? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ticket",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "A Flag no enc-part do DNS-SVC é a marca deste cache, não a do TGT decoy. Qual a Flag no enc-part do DNS-SVC (não a do TGT decoy)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Flag ticket - 10 pts\nCredenciais\nA Flag no enc-part do DNS-SVC é a marca deste cache, não a do TGT decoy. Qual a Flag no enc-part do DNS-SVC (não a do TGT decoy)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "PFX CLM",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "Este marina.pfx é o cofre PKCS12 da estação de trabalho CLM-MESA-014 depois do HTA da Campanha Relé. A passphrase não é a senha colhida em claro, e o plantão precisa da Station no envelope antes do KDF. Qual o Station no envelope? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "PFX CLM - 10 pts\nCredenciais\nEste marina.pfx é o cofre PKCS12 da estação de trabalho CLM-MESA-014 depois do HTA da Campanha Relé. A passphrase não é a senha colhida em claro, e o plantão precisa da Station no envelope antes do KDF. Qual o Station no envelope? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Account KDF",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O Account usado no KDF é a conta do wiper que o BloodHound da CLM já mostrou. Qual o Account usado no KDF (conta do wiper no BloodHound)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "Account KDF - 10 pts\nCredenciais\nO Account usado no KDF é a conta do wiper que o BloodHound da CLM já mostrou. Qual o Account usado no KDF (conta do wiper no BloodHound)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Passphrase P12",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O SHA256 da concatenação da senha colhida na estação de trabalho (Pass do harvest) com o Account é a passphrase deste PKCS12. Qual o SHA256 da concatenação da senha colhida na estação de trabalho (Pass do harvest) com o Account? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "Passphrase P12 - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO SHA256 da concatenação da senha colhida na estação de trabalho (Pass do harvest) com o Account é a passphrase deste PKCS12. Qual o SHA256 da concatenação da senha colhida na estação de trabalho (Pass do harvest) com o Account? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "PfxOff",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O PfxOff do blob PKCS12 aponta onde o cofre começa depois do envelope. Qual o PfxOff do blob PKCS12? Padrão da resposta: valor direto. Exemplo: 512",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "PfxOff - 10 pts\nCredenciais\nO PfxOff do blob PKCS12 aponta onde o cofre começa depois do envelope. Qual o PfxOff do blob PKCS12? Padrão da resposta: valor direto. Exemplo: 512",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "CN cert",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O CN do certificado depois de openssl pkcs12 -nokeys com essa passphrase é o nome do certificado da estação de trabalho. Qual o CN do certificado depois de openssl pkcs12 -nokeys com essa passphrase? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "CN cert - 10 pts\nCredenciais\nO CN do certificado depois de openssl pkcs12 -nokeys com essa passphrase é o nome do certificado da estação de trabalho. Qual o CN do certificado depois de openssl pkcs12 -nokeys com essa passphrase? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "OU cert",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O OU desse certificado amarra o certificado à conta do wiper. Qual o OU desse certificado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "OU cert - 10 pts\nCredenciais\nO OU desse certificado amarra o certificado à conta do wiper. Qual o OU desse certificado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "FriendlyName",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O friendlyName da bag PKCS12 é a marca deste cofre da Câmara. Qual o friendlyName da bag PKCS12? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "FriendlyName - 10 pts\nCredenciais\nO friendlyName da bag PKCS12 é a marca deste cofre da Câmara. Qual o friendlyName da bag PKCS12? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "PEK",
+    "points": 10,
+    "category": "Credenciais",
+    "description": "O PEK depois de openssl enc -d -aes-256-cbc com essa chave e o PekIv do cabeçalho é a chave da tabela de hashes. Qual o PEK depois de openssl enc -d -aes-256-cbc com essa chave e o PekIv do cabeçalho? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "PEK - 10 pts\nCredenciais\nO PEK depois de openssl enc -d -aes-256-cbc com essa chave e o PekIv do cabeçalho é a chave da tabela de hashes. Qual o PEK depois de openssl enc -d -aes-256-cbc com essa chave e o PekIv do cabeçalho? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Credenciais",
+    "downloaded": true
+  }
+]

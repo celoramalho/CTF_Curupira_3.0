@@ -1,0 +1,262 @@
+[
+  {
+    "title": "Boletim falso",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "Este bulletin.eml é o boletim falso da IndusCom que chegou na caixa da estação de finanças da Transnorte na Campanha Relé, o recado que a estação de trabalho de ops.cardoso abriu como se fosse aviso oficial do vendor. Qual o endereço de e-mail do destinatário To? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Boletim falso - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nEste bulletin.eml é o boletim falso da IndusCom que chegou na caixa da estação de finanças da Transnorte na Campanha Relé, o recado que a estação de trabalho de ops.cardoso abriu como se fosse aviso oficial do vendor. Qual o endereço de e-mail do destinatário To? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "From boletim",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O From declarado neste bulletin tenta parecer suporte da IndusCom, não o domínio do canal que devolve a resposta. Qual o endereço de e-mail do From declarado? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "From boletim - 10 pts\nPhishing\nO From declarado neste bulletin tenta parecer suporte da IndusCom, não o domínio do canal que devolve a resposta. Qual o endereço de e-mail do From declarado? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Return-Path",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Return-Path deste boletim, sem os sinais de agrupamento, denuncia o envelope real do envio. Qual o Return-Path (sem <> )? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Return-Path - 10 pts\nPhishing\nO Return-Path deste boletim, sem os sinais de agrupamento, denuncia o envelope real do envio. Qual o Return-Path (sem <> )? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Reply-To",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Reply-To deste bulletin aponta para onde a estação de trabalho da Transnorte responderia se clicasse em responder. Qual o endereço de e-mail do Reply-To? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Reply-To - 10 pts\nPhishing\nO Reply-To deste bulletin aponta para onde a estação de trabalho da Transnorte responderia se clicasse em responder. Qual o endereço de e-mail do Reply-To? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Assunto boletim",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Subject deste boletim é o gancho que a IndusCom falsa usou na caixa da TN-FIN. Qual o Subject? Padrão da resposta: valor direto. Exemplo: xxxx yyyy",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Assunto boletim - 10 pts\nPhishing\nO Subject deste boletim é o gancho que a IndusCom falsa usou na caixa da TN-FIN. Qual o Subject? Padrão da resposta: valor direto. Exemplo: xxxx yyyy",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Message-ID",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Message-ID deste bulletin, sem os sinais de agrupamento, amarra a mensagem ao domínio do canal. Qual o Message-ID (sem <> )? Padrão da resposta: valor direto. Exemplo: id@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Message-ID - 10 pts\nPhishing\nO Message-ID deste bulletin, sem os sinais de agrupamento, amarra a mensagem ao domínio do canal. Qual o Message-ID (sem <> )? Padrão da resposta: valor direto. Exemplo: id@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Portal boletim",
+    "points": 10,
+    "category": "Phishing",
+    "description": "A URL do portal no corpo é o link que o boletim mandava a estação de trabalho da Transnorte abrir. Qual a URL do portal no corpo? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Portal boletim - 10 pts\nPhishing\nA URL do portal no corpo é o link que o boletim mandava a estação de trabalho da Transnorte abrir. Qual a URL do portal no corpo? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Flag boletim",
+    "points": 10,
+    "category": "Phishing",
+    "description": "A Flag no corpo deste bulletin.eml é a marca do phish da Relé na caixa de finanças. Qual a Flag no corpo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Flag boletim - 10 pts\nPhishing\nA Flag no corpo deste bulletin.eml é a marca do phish da Relé na caixa de finanças. Qual a Flag no corpo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Helpdesk mbox",
+    "points": 10,
+    "category": "Phishing",
+    "description": "Este helpdesk.mbox é o export da caixa helpdesk@litoral.telecom da Litoral Telecom na Campanha Relé, o volume em que um lure da IndusCom ficou misturado ao chamado real do helpdesk. Quantas mensagens há no mbox? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Helpdesk mbox - 10 pts\nPhishing\nEste helpdesk.mbox é o export da caixa helpdesk@litoral.telecom da Litoral Telecom na Campanha Relé, o volume em que um lure da IndusCom ficou misturado ao chamado real do helpdesk. Quantas mensagens há no mbox? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "From lure",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O From da mensagem da campanha neste mbox é o endereço que o lure usou para parecer suporte do vendor. Qual o endereço From da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "From lure - 10 pts\nPhishing\nO From da mensagem da campanha neste mbox é o endereço que o lure usou para parecer suporte do vendor. Qual o endereço From da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "To lure",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O To da mensagem da campanha aponta a caixa da Litoral que o lure escolheu neste mbox. Qual o endereço To da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "To lure - 10 pts\nPhishing\nO To da mensagem da campanha aponta a caixa da Litoral que o lure escolheu neste mbox. Qual o endereço To da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Return-Path lure",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Return-Path da mensagem da campanha, sem os sinais de agrupamento, denuncia o envelope deste lure. Qual o Return-Path da mensagem da campanha (sem <> )? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Return-Path lure - 10 pts\nPhishing\nO Return-Path da mensagem da campanha, sem os sinais de agrupamento, denuncia o envelope deste lure. Qual o Return-Path da mensagem da campanha (sem <> )? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Reply-To lure",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Reply-To da mensagem da campanha é para onde a Litoral responderia se tratasse o lure como ticket. Qual o endereço Reply-To da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Reply-To lure - 10 pts\nPhishing\nO Reply-To da mensagem da campanha é para onde a Litoral responderia se tratasse o lure como ticket. Qual o endereço Reply-To da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Message-ID lure",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Message-ID da mensagem da campanha, sem os sinais de agrupamento, identifica o lure no meio do helpdesk. Qual o Message-ID da mensagem da campanha (sem <> )? Padrão da resposta: valor direto. Exemplo: id@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Message-ID lure - 10 pts\nPhishing\nO Message-ID da mensagem da campanha, sem os sinais de agrupamento, identifica o lure no meio do helpdesk. Qual o Message-ID da mensagem da campanha (sem <> )? Padrão da resposta: valor direto. Exemplo: id@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "IP Received",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O IPv4 no Received da mensagem da campanha é o salto que entregou o lure na caixa da Litoral. Qual o IPv4 no Received da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "IP Received - 10 pts\nPhishing\nO IPv4 no Received da mensagem da campanha é o salto que entregou o lure na caixa da Litoral. Qual o IPv4 no Received da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Portal lure",
+    "points": 10,
+    "category": "Phishing",
+    "description": "A URL do portal no corpo da mensagem da campanha é o link DNS falso que o lure mandava abrir. Qual a URL do portal no corpo da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Portal lure - 10 pts\nPhishing\nA URL do portal no corpo da mensagem da campanha é o link DNS falso que o lure mandava abrir. Qual a URL do portal no corpo da mensagem da campanha? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Flag lure",
+    "points": 10,
+    "category": "Phishing",
+    "description": "A Flag no corpo da mensagem da campanha é a marca deste lure no mbox da Litoral. Qual a Flag no corpo da mensagem da campanha? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Flag lure - 10 pts\nPhishing\nA Flag no corpo da mensagem da campanha é a marca deste lure no mbox da Litoral. Qual a Flag no corpo da mensagem da campanha? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Harvest kit",
+    "points": 10,
+    "category": "Phishing",
+    "description": "Este harvest.eml é o aviso do kit que chegou na caixa coletora do Obsidian depois do phish na Câmara de Liquidação Mercantil na Campanha Relé, o recado que confirma a captura da estação de trabalho da CLM. Qual o endereço To do coletor? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Harvest kit - 10 pts\nPhishing\nEste harvest.eml é o aviso do kit que chegou na caixa coletora do Obsidian depois do phish na Câmara de Liquidação Mercantil na Campanha Relé, o recado que confirma a captura da estação de trabalho da CLM. Qual o endereço To do coletor? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "From kit",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O From do kit neste harvest aponta o remetente que o Obsidian usou para avisar a caixa coletora. Qual o endereço From do kit? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "From kit - 10 pts\nPhishing\nO From do kit neste harvest aponta o remetente que o Obsidian usou para avisar a caixa coletora. Qual o endereço From do kit? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Assunto harvest",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Subject deste harvest.eml resume o recado da captura da CLM. Qual o Subject? Padrão da resposta: valor direto. Exemplo: xxxx yyyy",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Assunto harvest - 10 pts\nPhishing\nO Subject deste harvest.eml resume o recado da captura da CLM. Qual o Subject? Padrão da resposta: valor direto. Exemplo: xxxx yyyy",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Portal harvest",
+    "points": 10,
+    "category": "Phishing",
+    "description": "A URL do portal no corpo é o login falso que o kit associou à captura da CLM. Qual a URL do portal no corpo? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Portal harvest - 10 pts\nPhishing\nA URL do portal no corpo é o login falso que o kit associou à captura da CLM. Qual a URL do portal no corpo? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "User form.dat",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O User no anexo form.dat é a conta que o kit colheu na estação de trabalho da Câmara. Qual o User no anexo form.dat? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "User form.dat - 10 pts\nPhishing\nO User no anexo form.dat é a conta que o kit colheu na estação de trabalho da Câmara. Qual o User no anexo form.dat? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Pass form.dat",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Pass no anexo form.dat é a senha que o kit devolveu junto com a conta da CLM. Qual o Pass no anexo form.dat? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Pass form.dat - 10 pts\nPhishing\nO Pass no anexo form.dat é a senha que o kit devolveu junto com a conta da CLM. Qual o Pass no anexo form.dat? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Host form.dat",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Host no anexo form.dat nomeia a estação da Câmara de onde o kit saiu. Qual o Host no anexo form.dat? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Host form.dat - 10 pts\nPhishing\nO Host no anexo form.dat nomeia a estação da Câmara de onde o kit saiu. Qual o Host no anexo form.dat? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "UA form.dat",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O UA no anexo form.dat é o agente que o kit registrou na captura. Qual o UA no anexo form.dat? Padrão da resposta: valor direto. Exemplo: xxxx/1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "UA form.dat - 10 pts\nPhishing\nO UA no anexo form.dat é o agente que o kit registrou na captura. Qual o UA no anexo form.dat? Padrão da resposta: valor direto. Exemplo: xxxx/1.0",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Flag harvest",
+    "points": 10,
+    "category": "Phishing",
+    "description": "A Flag no anexo form.dat é a marca desta captura na caixa coletora. Qual a Flag no anexo form.dat? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Flag harvest - 10 pts\nPhishing\nA Flag no anexo form.dat é a marca desta captura na caixa coletora. Qual a Flag no anexo form.dat? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Phishing",
+    "downloaded": true
+  }
+]

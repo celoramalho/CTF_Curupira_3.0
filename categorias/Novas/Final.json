@@ -1,0 +1,152 @@
+[
+  {
+    "title": "P7M kill",
+    "points": 10,
+    "category": "Final",
+    "description": "Este tn-revoke.p7m é a ordem de neutralização do update IndusCom na SE-03. Não é CMS assinado: é EnvelopedData. A chave PKCS#8 vem depois do marcador PRIV8, senha = serial do recipient (INTEGER do CMS, setpoint), e o plantão precisa do cmd nesse payload. Qual o cmd? Padrão da resposta: valor direto. Exemplo: STOP",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "P7M kill - 10 pts\nFinal\nEste tn-revoke.p7m é a ordem de neutralização do update IndusCom na SE-03. Não é CMS assinado: é EnvelopedData. A chave PKCS#8 vem depois do marcador PRIV8, senha = serial do recipient (INTEGER do CMS, setpoint), e o plantão precisa do cmd nesse payload. Qual o cmd? Padrão da resposta: valor direto. Exemplo: STOP",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway P7M",
+    "points": 10,
+    "category": "Final",
+    "description": "O gw no payload cifrado nomeia o gateway da SE-03 que esta ordem de kill aponta. Qual o gw no payload cifrado? Padrão da resposta: valor direto. Exemplo: gw-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "Gateway P7M - 10 pts\nFinal\nO gw no payload cifrado nomeia o gateway da SE-03 que esta ordem de kill aponta. Qual o gw no payload cifrado? Padrão da resposta: valor direto. Exemplo: gw-01",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware P7M",
+    "points": 10,
+    "category": "Final",
+    "description": "O fw no payload cifrado é a versão de firmware que a ordem de neutralização cita. Qual o fw no payload cifrado? Padrão da resposta: valor direto. Exemplo: 1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "Firmware P7M - 10 pts\nFinal\nO fw no payload cifrado é a versão de firmware que a ordem de neutralização cita. Qual o fw no payload cifrado? Padrão da resposta: valor direto. Exemplo: 1.2.3",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "C2 P7M",
+    "points": 10,
+    "category": "Final",
+    "description": "O c2 (IP) no payload cifrado é o IPv4 do canal que esta ordem manda cortar. Qual o c2 (IP) no payload cifrado? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "C2 P7M - 10 pts\nFinal\nO c2 (IP) no payload cifrado é o IPv4 do canal que esta ordem manda cortar. Qual o c2 (IP) no payload cifrado? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Flag P7M",
+    "points": 10,
+    "category": "Final",
+    "description": "A Flag no payload cifrado é a marca desta ordem EnvelopedData da Transnorte. Qual a Flag no payload cifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "Flag P7M - 10 pts\nFinal\nA Flag no payload cifrado é a marca desta ordem EnvelopedData da Transnorte. Qual a Flag no payload cifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "DNS UPDATE",
+    "points": 10,
+    "category": "Final",
+    "description": "Este lit-unhold.dns é o DNS UPDATE (TCP) para tirar o hold do recursor da Litoral na Campanha Relé. Não é dnstap. Header RFC 1035, opcode no flags, e o plantão precisa do opcode decimal antes do TXT. Qual o opcode (decimal)? Padrão da resposta: valor direto. Exemplo: 0",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "DNS UPDATE - 10 pts\nFinal\nEste lit-unhold.dns é o DNS UPDATE (TCP) para tirar o hold do recursor da Litoral na Campanha Relé. Não é dnstap. Header RFC 1035, opcode no flags, e o plantão precisa do opcode decimal antes do TXT. Qual o opcode (decimal)? Padrão da resposta: valor direto. Exemplo: 0",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Ação TXT",
+    "points": 10,
+    "category": "Final",
+    "description": "A action no TXT (hex para ASCII) é o comando que o UPDATE manda ao recursor. Qual a action no TXT (hex para ASCII)? Padrão da resposta: valor direto. Exemplo: RELEASE",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "Ação TXT - 10 pts\nFinal\nA action no TXT (hex para ASCII) é o comando que o UPDATE manda ao recursor. Qual a action no TXT (hex para ASCII)? Padrão da resposta: valor direto. Exemplo: RELEASE",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Node TXT",
+    "points": 10,
+    "category": "Final",
+    "description": "O node no TXT (hex para ASCII) é o recursor que este UPDATE tira do hold. Qual o node no TXT (hex para ASCII)? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "Node TXT - 10 pts\nFinal\nO node no TXT (hex para ASCII) é o recursor que este UPDATE tira do hold. Qual o node no TXT (hex para ASCII)? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Nome TSIG",
+    "points": 10,
+    "category": "Final",
+    "description": "O key name do TSIG (label hex para ASCII) é a chave que autentica este UPDATE. Qual o key name do TSIG (label hex para ASCII)? Padrão da resposta: valor direto. Exemplo: k1",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "Nome TSIG - 10 pts\nFinal\nO key name do TSIG (label hex para ASCII) é a chave que autentica este UPDATE. Qual o key name do TSIG (label hex para ASCII)? Padrão da resposta: valor direto. Exemplo: k1",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Flag TXT",
+    "points": 10,
+    "category": "Final",
+    "description": "A Flag no TXT (hex para ASCII) é a marca deste DNS UPDATE da Litoral. Qual a Flag no TXT (hex para ASCII)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "Flag TXT - 10 pts\nFinal\nA Flag no TXT (hex para ASCII) é a marca deste DNS UPDATE da Litoral. Qual a Flag no TXT (hex para ASCII)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "P12 abort",
+    "points": 10,
+    "category": "Final",
+    "description": "Este clm-abort.p12 é o pacote de abort do wiper na liquidação (Campanha Relé). Tem prefixo ASN.1, um PKCS#12 do portal e um blob AES. Senha do P12 = INTEGER setpoint no prefixo. Chave AES = 32 hex do modulus do certificado, e o plantão precisa do target no TLV. Qual o target no TLV? Padrão da resposta: valor direto. Exemplo: db01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "P12 abort - 10 pts\nFinal\nEste clm-abort.p12 é o pacote de abort do wiper na liquidação (Campanha Relé). Tem prefixo ASN.1, um PKCS#12 do portal e um blob AES. Senha do P12 = INTEGER setpoint no prefixo. Chave AES = 32 hex do modulus do certificado, e o plantão precisa do target no TLV. Qual o target no TLV? Padrão da resposta: valor direto. Exemplo: db01",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Ação abort",
+    "points": 10,
+    "category": "Final",
+    "description": "A action no TLV é o comando de abort que o pacote manda ao wiper. Qual o action no TLV? Padrão da resposta: valor direto. Exemplo: STOP",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "Ação abort - 10 pts\nFinal\nA action no TLV é o comando de abort que o pacote manda ao wiper. Qual o action no TLV? Padrão da resposta: valor direto. Exemplo: STOP",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Vendor abort",
+    "points": 10,
+    "category": "Final",
+    "description": "O vendor no TLV aponta o fornecedor que este pacote de abort associa ao lote. Qual o vendor no TLV? Padrão da resposta: valor direto. Exemplo: VendorX",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "Vendor abort - 10 pts\nFinal\nO vendor no TLV aponta o fornecedor que este pacote de abort associa ao lote. Qual o vendor no TLV? Padrão da resposta: valor direto. Exemplo: VendorX",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho abort",
+    "points": 10,
+    "category": "Final",
+    "description": "O trigger no TLV é o estágio em que o abort deve entrar, antes do apply. Qual o trigger no TLV? Padrão da resposta: valor direto. Exemplo: pre-run",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "Gatilho abort - 10 pts\nFinal\nO trigger no TLV é o estágio em que o abort deve entrar, antes do apply. Qual o trigger no TLV? Padrão da resposta: valor direto. Exemplo: pre-run",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Flag abort",
+    "points": 10,
+    "category": "Final",
+    "description": "A Flag no TLV é a marca deste pacote de abort da Câmara. Qual a Flag no TLV? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "Flag abort - 10 pts\nFinal\nA Flag no TLV é a marca deste pacote de abort da Câmara. Qual a Flag no TLV? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Final",
+    "downloaded": true
+  }
+]

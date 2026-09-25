@@ -54,6 +54,7 @@
   // ---------- Screens ----------
   const screens = {
     home: document.getElementById("screen-home"),
+    briefing: document.getElementById("screen-briefing"),
     dashboard: document.getElementById("screen-dashboard"),
     questions: document.getElementById("screen-questions"),
   };
@@ -63,6 +64,48 @@
     screens[name].hidden = false;
     window.scrollTo(0, 0);
   }
+
+  // ---------- Router (hash-based, supports browser back/forward) ----------
+  function parseRoute() {
+    const hash = location.hash.replace(/^#\/?/, "");
+    const parts = hash.split("/").filter(Boolean).map(decodeURIComponent);
+    if (parts[0] === "briefing") {
+      return { screen: "briefing" };
+    }
+    if (parts[0] === "categorias") {
+      return { screen: "dashboard" };
+    }
+    if (parts[0] === "categoria" && parts[1]) {
+      const idx = parseInt(parts[2], 10);
+      return { screen: "questions", category: parts[1], index: Number.isFinite(idx) ? idx : 0 };
+    }
+    return { screen: "home" };
+  }
+
+  function navigate(hash, { replace = false } = {}) {
+    if (replace) location.replace("#" + hash);
+    else location.hash = hash;
+  }
+
+  function applyRoute(route, { fromPopstate = false } = {}) {
+    if (route.screen === "home") {
+      showScreen("home");
+    } else if (route.screen === "briefing") {
+      showScreen("briefing");
+    } else if (route.screen === "dashboard") {
+      showScreen("dashboard");
+      renderDashboard(document.getElementById("cat-search").value);
+    } else if (route.screen === "questions") {
+      currentCategory = route.category;
+      currentIndex = route.index || 0;
+      showScreen("questions");
+      document.getElementById("qs-title").textContent = currentCategory;
+      populateCatSwitchMenu();
+      renderQuestions({ skipNavigate: true });
+    }
+  }
+
+  window.addEventListener("hashchange", () => applyRoute(parseRoute(), { fromPopstate: true }));
 
   // ---------- Top bar ----------
   function updateTopbar() {
@@ -103,83 +146,148 @@
     document.getElementById("global-bar").style.width = gpct + "%";
   }
 
-  function openCategory(name) {
-    showScreen("questions");
-    document.getElementById("qs-title").textContent = name;
-    renderQuestions(name);
+  let currentCategory = null;
+  let currentIndex = 0;
+
+  function questionRoute(cat, idx) {
+    return `/categoria/${encodeURIComponent(cat)}/${idx}`;
+  }
+
+  function openCategory(name, startIndex = 0) {
+    navigate(questionRoute(name, startIndex));
+  }
+
+  function goToQuestion(idx, { replace = false } = {}) {
+    currentIndex = idx;
+    navigate(questionRoute(currentCategory, idx), { replace });
+  }
+
+  function populateCatSwitchMenu() {
+    const menu = document.getElementById("cat-switch-menu");
+    menu.innerHTML = CATEGORIES.map(c =>
+      `<div class="cat-switch-item${c.name === currentCategory ? " active" : ""}" data-cat="${escapeAttr(c.name)}">${escapeHtml(c.name)}</div>`
+    ).join("");
+    menu.querySelectorAll(".cat-switch-item").forEach(item => {
+      item.addEventListener("click", () => {
+        menu.hidden = true;
+        openCategory(item.dataset.cat, 0);
+      });
+    });
   }
 
   // ---------- Questions ----------
-  function renderQuestions(cat) {
-    const list = document.getElementById("q-list");
-    list.innerHTML = "";
-    const qs = questionsByCategory(cat);
+  function renderQuestions({ skipNavigate = false } = {}) {
+    const qs = questionsByCategory(currentCategory);
+    let idx = currentIndex;
+    if (idx < 0) idx = 0;
+    if (idx > qs.length - 1) idx = qs.length - 1;
+    if (idx !== currentIndex) {
+      currentIndex = idx;
+      if (!skipNavigate) { navigate(questionRoute(currentCategory, idx), { replace: true }); return; }
+    }
 
-    qs.forEach(q => {
-      const solved = isSolved(q.id);
-      const saved = progress.answers[q.id];
-      const card = document.createElement("div");
-      card.className = "q-card" + (solved ? " solved" : "");
-      card.dataset.qid = q.id;
+    document.getElementById("qs-title").textContent = currentCategory;
 
-      const links = [];
-      if (q.target_url) {
-        links.push(`<a class="q-link" href="${escapeAttr(q.target_url)}" target="_blank" rel="noopener">⬇ Download original</a>`);
-      }
-      if (q.drive_url) {
-        links.push(`<a class="q-link drive" href="${escapeAttr(q.drive_url)}" target="_blank" rel="noopener">⬇ Download (Google Drive)</a>`);
-      }
-
-      const hasAnswer = !!q.answer;
-      const disclaimer = hasAnswer
-        ? ""
-        : `<div class="q-disclaimer">⚠ Gabarito ainda não definido para este desafio. A resposta enviada fica marcada como "pendente" até o gabarito ser adicionado e revalidado.</div>`;
-
-      card.innerHTML = `
-        <div class="q-card-top">
-          <div>
-            <p class="q-title">#${q.id} · ${escapeHtml(q.title)}</p>
-          </div>
-          <div style="display:flex; align-items:center; gap:10px;">
-            <span class="q-points">${q.points} pts</span>
-            <span class="q-check">✔</span>
-          </div>
-        </div>
-        <p class="q-desc">${escapeHtml(q.description)}</p>
-        ${links.length ? `<div class="q-links">${links.join("")}</div>` : ""}
-        ${disclaimer}
-        <div class="q-answer-row">
-          <input type="text" class="q-input" placeholder="Digite sua resposta..." value="${escapeAttr(saved?.value || "")}" ${solved ? "disabled" : ""}>
-          <button class="q-submit">${solved ? "Resolvido" : "Enviar"}</button>
-        </div>
-        <div class="q-feedback"></div>
-      `;
-
-      const input = card.querySelector(".q-input");
-      const btn = card.querySelector(".q-submit");
-      const feedback = card.querySelector(".q-feedback");
-
-      if (saved && saved.status !== "correct") {
-        feedback.textContent = saved.status === "pending"
-          ? "Resposta salva. Aguardando gabarito para validação."
-          : "Resposta anterior incorreta. Tente novamente.";
-        feedback.className = "q-feedback " + (saved.status === "pending" ? "pending" : "err");
-      }
-      if (solved) {
-        feedback.textContent = "✔ Resposta correta!";
-        feedback.className = "q-feedback ok";
-      }
-
-      btn.addEventListener("click", () => submitAnswer(q, input, feedback, card, btn));
-      input.addEventListener("keydown", e => {
-        if (e.key === "Enter") submitAnswer(q, input, feedback, card, btn);
-      });
-
-      list.appendChild(card);
-    });
+    renderSideList(qs);
+    renderFocusCard(qs);
 
     document.getElementById("cat-bar").style.width =
       (qs.length ? Math.round((qs.filter(q => isSolved(q.id)).length / qs.length) * 100) : 0) + "%";
+  }
+
+  function renderSideList(qs) {
+    const wrap = document.getElementById("q-side-items");
+    wrap.innerHTML = "";
+    qs.forEach((q, idx) => {
+      const solved = isSolved(q.id);
+      const item = document.createElement("div");
+      item.className = "q-side-item" + (solved ? " solved" : "") + (idx === currentIndex ? " active" : "");
+      item.innerHTML = `<span class="q-side-check">✔</span><span class="q-side-label">#${q.id} ${escapeHtml(q.title)}</span>`;
+      item.addEventListener("click", () => goToQuestion(idx));
+      wrap.appendChild(item);
+    });
+    const activeItem = wrap.querySelector(".q-side-item.active");
+    if (activeItem) activeItem.scrollIntoView({ block: "nearest" });
+  }
+
+  function renderFocusCard(qs) {
+    const container = document.getElementById("q-focus-card");
+    const q = qs[currentIndex];
+    document.getElementById("q-nav-pos").textContent = `${currentIndex + 1} / ${qs.length}`;
+    document.getElementById("q-prev-btn").disabled = currentIndex === 0;
+    document.getElementById("q-next-btn").disabled = currentIndex === qs.length - 1;
+
+    const solved = isSolved(q.id);
+    const saved = progress.answers[q.id];
+    const card = document.createElement("div");
+    card.className = "q-card" + (solved ? " solved" : "");
+    card.dataset.qid = q.id;
+
+    const links = [];
+    if (q.target_url) {
+      links.push(`<a class="q-link" href="${escapeAttr(q.target_url)}" target="_blank" rel="noopener">⬇ Download original</a>`);
+    }
+    const fileTag = q.filename
+      ? `<div class="q-filename">Arquivo: <code>${escapeHtml(q.filename)}</code></div>`
+      : "";
+    if (q.local_file) {
+      links.push(`<a class="q-link local" href="${escapeAttr(q.local_file)}" download target="_blank" rel="noopener">⬇ Download (repositório)</a>`);
+    }
+    if (q.drive_direct_url) {
+      links.push(`<a class="q-link drive" href="${escapeAttr(q.drive_direct_url)}" target="_blank" rel="noopener">⬇ Download (Google Drive)</a>`);
+    } else if (q.drive_url) {
+      links.push(`<a class="q-link drive" href="${escapeAttr(q.drive_url)}" target="_blank" rel="noopener">⬇ Pasta no Google Drive</a>`);
+    }
+
+    const hasAnswer = !!q.answer;
+    const disclaimer = hasAnswer
+      ? ""
+      : `<div class="q-disclaimer">⚠ Gabarito ainda não definido para este desafio. A resposta enviada fica marcada como "pendente" até o gabarito ser adicionado e revalidado.</div>`;
+
+    card.innerHTML = `
+      <div class="q-card-top">
+        <div>
+          <p class="q-title">#${q.id} · ${escapeHtml(q.title)}</p>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="q-points">${q.points} pts</span>
+          <span class="q-check">✔</span>
+        </div>
+      </div>
+      <p class="q-desc">${escapeHtml(q.description)}</p>
+      ${fileTag}
+      ${links.length ? `<div class="q-links">${links.join("")}</div>` : ""}
+      ${disclaimer}
+      <div class="q-answer-row">
+        <input type="text" class="q-input" placeholder="Digite sua resposta..." value="${escapeAttr(saved?.value || "")}" ${solved ? "disabled" : ""}>
+        <button class="q-submit">${solved ? "Resolvido" : "Enviar"}</button>
+      </div>
+      <div class="q-feedback"></div>
+    `;
+
+    const input = card.querySelector(".q-input");
+    const btn = card.querySelector(".q-submit");
+    const feedback = card.querySelector(".q-feedback");
+
+    if (saved && saved.status !== "correct") {
+      feedback.textContent = saved.status === "pending"
+        ? "Resposta salva. Aguardando gabarito para validação."
+        : "Resposta anterior incorreta. Tente novamente.";
+      feedback.className = "q-feedback " + (saved.status === "pending" ? "pending" : "err");
+    }
+    if (solved) {
+      feedback.textContent = "✔ Resposta correta!";
+      feedback.className = "q-feedback ok";
+    }
+
+    btn.addEventListener("click", () => submitAnswer(q, input, feedback, card, btn));
+    input.addEventListener("keydown", e => {
+      if (e.key === "Enter") submitAnswer(q, input, feedback, card, btn);
+    });
+
+    container.innerHTML = "";
+    container.appendChild(card);
+    if (!solved) input.focus();
   }
 
   function submitAnswer(q, input, feedback, card, btn) {
@@ -210,6 +318,7 @@
     updateTopbar();
     updateHomeStats();
     renderDashboard(document.getElementById("cat-search").value);
+    renderSideList(questionsByCategory(currentCategory));
     const bar = document.getElementById("cat-bar");
     if (bar) {
       const qs = questionsByCategory(q.category);
@@ -308,17 +417,33 @@
   function escapeAttr(str) { return escapeHtml(str); }
 
   // ---------- Wiring ----------
-  document.getElementById("start-btn").addEventListener("click", () => {
-    showScreen("dashboard");
-    renderDashboard();
-  });
-  document.getElementById("brand-home-btn").addEventListener("click", () => showScreen("home"));
-  document.getElementById("dash-home-btn").addEventListener("click", () => showScreen("home"));
-  document.getElementById("questions-back-btn").addEventListener("click", () => {
-    showScreen("dashboard");
-    renderDashboard(document.getElementById("cat-search").value);
-  });
+  document.getElementById("start-btn").addEventListener("click", () => navigate("/briefing"));
+  document.getElementById("briefing-btn").addEventListener("click", () => navigate("/briefing"));
+  document.getElementById("briefing-back-btn").addEventListener("click", () => navigate("/"));
+  document.getElementById("briefing-start-btn").addEventListener("click", () => navigate("/categorias"));
+  document.getElementById("brand-home-btn").addEventListener("click", () => navigate("/"));
+  document.getElementById("dash-home-btn").addEventListener("click", () => navigate("/"));
+  document.getElementById("questions-back-btn").addEventListener("click", () => navigate("/categorias"));
   document.getElementById("cat-search").addEventListener("input", e => renderDashboard(e.target.value));
+
+  document.getElementById("cat-switch-btn").addEventListener("click", e => {
+    e.stopPropagation();
+    const menu = document.getElementById("cat-switch-menu");
+    menu.hidden = !menu.hidden;
+  });
+  document.addEventListener("click", e => {
+    const menu = document.getElementById("cat-switch-menu");
+    const btn = document.getElementById("cat-switch-btn");
+    if (!menu.hidden && !menu.contains(e.target) && e.target !== btn) menu.hidden = true;
+  });
+
+  document.getElementById("q-prev-btn").addEventListener("click", () => {
+    if (currentIndex > 0) goToQuestion(currentIndex - 1);
+  });
+  document.getElementById("q-next-btn").addEventListener("click", () => {
+    const qs = questionsByCategory(currentCategory);
+    if (currentIndex < qs.length - 1) goToQuestion(currentIndex + 1);
+  });
 
   document.getElementById("theme-toggle").addEventListener("click", () => {
     const cur = document.documentElement.getAttribute("data-theme");
@@ -343,7 +468,7 @@
       updateTopbar();
       updateHomeStats();
       renderDashboard();
-      showScreen("home");
+      navigate("/");
       toast("Progresso resetado.");
     }
   });
@@ -359,4 +484,5 @@
   updateTopbar();
   updateHomeStats();
   refreshExportBox();
+  applyRoute(parseRoute());
 })();

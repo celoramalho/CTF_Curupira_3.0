@@ -1,0 +1,582 @@
+[
+  {
+    "title": "Saco evidência",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Este ZIP é o saco de evidência exportado da estação de finanças da Transnorte na Campanha Relé, o pacote que o plantão recebeu com README apontando para a nota fiscal e o sync do vendor. Qual o Host no README.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Saco evidência - 10 pts\nWarmup\nEste ZIP é o saco de evidência exportado da estação de finanças da Transnorte na Campanha Relé, o pacote que o plantão recebeu com README apontando para a nota fiscal e o sync do vendor. Qual o Host no README.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Operador ZIP",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Operator no README aponta quem empacotou este saco de evidência da TN-FIN-WS042. Qual o Operator no README.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Operador ZIP - 10 pts\nWarmup\nO Operator no README aponta quem empacotou este saco de evidência da TN-FIN-WS042. Qual o Operator no README.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Caso ZIP",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Case no README é o IR que o plantão colou neste ZIP da Relé. Qual o Case no README.txt? Padrão da resposta: valor direto. Exemplo: IR-1",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Caso ZIP - 10 pts\nWarmup\nO Case no README é o IR que o plantão colou neste ZIP da Relé. Qual o Case no README.txt? Padrão da resposta: valor direto. Exemplo: IR-1",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo README",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O README manda abrir um arquivo específico dentro do ZIP, não o sync direto. Qual arquivo o README manda abrir? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Alvo README - 10 pts\nWarmup\nO README manda abrir um arquivo específico dentro do ZIP, não o sync direto. Qual arquivo o README manda abrir? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag invoice",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O invoice.txt que o README aponta carrega a primeira marca deste saco. Qual a Flag em invoice.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Flag invoice - 10 pts\nWarmup\nO invoice.txt que o README aponta carrega a primeira marca deste saco. Qual a Flag em invoice.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Path sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O path do sync.txt no ZIP é o do canal do vendor, não o da nota fiscal. Qual o path do sync.txt listado no zip? Padrão da resposta: valor direto. Exemplo: a/b.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Path sync - 10 pts\nWarmup\nO path do sync.txt no ZIP é o do canal do vendor, não o da nota fiscal. Qual o path do sync.txt listado no zip? Padrão da resposta: valor direto. Exemplo: a/b.txt",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O vendor/sync.txt ainda traz a URL C2 do canal da IndusCom. Qual a URL C2 em vendor/sync.txt? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "C2 sync - 10 pts\nWarmup\nO vendor/sync.txt ainda traz a URL C2 do canal da IndusCom. Qual a URL C2 em vendor/sync.txt? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "UA sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O UA em vendor/sync.txt é o agente que o sync deveria usar. Qual o UA em vendor/sync.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "UA sync - 10 pts\nWarmup\nO UA em vendor/sync.txt é o agente que o sync deveria usar. Qual o UA em vendor/sync.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Drop sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Drop em vendor/sync.txt é o path de queda do binário na estação de trabalho. Qual o Drop em vendor/sync.txt? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Drop sync - 10 pts\nWarmup\nO Drop em vendor/sync.txt é o path de queda do binário na estação de trabalho. Qual o Drop em vendor/sync.txt? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Hash sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O SHA256 de vendor/sync.txt fecha o conteúdo desse recado do vendor. Qual o SHA256 de vendor/sync.txt? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Hash sync - 10 pts\nWarmup\nO SHA256 de vendor/sync.txt fecha o conteúdo desse recado do vendor. Qual o SHA256 de vendor/sync.txt? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Comentário ZIP",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O comentário do ZIP (unzip -z) ainda assina este saco de evidência. Qual o comentário do zip? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Comentário ZIP - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO comentário do ZIP (unzip -z) ainda assina este saco de evidência. Qual o comentário do zip? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O vendor/sync.txt também carrega a marca do caso do canal. Qual a Flag em vendor/sync.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Flag sync - 10 pts\nWarmup\nO vendor/sync.txt também carrega a marca do caso do canal. Qual a Flag em vendor/sync.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Notes gzip",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Este notes.txt foi salvo na intranet da estação de finanças da Transnorte na Campanha Relé e parece texto, mas o magic e o nome original denunciam compressão escondida no canal do vendor. Qual o primeiro token de file -b? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Notes gzip - 10 pts\nWarmup\nEste notes.txt foi salvo na intranet da estação de finanças da Transnorte na Campanha Relé e parece texto, mas o magic e o nome original denunciam compressão escondida no canal do vendor. Qual o primeiro token de file -b? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Magic gzip",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Os 2 primeiros bytes em hex são o magic que a extensão .txt tentou esconder. Qual o magic de 2 bytes em hex (xxd -p -l 2)? Padrão da resposta: valor direto. Exemplo: 0000",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Magic gzip - 10 pts\nWarmup\nOs 2 primeiros bytes em hex são o magic que a extensão .txt tentou esconder. Qual o magic de 2 bytes em hex (xxd -p -l 2)? Padrão da resposta: valor direto. Exemplo: 0000",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Nome original",
+    "points": 10,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "O uncompressed_name original (gzip -lN, último campo) denuncia o nome de dentro da compressão. Qual o uncompressed_name original (gzip -lN, último campo)? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Nome original - 10 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nO uncompressed_name original (gzip -lN, último campo) denuncia o nome de dentro da compressão. Qual o uncompressed_name original (gzip -lN, último campo)? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Host notes",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Depois de gzip -dc, o Host no conteúdo identifica a estação deste recado. Qual o Host no conteúdo depois de gzip -dc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Host notes - 10 pts\nWarmup\nDepois de gzip -dc, o Host no conteúdo identifica a estação deste recado. Qual o Host no conteúdo depois de gzip -dc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Operador notes",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Operator no conteúdo decodificado aponta quem o vendor associou a este notes. Qual o Operator no conteúdo decodificado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Operador notes - 10 pts\nWarmup\nO Operator no conteúdo decodificado aponta quem o vendor associou a este notes. Qual o Operator no conteúdo decodificado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway notes",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Gateway no conteúdo decodificado nomeia o ICG citado no notes da intranet. Qual o Gateway no conteúdo decodificado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Gateway notes - 10 pts\nWarmup\nO Gateway no conteúdo decodificado nomeia o ICG citado no notes da intranet. Qual o Gateway no conteúdo decodificado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 notes",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A URL C2 no conteúdo decodificado é o canal escondido neste notes.txt. Qual a URL C2 no conteúdo decodificado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "C2 notes - 10 pts\nWarmup\nA URL C2 no conteúdo decodificado é o canal escondido neste notes.txt. Qual a URL C2 no conteúdo decodificado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "UA notes",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O UA no conteúdo decodificado é o agente que o notes descrevia. Qual o UA no conteúdo decodificado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "UA notes - 10 pts\nWarmup\nO UA no conteúdo decodificado é o agente que o notes descrevia. Qual o UA no conteúdo decodificado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag notes",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A Flag no conteúdo decodificado é a marca deste notes da intranet. Qual a Flag no conteúdo decodificado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Flag notes - 10 pts\nWarmup\nA Flag no conteúdo decodificado é a marca deste notes da intranet. Qual a Flag no conteúdo decodificado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Updater ELF",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Este updater.bin veio do path de vendor da IndusCom na estação de finanças da Transnorte na Campanha Relé, o binário que a estação de trabalho executou como se fosse o agente de update do ICG-4200. Qual o primeiro token de file -b? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Updater ELF - 10 pts\nWarmup\nEste updater.bin veio do path de vendor da IndusCom na estação de finanças da Transnorte na Campanha Relé, o binário que a estação de trabalho executou como se fosse o agente de update do ICG-4200. Qual o primeiro token de file -b? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Arch updater",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O segundo token de file -b fecha a classe ou a arquitetura que o file enxergou neste updater. Qual o segundo token de file -b? Padrão da resposta: valor direto. Exemplo: 32-bit",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Arch updater - 10 pts\nWarmup\nO segundo token de file -b fecha a classe ou a arquitetura que o file enxergou neste updater. Qual o segundo token de file -b? Padrão da resposta: valor direto. Exemplo: 32-bit",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 updater",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O strings deste updater.bin ainda mostra a URL C2 em claro no binário. Qual a URL C2 visível em strings? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "C2 updater - 10 pts\nWarmup\nO strings deste updater.bin ainda mostra a URL C2 em claro no binário. Qual a URL C2 visível em strings? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "UA updater",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O UA visível em strings é o mesmo agente do heartbeat e do updater. Qual o UA visível em strings? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "UA updater - 10 pts\nWarmup\nO UA visível em strings é o mesmo agente do heartbeat e do updater. Qual o UA visível em strings? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Host updater",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Host visível em strings amarra o binário à estação do caso Relé. Qual o Host visível em strings? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Host updater - 10 pts\nWarmup\nO Host visível em strings amarra o binário à estação do caso Relé. Qual o Host visível em strings? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Versão updater",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A Version visível em strings é a que este updater declara. Qual a Version visível em strings? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Versão updater - 10 pts\nWarmup\nA Version visível em strings é a que este updater declara. Qual a Version visível em strings? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Produto updater",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Product visível em strings é o nome de produto que o binário finge ser. Qual o Product visível em strings? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Produto updater - 10 pts\nWarmup\nO Product visível em strings é o nome de produto que o binário finge ser. Qual o Product visível em strings? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Seção QR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O strings ainda aponta uma Section específica além das seções óbvias. Qual a Section indicada em strings? Padrão da resposta: valor direto. Exemplo: .x",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Seção QR - 10 pts\nWarmup\nO strings ainda aponta uma Section específica além das seções óbvias. Qual a Section indicada em strings? Padrão da resposta: valor direto. Exemplo: .x",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Off seção QR",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "O offset hex da seção .qr no readelf -W -S (campo Off) é onde o QR foi embutido. Qual o offset hex da seção .qr no readelf -W -S (campo Off)? Padrão da resposta: valor direto. Exemplo: 001000",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Off seção QR - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nO offset hex da seção .qr no readelf -W -S (campo Off) é onde o QR foi embutido. Qual o offset hex da seção .qr no readelf -W -S (campo Off)? Padrão da resposta: valor direto. Exemplo: 001000",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Tam. seção QR",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "O size hex da seção .qr no readelf -W -S (campo Tam./Size) fecha o tamanho do QR embutido. Qual o size hex da seção .qr no readelf -W -S (campo Tam./Size)? Padrão da resposta: valor direto. Exemplo: 000100",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Tam. seção QR - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nO size hex da seção .qr no readelf -W -S (campo Tam./Size) fecha o tamanho do QR embutido. Qual o size hex da seção .qr no readelf -W -S (campo Tam./Size)? Padrão da resposta: valor direto. Exemplo: 000100",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag QR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O QR na seção .qr carrega a marca do updater, fora do plaintext do strings. Qual a flag no QR embutido na seção .qr? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Flag QR - 10 pts\nWarmup\nO QR na seção .qr carrega a marca do updater, fora do plaintext do strings. Qual a flag no QR embutido na seção .qr? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware ICFW",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Este firmware.bin é o blob ICG-4200 recolhido no sync da IndusCom na Campanha Relé, a imagem que a Transnorte puxou como firmware do gateway da SE-03. Qual o Host no cabeçalho ASCII? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Firmware ICFW - 10 pts\nWarmup\nEste firmware.bin é o blob ICG-4200 recolhido no sync da IndusCom na Campanha Relé, a imagem que a Transnorte puxou como firmware do gateway da SE-03. Qual o Host no cabeçalho ASCII? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Magic ICFW",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Os 4 primeiros bytes em hex são o magic do container deste blob. Qual o magic de 4 bytes em hex (xxd -p -l 4)? Padrão da resposta: valor direto. Exemplo: 00000000",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Magic ICFW - 10 pts\nWarmup\nOs 4 primeiros bytes em hex são o magic do container deste blob. Qual o magic de 4 bytes em hex (xxd -p -l 4)? Padrão da resposta: valor direto. Exemplo: 00000000",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo ICFW",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Model no cabeçalho declara a família ICG deste firmware. Qual o Model no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Modelo ICFW - 10 pts\nWarmup\nO Model no cabeçalho declara a família ICG deste firmware. Qual o Model no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Versão ICFW",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A Version no cabeçalho é a que o blob vende como firmware oficial. Qual a Version no cabeçalho? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Versão ICFW - 10 pts\nWarmup\nA Version no cabeçalho é a que o blob vende como firmware oficial. Qual a Version no cabeçalho? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "PayloadOff",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O PayloadOff diz onde o payload gzip deste firmware começa. Qual o PayloadOff no cabeçalho? Padrão da resposta: valor direto. Exemplo: 256",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "PayloadOff - 10 pts\nWarmup\nO PayloadOff diz onde o payload gzip deste firmware começa. Qual o PayloadOff no cabeçalho? Padrão da resposta: valor direto. Exemplo: 256",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "PayloadLen",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O PayloadLen fecha o tamanho do payload a partir desse offset. Qual o PayloadLen no cabeçalho? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "PayloadLen - 10 pts\nWarmup\nO PayloadLen fecha o tamanho do payload a partir desse offset. Qual o PayloadLen no cabeçalho? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Hash declarado",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O PayloadSha256 no cabeçalho é o hash que o vendor declarou para o payload. Qual o PayloadSha256 no cabeçalho? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Hash declarado - 10 pts\nWarmup\nO PayloadSha256 no cabeçalho é o hash que o vendor declarou para o payload. Qual o PayloadSha256 no cabeçalho? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Hash carve",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O SHA256 real do payload a partir do PayloadOff deve cruzar com o declarado. Qual o SHA256 do payload a partir do PayloadOff? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Hash carve - 10 pts\nWarmup\nO SHA256 real do payload a partir do PayloadOff deve cruzar com o declarado. Qual o SHA256 do payload a partir do PayloadOff? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway ICFW",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Depois de gzip -dc, o payload ainda nomeia o gateway da SE-03. Qual o Gateway no payload depois de gzip -dc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Gateway ICFW - 10 pts\nWarmup\nDepois de gzip -dc, o payload ainda nomeia o gateway da SE-03. Qual o Gateway no payload depois de gzip -dc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Site ICFW",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Site no payload decodificado identifica a subestação deste firmware. Qual o Site no payload decodificado? Padrão da resposta: valor direto. Exemplo: SE-00",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Site ICFW - 10 pts\nWarmup\nO Site no payload decodificado identifica a subestação deste firmware. Qual o Site no payload decodificado? Padrão da resposta: valor direto. Exemplo: SE-00",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 ICFW",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A URL C2 no payload decodificado é o canal escondido neste blob ICG-4200. Qual a URL C2 no payload decodificado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "C2 ICFW - 10 pts\nWarmup\nA URL C2 no payload decodificado é o canal escondido neste blob ICG-4200. Qual a URL C2 no payload decodificado? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ICFW",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A Flag no payload decodificado é a marca deste firmware.bin. Qual a Flag no payload decodificado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Flag ICFW - 10 pts\nWarmup\nA Flag no payload decodificado é a marca deste firmware.bin. Qual a Flag no payload decodificado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Telemetria EDR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Este telemetry.ndjson é o export EDR da abertura do caso da Campanha Relé na Transnorte, o primeiro objeto JSON em que o SOC amarra host, operador e o sync do vendor. Qual o host no evento case_open? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Telemetria EDR - 10 pts\nWarmup\nEste telemetry.ndjson é o export EDR da abertura do caso da Campanha Relé na Transnorte, o primeiro objeto JSON em que o SOC amarra host, operador e o sync do vendor. Qual o host no evento case_open? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Operador EDR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O operator no case_open aponta quem abriu o caso no EDR. Qual o operator no evento case_open? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Operador EDR - 10 pts\nWarmup\nO operator no case_open aponta quem abriu o caso no EDR. Qual o operator no evento case_open? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Caso EDR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O case no case_open é o IR atribuído na abertura deste recorte. Qual o case no evento case_open? Padrão da resposta: valor direto. Exemplo: IR-0000",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Caso EDR - 10 pts\nWarmup\nO case no case_open é o IR atribuído na abertura deste recorte. Qual o case no evento case_open? Padrão da resposta: valor direto. Exemplo: IR-0000",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Site EDR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O site no case_open amarra a abertura à subestação do ensaio. Qual o site no evento case_open? Padrão da resposta: valor direto. Exemplo: SE-00",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Site EDR - 10 pts\nWarmup\nO site no case_open amarra a abertura à subestação do ensaio. Qual o site no evento case_open? Padrão da resposta: valor direto. Exemplo: SE-00",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Objetos JSON",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A contagem de objetos JSON (jq -s length) fecha o volume deste export EDR. Quantos objetos JSON tem o arquivo (jq -s length)? Padrão da resposta: valor direto. Exemplo: 100",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Objetos JSON - 10 pts\nWarmup\nA contagem de objetos JSON (jq -s length) fecha o volume deste export EDR. Quantos objetos JSON tem o arquivo (jq -s length)? Padrão da resposta: valor direto. Exemplo: 100",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Tipos event",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A diversidade de event neste ndjson mostra quais tipos o EDR registrou na abertura. Quantos valores distintos de event existem? Padrão da resposta: valor direto. Exemplo: 3",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Tipos event - 10 pts\nWarmup\nA diversidade de event neste ndjson mostra quais tipos o EDR registrou na abertura. Quantos valores distintos de event existem? Padrão da resposta: valor direto. Exemplo: 3",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Heartbeats TN",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A contagem de heartbeat da TN-FIN-WS042 mede o pulso do implante neste export. Quantos eventos heartbeat tem host TN-FIN-WS042? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Heartbeats TN - 10 pts\nWarmup\nA contagem de heartbeat da TN-FIN-WS042 mede o pulso do implante neste export. Quantos eventos heartbeat tem host TN-FIN-WS042? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "IP vendor_sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O dst do vendor_sync é o IPv4 para o qual o sync do vendor saiu. Qual o dst do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "IP vendor_sync - 10 pts\nWarmup\nO dst do vendor_sync é o IPv4 para o qual o sync do vendor saiu. Qual o dst do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 vendor_sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O c2 do vendor_sync é a URL do canal registrada neste EDR. Qual o c2 do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "C2 vendor_sync - 10 pts\nWarmup\nO c2 do vendor_sync é a URL do canal registrada neste EDR. Qual o c2 do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "UA vendor_sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O ua do vendor_sync é o agente que o EDR viu no sync. Qual o ua do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: xxxx/1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "UA vendor_sync - 10 pts\nWarmup\nO ua do vendor_sync é o agente que o EDR viu no sync. Qual o ua do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: xxxx/1.0",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Intervalo sync",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O interval do vendor_sync é o período do canal neste evento. Qual o interval do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: 60",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Intervalo sync - 10 pts\nWarmup\nO interval do vendor_sync é o período do canal neste evento. Qual o interval do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: 60",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway EDR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O gateway do vendor_sync nomeia o ICG associado ao sync. Qual o gateway do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Gateway EDR - 10 pts\nWarmup\nO gateway do vendor_sync nomeia o ICG associado ao sync. Qual o gateway do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo EDR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O model do vendor_sync fecha a família do equipamento neste evento. Qual o model do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Modelo EDR - 10 pts\nWarmup\nO model do vendor_sync fecha a família do equipamento neste evento. Qual o model do evento vendor_sync? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag EDR",
+    "points": 10,
+    "category": "Warmup",
+    "description": "A flag do vendor_sync é a marca do caso neste objeto EDR. Qual a flag do evento vendor_sync? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Flag EDR - 10 pts\nWarmup\nA flag do vendor_sync é a marca do caso neste objeto EDR. Qual a flag do evento vendor_sync? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Warmup",
+    "downloaded": true
+  }
+]

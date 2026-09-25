@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Deb ICG-4200",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "Este icg4200.deb é o pacote IndusCom que a Transnorte puxou como update do ICG-4200 na Campanha Relé, o .deb que a estação de finanças tratou como firmware oficial do gateway. Qual o nome Package? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Deb ICG-4200 - 10 pts\nCadeia\nEste icg4200.deb é o pacote IndusCom que a Transnorte puxou como update do ICG-4200 na Campanha Relé, o .deb que a estação de finanças tratou como firmware oficial do gateway. Qual o nome Package? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Versão deb",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "A Version deste .deb é a mesma faixa que o vendor vendia como firmware 3.4 do ICG. Qual a Version do pacote? Padrão da resposta: valor direto. Exemplo: 1.0.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Versão deb - 10 pts\nCadeia\nA Version deste .deb é a mesma faixa que o vendor vendia como firmware 3.4 do ICG. Qual a Version do pacote? Padrão da resposta: valor direto. Exemplo: 1.0.0",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Maintainer",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O Maintainer no control tenta parecer suporte da IndusCom neste update da Transnorte. Qual o endereço de e-mail do Maintainer? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Maintainer - 10 pts\nCadeia\nO Maintainer no control tenta parecer suporte da IndusCom neste update da Transnorte. Qual o endereço de e-mail do Maintainer? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Homepage deb",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "A Homepage deste pacote aponta o portal de firmware que o .deb declara, não o site público da IndusCom. Qual a Homepage do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Homepage deb - 10 pts\nCadeia\nA Homepage deste pacote aponta o portal de firmware que o .deb declara, não o site público da IndusCom. Qual a Homepage do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "XB-Host",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O XB-Host no control amarra este .deb à estação da Transnorte que puxou o update. Qual o XB-Host no control? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "XB-Host - 10 pts\nCadeia\nO XB-Host no control amarra este .deb à estação da Transnorte que puxou o update. Qual o XB-Host no control? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Conf deb",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O path do .conf no pacote é o arquivo de canal que o .deb instala sob etc. Qual o path do arquivo .conf no pacote? Padrão da resposta: valor direto. Exemplo: ./etc/xxxx.conf",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Conf deb - 10 pts\nCadeia\nO path do .conf no pacote é o arquivo de canal que o .deb instala sob etc. Qual o path do arquivo .conf no pacote? Padrão da resposta: valor direto. Exemplo: ./etc/xxxx.conf",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "C2 deb",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "A URL C2 no conf deste .deb é o heartbeat que o ICG-4200 deveria chamar depois da instalação. Qual a URL C2 no conf do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "C2 deb - 10 pts\nCadeia\nA URL C2 no conf deste .deb é o heartbeat que o ICG-4200 deveria chamar depois da instalação. Qual a URL C2 no conf do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Dropper deb",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O path do update.bin no pacote é o dropper que o .deb deixa sob usr, fora do conf. Qual o path do update.bin no pacote? Padrão da resposta: valor direto. Exemplo: ./usr/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Dropper deb - 10 pts\nCadeia\nO path do update.bin no pacote é o dropper que o .deb deixa sob usr, fora do conf. Qual o path do update.bin no pacote? Padrão da resposta: valor direto. Exemplo: ./usr/xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag deb",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O channel.txt deste .deb carrega a marca do caso do update ICG-4200. Qual a Flag no channel.txt do pacote? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Flag deb - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO channel.txt deste .deb carrega a marca do caso do update ICG-4200. Qual a Flag no channel.txt do pacote? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "RPM DNS",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "Este dns.rpm é o pacote IndusCom de manutenção DNS que chegou no NMS da Litoral Telecom na Campanha Relé, o RPM que o LIT-NMS-02 tratou como correção de zona. Qual o NAME do pacote? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "RPM DNS - 10 pts\nCadeia\nEste dns.rpm é o pacote IndusCom de manutenção DNS que chegou no NMS da Litoral Telecom na Campanha Relé, o RPM que o LIT-NMS-02 tratou como correção de zona. Qual o NAME do pacote? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Versão RPM",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "A VERSION deste RPM é a faixa que o vendor colou no pacote de DNS da Litoral. Qual a VERSION do pacote? Padrão da resposta: valor direto. Exemplo: 1.0.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Versão RPM - 10 pts\nCadeia\nA VERSION deste RPM é a faixa que o vendor colou no pacote de DNS da Litoral. Qual a VERSION do pacote? Padrão da resposta: valor direto. Exemplo: 1.0.0",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Vendor RPM",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O VENDOR deste RPM declara quem assina o pacote de manutenção DNS. Qual o VENDOR do pacote? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Vendor RPM - 10 pts\nCadeia\nO VENDOR deste RPM declara quem assina o pacote de manutenção DNS. Qual o VENDOR do pacote? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "URL RPM",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "A URL deste RPM aponta o portal DNS falso que o pacote declara para a Litoral. Qual a URL do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "URL RPM - 10 pts\nCadeia\nA URL deste RPM aponta o portal DNS falso que o pacote declara para a Litoral. Qual a URL do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Packager",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O PACKAGER deste RPM é o endereço que o vendor colocou como empacotador, não o helpdesk da Litoral. Qual o endereço de e-mail do PACKAGER? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Packager - 10 pts\nCadeia\nO PACKAGER deste RPM é o endereço que o vendor colocou como empacotador, não o helpdesk da Litoral. Qual o endereço de e-mail do PACKAGER? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Buildhost",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O BUILDHOST deste RPM denuncia a máquina em que o pacote DNS foi montado. Qual o BUILDHOST do pacote? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Buildhost - 10 pts\nCadeia\nO BUILDHOST deste RPM denuncia a máquina em que o pacote DNS foi montado. Qual o BUILDHOST do pacote? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Conf RPM",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O path do .conf neste RPM é o arquivo de canal que o pacote instala em etc. Qual o path do arquivo .conf no pacote? Padrão da resposta: valor direto. Exemplo: /etc/xxxx.conf",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Conf RPM - 10 pts\nCadeia\nO path do .conf neste RPM é o arquivo de canal que o pacote instala em etc. Qual o path do arquivo .conf no pacote? Padrão da resposta: valor direto. Exemplo: /etc/xxxx.conf",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "C2 RPM",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "A URL C2 no conf deste RPM é o mesmo heartbeat que o update da Transnorte já usava. Qual a URL C2 no conf do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "C2 RPM - 10 pts\nCadeia\nA URL C2 no conf deste RPM é o mesmo heartbeat que o update da Transnorte já usava. Qual a URL C2 no conf do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Path dns-update",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O path do dns-update.bin neste RPM é o dropper que o NMS da Litoral receberia na instalação. Qual o path do dns-update.bin no pacote? Padrão da resposta: valor direto. Exemplo: /usr/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Path dns-update - 10 pts\nCadeia\nO path do dns-update.bin neste RPM é o dropper que o NMS da Litoral receberia na instalação. Qual o path do dns-update.bin no pacote? Padrão da resposta: valor direto. Exemplo: /usr/xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag RPM",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O channel.txt deste RPM carrega a marca do caso do pacote DNS da Litoral. Qual a Flag no channel.txt do pacote? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Flag RPM - 10 pts\nCadeia\nO channel.txt deste RPM carrega a marca do caso do pacote DNS da Litoral. Qual a Flag no channel.txt do pacote? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Repo CLM",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "Este clm-repo.tar é o dump do repositório IndusCom usado pela Câmara de Liquidação Mercantil na Campanha Relé, o InRelease e o pool que a estação de trabalho da CLM tratou como apt oficial. Qual o Origin no InRelease? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Repo CLM - 10 pts\nCadeia\nEste clm-repo.tar é o dump do repositório IndusCom usado pela Câmara de Liquidação Mercantil na Campanha Relé, o InRelease e o pool que a estação de trabalho da CLM tratou como apt oficial. Qual o Origin no InRelease? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Label repo",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O Label no InRelease identifica a casa de liquidação neste repo falso. Qual o Label no InRelease? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Label repo - 10 pts\nCadeia\nO Label no InRelease identifica a casa de liquidação neste repo falso. Qual o Label no InRelease? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Suite repo",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O Suite no InRelease nomeia a linha deste repo da Relé, não uma distro pública. Qual o Suite no InRelease? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Suite repo - 10 pts\nCadeia\nO Suite no InRelease nomeia a linha deste repo da Relé, não uma distro pública. Qual o Suite no InRelease? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Codename repo",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O Codename no InRelease aponta a subestação que o vendor colou neste InRelease. Qual o Codename no InRelease? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Codename repo - 10 pts\nCadeia\nO Codename no InRelease aponta a subestação que o vendor colou neste InRelease. Qual o Codename no InRelease? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Hash clearsign",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O Hash do PGP SIGNED MESSAGE no InRelease é o algoritmo que o clearsign declara. Qual o Hash do PGP SIGNED MESSAGE no InRelease? Padrão da resposta: valor direto. Exemplo: SHA256",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Hash clearsign - 10 pts\nCadeia\nO Hash do PGP SIGNED MESSAGE no InRelease é o algoritmo que o clearsign declara. Qual o Hash do PGP SIGNED MESSAGE no InRelease? Padrão da resposta: valor direto. Exemplo: SHA256",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "SHA256 Packages",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O SHA256 do Packages declarado no InRelease é o hash que o repo vende para o índice. Qual o SHA256 do Packages declarado no InRelease? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "SHA256 Packages - 10 pts\nCadeia\nO SHA256 do Packages declarado no InRelease é o hash que o repo vende para o índice. Qual o SHA256 do Packages declarado no InRelease? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Package CLM",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O Package do agente da CLM no Packages é o nome do agente que este repo oferece à Câmara. Qual o Package do agente da CLM no Packages? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Package CLM - 10 pts\nCadeia\nO Package do agente da CLM no Packages é o nome do agente que este repo oferece à Câmara. Qual o Package do agente da CLM no Packages? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Filename pool",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "O Filename do pacote induscom-clm aponta o blob no pool, não um .deb clássico. Qual o Filename do pacote induscom-clm? Padrão da resposta: valor direto. Exemplo: pool/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Filename pool - 10 pts\nCadeia\nO Filename do pacote induscom-clm aponta o blob no pool, não um .deb clássico. Qual o Filename do pacote induscom-clm? Padrão da resposta: valor direto. Exemplo: pool/xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag repo",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "A Flag no clm-agent.bin do pool é a marca deste repo da Câmara. Qual a Flag no clm-agent.bin do pool? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Flag repo - 10 pts\nCadeia\nA Flag no clm-agent.bin do pool é a marca deste repo da Câmara. Qual a Flag no clm-agent.bin do pool? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Cadeia",
+    "downloaded": true
+  }
+]

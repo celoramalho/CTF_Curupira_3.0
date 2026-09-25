@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Historian residual",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Este tn-hist.db é o historian SQLite da SE-03 depois do KILLUPD na Campanha Relé. A tabela hist tem dezenas de milhares de polls. A tabela raw ocupa quase todo o arquivo. Ainda existe um write fc=6 com val=13800. Qual o src desse write? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Historian residual - 10 pts\nAcervo\nEste tn-hist.db é o historian SQLite da SE-03 depois do KILLUPD na Campanha Relé. A tabela hist tem dezenas de milhares de polls. A tabela raw ocupa quase todo o arquivo. Ainda existe um write fc=6 com val=13800. Qual o src desse write? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Unit residual",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o unit desse write fc=6 val=13800? Padrão da resposta: valor direto. Exemplo: 2",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Unit residual - 10 pts\nAcervo\nQual o unit desse write fc=6 val=13800? Padrão da resposta: valor direto. Exemplo: 2",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Holding residual",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o holding desse write? Padrão da resposta: valor direto. Exemplo: 40001",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Holding residual - 10 pts\nAcervo\nQual o holding desse write? Padrão da resposta: valor direto. Exemplo: 40001",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway residual",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o gw desse write? Padrão da resposta: valor direto. Exemplo: gw-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Gateway residual - 10 pts\nAcervo\nQual o gw desse write? Padrão da resposta: valor direto. Exemplo: gw-01",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Flag historian",
+    "points": 10,
+    "category": "Acervo",
+    "description": "O blob desse write é XOR com o setpoint 13800. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Flag historian - 10 pts\nAcervo\nO blob desse write é XOR com o setpoint 13800. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "WARC residual",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Este lit-nms.warc é o arquivo WARC do NMS da Litoral depois do UNHOLD na Campanha Relé. Há milhares de respostas 200. No meio resta um 409 do hold-check. Qual o WARC-Target-URI desse 409? Padrão da resposta: valor direto. Exemplo: http://a.b/c",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "WARC residual - 10 pts\nAcervo\nEste lit-nms.warc é o arquivo WARC do NMS da Litoral depois do UNHOLD na Campanha Relé. Há milhares de respostas 200. No meio resta um 409 do hold-check. Qual o WARC-Target-URI desse 409? Padrão da resposta: valor direto. Exemplo: http://a.b/c",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Src WARC",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o X-Src desse 409? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "Src WARC - 10 pts\nAcervo\nQual o X-Src desse 409? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Node WARC",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o X-Node desse 409? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "Node WARC - 10 pts\nAcervo\nQual o X-Node desse 409? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Rcode WARC",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o X-Rcode desse 409? Padrão da resposta: valor direto. Exemplo: NOERROR",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "Rcode WARC - 10 pts\nAcervo\nQual o X-Rcode desse 409? Padrão da resposta: valor direto. Exemplo: NOERROR",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WARC",
+    "points": 10,
+    "category": "Acervo",
+    "description": "O X-Txt é XOR em hex com a chave hold-key. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "Flag WARC - 10 pts\nAcervo\nO X-Txt é XOR em hex com a chave hold-key. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "WAL residual",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Este clm-wal.bin é o journal binário da liquidação depois do abort do wiper na Campanha Relé. Registros de 80 bytes, magic CLMW. Há milhões de ACK e SETTLE. No meio resta um APPLY pending. Qual o batch desse registro? Padrão da resposta: valor direto. Exemplo: lote_01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "WAL residual - 10 pts\nAcervo\nEste clm-wal.bin é o journal binário da liquidação depois do abort do wiper na Campanha Relé. Registros de 80 bytes, magic CLMW. Há milhões de ACK e SETTLE. No meio resta um APPLY pending. Qual o batch desse registro? Padrão da resposta: valor direto. Exemplo: lote_01",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo WAL",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o target desse APPLY pending? Padrão da resposta: valor direto. Exemplo: db01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "Alvo WAL - 10 pts\nAcervo\nQual o target desse APPLY pending? Padrão da resposta: valor direto. Exemplo: db01",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Host WAL",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o host desse APPLY pending? Padrão da resposta: valor direto. Exemplo: file-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "Host WAL - 10 pts\nAcervo\nQual o host desse APPLY pending? Padrão da resposta: valor direto. Exemplo: file-01",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Origem WAL",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Qual o IPv4 packed (bytes 70-73) desse APPLY pending? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "Origem WAL - 10 pts\nAcervo\nQual o IPv4 packed (bytes 70-73) desse APPLY pending? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WAL",
+    "points": 10,
+    "category": "Acervo",
+    "description": "Os 16 bytes de meta são XOR com o setpoint 13800. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "Flag WAL - 10 pts\nAcervo\nOs 16 bytes de meta são XOR com o setpoint 13800. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Acervo",
+    "downloaded": true
+  }
+]

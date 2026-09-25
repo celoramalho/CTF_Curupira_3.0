@@ -1,0 +1,262 @@
+[
+  {
+    "title": "ISO ICG-4200",
+    "points": 10,
+    "category": "Dropper",
+    "description": "Este icg4200.iso é a mídia de update IndusCom montada na estação de finanças da Transnorte na Campanha Relé, o disco que a estação de trabalho tratou como firmware oficial do ICG-4200. Qual o Volume id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "ISO ICG-4200 - 10 pts\nDropper\nEste icg4200.iso é a mídia de update IndusCom montada na estação de finanças da Transnorte na Campanha Relé, o disco que a estação de trabalho tratou como firmware oficial do ICG-4200. Qual o Volume id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "System id ISO",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O System id desta ISO amarra o volume à estação da Transnorte que montou a mídia. Qual o System id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "System id ISO - 10 pts\nDropper\nO System id desta ISO amarra o volume à estação da Transnorte que montou a mídia. Qual o System id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Publisher ISO",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O Publisher id desta ISO declara o vendor que assina o disco de update. Qual o Publisher id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Publisher ISO - 10 pts\nDropper\nO Publisher id desta ISO declara o vendor que assina o disco de update. Qual o Publisher id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Preparer ISO",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O Data preparer id desta ISO aponta quem a mídia diz ter preparado o volume. Qual o Data preparer id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Preparer ISO - 10 pts\nDropper\nO Data preparer id desta ISO aponta quem a mídia diz ter preparado o volume. Qual o Data preparer id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Application ISO",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O Application id desta ISO é o agente que o disco declara, o mesmo do updater da Relé. Qual o Application id? Padrão da resposta: valor direto. Exemplo: xxxx/1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Application ISO - 10 pts\nDropper\nO Application id desta ISO é o agente que o disco declara, o mesmo do updater da Relé. Qual o Application id? Padrão da resposta: valor direto. Exemplo: xxxx/1.0",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Autorun",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O open do autorun.inf é o binário que a ISO tentaria disparar ao montar. Qual o open do autorun.inf? Padrão da resposta: valor direto. Exemplo: xxxx.bin",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Autorun - 10 pts\nDropper\nO open do autorun.inf é o binário que a ISO tentaria disparar ao montar. Qual o open do autorun.inf? Padrão da resposta: valor direto. Exemplo: xxxx.bin",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Hash ISO",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O SHA256 do update.bin fecha o dropper que a ISO carrega na raiz. Qual o SHA256 do update.bin? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Hash ISO - 10 pts\nDropper\nO SHA256 do update.bin fecha o dropper que a ISO carrega na raiz. Qual o SHA256 do update.bin? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "C2 ISO",
+    "points": 10,
+    "category": "Dropper",
+    "description": "A URL C2 no channel.txt desta ISO é o heartbeat que o disco deixa em claro. Qual a URL C2 no channel.txt? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "C2 ISO - 10 pts\nDropper\nA URL C2 no channel.txt desta ISO é o heartbeat que o disco deixa em claro. Qual a URL C2 no channel.txt? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ISO",
+    "points": 10,
+    "category": "Dropper",
+    "description": "A Flag no channel.txt é a marca desta mídia ICG-4200. Qual a Flag no channel.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Flag ISO - 10 pts\nDropper\nA Flag no channel.txt é a marca desta mídia ICG-4200. Qual a Flag no channel.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "LNK DNS",
+    "points": 10,
+    "category": "Dropper",
+    "description": "Este dns.lnk é o atalho deixado no NMS da Litoral Telecom depois do pacote DNS da Campanha Relé, o LNK que o LIT-NMS-02 abriu como se fosse janela de manutenção. Qual o LocalBasePath? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "LNK DNS - 10 pts\nDropper\nEste dns.lnk é o atalho deixado no NMS da Litoral Telecom depois do pacote DNS da Campanha Relé, o LNK que o LIT-NMS-02 abriu como se fosse janela de manutenção. Qual o LocalBasePath? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "MachineID",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O MachineID deste LNK denuncia o host em que o atalho DNS foi criado. Qual o MachineID do LNK? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "MachineID - 10 pts\nDropper\nO MachineID deste LNK denuncia o host em que o atalho DNS foi criado. Qual o MachineID do LNK? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "WorkingDir",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O WorkingDirectory deste LNK é o diretório de trabalho que o atalho usa ao disparar. Qual o WorkingDirectory? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "WorkingDir - 10 pts\nDropper\nO WorkingDirectory deste LNK é o diretório de trabalho que o atalho usa ao disparar. Qual o WorkingDirectory? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Description LNK",
+    "points": 10,
+    "category": "Dropper",
+    "description": "A Description deste LNK é o texto que o atalho mostra como se fosse ferramenta DNS da IndusCom. Qual a Description? Padrão da resposta: valor direto. Exemplo: xxxx yyyy",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Description LNK - 10 pts\nDropper\nA Description deste LNK é o texto que o atalho mostra como se fosse ferramenta DNS da IndusCom. Qual a Description? Padrão da resposta: valor direto. Exemplo: xxxx yyyy",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Serial LNK",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O DriveSerialNumber deste LNK é o serial do volume em que o atalho foi gravado. Qual o DriveSerialNumber? Padrão da resposta: valor direto. Exemplo: 0000-0000",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Serial LNK - 10 pts\nDropper\nO DriveSerialNumber deste LNK é o serial do volume em que o atalho foi gravado. Qual o DriveSerialNumber? Padrão da resposta: valor direto. Exemplo: 0000-0000",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Portal LNK",
+    "points": 10,
+    "category": "Dropper",
+    "description": "A URL no CommandLineArguments é o portal DNS falso que o LNK baixa ao executar. Qual a URL no CommandLineArguments? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Portal LNK - 10 pts\nDropper\nA URL no CommandLineArguments é o portal DNS falso que o LNK baixa ao executar. Qual a URL no CommandLineArguments? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Saida LNK",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O nome do arquivo de saída no CommandLineArguments é o dropper que o LNK grava depois do download. Qual o nome do arquivo de saida no CommandLineArguments? Padrão da resposta: valor direto. Exemplo: xxxx.bin",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Saida LNK - 10 pts\nDropper\nO nome do arquivo de saída no CommandLineArguments é o dropper que o LNK grava depois do download. Qual o nome do arquivo de saida no CommandLineArguments? Padrão da resposta: valor direto. Exemplo: xxxx.bin",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag LNK",
+    "points": 10,
+    "category": "Dropper",
+    "description": "A Flag embutida neste LNK é a marca do atalho DNS da Litoral. Qual a Flag embutida no LNK? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Flag LNK - 10 pts\nDropper\nA Flag embutida neste LNK é a marca do atalho DNS da Litoral. Qual a Flag embutida no LNK? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "HTA CLM",
+    "points": 10,
+    "category": "Dropper",
+    "description": "Este clm-login.hta é o dropper que rodou na estação de trabalho da Câmara de Liquidação Mercantil depois da captura do kit na Campanha Relé, o HTA que a CLM-MESA-014 abriu como login do vendor. Qual o host no JS? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "HTA CLM - 10 pts\nDropper\nEste clm-login.hta é o dropper que rodou na estação de trabalho da Câmara de Liquidação Mercantil depois da captura do kit na Campanha Relé, o HTA que a CLM-MESA-014 abriu como login do vendor. Qual o host no JS? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "ID HTA",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O ID do HTA:APPLICATION é o identificador que o dropper declara na janela. Qual o ID do HTA:APPLICATION? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "ID HTA - 10 pts\nDropper\nO ID do HTA:APPLICATION é o identificador que o dropper declara na janela. Qual o ID do HTA:APPLICATION? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "AppName HTA",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O APPLICATIONNAME deste HTA é o nome de produto que a janela finge ser. Qual o APPLICATIONNAME? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "AppName HTA - 10 pts\nDropper\nO APPLICATIONNAME deste HTA é o nome de produto que a janela finge ser. Qual o APPLICATIONNAME? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Taskbar HTA",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O SHOWINTASKBAR deste HTA diz se a janela aparece na barra depois de abrir. Qual o SHOWINTASKBAR? Padrão da resposta: valor direto. Exemplo: yes",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "Taskbar HTA - 10 pts\nDropper\nO SHOWINTASKBAR deste HTA diz se a janela aparece na barra depois de abrir. Qual o SHOWINTASKBAR? Padrão da resposta: valor direto. Exemplo: yes",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "UA HTA",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O ua no JS é o agente que o HTA declara no script da estação de trabalho da CLM. Qual o ua no JS? Padrão da resposta: valor direto. Exemplo: xxxx/1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "UA HTA - 10 pts\nDropper\nO ua no JS é o agente que o HTA declara no script da estação de trabalho da CLM. Qual o ua no JS? Padrão da resposta: valor direto. Exemplo: xxxx/1.0",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Portal HTA",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O url no JS é o portal de login falso que o HTA aponta. Qual o url no JS? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "Portal HTA - 10 pts\nDropper\nO url no JS é o portal de login falso que o HTA aponta. Qual o url no JS? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "C2 HTA",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O c2 no JS é o heartbeat que o HTA chama depois do login falso. Qual o c2 no JS? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "C2 HTA - 10 pts\nDropper\nO c2 no JS é o heartbeat que o HTA chama depois do login falso. Qual o c2 no JS? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Drop HTA",
+    "points": 10,
+    "category": "Dropper",
+    "description": "O Drop no payload base64 (var enc) é o binário que o HTA decodifica para cair na estação de trabalho. Qual o Drop no payload base64 (var enc)? Padrão da resposta: valor direto. Exemplo: xxxx.bin",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "Drop HTA - 10 pts\nDropper\nO Drop no payload base64 (var enc) é o binário que o HTA decodifica para cair na estação de trabalho. Qual o Drop no payload base64 (var enc)? Padrão da resposta: valor direto. Exemplo: xxxx.bin",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag HTA",
+    "points": 10,
+    "category": "Dropper",
+    "description": "A Flag no payload base64 (var enc) é a marca deste HTA da Câmara. Qual a Flag no payload base64 (var enc)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "Flag HTA - 10 pts\nDropper\nA Flag no payload base64 (var enc) é a marca deste HTA da Câmara. Qual a Flag no payload base64 (var enc)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Dropper",
+    "downloaded": true
+  }
+]

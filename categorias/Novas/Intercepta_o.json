@@ -1,0 +1,152 @@
+[
+  {
+    "title": "CMS C2",
+    "points": 10,
+    "category": "Tentativas Realizadas: 4 | Penalidade: -3 pts",
+    "description": "Este tn-c2.cms é a ordem C2 em CMS SignedData interceptada na OCC da Transnorte na Campanha Relé, o envelope que o canal da IndusCom mandou à mesa como se fosse update assinado. Qual o contentType (OBJECT)? Padrão da resposta: valor direto. Exemplo: pkcs7-data",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "CMS C2 - 10 pts\nTentativas Realizadas: 4 | Penalidade: -3 pts\nEste tn-c2.cms é a ordem C2 em CMS SignedData interceptada na OCC da Transnorte na Campanha Relé, o envelope que o canal da IndusCom mandou à mesa como se fosse update assinado. Qual o contentType (OBJECT)? Padrão da resposta: valor direto. Exemplo: pkcs7-data",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "CN CMS",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "O CN do certificado (primeiro UTF8STRING) é o nome que o SignedData declara no certificado. Qual o CN do certificado (primeiro UTF8STRING)? Padrão da resposta: valor direto. Exemplo: c2.local",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "CN CMS - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nO CN do certificado (primeiro UTF8STRING) é o nome que o SignedData declara no certificado. Qual o CN do certificado (primeiro UTF8STRING)? Padrão da resposta: valor direto. Exemplo: c2.local",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Digest CMS",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "O digest algorithm (segundo OBJECT) é o hash que este CMS usa na assinatura. Qual o digest algorithm (segundo OBJECT)? Padrão da resposta: valor direto. Exemplo: sha1",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "Digest CMS - 10 pts\nInterceptação\nO digest algorithm (segundo OBJECT) é o hash que este CMS usa na assinatura. Qual o digest algorithm (segundo OBJECT)? Padrão da resposta: valor direto. Exemplo: sha1",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Comando eContent",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "O comando C2 na primeira linha do eContent é a ordem que o SignedData carrega em claro. Qual o comando C2 na primeira linha do eContent? Padrão da resposta: valor direto. Exemplo: REBOOT",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "Comando eContent - 10 pts\nInterceptação\nO comando C2 na primeira linha do eContent é a ordem que o SignedData carrega em claro. Qual o comando C2 na primeira linha do eContent? Padrão da resposta: valor direto. Exemplo: REBOOT",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Flag CMS",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "A Flag UTF-16LE no eContent é a marca desta ordem C2 da Transnorte. Qual a Flag UTF-16LE no eContent? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "Flag CMS - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nA Flag UTF-16LE no eContent é a marca desta ordem C2 da Transnorte. Qual a Flag UTF-16LE no eContent? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "WebSocket C2",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "Este lit-c2.ws é o stream WebSocket do implante do recursor da Litoral na Campanha Relé, o canal que o lit-hold.so usou depois do unpack. Qual o opcode do primeiro frame (4 bits baixos)? Padrão da resposta: valor direto. Exemplo: 2",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "WebSocket C2 - 10 pts\nInterceptação\nEste lit-c2.ws é o stream WebSocket do implante do recursor da Litoral na Campanha Relé, o canal que o lit-hold.so usou depois do unpack. Qual o opcode do primeiro frame (4 bits baixos)? Padrão da resposta: valor direto. Exemplo: 2",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Texto frame",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "O payload texto do primeiro frame é o comando que o implante mandou neste stream. Qual o payload texto do primeiro frame? Padrão da resposta: valor direto. Exemplo: PING",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "Texto frame - 10 pts\nInterceptação\nO payload texto do primeiro frame é o comando que o implante mandou neste stream. Qual o payload texto do primeiro frame? Padrão da resposta: valor direto. Exemplo: PING",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Masking-key",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "A masking-key do frame cliente (4 bytes hex) é a chave de máscara do frame que o cliente enviou. Qual a masking-key do frame cliente (4 bytes hex)? Padrão da resposta: valor direto. Exemplo: 00000000",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "Masking-key - 10 pts\nInterceptação\nA masking-key do frame cliente (4 bytes hex) é a chave de máscara do frame que o cliente enviou. Qual a masking-key do frame cliente (4 bytes hex)? Padrão da resposta: valor direto. Exemplo: 00000000",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Len frame Flag",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "O payload len do frame binário da Flag (decimal) fecha o tamanho desse frame, não o do texto. Qual o payload len do frame binário da Flag (decimal)? Padrão da resposta: valor direto. Exemplo: 16",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "Len frame Flag - 10 pts\nInterceptação\nO payload len do frame binário da Flag (decimal) fecha o tamanho desse frame, não o do texto. Qual o payload len do frame binário da Flag (decimal)? Padrão da resposta: valor direto. Exemplo: 16",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Flag frame",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "A Flag UTF-16LE no frame binário é a marca deste stream da Litoral. Qual a Flag UTF-16LE no frame binário? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "Flag frame - 10 pts\nInterceptação\nA Flag UTF-16LE no frame binário é a marca deste stream da Litoral. Qual a Flag UTF-16LE no frame binário? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "gRPC C2",
+    "points": 10,
+    "category": "Tentativas Realizadas: 3 | Penalidade: -2 pts",
+    "description": "Este clm-c2.grpc é o stream gRPC do agente da liquidação na Campanha Relé, o recado que o ClmSettle mandou ao canal do settlement. Qual o byte de compressão do primeiro recado (hex)? Padrão da resposta: valor direto. Exemplo: 01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "gRPC C2 - 10 pts\nTentativas Realizadas: 3 | Penalidade: -2 pts\nEste clm-c2.grpc é o stream gRPC do agente da liquidação na Campanha Relé, o recado que o ClmSettle mandou ao canal do settlement. Qual o byte de compressão do primeiro recado (hex)? Padrão da resposta: valor direto. Exemplo: 01",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Len protobuf",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "O length (uint32 BE) da primeira mensagem protobuf fecha o tamanho do recado depois do byte de compressão. Qual o length (uint32 BE) da primeira mensagem protobuf? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "Len protobuf - 10 pts\nInterceptação\nO length (uint32 BE) da primeira mensagem protobuf fecha o tamanho do recado depois do byte de compressão. Qual o length (uint32 BE) da primeira mensagem protobuf? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Metodo proto",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "O método no campo 1 do protobuf é a ação que o agente da Câmara pediu. Qual o metodo no campo 1 do protobuf? Padrão da resposta: valor direto. Exemplo: Wipe",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "Metodo proto - 10 pts\nInterceptação\nO método no campo 1 do protobuf é a ação que o agente da Câmara pediu. Qual o metodo no campo 1 do protobuf? Padrão da resposta: valor direto. Exemplo: Wipe",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo proto",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "O alvo no campo 2 do protobuf é o lote que este recado aponta. Qual o alvo no campo 2 do protobuf? Padrão da resposta: valor direto. Exemplo: ledger",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "Alvo proto - 10 pts\nInterceptação\nO alvo no campo 2 do protobuf é o lote que este recado aponta. Qual o alvo no campo 2 do protobuf? Padrão da resposta: valor direto. Exemplo: ledger",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Flag proto",
+    "points": 10,
+    "category": "Interceptação",
+    "description": "A Flag UTF-16LE no campo 3 é a marca deste stream gRPC da Câmara. Qual a Flag UTF-16LE no campo 3? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "Flag proto - 10 pts\nInterceptação\nA Flag UTF-16LE no campo 3 é a marca deste stream gRPC da Câmara. Qual a Flag UTF-16LE no campo 3? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Interceptação",
+    "downloaded": true
+  }
+]

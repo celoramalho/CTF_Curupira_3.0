@@ -1,0 +1,722 @@
+[
+  {
+    "title": "Boletim PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "Este PDF é o boletim de release da IndusCom baixado na estação de finanças da Transnorte na Campanha Relé, o documento que a estação de trabalho abriu como update legítimo do ICG-4200. Qual o Title do documento? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Boletim PDF - 10 pts\nStego\nEste PDF é o boletim de release da IndusCom baixado na estação de finanças da Transnorte na Campanha Relé, o documento que a estação de trabalho abriu como update legítimo do ICG-4200. Qual o Title do documento? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Autor PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Author deste PDF ainda assina quem a IndusCom colocou no metadado do boletim. Qual o Author do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Autor PDF - 10 pts\nStego\nO Author deste PDF ainda assina quem a IndusCom colocou no metadado do boletim. Qual o Author do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Operador PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Manager no metadado aponta o responsável interno que o vendor gravou neste boletim. Qual o Manager do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Operador PDF - 10 pts\nStego\nO Manager no metadado aponta o responsável interno que o vendor gravou neste boletim. Qual o Manager do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "estação PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Station no metadado amarra o boletim à estação ou subestação citada no caso Relé. Qual o Station do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "estação PDF - 10 pts\nStego\nO Station no metadado amarra o boletim à estação ou subestação citada no caso Relé. Qual o Station do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Gateway no metadado nomeia o ICG que este boletim dizia atualizar. Qual o Gateway do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Gateway PDF - 10 pts\nStego\nO Gateway no metadado nomeia o ICG que este boletim dizia atualizar. Qual o Gateway do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "A versão de firmware no metadado é a que o boletim vendia como update da SE-03. Qual o Firmware no metadado do PDF? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Firmware PDF - 10 pts\nStego\nA versão de firmware no metadado é a que o boletim vendia como update da SE-03. Qual o Firmware no metadado do PDF? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Build PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Build no metadado fecha a revisão do pacote que a estação de trabalho de finanças baixou. Qual o Build no metadado do PDF? Padrão da resposta: valor direto. Exemplo: R1",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Build PDF - 10 pts\nStego\nO Build no metadado fecha a revisão do pacote que a estação de trabalho de finanças baixou. Qual o Build no metadado do PDF? Padrão da resposta: valor direto. Exemplo: R1",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Páginas PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O PageCount confirma quantas páginas este boletim da IndusCom realmente tem. Qual o PageCount do PDF? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Páginas PDF - 10 pts\nStego\nO PageCount confirma quantas páginas este boletim da IndusCom realmente tem. Qual o PageCount do PDF? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Versão PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "A versão reportada pelo pdfinfo é a do container PDF, não a do firmware do ICG. Qual a versão PDF reportada pelo pdfinfo? Padrão da resposta: valor direto. Exemplo: 1.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Versão PDF - 10 pts\nStego\nA versão reportada pelo pdfinfo é a do container PDF, não a do firmware do ICG. Qual a versão PDF reportada pelo pdfinfo? Padrão da resposta: valor direto. Exemplo: 1.4",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "PDF cifrado",
+    "points": 10,
+    "category": "Stego",
+    "description": "O campo Encrypted do pdfinfo diz se o boletim vinha travado ou aberto para a estação de trabalho. Qual o valor Encrypted do pdfinfo? Padrão da resposta: valor direto. Exemplo: no",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "PDF cifrado - 10 pts\nStego\nO campo Encrypted do pdfinfo diz se o boletim vinha travado ou aberto para a estação de trabalho. Qual o valor Encrypted do pdfinfo? Padrão da resposta: valor direto. Exemplo: no",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Largura página",
+    "points": 10,
+    "category": "Stego",
+    "description": "A largura em pts na linha Page size fecha o formato da página deste boletim. Qual a largura em pts na linha Page size do pdfinfo? Padrão da resposta: valor direto. Exemplo: 595",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Largura página - 10 pts\nStego\nA largura em pts na linha Page size fecha o formato da página deste boletim. Qual a largura em pts na linha Page size do pdfinfo? Padrão da resposta: valor direto. Exemplo: 595",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo no PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O texto extraído ainda traz a linha Model: do ICG citado no boletim. Qual o modelo na linha Model: do texto extraido? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Modelo no PDF - 10 pts\nStego\nO texto extraído ainda traz a linha Model: do ICG citado no boletim. Qual o modelo na linha Model: do texto extraido? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Site no PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "A linha Site: no texto aponta a subestação que o boletim mencionava. Qual o site na linha Site: do texto extraido? Padrão da resposta: valor direto. Exemplo: SE-00",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Site no PDF - 10 pts\nStego\nA linha Site: no texto aponta a subestação que o boletim mencionava. Qual o site na linha Site: do texto extraido? Padrão da resposta: valor direto. Exemplo: SE-00",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "C2 no PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O texto do boletim ainda carrega uma linha C2: com a URL do canal. Qual a URL na linha C2: do texto extraido? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "C2 no PDF - 10 pts\nStego\nO texto do boletim ainda carrega uma linha C2: com a URL do canal. Qual a URL na linha C2: do texto extraido? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "IP C2 PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "A linha C2_IP: no texto fecha o IPv4 que o boletim associava ao canal. Qual o IP na linha C2_IP: do texto extraido? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "IP C2 PDF - 10 pts\nStego\nA linha C2_IP: no texto fecha o IPv4 que o boletim associava ao canal. Qual o IP na linha C2_IP: do texto extraido? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "A linha Setpoint: no texto é o valor que o boletim já antecipava para a SE-03. Qual o valor na linha Setpoint: do texto extraido? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Setpoint PDF - 10 pts\nStego\nA linha Setpoint: no texto é o valor que o boletim já antecipava para a SE-03. Qual o valor na linha Setpoint: do texto extraido? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Anexo PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "Há um arquivo embutido neste PDF, listado pelo pdfdetach, fora das páginas visíveis. Qual o nome do arquivo embutido listado pelo pdfdetach? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Anexo PDF - 10 pts\nStego\nHá um arquivo embutido neste PDF, listado pelo pdfdetach, fora das páginas visíveis. Qual o nome do arquivo embutido listado pelo pdfdetach? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Conteúdo anexo",
+    "points": 10,
+    "category": "Stego",
+    "description": "O embutido não é só nome: por dentro ainda tem a URL do canal da IndusCom. Qual a URL gravada no arquivo embutido? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Conteúdo anexo - 10 pts\nStego\nO embutido não é só nome: por dentro ainda tem a URL do canal da IndusCom. Qual a URL gravada no arquivo embutido? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Zip pos-EOF PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "Além do embutido, há um ZIP colado neste PDF com um arquivo relay. Qual o nome do arquivo relay dentro do zip colado no PDF? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Zip pos-EOF PDF - 10 pts\nStego\nAlém do embutido, há um ZIP colado neste PDF com um arquivo relay. Qual o nome do arquivo relay dentro do zip colado no PDF? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zip PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O relay.txt nesse ZIP colado carrega a marca do caso do boletim. Qual a flag dentro de relay.txt no zip colado no PDF? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Flag zip PDF - 10 pts\nStego\nO relay.txt nesse ZIP colado carrega a marca do caso do boletim. Qual a flag dentro de relay.txt no zip colado no PDF? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Foto de campo",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Esta JPEG é a foto de campo da subestação SE-03 da Transnorte, o primeiro registro visual da Campanha Relé, tirada no horário em que o setpoint já não era o do OCC. Qual o ImageDescription? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Foto de campo - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nEsta JPEG é a foto de campo da subestação SE-03 da Transnorte, o primeiro registro visual da Campanha Relé, tirada no horário em que o setpoint já não era o do OCC. Qual o ImageDescription? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Fabricante EXIF",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O Make da câmera no EXIF identifica o fabricante usado neste registro visual da SE-03. Qual o Make da camera? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Fabricante EXIF - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO Make da câmera no EXIF identifica o fabricante usado neste registro visual da SE-03. Qual o Make da camera? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo EXIF",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O Model da câmera fecha o equipamento que tirou a foto de campo da SE-03. Qual o Model da camera? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Modelo EXIF - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO Model da câmera fecha o equipamento que tirou a foto de campo da SE-03. Qual o Model da camera? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Software EXIF",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O Software no EXIF denuncia o programa que gravou esta foto de campo. Qual o Software da captura? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Software EXIF - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO Software no EXIF denuncia o programa que gravou esta foto de campo. Qual o Software da captura? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Hora da foto",
+    "points": 10,
+    "category": "Stego",
+    "description": "O DateTimeOriginal marca o horário de campo em que a foto da SE-03 foi tirada. Qual o DateTimeOriginal? Padrão da resposta: valor direto. Exemplo: 2026:01:01 00:00:00",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Hora da foto - 10 pts\nStego\nO DateTimeOriginal marca o horário de campo em que a foto da SE-03 foi tirada. Qual o DateTimeOriginal? Padrão da resposta: valor direto. Exemplo: 2026:01:01 00:00:00",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Operador EXIF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Artist no EXIF aponta quem a câmera registrou como autor desta foto. Qual o Artist? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Operador EXIF - 10 pts\nStego\nO Artist no EXIF aponta quem a câmera registrou como autor desta foto. Qual o Artist? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "estação EXIF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O HostComputer no EXIF amarra a foto à estação que importou o arquivo. Qual o HostComputer? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "estação EXIF - 10 pts\nStego\nO HostComputer no EXIF amarra a foto à estação que importou o arquivo. Qual o HostComputer? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Serial EXIF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O SerialNumber fecha a câmera física usada no registro visual da SE-03. Qual o SerialNumber da camera? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Serial EXIF - 10 pts\nStego\nO SerialNumber fecha a câmera física usada no registro visual da SE-03. Qual o SerialNumber da camera? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Copyright EXIF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Copyright no EXIF ainda assina a operação ou a empresa neste arquivo da foto. Qual o Copyright? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Copyright EXIF - 10 pts\nStego\nO Copyright no EXIF ainda assina a operação ou a empresa neste arquivo da foto. Qual o Copyright? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Comentário EXIF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Comment da JPEG é o texto livre que viajou com a foto de campo da SE-03. Qual o Comment da JPEG? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Comentário EXIF - 10 pts\nStego\nO Comment da JPEG é o texto livre que viajou com a foto de campo da SE-03. Qual o Comment da JPEG? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "UserComment",
+    "points": 10,
+    "category": "Stego",
+    "description": "O UserComment no EXIF carrega a URL ou o texto que não aparece na imagem. Qual o UserComment? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "UserComment - 10 pts\nStego\nO UserComment no EXIF carrega a URL ou o texto que não aparece na imagem. Qual o UserComment? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Latitude",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "A latitude numérica (exiftool -n) posiciona a foto na SE-03, não num decoy. Qual a GPSLatitude numerica (exiftool -n)? Padrão da resposta: valor direto. Exemplo: -1.2",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Latitude - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nA latitude numérica (exiftool -n) posiciona a foto na SE-03, não num decoy. Qual a GPSLatitude numerica (exiftool -n)? Padrão da resposta: valor direto. Exemplo: -1.2",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Longitude",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "A longitude numérica (exiftool -n) fecha o ponto da subestação no mapa. Qual a GPSLongitude numerica (exiftool -n)? Padrão da resposta: valor direto. Exemplo: -1.2",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Longitude - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nA longitude numérica (exiftool -n) fecha o ponto da subestação no mapa. Qual a GPSLongitude numerica (exiftool -n)? Padrão da resposta: valor direto. Exemplo: -1.2",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Altitude",
+    "points": 10,
+    "category": "Stego",
+    "description": "A altitude numérica (exiftool -n) é o terceiro eixo do ponto de campo da SE-03. Qual a GPSAltitude numerica (exiftool -n)? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Altitude - 10 pts\nStego\nA altitude numérica (exiftool -n) é o terceiro eixo do ponto de campo da SE-03. Qual a GPSAltitude numerica (exiftool -n)? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Largura foto",
+    "points": 10,
+    "category": "Stego",
+    "description": "A ImageWidth confirma a resolução da foto usada como evidência visual. Qual o ImageWidth? Padrão da resposta: valor direto. Exemplo: 800",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Largura foto - 10 pts\nStego\nA ImageWidth confirma a resolução da foto usada como evidência visual. Qual o ImageWidth? Padrão da resposta: valor direto. Exemplo: 800",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Zip pos-EOF JPG",
+    "points": 10,
+    "category": "Stego",
+    "description": "Há um ZIP colado nesta JPEG com um txt de campo. Qual o nome do txt dentro do zip colado na JPEG? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Zip pos-EOF JPG - 10 pts\nStego\nHá um ZIP colado nesta JPEG com um txt de campo. Qual o nome do txt dentro do zip colado na JPEG? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zip JPG",
+    "points": 10,
+    "category": "Stego",
+    "description": "O field.txt nesse ZIP da foto carrega a marca do caso da SE-03. Qual a flag dentro de field.txt no zip colado na JPEG? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Flag zip JPG - 10 pts\nStego\nO field.txt nesse ZIP da foto carrega a marca do caso da SE-03. Qual a flag dentro de field.txt no zip colado na JPEG? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Relatório DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "Este DOCX é o relatório de incidente do OCC da Transnorte sobre a subestação SE-03 na Campanha Relé, redigido quando o despacho ainda classificava a escrita anômala como falha de campo. Qual o dc:title em docProps/core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Relatório DOCX - 10 pts\nStego\nEste DOCX é o relatório de incidente do OCC da Transnorte sobre a subestação SE-03 na Campanha Relé, redigido quando o despacho ainda classificava a escrita anômala como falha de campo. Qual o dc:title em docProps/core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Autor DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "O dc:creator em core.xml aponta quem o OCC registrou como autor deste relatório. Qual o dc:creator em core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Autor DOCX - 10 pts\nStego\nO dc:creator em core.xml aponta quem o OCC registrou como autor deste relatório. Qual o dc:creator em core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Assunto DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "O dc:subject em core.xml classifica o assunto do incidente da SE-03. Qual o dc:subject em core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Assunto DOCX - 10 pts\nStego\nO dc:subject em core.xml classifica o assunto do incidente da SE-03. Qual o dc:subject em core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Keywords DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "As keywords em core.xml são as tags que o OCC colou neste relatório. Qual o cp:keywords em core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Keywords DOCX - 10 pts\nStego\nAs keywords em core.xml são as tags que o OCC colou neste relatório. Qual o cp:keywords em core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Identificador",
+    "points": 10,
+    "category": "Stego",
+    "description": "O dc:identifier em core.xml é o código IR do caso neste DOCX. Qual o dc:identifier em core.xml? Padrão da resposta: valor direto. Exemplo: IR-1",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Identificador - 10 pts\nStego\nO dc:identifier em core.xml é o código IR do caso neste DOCX. Qual o dc:identifier em core.xml? Padrão da resposta: valor direto. Exemplo: IR-1",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Categoria DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "A category em core.xml é o enquadramento que o OCC deu ao incidente da SE-03. Qual o cp:category em core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Categoria DOCX - 10 pts\nStego\nA category em core.xml é o enquadramento que o OCC deu ao incidente da SE-03. Qual o cp:category em core.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Criação DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "O dcterms:created em 2026 marca quando este relatório de incidente foi gerado. Qual o timestamp 2026 do dcterms:created? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Criação DOCX - 10 pts\nStego\nO dcterms:created em 2026 marca quando este relatório de incidente foi gerado. Qual o timestamp 2026 do dcterms:created? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Empresa DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "A Company em docProps/app.xml assina a empresa dona deste documento do OCC. Qual o Company em docProps/app.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Empresa DOCX - 10 pts\nStego\nA Company em docProps/app.xml assina a empresa dona deste documento do OCC. Qual o Company em docProps/app.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "App DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "A Application em app.xml denuncia o programa que gerou este DOCX. Qual o Application em app.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "App DOCX - 10 pts\nStego\nA Application em app.xml denuncia o programa que gerou este DOCX. Qual o Application em app.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "O corpo do relatório ainda cita o Setpoint: anômalo da SE-03 no document.xml. Qual o valor na linha Setpoint: do document.xml? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Setpoint DOCX - 10 pts\nStego\nO corpo do relatório ainda cita o Setpoint: anômalo da SE-03 no document.xml. Qual o valor na linha Setpoint: do document.xml? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "A linha Gateway: no corpo nomeia o ICG que o OCC associou ao incidente. Qual o hostname na linha Gateway: do document.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Gateway DOCX - 10 pts\nStego\nA linha Gateway: no corpo nomeia o ICG que o OCC associou ao incidente. Qual o hostname na linha Gateway: do document.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Origem cmd DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "A linha Src: no corpo aponta o IP que o OCC registrou como origem da escrita. Qual o IP na linha Src: do document.xml? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Origem cmd DOCX - 10 pts\nStego\nA linha Src: no corpo aponta o IP que o OCC registrou como origem da escrita. Qual o IP na linha Src: do document.xml? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "C2 DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "A linha C2: no relatório leva a URL do canal que o OCC já tinha visto. Qual a URL na linha C2: do document.xml? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "C2 DOCX - 10 pts\nStego\nA linha C2: no relatório leva a URL do canal que o OCC já tinha visto. Qual a URL na linha C2: do document.xml? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "A linha Firmware: no corpo fecha a versão do gateway no relato do OCC. Qual o valor na linha Firmware: do document.xml? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Firmware DOCX - 10 pts\nStego\nA linha Firmware: no corpo fecha a versão do gateway no relato do OCC. Qual o valor na linha Firmware: do document.xml? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "estação DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "A linha Station: nomeia a estação ou subestação neste relato do OCC. Qual o hostname na linha Station: do document.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "estação DOCX - 10 pts\nStego\nA linha Station: nomeia a estação ou subestação neste relato do OCC. Qual o hostname na linha Station: do document.xml? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Comentário zip",
+    "points": 10,
+    "category": "Stego",
+    "description": "O comentário do ZIP deste DOCX (unzip -z) ainda assina o pacote da IndusCom. Qual o comentário do zip do DOCX (unzip -z)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Comentário zip - 10 pts\nStego\nO comentário do ZIP deste DOCX (unzip -z) ainda assina o pacote da IndusCom. Qual o comentário do zip do DOCX (unzip -z)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo oculto",
+    "points": 10,
+    "category": "Stego",
+    "description": "Há um hint escondido em word/media, fora do texto visível do relatório. Qual o nome base do hint escondido em word/media? Padrão da resposta: valor direto. Exemplo: x.hint",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Arquivo oculto - 10 pts\nStego\nHá um hint escondido em word/media, fora do texto visível do relatório. Qual o nome base do hint escondido em word/media? Padrão da resposta: valor direto. Exemplo: x.hint",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Flag hint DOCX",
+    "points": 10,
+    "category": "Stego",
+    "description": "O vendor.hint em word/media carrega a marca do caso deste DOCX. Qual a flag em word/media/vendor.hint? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Flag hint DOCX - 10 pts\nStego\nO vendor.hint em word/media carrega a marca do caso deste DOCX. Qual a flag em word/media/vendor.hint? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Radio OCC",
+    "points": 10,
+    "category": "Stego",
+    "description": "Este WAV é a gravação do canal de voz do OCC da Transnorte na subestação SE-03, no horário do setpoint anômalo da Campanha Relé, quando o rádio ainda pedia confirmação de um valor que o historian já tinha. Qual o Title? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Radio OCC - 10 pts\nStego\nEste WAV é a gravação do canal de voz do OCC da Transnorte na subestação SE-03, no horário do setpoint anômalo da Campanha Relé, quando o rádio ainda pedia confirmação de um valor que o historian já tinha. Qual o Title? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Operador WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Artist desta gravação identifica quem o canal de voz registrou como autor ou operador. Qual o Artist? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Operador WAV - 10 pts\nStego\nO Artist desta gravação identifica quem o canal de voz registrou como autor ou operador. Qual o Artist? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Comentário WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Comment desta mídia é o texto livre que viajou com a gravação do OCC. Qual o Comment? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Comentário WAV - 10 pts\nStego\nO Comment desta mídia é o texto livre que viajou com a gravação do OCC. Qual o Comment? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Copyright WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Copyright ainda assina a operação ou a empresa nesta peça de áudio. Qual o Copyright? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Copyright WAV - 10 pts\nStego\nO Copyright ainda assina a operação ou a empresa nesta peça de áudio. Qual o Copyright? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Software WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Software identifica o programa que gerou ou capturou este canal de voz. Qual o Software? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Software WAV - 10 pts\nStego\nO Software identifica o programa que gerou ou capturou este canal de voz. Qual o Software? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Engenheiro WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Engineer no metadado aponta o técnico associado a esta gravação da SE-03. Qual o Engineer? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Engenheiro WAV - 10 pts\nStego\nO Engineer no metadado aponta o técnico associado a esta gravação da SE-03. Qual o Engineer? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Gênero WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Genre no metadado é a classificação que esta captura de rádio recebeu. Qual o Genre? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Gênero WAV - 10 pts\nStego\nO Genre no metadado é a classificação que esta captura de rádio recebeu. Qual o Genre? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Produto WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Product no metadado nomeia o sistema ou produto ligado a esta gravação. Qual o Product? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Produto WAV - 10 pts\nStego\nO Product no metadado nomeia o sistema ou produto ligado a esta gravação. Qual o Product? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Técnico WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Technician identifica o operador de rádio ou de campo nesta peça. Qual o Technician? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Técnico WAV - 10 pts\nStego\nO Technician identifica o operador de rádio ou de campo nesta peça. Qual o Technician? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Assunto WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Subject no metadado resume o assunto da gravação do OCC na SE-03. Qual o Subject? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Assunto WAV - 10 pts\nStego\nO Subject no metadado resume o assunto da gravação do OCC na SE-03. Qual o Subject? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Data WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O DateCreated marca o dia da gravação no canal de voz da SE-03. Qual o DateCreated? Padrão da resposta: valor direto. Exemplo: 2026:01:01",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Data WAV - 10 pts\nStego\nO DateCreated marca o dia da gravação no canal de voz da SE-03. Qual o DateCreated? Padrão da resposta: valor direto. Exemplo: 2026:01:01",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Sample rate",
+    "points": 10,
+    "category": "Stego",
+    "description": "A sample rate fecha o formato da gravação de voz do OCC. Qual o sample rate em Hz? Padrão da resposta: valor direto. Exemplo: 8000",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Sample rate - 10 pts\nStego\nA sample rate fecha o formato da gravação de voz do OCC. Qual o sample rate em Hz? Padrão da resposta: valor direto. Exemplo: 8000",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Canais WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "A contagem de canais diz se o rádio foi gravado em mono ou estéreo. Quantos canais tem o WAV? Padrão da resposta: valor direto. Exemplo: 2",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Canais WAV - 10 pts\nStego\nA contagem de canais diz se o rádio foi gravado em mono ou estéreo. Quantos canais tem o WAV? Padrão da resposta: valor direto. Exemplo: 2",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Bits WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "A profundidade em bits é a resolução PCM desta gravação. Qual a profundidade em bits? Padrão da resposta: valor direto. Exemplo: 16",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Bits WAV - 10 pts\nStego\nA profundidade em bits é a resolução PCM desta gravação. Qual a profundidade em bits? Padrão da resposta: valor direto. Exemplo: 16",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Amostras WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "A contagem de samples fecha a duração útil do canal de voz no horário do setpoint. Quantas samples existem na gravação? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Amostras WAV - 10 pts\nStego\nA contagem de samples fecha a duração útil do canal de voz no horário do setpoint. Quantas samples existem na gravação? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Zip pos-EOF WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "Há um ZIP colado neste WAV com um txt do canal de rádio. Qual o nome do txt dentro do zip colado no WAV? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Zip pos-EOF WAV - 10 pts\nStego\nHá um ZIP colado neste WAV com um txt do canal de rádio. Qual o nome do txt dentro do zip colado no WAV? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zip WAV",
+    "points": 10,
+    "category": "Stego",
+    "description": "O radio.txt nesse ZIP da gravação carrega a marca do caso no horário do setpoint anômalo. Qual a flag dentro de radio.txt no zip colado no WAV? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Flag zip WAV - 10 pts\nStego\nO radio.txt nesse ZIP da gravação carrega a marca do caso no horário do setpoint anômalo. Qual a flag dentro de radio.txt no zip colado no WAV? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Stego",
+    "downloaded": true
+  }
+]

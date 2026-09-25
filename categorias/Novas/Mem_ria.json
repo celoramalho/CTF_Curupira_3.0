@@ -1,0 +1,342 @@
+[
+  {
+    "title": "RMEM TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "Este tn-mem.bin é o snapshot RMEM do processo update.bin na TN-FIN-WS042 depois da ISO ICG-4200 na Campanha Relé, o dump de memória que o plantão tirou do dropper ainda residente. Qual o Computer no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "RMEM TN - 10 pts\nMemória\nEste tn-mem.bin é o snapshot RMEM do processo update.bin na TN-FIN-WS042 depois da ISO ICG-4200 na Campanha Relé, o dump de memória que o plantão tirou do dropper ainda residente. Qual o Computer no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "PID RWX TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "O PID da linha Image=update.bin com Prot=RWX é o processo que o RMEM marca como região executável gravável. Qual o PID da linha Image=update.bin com Prot=RWX? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "PID RWX TN - 10 pts\nMemória\nO PID da linha Image=update.bin com Prot=RWX é o processo que o RMEM marca como região executável gravável. Qual o PID da linha Image=update.bin com Prot=RWX? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off RWX TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "O Off da região Prot=RWX do update.bin é onde este snapshot começa o blob gzip do dropper. Qual o Off da regiao Prot=RWX do update.bin? Padrão da resposta: valor direto. Exemplo: 512",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Off RWX TN - 10 pts\nMemória\nO Off da região Prot=RWX do update.bin é onde este snapshot começa o blob gzip do dropper. Qual o Off da regiao Prot=RWX do update.bin? Padrão da resposta: valor direto. Exemplo: 512",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Len RWX TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "O Len da região Prot=RWX do update.bin fecha o tamanho desse blob no RMEM da Transnorte. Qual o Len da regiao Prot=RWX do update.bin? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Len RWX TN - 10 pts\nMemória\nO Len da região Prot=RWX do update.bin fecha o tamanho desse blob no RMEM da Transnorte. Qual o Len da regiao Prot=RWX do update.bin? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Hash RWX TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "O SHA256 da região RWX depois de gzip -dc é o hash do PE descomprimido, não do blob cru. Qual o SHA256 da regiao RWX depois de gzip -dc? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Hash RWX TN - 10 pts\nMemória\nO SHA256 da região RWX depois de gzip -dc é o hash do PE descomprimido, não do blob cru. Qual o SHA256 da regiao RWX depois de gzip -dc? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off MZ TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "O offset do MZ dentro da região decodificada aponta onde o PE real começa depois do padding. Qual o offset do MZ dentro da regiao decodificada? Padrão da resposta: valor direto. Exemplo: 256",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Off MZ TN - 10 pts\nMemória\nO offset do MZ dentro da região decodificada aponta onde o PE real começa depois do padding. Qual o offset do MZ dentro da regiao decodificada? Padrão da resposta: valor direto. Exemplo: 256",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "C2 PE TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "A URL C2 no PE a partir do MZ é o heartbeat verdadeiro, não o decoy que o dump também carrega. Qual a URL C2 no PE a partir do MZ (não o decoy)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "C2 PE TN - 10 pts\nMemória\nA URL C2 no PE a partir do MZ é o heartbeat verdadeiro, não o decoy que o dump também carrega. Qual a URL C2 no PE a partir do MZ (não o decoy)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "IP socket TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "O IPv4 do record binário cujo PID little-endian é d4120000 é o destino do socket deste update.bin. Qual o IPv4 do record binário cujo PID little-endian e d4120000? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "IP socket TN - 10 pts\nMemória\nO IPv4 do record binário cujo PID little-endian é d4120000 é o destino do socket deste update.bin. Qual o IPv4 do record binário cujo PID little-endian e d4120000? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Porta socket TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "A porta desse record de socket fecha o mesmo registro d4120000 na tabela de rede. Qual a porta desse record de socket? Padrão da resposta: valor direto. Exemplo: 443",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Porta socket TN - 10 pts\nMemória\nA porta desse record de socket fecha o mesmo registro d4120000 na tabela de rede. Qual a porta desse record de socket? Padrão da resposta: valor direto. Exemplo: 443",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Flag RMEM TN",
+    "points": 10,
+    "category": "Memória",
+    "description": "A Flag no PE a partir do MZ é a marca deste snapshot, não o decoy. Qual a Flag no PE a partir do MZ (não o decoy)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Flag RMEM TN - 10 pts\nMemória\nA Flag no PE a partir do MZ é a marca deste snapshot, não o decoy. Qual a Flag no PE a partir do MZ (não o decoy)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "RMEM LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "Este lit-mem.bin é o snapshot RMEM do curl.exe no LIT-NMS-02 depois do LNK DNS na Campanha Relé, o dump de memória do download que o atalho disparou no NMS. Qual o Computer no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "RMEM LIT - 10 pts\nMemória\nEste lit-mem.bin é o snapshot RMEM do curl.exe no LIT-NMS-02 depois do LNK DNS na Campanha Relé, o dump de memória do download que o atalho disparou no NMS. Qual o Computer no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "PID RWX LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "O PID da linha Image=curl.exe com Prot=RWX é o processo que o RMEM marca como região executável gravável. Qual o PID da linha Image=curl.exe com Prot=RWX? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "PID RWX LIT - 10 pts\nMemória\nO PID da linha Image=curl.exe com Prot=RWX é o processo que o RMEM marca como região executável gravável. Qual o PID da linha Image=curl.exe com Prot=RWX? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off RWX LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "O Off da região Prot=RWX do curl.exe é onde este snapshot começa o blob gzip do download. Qual o Off da regiao Prot=RWX do curl.exe? Padrão da resposta: valor direto. Exemplo: 512",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Off RWX LIT - 10 pts\nMemória\nO Off da região Prot=RWX do curl.exe é onde este snapshot começa o blob gzip do download. Qual o Off da regiao Prot=RWX do curl.exe? Padrão da resposta: valor direto. Exemplo: 512",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Len RWX LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "O Len da região Prot=RWX do curl.exe fecha o tamanho desse blob no RMEM da Litoral. Qual o Len da regiao Prot=RWX do curl.exe? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Len RWX LIT - 10 pts\nMemória\nO Len da região Prot=RWX do curl.exe fecha o tamanho desse blob no RMEM da Litoral. Qual o Len da regiao Prot=RWX do curl.exe? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Hash RWX LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "O SHA256 da região RWX depois de gzip -dc é o hash do PE descomprimido neste dump do NMS. Qual o SHA256 da regiao RWX depois de gzip -dc? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Hash RWX LIT - 10 pts\nMemória\nO SHA256 da região RWX depois de gzip -dc é o hash do PE descomprimido neste dump do NMS. Qual o SHA256 da regiao RWX depois de gzip -dc? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off MZ LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "O offset do MZ dentro da região decodificada aponta onde o PE real começa depois do padding. Qual o offset do MZ dentro da regiao decodificada? Padrão da resposta: valor direto. Exemplo: 256",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Off MZ LIT - 10 pts\nMemória\nO offset do MZ dentro da região decodificada aponta onde o PE real começa depois do padding. Qual o offset do MZ dentro da regiao decodificada? Padrão da resposta: valor direto. Exemplo: 256",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "C2 PE LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "A URL C2 no PE a partir do MZ é o portal DNS verdadeiro, não o decoy deste dump. Qual a URL C2 no PE a partir do MZ (não o decoy)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "C2 PE LIT - 10 pts\nMemória\nA URL C2 no PE a partir do MZ é o portal DNS verdadeiro, não o decoy deste dump. Qual a URL C2 no PE a partir do MZ (não o decoy)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "IP socket LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "O IPv4 do record binário cujo PID little-endian é f4130000 é o destino do socket deste curl.exe. Qual o IPv4 do record binário cujo PID little-endian e f4130000? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "IP socket LIT - 10 pts\nMemória\nO IPv4 do record binário cujo PID little-endian é f4130000 é o destino do socket deste curl.exe. Qual o IPv4 do record binário cujo PID little-endian e f4130000? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Porta socket LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "A porta desse record de socket fecha o mesmo registro f4130000 na tabela de rede. Qual a porta desse record de socket? Padrão da resposta: valor direto. Exemplo: 443",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Porta socket LIT - 10 pts\nMemória\nA porta desse record de socket fecha o mesmo registro f4130000 na tabela de rede. Qual a porta desse record de socket? Padrão da resposta: valor direto. Exemplo: 443",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Flag RMEM LIT",
+    "points": 10,
+    "category": "Memória",
+    "description": "A Flag no PE a partir do MZ é a marca deste snapshot da Litoral, não o decoy. Qual a Flag no PE a partir do MZ (não o decoy)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Flag RMEM LIT - 10 pts\nMemória\nA Flag no PE a partir do MZ é a marca deste snapshot da Litoral, não o decoy. Qual a Flag no PE a partir do MZ (não o decoy)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "CLMD CLM",
+    "points": 10,
+    "category": "Memória",
+    "description": "Este clm-mem.bin é o dump CLMD da estação de trabalho CLM-MESA-014 depois do HTA da Campanha Relé. Não é o formato RMEM, e o plantão precisa do cabeçalho CLMD antes de tratar o SLOT AES. Qual o Station no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "CLMD CLM - 10 pts\nMemória\nEste clm-mem.bin é o dump CLMD da estação de trabalho CLM-MESA-014 depois do HTA da Campanha Relé. Não é o formato RMEM, e o plantão precisa do cabeçalho CLMD antes de tratar o SLOT AES. Qual o Station no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "User CLMD",
+    "points": 10,
+    "category": "Memória",
+    "description": "O User no cabeçalho CLMD aponta a conta da estação de trabalho em que o HTA rodou. Qual o User no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "User CLMD - 10 pts\nMemória\nO User no cabeçalho CLMD aponta a conta da estação de trabalho em que o HTA rodou. Qual o User no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "KeyHint AES",
+    "points": 10,
+    "category": "Memória",
+    "description": "O KeyHint é a senha que o openssl usa no SLOT Codec=aes deste dump. Qual o KeyHint usado como senha do AES-256-CBC do SLOT Codec=aes? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "KeyHint AES - 10 pts\nMemória\nO KeyHint é a senha que o openssl usa no SLOT Codec=aes deste dump. Qual o KeyHint usado como senha do AES-256-CBC do SLOT Codec=aes? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Salt CLMD",
+    "points": 10,
+    "category": "Memória",
+    "description": "O Salt hexadecimal do cabeçalho é o valor que entra no openssl -S deste CLMD. Qual o Salt hexadecimal do cabeçalho para o openssl -S? Padrão da resposta: valor direto. Exemplo: aabbccdd",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Salt CLMD - 10 pts\nMemória\nO Salt hexadecimal do cabeçalho é o valor que entra no openssl -S deste CLMD. Qual o Salt hexadecimal do cabeçalho para o openssl -S? Padrão da resposta: valor direto. Exemplo: aabbccdd",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "SockOff",
+    "points": 10,
+    "category": "Memória",
+    "description": "O SockOff da tabela de rede aponta onde este dump CLMD guarda os records de socket. Qual o SockOff da tabela de rede? Padrão da resposta: valor direto. Exemplo: 512",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "SockOff - 10 pts\nMemória\nO SockOff da tabela de rede aponta onde este dump CLMD guarda os records de socket. Qual o SockOff da tabela de rede? Padrão da resposta: valor direto. Exemplo: 512",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "SockStride",
+    "points": 10,
+    "category": "Memória",
+    "description": "O SockStride em bytes fecha o tamanho de cada record de socket nesta tabela. Qual o SockStride em bytes de cada record de socket? Padrão da resposta: valor direto. Exemplo: 16",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "SockStride - 10 pts\nMemória\nO SockStride em bytes fecha o tamanho de cada record de socket nesta tabela. Qual o SockStride em bytes de cada record de socket? Padrão da resposta: valor direto. Exemplo: 16",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off JSON AES",
+    "points": 10,
+    "category": "Memória",
+    "description": "O Off do SLOT Kind=json com Codec=aes é onde o JSON cifrado começa neste dump. Qual o Off do SLOT Kind=json com Codec=aes? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Off JSON AES - 10 pts\nMemória\nO Off do SLOT Kind=json com Codec=aes é onde o JSON cifrado começa neste dump. Qual o Off do SLOT Kind=json com Codec=aes? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Len JSON AES",
+    "points": 10,
+    "category": "Memória",
+    "description": "O Len do SLOT Kind=json com Codec=aes fecha o tamanho desse JSON cifrado. Qual o Len do SLOT Kind=json com Codec=aes? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Len JSON AES - 10 pts\nMemória\nO Len do SLOT Kind=json com Codec=aes fecha o tamanho desse JSON cifrado. Qual o Len do SLOT Kind=json com Codec=aes? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Path HTA JSON",
+    "points": 10,
+    "category": "Memória",
+    "description": "O campo hta do JSON depois de openssl enc -d -aes-256-cbc -pbkdf2 -S é o path do HTA que a estação de trabalho abriu. Qual o campo hta do JSON depois de openssl enc -d -aes-256-cbc -pbkdf2 -S? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Path HTA JSON - 10 pts\nMemória\nO campo hta do JSON depois de openssl enc -d -aes-256-cbc -pbkdf2 -S é o path do HTA que a estação de trabalho abriu. Qual o campo hta do JSON depois de openssl enc -d -aes-256-cbc -pbkdf2 -S? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Pass JSON",
+    "points": 10,
+    "category": "Memória",
+    "description": "O campo pass do JSON decifrado é a senha que o kit colheu na estação de trabalho da Câmara. Qual o campo pass do JSON decifrado (senha colhida na estação de trabalho)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Pass JSON - 10 pts\nMemória\nO campo pass do JSON decifrado é a senha que o kit colheu na estação de trabalho da Câmara. Qual o campo pass do JSON decifrado (senha colhida na estação de trabalho)? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "C2 JSON",
+    "points": 10,
+    "category": "Memória",
+    "description": "O campo c2 do JSON decifrado é o portal verdadeiro, não o JSON Codec=plain. Qual o campo c2 do JSON decifrado (não o JSON Codec=plain)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "C2 JSON - 10 pts\nMemória\nO campo c2 do JSON decifrado é o portal verdadeiro, não o JSON Codec=plain. Qual o campo c2 do JSON decifrado (não o JSON Codec=plain)? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "IP socket CLM",
+    "points": 10,
+    "category": "Memória",
+    "description": "O IPv4 do record de 20 bytes cuja tag ASCII é CLMClient começa no byte 4 deste registro de socket. Qual o IPv4 do record de 20 bytes cuja tag ASCII e CLMClient? Os 4 bytes do IP comecam no byte 4. Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "IP socket CLM - 10 pts\nMemória\nO IPv4 do record de 20 bytes cuja tag ASCII é CLMClient começa no byte 4 deste registro de socket. Qual o IPv4 do record de 20 bytes cuja tag ASCII e CLMClient? Os 4 bytes do IP comecam no byte 4. Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "PID socket CLM",
+    "points": 10,
+    "category": "Memória",
+    "description": "O PID big-endian nos 4 primeiros bytes desse mesmo record é o processo do agente neste socket. Qual o PID big-endian nos 4 primeiros bytes desse mesmo record? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "PID socket CLM - 10 pts\nMemória\nO PID big-endian nos 4 primeiros bytes desse mesmo record é o processo do agente neste socket. Qual o PID big-endian nos 4 primeiros bytes desse mesmo record? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Flag CLMD",
+    "points": 10,
+    "category": "Memória",
+    "description": "O campo flag do JSON decifrado é a marca deste dump CLMD da Câmara. Qual o campo flag do JSON decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Flag CLMD - 10 pts\nMemória\nO campo flag do JSON decifrado é a marca deste dump CLMD da Câmara. Qual o campo flag do JSON decifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Memória",
+    "downloaded": true
+  }
+]

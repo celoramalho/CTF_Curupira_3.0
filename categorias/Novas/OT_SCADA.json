@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Modbus SE-03",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "Este se03-modbus.pcap é a captura Modbus TCP da subestação SE-03 na Campanha Relé. O OCC faz poll. Um IP da rede corporativa escreve o setpoint, e o plantão precisa do IPv4 destino das sessões na 502 antes da escrita FC6. Qual o IPv4 destino das sessões na porta 502? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Modbus SE-03 - 10 pts\nOT/SCADA\nEste se03-modbus.pcap é a captura Modbus TCP da subestação SE-03 na Campanha Relé. O OCC faz poll. Um IP da rede corporativa escreve o setpoint, e o plantão precisa do IPv4 destino das sessões na 502 antes da escrita FC6. Qual o IPv4 destino das sessões na porta 502? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Unit FC6",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O mbtcp.unit_id da escrita FC6 vinda de 10.50.10.88 é a unidade do gateway que recebeu o setpoint. Qual o mbtcp.unit_id da escrita FC6 vinda de 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Unit FC6 - 10 pts\nOT/SCADA\nO mbtcp.unit_id da escrita FC6 vinda de 10.50.10.88 é a unidade do gateway que recebeu o setpoint. Qual o mbtcp.unit_id da escrita FC6 vinda de 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Função FC6",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O modbus.func_code dessa escrita confirma a função de single register, não o poll do OCC. Qual o modbus.func_code dessa escrita? Padrão da resposta: valor direto. Exemplo: 3",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Função FC6 - 10 pts\nOT/SCADA\nO modbus.func_code dessa escrita confirma a função de single register, não o poll do OCC. Qual o modbus.func_code dessa escrita? Padrão da resposta: valor direto. Exemplo: 3",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Holding FC6",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O modbus.reference_num (holding) dessa escrita é o registrador de setpoint que 10.50.10.88 tocou. Qual o modbus.reference_num (holding) dessa escrita? Padrão da resposta: valor direto. Exemplo: 40000",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Holding FC6 - 10 pts\nOT/SCADA\nO modbus.reference_num (holding) dessa escrita é o registrador de setpoint que 10.50.10.88 tocou. Qual o modbus.reference_num (holding) dessa escrita? Padrão da resposta: valor direto. Exemplo: 40000",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint FC6",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O valor uint16 (modbus.data em decimal) escrito por 10.50.10.88 é o setpoint que o corporativo mandou à SE-03. Qual o valor uint16 (modbus.data em decimal) escrito por 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Setpoint FC6 - 10 pts\nOT/SCADA\nO valor uint16 (modbus.data em decimal) escrito por 10.50.10.88 é o setpoint que o corporativo mandou à SE-03. Qual o valor uint16 (modbus.data em decimal) escrito por 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Flag FC17",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "A Flag no Report Slave ID (func_code 17) do gateway é a marca deste pcap Modbus da SE-03. Qual a Flag no Report Slave ID (func_code 17) do gateway? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Flag FC17 - 10 pts\nOT/SCADA\nA Flag no Report Slave ID (func_code 17) do gateway é a marca deste pcap Modbus da SE-03. Qual a Flag no Report Slave ID (func_code 17) do gateway? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "IEC 104",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "Este lit-iec104.pcap é o telecontrole IEC 104 do LIT-NMS-02 na Campanha Relé. Há interrogação geral. O comando de ponto único é outro TypeId, e o plantão precisa do TypeId do C_SC_NA_1 antes do COT e do IOA. Qual o TypeId do C_SC_NA_1? Padrão da resposta: valor direto. Exemplo: 100",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "IEC 104 - 10 pts\nOT/SCADA\nEste lit-iec104.pcap é o telecontrole IEC 104 do LIT-NMS-02 na Campanha Relé. Há interrogação geral. O comando de ponto único é outro TypeId, e o plantão precisa do TypeId do C_SC_NA_1 antes do COT e do IOA. Qual o TypeId do C_SC_NA_1? Padrão da resposta: valor direto. Exemplo: 100",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "COT C_SC",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O CauseTx (ativação) desse C_SC_NA_1 é o COT de ativação do comando de ponto único. Qual o CauseTx (ativação) desse C_SC_NA_1? Padrão da resposta: valor direto. Exemplo: 20",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "COT C_SC - 10 pts\nOT/SCADA\nO CauseTx (ativação) desse C_SC_NA_1 é o COT de ativação do comando de ponto único. Qual o CauseTx (ativação) desse C_SC_NA_1? Padrão da resposta: valor direto. Exemplo: 20",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "IOA C_SC",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O IOA desse comando é o ponto único que o NMS da Litoral comandou. Qual o IOA desse comando? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "IOA C_SC - 10 pts\nOT/SCADA\nO IOA desse comando é o ponto único que o NMS da Litoral comandou. Qual o IOA desse comando? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "ASDU C_SC",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O endereço comum de ASDU (iec60870_asdu.addr) desse comando fecha o ASDU do C_SC_NA_1. Qual o endereço comum de ASDU (iec60870_asdu.addr) desse comando? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "ASDU C_SC - 10 pts\nOT/SCADA\nO endereço comum de ASDU (iec60870_asdu.addr) desse comando fecha o ASDU do C_SC_NA_1. Qual o endereço comum de ASDU (iec60870_asdu.addr) desse comando? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Destino C_SC",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O IPv4 destino desse C_SC_NA_1 é o RTU que recebeu o comando de ponto único. Qual o IPv4 destino desse C_SC_NA_1? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "Destino C_SC - 10 pts\nOT/SCADA\nO IPv4 destino desse C_SC_NA_1 é o RTU que recebeu o comando de ponto único. Qual o IPv4 destino desse C_SC_NA_1? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Flag TypeId 136",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "A Flag no ASDU TypeId 136 é a marca deste pcap IEC 104 da Litoral. Qual a Flag no ASDU TypeId 136? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "Flag TypeId 136 - 10 pts\nOT/SCADA\nA Flag no ASDU TypeId 136 é a marca deste pcap IEC 104 da Litoral. Qual a Flag no ASDU TypeId 136? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "DNP3 CLM",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "Este clm-dnp3.pcap é o DNP3 do medidor da CLM na Campanha Relé. Há READ de classe 1. O ensaio do market_close é um Operate no CROB, e o plantão precisa do dnp3.dst desse Operate antes do índice. Qual o dnp3.dst do Operate? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "DNP3 CLM - 10 pts\nOT/SCADA\nEste clm-dnp3.pcap é o DNP3 do medidor da CLM na Campanha Relé. Há READ de classe 1. O ensaio do market_close é um Operate no CROB, e o plantão precisa do dnp3.dst desse Operate antes do índice. Qual o dnp3.dst do Operate? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Src Operate",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O dnp3.src desse Operate aponta a origem DNP3 do comando CROB. Qual o dnp3.src desse Operate? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Src Operate - 10 pts\nOT/SCADA\nO dnp3.src desse Operate aponta a origem DNP3 do comando CROB. Qual o dnp3.src desse Operate? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Func Operate",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O dnp3.al.func do Operate confirma a função de aplicação deste ensaio, não o READ de classe 1. Qual o dnp3.al.func do Operate? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Func Operate - 10 pts\nOT/SCADA\nO dnp3.al.func do Operate confirma a função de aplicação deste ensaio, não o READ de classe 1. Qual o dnp3.al.func do Operate? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Obj CROB",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O dnp3.al.obj (CROB) do Operate é o objeto de controle que o medidor recebeu. Qual o dnp3.al.obj (CROB) do Operate? Padrão da resposta: valor direto. Exemplo: 0x3c02",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Obj CROB - 10 pts\nOT/SCADA\nO dnp3.al.obj (CROB) do Operate é o objeto de controle que o medidor recebeu. Qual o dnp3.al.obj (CROB) do Operate? Padrão da resposta: valor direto. Exemplo: 0x3c02",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Index CROB",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "O dnp3.al.index do ponto comandado é o índice CROB deste market_close. Qual o dnp3.al.index do ponto comandado? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Index CROB - 10 pts\nOT/SCADA\nO dnp3.al.index do ponto comandado é o índice CROB deste market_close. Qual o dnp3.al.index do ponto comandado? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Flag func 129",
+    "points": 10,
+    "category": "OT/SCADA",
+    "description": "A Flag na resposta DNP3 (func 129) depois do Operate é a marca deste pcap do medidor da Câmara. Qual a Flag na resposta DNP3 (func 129) depois do Operate? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Flag func 129 - 10 pts\nOT/SCADA\nA Flag na resposta DNP3 (func 129) depois do Operate é a marca deste pcap do medidor da Câmara. Qual a Flag na resposta DNP3 (func 129) depois do Operate? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  }
+]

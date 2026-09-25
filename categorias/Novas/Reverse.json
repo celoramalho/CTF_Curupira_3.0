@@ -1,0 +1,152 @@
+[
+  {
+    "title": "PE OCC",
+    "points": 10,
+    "category": "Reverse",
+    "description": "Este tn-upd.exe é o implante PE da OCC da Transnorte na Campanha Relé, o binário que a estação de trabalho de operação tratou como update do ICG-4200. Qual o file format que o objdump reporta? Padrão da resposta: valor direto. Exemplo: elf64-x86-64",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "PE OCC - 10 pts\nReverse\nEste tn-upd.exe é o implante PE da OCC da Transnorte na Campanha Relé, o binário que a estação de trabalho de operação tratou como update do ICG-4200. Qual o file format que o objdump reporta? Padrão da resposta: valor direto. Exemplo: elf64-x86-64",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Arch PE",
+    "points": 10,
+    "category": "Reverse",
+    "description": "A architecture do PE fecha a ISA que este implante da OCC declara. Qual a architecture do PE? Padrão da resposta: valor direto. Exemplo: i386",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "Arch PE - 10 pts\nReverse\nA architecture do PE fecha a ISA que este implante da OCC declara. Qual a architecture do PE? Padrão da resposta: valor direto. Exemplo: i386",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Magic PE32+",
+    "points": 10,
+    "category": "Reverse",
+    "description": "O Magic do optional header (PE32+) distingue PE32 de PE32+ neste exe. Qual o Magic do optional header (PE32+)? Padrão da resposta: valor direto. Exemplo: 010b",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "Magic PE32+ - 10 pts\nReverse\nO Magic do optional header (PE32+) distingue PE32 de PE32+ neste exe. Qual o Magic do optional header (PE32+)? Padrão da resposta: valor direto. Exemplo: 010b",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Export 0",
+    "points": 10,
+    "category": "Reverse",
+    "description": "O nome do primeiro export (ordinal 0) é o símbolo que este PE exporta na tabela. Qual o nome do primeiro export (ordinal 0)? Padrão da resposta: valor direto. Exemplo: start",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "Export 0 - 10 pts\nReverse\nO nome do primeiro export (ordinal 0) é o símbolo que este PE exporta na tabela. Qual o nome do primeiro export (ordinal 0)? Padrão da resposta: valor direto. Exemplo: start",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Flag overlay PE",
+    "points": 10,
+    "category": "Reverse",
+    "description": "A Flag UTF-16LE no overlay do PE é a marca deste implante da Transnorte. Qual a Flag UTF-16LE no overlay do PE? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "Flag overlay PE - 10 pts\nReverse\nA Flag UTF-16LE no overlay do PE é a marca deste implante da Transnorte. Qual a Flag UTF-16LE no overlay do PE? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "SO UPX",
+    "points": 10,
+    "category": "Reverse",
+    "description": "Este lit-hold.so é o implante ELF do recursor da Litoral na Campanha Relé. Está compactado, e o plantão precisa do Format que o upx -l reporta antes do unpack. Qual o Format que o upx -l reporta? Padrão da resposta: valor direto. Exemplo: linux/i386",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "SO UPX - 10 pts\nReverse\nEste lit-hold.so é o implante ELF do recursor da Litoral na Campanha Relé. Está compactado, e o plantão precisa do Format que o upx -l reporta antes do unpack. Qual o Format que o upx -l reporta? Padrão da resposta: valor direto. Exemplo: linux/i386",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Class packed",
+    "points": 10,
+    "category": "Reverse",
+    "description": "O Class ELF do header (ainda packed) é a classe que o header mostra antes do upx -d. Qual o Class ELF do header (ainda packed)? Padrão da resposta: valor direto. Exemplo: ELF32",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "Class packed - 10 pts\nReverse\nO Class ELF do header (ainda packed) é a classe que o header mostra antes do upx -d. Qual o Class ELF do header (ainda packed)? Padrão da resposta: valor direto. Exemplo: ELF32",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "SONAME",
+    "points": 10,
+    "category": "Reverse",
+    "description": "O SONAME depois do upx -d é o nome de biblioteca que o ELF unpacked declara. Qual o SONAME depois do upx -d? Padrão da resposta: valor direto. Exemplo: libx.so",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "SONAME - 10 pts\nReverse\nO SONAME depois do upx -d é o nome de biblioteca que o ELF unpacked declara. Qual o SONAME depois do upx -d? Padrão da resposta: valor direto. Exemplo: libx.so",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "String .obsid",
+    "points": 10,
+    "category": "Reverse",
+    "description": "A string em .obsid depois do unpack é o identificador que a seção carrega neste SO. Qual a string em .obsid depois do unpack? Padrão da resposta: valor direto. Exemplo: agent",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "String .obsid - 10 pts\nReverse\nA string em .obsid depois do unpack é o identificador que a seção carrega neste SO. Qual a string em .obsid depois do unpack? Padrão da resposta: valor direto. Exemplo: agent",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Flag .flag",
+    "points": 10,
+    "category": "Reverse",
+    "description": "A Flag UTF-16LE na seção .flag depois do unpack é a marca deste implante da Litoral. Qual a Flag UTF-16LE na seção .flag depois do unpack? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "Flag .flag - 10 pts\nReverse\nA Flag UTF-16LE na seção .flag depois do unpack é a marca deste implante da Litoral. Qual a Flag UTF-16LE na seção .flag depois do unpack? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Class Java",
+    "points": 10,
+    "category": "Reverse",
+    "description": "Este ClmSettle.class é o implante Java da liquidação na Campanha Relé, a classe que o file server da Câmara carregou no ensaio do settlement. Qual o nome da classe pública? Padrão da resposta: valor direto. Exemplo: Agent",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "Class Java - 10 pts\nReverse\nEste ClmSettle.class é o implante Java da liquidação na Campanha Relé, a classe que o file server da Câmara carregou no ensaio do settlement. Qual o nome da classe pública? Padrão da resposta: valor direto. Exemplo: Agent",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Magic CAFEBABE",
+    "points": 10,
+    "category": "Reverse",
+    "description": "O magic do classfile em hex (4 bytes) confirma o formato Java deste implante. Qual o magic do classfile em hex (4 bytes)? Padrão da resposta: valor direto. Exemplo: 00000000",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "Magic CAFEBABE - 10 pts\nReverse\nO magic do classfile em hex (4 bytes) confirma o formato Java deste implante. Qual o magic do classfile em hex (4 bytes)? Padrão da resposta: valor direto. Exemplo: 00000000",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Major class",
+    "points": 10,
+    "category": "Reverse",
+    "description": "O major version do classfile fecha a versão da classfile deste implante. Qual o major version do classfile? Padrão da resposta: valor direto. Exemplo: 52",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "Major class - 10 pts\nReverse\nO major version do classfile fecha a versão da classfile deste implante. Qual o major version do classfile? Padrão da resposta: valor direto. Exemplo: 52",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "FAMILY",
+    "points": 10,
+    "category": "Reverse",
+    "description": "O ConstantValue de FAMILY é a família APT que esta classe declara. Qual o ConstantValue de FAMILY? Padrão da resposta: valor direto. Exemplo: AptName",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "FAMILY - 10 pts\nReverse\nO ConstantValue de FAMILY é a família APT que esta classe declara. Qual o ConstantValue de FAMILY? Padrão da resposta: valor direto. Exemplo: AptName",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Flag overlay class",
+    "points": 10,
+    "category": "Reverse",
+    "description": "A Flag UTF-16LE no overlay do classfile é a marca deste implante da Câmara. Qual a Flag UTF-16LE no overlay do classfile? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "Flag overlay class - 10 pts\nReverse\nA Flag UTF-16LE no overlay do classfile é a marca deste implante da Câmara. Qual a Flag UTF-16LE no overlay do classfile? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Reverse",
+    "downloaded": true
+  }
+]

@@ -1,0 +1,792 @@
+[
+  {
+    "title": "Hostname TN-FIN",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Esse pcap foi capturado em uma das estações contaminadas durante a Operação Relé, na estação de trabalho de finanças da Transnorte, no mesmo momento em que o update da IndusCom já convivia com o tráfego interno do OCC. Qual o hostname enviado pela estação no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Hostname TN-FIN - 10 pts\nPCAP\nEsse pcap foi capturado em uma das estações contaminadas durante a Operação Relé, na estação de trabalho de finanças da Transnorte, no mesmo momento em que o update da IndusCom já convivia com o tráfego interno do OCC. Qual o hostname enviado pela estação no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Lease TN-FIN",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Ainda no lease DHCP dessa estação de finanças da Transnorte, o ACK fixou o IPv4 que depois amarra beacon, FTP e o login do OCC neste pcap. Qual IPv4 a estação recebeu no DHCP ACK (yiaddr)? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Lease TN-FIN - 10 pts\nPCAP\nAinda no lease DHCP dessa estação de finanças da Transnorte, o ACK fixou o IPv4 que depois amarra beacon, FTP e o login do OCC neste pcap. Qual IPv4 a estação recebeu no DHCP ACK (yiaddr)? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "MAC TN-FIN",
+    "points": 10,
+    "category": "PCAP",
+    "description": "No mesmo tráfego da estação 10.50.10.42, o endereço físico é o que liga o lease à placa da estação de trabalho atingida na Operação Relé. Qual o MAC da estação 10.50.10.42? Padrão da resposta: valor direto. Exemplo: xx:xx:xx:xx:xx:xx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "MAC TN-FIN - 10 pts\nPCAP\nNo mesmo tráfego da estação 10.50.10.42, o endereço físico é o que liga o lease à placa da estação de trabalho atingida na Operação Relé. Qual o MAC da estação 10.50.10.42? Padrão da resposta: valor direto. Exemplo: xx:xx:xx:xx:xx:xx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway TN-FIN",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Na opção router desse DHCP da Transnorte aparece o salto padrão que a estação usou para sair da VLAN corporativa rumo à CDN da IndusCom. Qual o gateway anunciado na opção DHCP router? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Gateway TN-FIN - 10 pts\nPCAP\nNa opção router desse DHCP da Transnorte aparece o salto padrão que a estação usou para sair da VLAN corporativa rumo à CDN da IndusCom. Qual o gateway anunciado na opção DHCP router? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "DNS TN-FIN",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O resolvedor entregue no mesmo lease é o DNS interno que depois responde cdn-sync e o TXT da Litoral neste pcap. Qual o servidor DNS anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "DNS TN-FIN - 10 pts\nPCAP\nO resolvedor entregue no mesmo lease é o DNS interno que depois responde cdn-sync e o TXT da Litoral neste pcap. Qual o servidor DNS anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Dominio TN-FIN",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O domínio anunciado no DHCP confirma em qual floresta a estação de trabalho de finanças se encontrava quando o Obsidian já estava dentro da rede. Qual o domain name anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Dominio TN-FIN - 10 pts\nPCAP\nO domínio anunciado no DHCP confirma em qual floresta a estação de trabalho de finanças se encontrava quando o Obsidian já estava dentro da rede. Qual o domain name anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "User FTP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Depois do lease, a estação abriu um backup FTP em claro, com USER no canal de controle. Qual o usuário da sessão FTP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "User FTP - 10 pts\nPCAP\nDepois do lease, a estação abriu um backup FTP em claro, com USER no canal de controle. Qual o usuário da sessão FTP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Senha FTP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Na mesma sessão FTP em claro da estação de trabalho da Transnorte, o PASS veio sem TLS, logo após o USER. Qual a senha da sessão FTP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Senha FTP - 10 pts\nPCAP\nNa mesma sessão FTP em claro da estação de trabalho da Transnorte, o PASS veio sem TLS, logo após o USER. Qual a senha da sessão FTP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Mapa SE-03",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O RETR dessa sessão puxou o arquivo que a conta de backup foi buscar no servidor interno, no contexto da Operação Relé. Qual o arquivo baixado via RETR no FTP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Mapa SE-03 - 10 pts\nPCAP\nO RETR dessa sessão puxou o arquivo que a conta de backup foi buscar no servidor interno, no contexto da Operação Relé. Qual o arquivo baixado via RETR no FTP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Host FTP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O IPv4 de destino do controle e do RETR é o servidor FTP interno visto por essa estação contaminada. Qual o IP do servidor FTP? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Host FTP - 10 pts\nPCAP\nO IPv4 de destino do controle e do RETR é o servidor FTP interno visto por essa estação contaminada. Qual o IP do servidor FTP? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Inverno na intranet",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Houve um POST em claro para o login do OCC e o campo de senha estava no corpo desse pedido. Qual a senha enviada no POST de /api/auth/login? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Inverno na intranet - 10 pts\nPCAP\nHouve um POST em claro para o login do OCC e o campo de senha estava no corpo desse pedido. Qual a senha enviada no POST de /api/auth/login? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "TXT backbone",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Fora da zona interna, uma resposta TXT de status.litoral-dns.net aparece neste pcap com conteúdo que não é diagnóstico de rede. Qual o conteúdo TXT de status.litoral-dns.net? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "TXT backbone - 10 pts\nPCAP\nFora da zona interna, uma resposta TXT de status.litoral-dns.net aparece neste pcap com conteúdo que não é diagnóstico de rede. Qual o conteúdo TXT de status.litoral-dns.net? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Sync vendor",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A estação também resolveu um nome cdn-sync da IndusCom no mesmo momento do beacon. Qual FQDN cdn-sync foi resolvido neste pcap? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Sync vendor - 10 pts\nPCAP\nA estação também resolveu um nome cdn-sync da IndusCom no mesmo momento do beacon. Qual FQDN cdn-sync foi resolvido neste pcap? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "IP do sync",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A resposta A desse nome de suporte aponta o IPv4 usado no sync do vendor. Qual IPv4 foi retornado para cdn-sync.induscom-support.net? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "IP do sync - 10 pts\nPCAP\nA resposta A desse nome de suporte aponta o IPv4 usado no sync do vendor. Qual IPv4 foi retornado para cdn-sync.induscom-support.net? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "DNS falastrão",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Há ainda uma query DNS cujo primeiro rótulo não é hostname: é Base64 e começa com Q1RG, a assinatura de CTF{. Decodifique esse rótulo. Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "DNS falastrão - 10 pts\nPCAP\nHá ainda uma query DNS cujo primeiro rótulo não é hostname: é Base64 e começa com Q1RG, a assinatura de CTF{. Decodifique esse rótulo. Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Regras",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Você declara que leu e compreendeu integralmente as regras da Operação Curupira III e se compromete a jogar de forma ética e respeitosa, sem compartilhar flags em chats públicos, sem prejudicar a plataforma ou outros participantes e seguindo as orientações da organização durante todo o evento? A resposta é SIM.",
+    "target_url": null,
+    "raw_text": "Regras - 10 pts\nPCAP\nVocê declara que leu e compreendeu integralmente as regras da Operação Curupira III e se compromete a jogar de forma ética e respeitosa, sem compartilhar flags em chats públicos, sem prejudicar a plataforma ou outros participantes e seguindo as orientações da organização durante todo o evento? A resposta é SIM.",
+    "category_group": "PCAP",
+    "downloaded": false
+  },
+  {
+    "title": "Atualizador fantasma",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Além do Chrome, um agente periódico falava com a CDN da IndusCom como se fosse update, sem cara de navegador. Qual o User-Agent das requisições HTTP periódicas que não são de navegador? Envie no formato CTF{User-Agent}. Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Atualizador fantasma - 10 pts\nPCAP\nAlém do Chrome, um agente periódico falava com a CDN da IndusCom como se fosse update, sem cara de navegador. Qual o User-Agent das requisições HTTP periódicas que não são de navegador? Envie no formato CTF{User-Agent}. Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "CDN falsa",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O pulso periódico desse agente ainda denuncia o vhost da CDN no cabeçalho Host. Qual o Host HTTP usado por esse beacon? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "CDN falsa - 10 pts\nPCAP\nO pulso periódico desse agente ainda denuncia o vhost da CDN no cabeçalho Host. Qual o Host HTTP usado por esse beacon? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Heartbeat HTTP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O caminho pedido nesse GET periódico é o heartbeat do canal, não uma página do portal OCC. Qual o URI requisitado no beacon? Padrão da resposta: valor direto. Exemplo: /xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Heartbeat HTTP - 10 pts\nPCAP\nO caminho pedido nesse GET periódico é o heartbeat do canal, não uma página do portal OCC. Qual o URI requisitado no beacon? Padrão da resposta: valor direto. Exemplo: /xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Notes HTTP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "No mesmo pcap a estação de trabalho baixou as release notes da IndusCom e o corpo desse objeto ainda carrega a marca do caso. Qual a flag no corpo das release notes da IndusCom? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Notes HTTP - 10 pts\nPCAP\nNo mesmo pcap a estação de trabalho baixou as release notes da IndusCom e o corpo desse objeto ainda carrega a marca do caso. Qual a flag no corpo das release notes da IndusCom? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "SNI TLS TN",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O Client Hello para 198.51.100.91 ainda denuncia o nome TLS que o implante queria alcançar. Qual o SNI TLS usado nas conexões para 198.51.100.91? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "SNI TLS TN - 10 pts\nPCAP\nO Client Hello para 198.51.100.91 ainda denuncia o nome TLS que o implante queria alcançar. Qual o SNI TLS usado nas conexões para 198.51.100.91? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "ICMP recado TN",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Houve um echo ICMP com payload textual, fora de qualquer diagnóstico de rede da Transnorte. Qual a flag no payload de um ICMP echo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "ICMP recado TN - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nHouve um echo ICMP com payload textual, fora de qualquer diagnóstico de rede da Transnorte. Qual a flag no payload de um ICMP echo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Cookie OCC",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Depois do POST de login, o dashboard do OCC gravou a sessão em cookie claro. Qual o valor do cookie SESSIONID em /occ/dashboard? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Cookie OCC - 10 pts\nPCAP\nDepois do POST de login, o dashboard do OCC gravou a sessão em cookie claro. Qual o valor do cookie SESSIONID em /occ/dashboard? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Basic OT",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A ferramenta interna tools.transnorte.local ainda pedia HTTP Basic em claro neste pcap. Qual o par usuário:senha do HTTP Basic em tools.transnorte.local? Padrão da resposta: valor direto. Exemplo: user:pass",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Basic OT - 10 pts\nPCAP\nA ferramenta interna tools.transnorte.local ainda pedia HTTP Basic em claro neste pcap. Qual o par usuário:senha do HTTP Basic em tools.transnorte.local? Padrão da resposta: valor direto. Exemplo: user:pass",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Banner OT",
+    "points": 10,
+    "category": "PCAP",
+    "description": "As respostas HTTP do portal do vendor ainda assinam o httpd da IndusCom no cabeçalho Server. Qual o cabeçalho Server HTTP do IndusCom HTTPD? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Banner OT - 10 pts\nPCAP\nAs respostas HTTP do portal do vendor ainda assinam o httpd da IndusCom no cabeçalho Server. Qual o cabeçalho Server HTTP do IndusCom HTTPD? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "WPAD TN",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A estação também pediu configuração de proxy e o Host do WPAD denuncia o nome interno usado na autoconfig. Qual o Host HTTP usado no pedido WPAD? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "WPAD TN - 10 pts\nPCAP\nA estação também pediu configuração de proxy e o Host do WPAD denuncia o nome interno usado na autoconfig. Qual o Host HTTP usado no pedido WPAD? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Scan interno TN",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Alguém no segmento interno da Transnorte varreu o host 10.50.10.20 com SYNs em muitas portas distintas. Qual IP interno enviou SYN para o maior número de portas distintas em 10.50.10.20? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura.pcap",
+    "raw_text": "Scan interno TN - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nAlguém no segmento interno da Transnorte varreu o host 10.50.10.20 com SYNs em muitas portas distintas. Qual IP interno enviou SYN para o maior número de portas distintas em 10.50.10.20? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Hostname Litoral",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Este segundo pcap veio da estação NMS da Litoral Telecom na Operação Relé, o ponto em que backbone e DNS da operadora passam a falar com a mesma infraestrutura da IndusCom. Qual o hostname enviado pela estação no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Hostname Litoral - 10 pts\nPCAP\nEste segundo pcap veio da estação NMS da Litoral Telecom na Operação Relé, o ponto em que backbone e DNS da operadora passam a falar com a mesma infraestrutura da IndusCom. Qual o hostname enviado pela estação no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Lease Litoral",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "No lease DHCP desse NMS da Litoral, o ACK fixou o IPv4 que a estação 10.70.20.17 passou a usar no restante da captura. Qual IPv4 a estação recebeu no DHCP ACK? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Lease Litoral - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nNo lease DHCP desse NMS da Litoral, o ACK fixou o IPv4 que a estação 10.70.20.17 passou a usar no restante da captura. Qual IPv4 a estação recebeu no DHCP ACK? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "MAC Litoral",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O endereço físico amarra o NMS 10.70.20.17 ao tráfego de correio, tickets e DNS da operadora neste pcap. Qual o MAC da estação 10.70.20.17? Padrão da resposta: valor direto. Exemplo: xx:xx:xx:xx:xx:xx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "MAC Litoral - 10 pts\nPCAP\nO endereço físico amarra o NMS 10.70.20.17 ao tráfego de correio, tickets e DNS da operadora neste pcap. Qual o MAC da estação 10.70.20.17? Padrão da resposta: valor direto. Exemplo: xx:xx:xx:xx:xx:xx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway Litoral",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A opção router do DHCP da Litoral denuncia o salto padrão que o NMS usou para sair da VLAN de gestão. Qual o gateway anunciado na opção DHCP router? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Gateway Litoral - 10 pts\nPCAP\nA opção router do DHCP da Litoral denuncia o salto padrão que o NMS usou para sair da VLAN de gestão. Qual o gateway anunciado na opção DHCP router? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "DNS Litoral",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O DNS entregue nesse lease é o resolvedor interno que depois responde MX, CNAME e o edge-check da IndusCom. Qual o servidor DNS anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "DNS Litoral - 10 pts\nPCAP\nO DNS entregue nesse lease é o resolvedor interno que depois responde MX, CNAME e o edge-check da IndusCom. Qual o servidor DNS anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Dominio Litoral",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O domínio anunciado no DHCP confirma a floresta em que o NMS da Litoral se enxergava na Relé. Qual o domain name anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Dominio Litoral - 10 pts\nPCAP\nO domínio anunciado no DHCP confirma a floresta em que o NMS da Litoral se enxergava na Relé. Qual o domain name anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "MX backbone",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A query MX de litoral-telecom.net denuncia o relay que o SMTP desta captura usou para o boletim da campanha. Qual o mail exchange (MX) de litoral-telecom.net? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "MX backbone - 10 pts\nPCAP\nA query MX de litoral-telecom.net denuncia o relay que o SMTP desta captura usou para o boletim da campanha. Qual o mail exchange (MX) de litoral-telecom.net? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "User SMTP",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O AUTH LOGIN do SMTP da Litoral foi em Base64, mas ainda é a conta do NMS autenticando no relay. Qual o usuário autenticado no SMTP AUTH LOGIN? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "User SMTP - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO AUTH LOGIN do SMTP da Litoral foi em Base64, mas ainda é a conta do NMS autenticando no relay. Qual o usuário autenticado no SMTP AUTH LOGIN? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Senha SMTP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O segundo passo desse AUTH LOGIN carrega a senha da mesma conta de correio, ainda em claro no momento. Qual a senha do SMTP AUTH LOGIN? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Senha SMTP - 10 pts\nPCAP\nO segundo passo desse AUTH LOGIN carrega a senha da mesma conta de correio, ainda em claro no momento. Qual a senha do SMTP AUTH LOGIN? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Destinatário SMTP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O envelope SMTP aponta para quem receberia a mensagem nesta sessão do NMS. Qual o destinatário do RCPT TO? Padrão da resposta: valor direto. Exemplo: a@b.c",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Destinatário SMTP - 10 pts\nPCAP\nO envelope SMTP aponta para quem receberia a mensagem nesta sessão do NMS. Qual o destinatário do RCPT TO? Padrão da resposta: valor direto. Exemplo: a@b.c",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Redirect portal",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O portal da Litoral redirecionou o cliente e o Location do 302 denuncia o próximo passo do fluxo. Qual o Location do HTTP 302 do portal? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Redirect portal - 10 pts\nPCAP\nO portal da Litoral redirecionou o cliente e o Location do 302 denuncia o próximo passo do fluxo. Qual o Location do HTTP 302 do portal? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Token ticket",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A API de tickets da operadora recebeu um token na query string, em claro, no pedido a /api/tickets. Qual o valor do parâmetro token na URI /api/tickets? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Token ticket - 10 pts\nPCAP\nA API de tickets da operadora recebeu um token na query string, em claro, no pedido a /api/tickets. Qual o valor do parâmetro token na URI /api/tickets? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Syslog Litoral",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Uma linha de syslog nesta captura não é log de serviço da Litoral: carrega a marca do caso no payload. Qual a flag na mensagem syslog? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Syslog Litoral - 10 pts\nPCAP\nUma linha de syslog nesta captura não é log de serviço da Litoral: carrega a marca do caso no payload. Qual a flag na mensagem syslog? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Community SNMP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A consulta SNMP ao switch da operadora ainda usou community em claro neste pcap. Qual a community SNMP usada na consulta ao switch? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Community SNMP - 10 pts\nPCAP\nA consulta SNMP ao switch da operadora ainda usou community em claro neste pcap. Qual a community SNMP usada na consulta ao switch? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "SNI TLS LIT",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O Client Hello para 198.51.100.76 denuncia o nome TLS do canal usado no lado da Litoral. Qual o SNI TLS usado nas conexões para 198.51.100.76? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "SNI TLS LIT - 10 pts\nPCAP\nO Client Hello para 198.51.100.76 denuncia o nome TLS do canal usado no lado da Litoral. Qual o SNI TLS usado nas conexões para 198.51.100.76? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "CNAME www",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O CNAME do portal público da operadora aponta para o nome real do edge, não para o nome que o usuário digitou. Para qual nome aponta o CNAME de www.litoral-telecom.net? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "CNAME www - 10 pts\nPCAP\nO CNAME do portal público da operadora aponta para o nome real do edge, não para o nome que o usuário digitou. Para qual nome aponta o CNAME de www.litoral-telecom.net? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Runbook NMS",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Houve um GET em /files/ puxando um PDF no mesmo momento do NMS, no recorte da Relé. Qual o nome do PDF baixado em /files/? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Runbook NMS - 10 pts\nPCAP\nHouve um GET em /files/ puxando um PDF no mesmo momento do NMS, no recorte da Relé. Qual o nome do PDF baixado em /files/? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "User POP3",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A sessão POP3 do NMS autenticou em claro com USER, no mesmo recorte de correio da Litoral. Qual o usuário da sessão POP3? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "User POP3 - 10 pts\nPCAP\nA sessão POP3 do NMS autenticou em claro com USER, no mesmo recorte de correio da Litoral. Qual o usuário da sessão POP3? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Senha POP3",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O PASS do POP3 veio na sequência, ainda sem TLS, na mesma sessão de coleta de e-mail. Qual a senha da sessão POP3? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Senha POP3 - 10 pts\nPCAP\nO PASS do POP3 veio na sequência, ainda sem TLS, na mesma sessão de coleta de e-mail. Qual a senha da sessão POP3? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Banner SSH LIT",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O banner SSH do host interno 10.70.20.22 ainda assina a build do serviço visto pelo NMS. Qual o banner SSH do host 10.70.20.22? Padrão da resposta: valor direto. Exemplo: SSH-2.0-xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Banner SSH LIT - 10 pts\nPCAP\nO banner SSH do host interno 10.70.20.22 ainda assina a build do serviço visto pelo NMS. Qual o banner SSH do host 10.70.20.22? Padrão da resposta: valor direto. Exemplo: SSH-2.0-xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Agente NMS",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O portal da Litoral também foi acessado por um agente que não é navegador, assinado como LitoralNMS. Qual o User-Agent LitoralNMS visto no portal? Envie no formato CTF{User-Agent}. Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Agente NMS - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO portal da Litoral também foi acessado por um agente que não é navegador, assinado como LitoralNMS. Qual o User-Agent LitoralNMS visto no portal? Envie no formato CTF{User-Agent}. Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Cookie NMS",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O cookie de sessão do NMS viajou em claro depois do acesso ao portal. Qual o valor do cookie NMSSESS? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Cookie NMS - 10 pts\nPCAP\nO cookie de sessão do NMS viajou em claro depois do acesso ao portal. Qual o valor do cookie NMSSESS? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Checagem duvidosa",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A estação da Litoral resolveu um nome edge-check da IndusCom no mesmo momento de tickets e DNS. Qual FQDN edge-check foi resolvido neste pcap? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Checagem duvidosa - 10 pts\nPCAP\nA estação da Litoral resolveu um nome edge-check da IndusCom no mesmo momento de tickets e DNS. Qual FQDN edge-check foi resolvido neste pcap? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "IP da checagem",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A resposta A desse edge-check aponta o IPv4 usado no check do vendor neste pcap. Qual IPv4 foi retornado para edge-check.induscom-support.net? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "IP da checagem - 10 pts\nPCAP\nA resposta A desse edge-check aponta o IPv4 usado no check do vendor neste pcap. Qual IPv4 foi retornado para edge-check.induscom-support.net? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Referer NMS",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "O pedido de tickets ainda carrega o Referer do portal interno da Litoral. Qual o Referer HTTP usado no pedido de tickets? Padrão da resposta: valor direto. Exemplo: http://xxxx.xxx/xxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Referer NMS - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nO pedido de tickets ainda carrega o Referer do portal interno da Litoral. Qual o Referer HTTP usado no pedido de tickets? Padrão da resposta: valor direto. Exemplo: http://xxxx.xxx/xxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Banner portal",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A resposta do edge da operadora assina LitoralEdge no cabeçalho Server. Qual o cabeçalho Server HTTP LitoralEdge? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura2.pcap",
+    "raw_text": "Banner portal - 10 pts\nPCAP\nA resposta do edge da operadora assina LitoralEdge no cabeçalho Server. Qual o cabeçalho Server HTTP LitoralEdge? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Hostname CLM",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Este pcap saiu da estação de trabalho da Câmara de Liquidação Mercantil na Operação Relé, no segmento em que o kit do Obsidian já autenticava na API interna da liquidação. Qual o hostname enviado pela estação no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Hostname CLM - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nEste pcap saiu da estação de trabalho da Câmara de Liquidação Mercantil na Operação Relé, no segmento em que o kit do Obsidian já autenticava na API interna da liquidação. Qual o hostname enviado pela estação no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Lease CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "No lease DHCP dessa estação de trabalho da CLM, o ACK fixou o IPv4 que a estação 10.90.30.11 passou a usar no bind, no MQTT e na API. Qual IPv4 a estação recebeu no DHCP ACK? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Lease CLM - 10 pts\nPCAP\nNo lease DHCP dessa estação de trabalho da CLM, o ACK fixou o IPv4 que a estação 10.90.30.11 passou a usar no bind, no MQTT e na API. Qual IPv4 a estação recebeu no DHCP ACK? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "MAC CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O endereço físico amarra a estação de trabalho 10.90.30.11 ao tráfego LDAP, RADIUS e MQTT deste pcap. Qual o MAC da estação 10.90.30.11? Padrão da resposta: valor direto. Exemplo: xx:xx:xx:xx:xx:xx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "MAC CLM - 10 pts\nPCAP\nO endereço físico amarra a estação de trabalho 10.90.30.11 ao tráfego LDAP, RADIUS e MQTT deste pcap. Qual o MAC da estação 10.90.30.11? Padrão da resposta: valor direto. Exemplo: xx:xx:xx:xx:xx:xx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A opção router do DHCP da CLM denuncia o salto padrão que a estação de trabalho usou para sair da VLAN da liquidação. Qual o gateway anunciado na opção DHCP router? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Gateway CLM - 10 pts\nPCAP\nA opção router do DHCP da CLM denuncia o salto padrão que a estação de trabalho usou para sair da VLAN da liquidação. Qual o gateway anunciado na opção DHCP router? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "DNS CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O DNS entregue nesse lease é o resolvedor interno que depois responde o SRV de LDAP e o batch-sync da IndusCom. Qual o servidor DNS anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "DNS CLM - 10 pts\nPCAP\nO DNS entregue nesse lease é o resolvedor interno que depois responde o SRV de LDAP e o batch-sync da IndusCom. Qual o servidor DNS anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Dominio CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O domínio anunciado no DHCP confirma a floresta em que a estação de trabalho da CLM se enxergava na Relé. Qual o domain name anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Dominio CLM - 10 pts\nPCAP\nO domínio anunciado no DHCP confirma a floresta em que a estação de trabalho da CLM se enxergava na Relé. Qual o domain name anunciado no DHCP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Bind LDAP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Houve um bind LDAP simples em claro, com o DN da conta da estação de trabalho, sem SASL. Qual o DN usado no bind LDAP simples? Padrão da resposta: valor direto. Exemplo: cn=x,dc=y",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Bind LDAP - 10 pts\nPCAP\nHouve um bind LDAP simples em claro, com o DN da conta da estação de trabalho, sem SASL. Qual o DN usado no bind LDAP simples? Padrão da resposta: valor direto. Exemplo: cn=x,dc=y",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Senha LDAP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A senha desse bind simples viajou no mesmo pacote, ainda em claro no momento da liquidação. Qual a senha do bind LDAP simples? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Senha LDAP - 10 pts\nPCAP\nA senha desse bind simples viajou no mesmo pacote, ainda em claro no momento da liquidação. Qual a senha do bind LDAP simples? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo TFTP",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Um RRQ TFTP pediu arquivo de configuração no segmento da CLM, no mesmo recorte do kit. Qual o arquivo pedido via TFTP RRQ? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Arquivo TFTP - 10 pts\nPCAP\nUm RRQ TFTP pediu arquivo de configuração no segmento da CLM, no mesmo recorte do kit. Qual o arquivo pedido via TFTP RRQ? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "User RADIUS",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O Access-Request RADIUS ainda mostra o User-Name da estação de trabalho em claro. Qual o User-Name do RADIUS Access-Request? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "User RADIUS - 10 pts\nPCAP\nO Access-Request RADIUS ainda mostra o User-Name da estação de trabalho em claro. Qual o User-Name do RADIUS Access-Request? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "User MQTT",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O CONNECT MQTT da liquidação autenticou com username de operador no tópico de operação da CLM. Qual o username do MQTT CONNECT? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "User MQTT - 10 pts\nPCAP\nO CONNECT MQTT da liquidação autenticou com username de operador no tópico de operação da CLM. Qual o username do MQTT CONNECT? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Senha MQTT",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A senha do MQTT veio no mesmo CONNECT, sem TLS, no canal que a estação de trabalho levantou depois do kit. Qual a senha do MQTT CONNECT? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Senha MQTT - 10 pts\nPCAP\nA senha do MQTT veio no mesmo CONNECT, sem TLS, no canal que a estação de trabalho levantou depois do kit. Qual a senha do MQTT CONNECT? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Topico MQTT",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O PUBLISH aponta o tópico em que o agente da estação de trabalho publicou o recado da liquidação. Qual o topic do MQTT PUBLISH? Padrão da resposta: valor direto. Exemplo: a/b/c",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Topico MQTT - 10 pts\nPCAP\nO PUBLISH aponta o tópico em que o agente da estação de trabalho publicou o recado da liquidação. Qual o topic do MQTT PUBLISH? Padrão da resposta: valor direto. Exemplo: a/b/c",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "ClientId MQTT",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O clientId identifica o agente MQTT que a estação de trabalho da CLM levantou neste pcap. Qual o clientId do MQTT CONNECT? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "ClientId MQTT - 10 pts\nPCAP\nO clientId identifica o agente MQTT que a estação de trabalho da CLM levantou neste pcap. Qual o clientId do MQTT CONNECT? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "SRV LDAP",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O SRV de LDAP da CLM denuncia o host que a estação de trabalho deveria usar no bind. Qual o target do registro SRV _ldap._tcp.clm.local? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "SRV LDAP - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO SRV de LDAP da CLM denuncia o host que a estação de trabalho deveria usar no bind. Qual o target do registro SRV _ldap._tcp.clm.local? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Porta SRV",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A porta anunciada nesse SRV é a que o bind da estação de trabalho deveria alcançar. Qual a porta do registro SRV LDAP? Padrão da resposta: valor direto. Exemplo: 999",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Porta SRV - 10 pts\nPCAP\nA porta anunciada nesse SRV é a que o bind da estação de trabalho deveria alcançar. Qual a porta do registro SRV LDAP? Padrão da resposta: valor direto. Exemplo: 999",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "API key CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Os pedidos autenticados da API da CLM carregam Bearer em claro neste pcap. Qual o token Bearer enviado para a API? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "API key CLM - 10 pts\nPCAP\nOs pedidos autenticados da API da CLM carregam Bearer em claro neste pcap. Qual o token Bearer enviado para a API? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "X-Forwarded-For",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O cabeçalho X-Forwarded-For denuncia o IP interno que o proxy viu na estação de trabalho da liquidação. Qual o IP em X-Forwarded-For? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "X-Forwarded-For - 10 pts\nPCAP\nO cabeçalho X-Forwarded-For denuncia o IP interno que o proxy viu na estação de trabalho da liquidação. Qual o IP em X-Forwarded-For? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "SNI TLS CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O Client Hello para 198.51.100.66 denuncia o nome TLS do canal da liquidação. Qual o SNI TLS usado nas conexões para 198.51.100.66? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "SNI TLS CLM - 10 pts\nPCAP\nO Client Hello para 198.51.100.66 denuncia o nome TLS do canal da liquidação. Qual o SNI TLS usado nas conexões para 198.51.100.66? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "ICMP recado CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "Houve um echo ICMP com payload textual também neste pcap da CLM, fora de diagnóstico de rede. Qual a flag no payload de um ICMP echo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "ICMP recado CLM - 10 pts\nPCAP\nHouve um echo ICMP com payload textual também neste pcap da CLM, fora de diagnóstico de rede. Qual a flag no payload de um ICMP echo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Cookie CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O cookie de sessão da liquidação viajou nos pedidos HTTP da estação de trabalho. Qual o valor do cookie CLMSESS? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Cookie CLM - 10 pts\nPCAP\nO cookie de sessão da liquidação viajou nos pedidos HTTP da estação de trabalho. Qual o valor do cookie CLMSESS? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Sync liquidação",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A estação de trabalho resolveu um nome batch-sync da IndusCom no mesmo momento do MQTT e da API. Qual FQDN batch-sync foi resolvido neste pcap? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Sync liquidação - 10 pts\nPCAP\nA estação de trabalho resolveu um nome batch-sync da IndusCom no mesmo momento do MQTT e da API. Qual FQDN batch-sync foi resolvido neste pcap? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "IP do sync CLM",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A resposta A do batch-sync aponta o IPv4 do sync de lote da liquidação. Qual IPv4 foi retornado para batch-sync.induscom-support.net? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "IP do sync CLM - 10 pts\nPCAP\nA resposta A do batch-sync aponta o IPv4 do sync de lote da liquidação. Qual IPv4 foi retornado para batch-sync.induscom-support.net? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Agente CLM",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "A API foi chamada por um agente assinado como ClmDesk, não por navegador da estação de trabalho. Qual o User-Agent ClmDesk visto na API? Envie no formato CTF{User-Agent}. Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Agente CLM - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nA API foi chamada por um agente assinado como ClmDesk, não por navegador da estação de trabalho. Qual o User-Agent ClmDesk visto na API? Envie no formato CTF{User-Agent}. Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Host da API",
+    "points": 10,
+    "category": "PCAP",
+    "description": "O Host dos pedidos autenticados confirma o vhost interno da API da CLM. Qual o Host HTTP de api.clm.local nos pedidos autenticados? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Host da API - 10 pts\nPCAP\nO Host dos pedidos autenticados confirma o vhost interno da API da CLM. Qual o Host HTTP de api.clm.local nos pedidos autenticados? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  },
+  {
+    "title": "Banner API",
+    "points": 10,
+    "category": "PCAP",
+    "description": "A resposta da API ainda assina ClmGateway no cabeçalho Server. Qual o cabeçalho Server HTTP ClmGateway? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/captura3.pcap",
+    "raw_text": "Banner API - 10 pts\nPCAP\nA resposta da API ainda assina ClmGateway no cabeçalho Server. Qual o cabeçalho Server HTTP ClmGateway? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "PCAP",
+    "downloaded": true
+  }
+]

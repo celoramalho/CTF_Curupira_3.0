@@ -1,0 +1,152 @@
+[
+  {
+    "title": "XLS IoC",
+    "points": 10,
+    "category": "Intel",
+    "description": "Este tn-intel.xls é a planilha de IoCs da SE-03 na Campanha Relé. A aba visível é decoy. Os IoCs estão num blob openssl AES-256-CBC PBKDF2 (magic Salted__) após o OLE, senha montada a partir do site e do setpoint, e o plantão precisa do family nesse blob. Qual o family? Padrão da resposta: valor direto. Exemplo: AptName",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "XLS IoC - 10 pts\nIntel\nEste tn-intel.xls é a planilha de IoCs da SE-03 na Campanha Relé. A aba visível é decoy. Os IoCs estão num blob openssl AES-256-CBC PBKDF2 (magic Salted__) após o OLE, senha montada a partir do site e do setpoint, e o plantão precisa do family nesse blob. Qual o family? Padrão da resposta: valor direto. Exemplo: AptName",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Campanha XLS",
+    "points": 10,
+    "category": "Intel",
+    "description": "O campaign no blob cifrado é o nome da operação que este XLS esconde depois do OLE. Qual o campaign no blob cifrado? Padrão da resposta: valor direto. Exemplo: OP-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "Campanha XLS - 10 pts\nIntel\nO campaign no blob cifrado é o nome da operação que este XLS esconde depois do OLE. Qual o campaign no blob cifrado? Padrão da resposta: valor direto. Exemplo: OP-01",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "C2 XLS",
+    "points": 10,
+    "category": "Intel",
+    "description": "O c2 (IP) no blob cifrado é o IPv4 do canal que a planilha da SE-03 guarda. Qual o c2 (IP) no blob cifrado? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "C2 XLS - 10 pts\nIntel\nO c2 (IP) no blob cifrado é o IPv4 do canal que a planilha da SE-03 guarda. Qual o c2 (IP) no blob cifrado? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Host XLS",
+    "points": 10,
+    "category": "Intel",
+    "description": "O host no blob cifrado é a estação que este IoC amarra à Transnorte. Qual o host no blob cifrado? Padrão da resposta: valor direto. Exemplo: ws-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "Host XLS - 10 pts\nIntel\nO host no blob cifrado é a estação que este IoC amarra à Transnorte. Qual o host no blob cifrado? Padrão da resposta: valor direto. Exemplo: ws-01",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Flag XLS",
+    "points": 10,
+    "category": "Intel",
+    "description": "A Flag no blob cifrado é a marca desta planilha da SE-03. Qual a Flag no blob cifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "Flag XLS - 10 pts\nIntel\nA Flag no blob cifrado é a marca desta planilha da SE-03. Qual a Flag no blob cifrado? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "DOC CTI",
+    "points": 10,
+    "category": "Intel",
+    "description": "Este lit-intel.doc é o informe CTI do recursor da Litoral na Campanha Relé. O corpo é decoy. O payload é gzip após o marcador HOLDGZ, em registros TLV, e o plantão precisa do title nesse payload. Qual o title? Padrão da resposta: valor direto. Exemplo: Advisory",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "DOC CTI - 10 pts\nIntel\nEste lit-intel.doc é o informe CTI do recursor da Litoral na Campanha Relé. O corpo é decoy. O payload é gzip após o marcador HOLDGZ, em registros TLV, e o plantão precisa do title nesse payload. Qual o title? Padrão da resposta: valor direto. Exemplo: Advisory",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Familia TLV",
+    "points": 10,
+    "category": "Intel",
+    "description": "O family no TLV é a família APT que o informe esconde depois do HOLDGZ. Qual o family no TLV? Padrão da resposta: valor direto. Exemplo: AptName",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "Familia TLV - 10 pts\nIntel\nO family no TLV é a família APT que o informe esconde depois do HOLDGZ. Qual o family no TLV? Padrão da resposta: valor direto. Exemplo: AptName",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Vendor TLV",
+    "points": 10,
+    "category": "Intel",
+    "description": "O vendor no TLV aponta o fornecedor que este informe CTI associa ao recursor. Qual o vendor no TLV? Padrão da resposta: valor direto. Exemplo: VendorX",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "Vendor TLV - 10 pts\nIntel\nO vendor no TLV aponta o fornecedor que este informe CTI associa ao recursor. Qual o vendor no TLV? Padrão da resposta: valor direto. Exemplo: VendorX",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo TLV",
+    "points": 10,
+    "category": "Intel",
+    "description": "O target no TLV é o recursor que este informe marca como alvo. Qual o target no TLV? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "Alvo TLV - 10 pts\nIntel\nO target no TLV é o recursor que este informe marca como alvo. Qual o target no TLV? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Flag TLV",
+    "points": 10,
+    "category": "Intel",
+    "description": "A Flag no TLV é a marca deste informe da Litoral. Qual a Flag no TLV? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "Flag TLV - 10 pts\nIntel\nA Flag no TLV é a marca deste informe da Litoral. Qual a Flag no TLV? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "MMDB infra",
+    "points": 10,
+    "category": "Intel",
+    "description": "Este clm-intel.mmdb é o mapa de infra da liquidação na Campanha Relé. Os campos GeoIP de 198.51.100.88 estão codificados, e o plantão precisa do tipo em country.names.en antes do hostname. Qual o tipo em country.names.en (hex para ASCII)? Padrão da resposta: valor direto. Exemplo: GeoLite2-City",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "MMDB infra - 10 pts\nIntel\nEste clm-intel.mmdb é o mapa de infra da liquidação na Campanha Relé. Os campos GeoIP de 198.51.100.88 estão codificados, e o plantão precisa do tipo em country.names.en antes do hostname. Qual o tipo em country.names.en (hex para ASCII)? Padrão da resposta: valor direto. Exemplo: GeoLite2-City",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Host GeoIP",
+    "points": 10,
+    "category": "Intel",
+    "description": "O hostname em city.names.en de 198.51.100.88 (hex para ASCII) é o nome que o mapa esconde neste campo. Qual o hostname em city.names.en de 198.51.100.88 (hex para ASCII)? Padrão da resposta: valor direto. Exemplo: city-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "Host GeoIP - 10 pts\nIntel\nO hostname em city.names.en de 198.51.100.88 (hex para ASCII) é o nome que o mapa esconde neste campo. Qual o hostname em city.names.en de 198.51.100.88 (hex para ASCII)? Padrão da resposta: valor direto. Exemplo: city-01",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Org ROT13",
+    "points": 10,
+    "category": "Intel",
+    "description": "O autonomous_system_organization de 198.51.100.88 (ROT13) é a org que o mapa guarda cifrada. Qual o autonomous_system_organization de 198.51.100.88 (ROT13)? Padrão da resposta: valor direto. Exemplo: IspName",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "Org ROT13 - 10 pts\nIntel\nO autonomous_system_organization de 198.51.100.88 (ROT13) é a org que o mapa guarda cifrada. Qual o autonomous_system_organization de 198.51.100.88 (ROT13)? Padrão da resposta: valor direto. Exemplo: IspName",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "IP interno ASN",
+    "points": 10,
+    "category": "Intel",
+    "description": "O IPv4 interno cujo valor inteiro está em autonomous_system_number de 198.51.100.88 é o endereço interno que o ASN esconde. Qual o IPv4 interno cujo valor inteiro está em autonomous_system_number de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "IP interno ASN - 10 pts\nIntel\nO IPv4 interno cujo valor inteiro está em autonomous_system_number de 198.51.100.88 é o endereço interno que o ASN esconde. Qual o IPv4 interno cujo valor inteiro está em autonomous_system_number de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Flag MMDB",
+    "points": 10,
+    "category": "Intel",
+    "description": "A Flag em db.1.type (hex para ASCII) é a marca deste mapa da Câmara. Qual a Flag em db.1.type (hex para ASCII)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "Flag MMDB - 10 pts\nIntel\nA Flag em db.1.type (hex para ASCII) é a marca deste mapa da Câmara. Qual a Flag em db.1.type (hex para ASCII)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Intel",
+    "downloaded": true
+  }
+]

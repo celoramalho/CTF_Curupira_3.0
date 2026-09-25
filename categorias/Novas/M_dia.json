@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Volume set ISO",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Este tn-last.iso é a mídia residual da SE-03 depois do KILLUPD na Campanha Relé. Não é o Volume id. Qual o Volume set id? Padrão da resposta: valor direto. Exemplo: SET01",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "Volume set ISO - 10 pts\nMídia\nEste tn-last.iso é a mídia residual da SE-03 depois do KILLUPD na Campanha Relé. Não é o Volume id. Qual o Volume set id? Padrão da resposta: valor direto. Exemplo: SET01",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Setores ISO",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual o Volume size is (em setores lógicos)? Padrão da resposta: valor direto. Exemplo: 2048",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "Setores ISO - 10 pts\nMídia\nQual o Volume size is (em setores lógicos)? Padrão da resposta: valor direto. Exemplo: 2048",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Preparer ISO",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual o Data preparer id? Padrão da resposta: valor direto. Exemplo: user.one",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "Preparer ISO - 10 pts\nMídia\nQual o Data preparer id? Padrão da resposta: valor direto. Exemplo: user.one",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "MD5 lastack",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual o MD5 de lastack.dat (o arquivo pequeno, não o occpoll)? Padrão da resposta: valor direto. Exemplo: 0123456789abcdef0123456789abcdef",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "MD5 lastack - 10 pts\nMídia\nQual o MD5 de lastack.dat (o arquivo pequeno, não o occpoll)? Padrão da resposta: valor direto. Exemplo: 0123456789abcdef0123456789abcdef",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ISO",
+    "points": 10,
+    "category": "Mídia",
+    "description": "lastack.dat está em Base32. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "Flag ISO - 10 pts\nMídia\nlastack.dat está em Base32. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Largura BMP",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Este lit-hold.bmp é o dump de heatmap do recursor da Litoral depois do UNHOLD na Campanha Relé. BMP 24-bit, fundo uniforme, um pixel residual. Qual a largura em pixels? Padrão da resposta: valor direto. Exemplo: 1920",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "Largura BMP - 10 pts\nMídia\nEste lit-hold.bmp é o dump de heatmap do recursor da Litoral depois do UNHOLD na Campanha Relé. BMP 24-bit, fundo uniforme, um pixel residual. Qual a largura em pixels? Padrão da resposta: valor direto. Exemplo: 1920",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Altura BMP",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual a altura em pixels? Padrão da resposta: valor direto. Exemplo: 1080",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "Altura BMP - 10 pts\nMídia\nQual a altura em pixels? Padrão da resposta: valor direto. Exemplo: 1080",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "XPels BMP",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual o biXPelsPerMeter do DIB? Padrão da resposta: valor direto. Exemplo: 2834",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "XPels BMP - 10 pts\nMídia\nQual o biXPelsPerMeter do DIB? Padrão da resposta: valor direto. Exemplo: 2834",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Pixel X",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual o X (0-based) do único pixel RGB 255,0,88? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "Pixel X - 10 pts\nMídia\nQual o X (0-based) do único pixel RGB 255,0,88? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag BMP",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Na mesma scanline, a partir do pixel X=200, o canal R forma a Flag. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "Flag BMP - 10 pts\nMídia\nNa mesma scanline, a partir do pixel X=200, o canal R forma a Flag. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Unix NetFlow",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Este clm-flows.nf5 é o NetFlow v5 do PE da Câmara depois do abort do wiper na Campanha Relé. Datagramas de 20 flows. Um deles ainda é GRE (prot 47) para o C2. Qual o unix_secs do header? Padrão da resposta: valor direto. Exemplo: 1700000000",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "Unix NetFlow - 10 pts\nMídia\nEste clm-flows.nf5 é o NetFlow v5 do PE da Câmara depois do abort do wiper na Campanha Relé. Datagramas de 20 flows. Um deles ainda é GRE (prot 47) para o C2. Qual o unix_secs do header? Padrão da resposta: valor direto. Exemplo: 1700000000",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Uptime NetFlow",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual o sysUpTime (ms) do header? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "Uptime NetFlow - 10 pts\nMídia\nQual o sysUpTime (ms) do header? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Src GRE",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual o srcaddr do flow com prot 47? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "Src GRE - 10 pts\nMídia\nQual o srcaddr do flow com prot 47? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "AS GRE",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Qual o src_as desse flow GRE? Padrão da resposta: valor direto. Exemplo: 64500",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "AS GRE - 10 pts\nMídia\nQual o src_as desse flow GRE? Padrão da resposta: valor direto. Exemplo: 64500",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag GRE",
+    "points": 10,
+    "category": "Mídia",
+    "description": "Os 12 bytes a partir de offset 16 desse flow são a Flag com cada byte invertido (NOT). Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "Flag GRE - 10 pts\nMídia\nOs 12 bytes a partir de offset 16 desse flow são a Flag com cada byte invertido (NOT). Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Mídia",
+    "downloaded": true
+  }
+]

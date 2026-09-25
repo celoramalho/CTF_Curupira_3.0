@@ -1,0 +1,162 @@
+[
+  {
+    "title": "uImage ICG",
+    "points": 10,
+    "category": "Firmware",
+    "description": "Este icg4200-3.4.12.fw é a imagem uImage recolhida no gateway da SE-03 na Campanha Relé, o firmware 3.4.12 que a Transnorte tratou como update oficial do ICG-4200. Qual o ih_name (32 bytes ASCII no header)? Padrão da resposta: valor direto. Exemplo: GATEWAY",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "uImage ICG - 10 pts\nFirmware\nEste icg4200-3.4.12.fw é a imagem uImage recolhida no gateway da SE-03 na Campanha Relé, o firmware 3.4.12 que a Transnorte tratou como update oficial do ICG-4200. Qual o ih_name (32 bytes ASCII no header)? Padrão da resposta: valor direto. Exemplo: GATEWAY",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "ih_load",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O ih_load em hex (4 bytes BE, sem 0x) é o endereço de carga que este uImage declara. Qual o ih_load em hex (4 bytes BE, sem 0x)? Padrão da resposta: valor direto. Exemplo: 00008000",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "ih_load - 10 pts\nFirmware\nO ih_load em hex (4 bytes BE, sem 0x) é o endereço de carga que este uImage declara. Qual o ih_load em hex (4 bytes BE, sem 0x)? Padrão da resposta: valor direto. Exemplo: 00008000",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Off squashfs",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O offset decimal do squashfs aponta onde o filesystem deste firmware começa depois do header. Qual o offset decimal do squashfs? Padrão da resposta: valor direto. Exemplo: 32",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "Off squashfs - 10 pts\nFirmware\nO offset decimal do squashfs aponta onde o filesystem deste firmware começa depois do header. Qual o offset decimal do squashfs? Padrão da resposta: valor direto. Exemplo: 32",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Compressão",
+    "points": 10,
+    "category": "Firmware",
+    "description": "A Compression do squashfs é o compressor que este filesystem usa, não o gzip do uImage. Qual a Compression do squashfs? Padrão da resposta: valor direto. Exemplo: gzip",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "Compressão - 10 pts\nFirmware\nA Compression do squashfs é o compressor que este filesystem usa, não o gzip do uImage. Qual a Compression do squashfs? Padrão da resposta: valor direto. Exemplo: gzip",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Hostname fw",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O conteúdo de etc/hostname no squashfs nomeia o gateway da SE-03 neste firmware. Qual o conteúdo de etc/hostname no squashfs? Padrão da resposta: valor direto. Exemplo: gw-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "Hostname fw - 10 pts\nFirmware\nO conteúdo de etc/hostname no squashfs nomeia o gateway da SE-03 neste firmware. Qual o conteúdo de etc/hostname no squashfs? Padrão da resposta: valor direto. Exemplo: gw-01",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag channel",
+    "points": 10,
+    "category": "Firmware",
+    "description": "A Flag em usr/lib/induscom/channel (UTF-16LE) é a marca deste firmware ICG-4200. Qual a Flag em usr/lib/induscom/channel (UTF-16LE)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "Flag channel - 10 pts\nFirmware\nA Flag em usr/lib/induscom/channel (UTF-16LE) é a marca deste firmware ICG-4200. Qual a Flag em usr/lib/induscom/channel (UTF-16LE)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Initramfs NMS",
+    "points": 10,
+    "category": "Firmware",
+    "description": "Este lit-nms.initramfs é o initramfs gzip+cpio do NMS da Litoral na Campanha Relé, a imagem de boot em que o named e o token do vendor ainda estão no cpio. Qual o FNAME no header gzip (depois dos 10 bytes)? Padrão da resposta: valor direto. Exemplo: root.cpio",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Initramfs NMS - 10 pts\nFirmware\nEste lit-nms.initramfs é o initramfs gzip+cpio do NMS da Litoral na Campanha Relé, a imagem de boot em que o named e o token do vendor ainda estão no cpio. Qual o FNAME no header gzip (depois dos 10 bytes)? Padrão da resposta: valor direto. Exemplo: root.cpio",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Magic newc",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O magic ASCII do cpio newc em hex (6 bytes depois do gzip -dc) confirma o formato newc deste initramfs. Qual o magic ASCII do cpio newc em hex (6 bytes depois do gzip -dc)? Padrão da resposta: valor direto. Exemplo: 303730373030",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Magic newc - 10 pts\nFirmware\nO magic ASCII do cpio newc em hex (6 bytes depois do gzip -dc) confirma o formato newc deste initramfs. Qual o magic ASCII do cpio newc em hex (6 bytes depois do gzip -dc)? Padrão da resposta: valor direto. Exemplo: 303730373030",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Hostname cpio",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O conteúdo de etc/hostname no cpio confirma que este initramfs é o NMS da Litoral. Qual o conteúdo de etc/hostname no cpio? Padrão da resposta: valor direto. Exemplo: nms-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Hostname cpio - 10 pts\nFirmware\nO conteúdo de etc/hostname no cpio confirma que este initramfs é o NMS da Litoral. Qual o conteúdo de etc/hostname no cpio? Padrão da resposta: valor direto. Exemplo: nms-01",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Serial named",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O serial em etc/bind/named.conf é o SOA que este initramfs carrega para a zona. Qual o serial em etc/bind/named.conf? Padrão da resposta: valor direto. Exemplo: 2026010101",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Serial named - 10 pts\nFirmware\nO serial em etc/bind/named.conf é o SOA que este initramfs carrega para a zona. Qual o serial em etc/bind/named.conf? Padrão da resposta: valor direto. Exemplo: 2026010101",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag token LIT",
+    "points": 10,
+    "category": "Firmware",
+    "description": "A Flag em usr/lib/litoral/token (UTF-16LE) é a marca deste initramfs da Litoral. Qual a Flag em usr/lib/litoral/token (UTF-16LE)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Flag token LIT - 10 pts\nFirmware\nA Flag em usr/lib/litoral/token (UTF-16LE) é a marca deste initramfs da Litoral. Qual a Flag em usr/lib/litoral/token (UTF-16LE)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "JFFS2 medidor",
+    "points": 10,
+    "category": "Firmware",
+    "description": "Este clm-meter.jffs2 é o dump NAND do medidor da CLM na Campanha Relé, o filesystem em que o endereço DNP3 e o índice CROB ainda estão gravados. Qual o magic de 2 bytes em hex (xxd -p -l 2)? Padrão da resposta: valor direto. Exemplo: 1985",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "JFFS2 medidor - 10 pts\nFirmware\nEste clm-meter.jffs2 é o dump NAND do medidor da CLM na Campanha Relé, o filesystem em que o endereço DNP3 e o índice CROB ainda estão gravados. Qual o magic de 2 bytes em hex (xxd -p -l 2)? Padrão da resposta: valor direto. Exemplo: 1985",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Ino hostname",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O #ino do dirent hostname aponta o inode do arquivo de nome neste JFFS2. Qual o #ino do dirent hostname? Padrão da resposta: valor direto. Exemplo: 4",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "Ino hostname - 10 pts\nFirmware\nO #ino do dirent hostname aponta o inode do arquivo de nome neste JFFS2. Qual o #ino do dirent hostname? Padrão da resposta: valor direto. Exemplo: 4",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Dst DNP3",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O conteúdo de etc/dnp3.dst (endereço DNP3) deve cruzar com o dnp3.dst do Operate no pcap. Qual o conteúdo de etc/dnp3.dst (endereço DNP3)? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "Dst DNP3 - 10 pts\nFirmware\nO conteúdo de etc/dnp3.dst (endereço DNP3) deve cruzar com o dnp3.dst do Operate no pcap. Qual o conteúdo de etc/dnp3.dst (endereço DNP3)? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Index CROB fw",
+    "points": 10,
+    "category": "Firmware",
+    "description": "O conteúdo de etc/crob.idx é o índice CROB que o medidor guarda neste dump. Qual o conteúdo de etc/crob.idx? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "Index CROB fw - 10 pts\nFirmware\nO conteúdo de etc/crob.idx é o índice CROB que o medidor guarda neste dump. Qual o conteúdo de etc/crob.idx? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag token CLM",
+    "points": 10,
+    "category": "Firmware",
+    "description": "A Flag em usr/lib/clm/token (UTF-16LE) é a marca deste JFFS2 do medidor da Câmara. Qual a Flag em usr/lib/clm/token (UTF-16LE)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "Flag token CLM - 10 pts\nFirmware\nA Flag em usr/lib/clm/token (UTF-16LE) é a marca deste JFFS2 do medidor da Câmara. Qual a Flag em usr/lib/clm/token (UTF-16LE)? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Firmware",
+    "downloaded": true
+  }
+]

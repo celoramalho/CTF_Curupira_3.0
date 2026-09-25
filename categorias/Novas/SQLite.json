@@ -1,0 +1,782 @@
+[
+  {
+    "title": "Host Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Este arquivo é o export SQLite do histórico do Chrome da estação de finanças da Transnorte na Campanha Relé, com o portal interno, o heartbeat da CDN e o download do update.exe na mesma timeline. Qual value em meta tem key host? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Host Chrome - 10 pts\nSQLite\nEste arquivo é o export SQLite do histórico do Chrome da estação de finanças da Transnorte na Campanha Relé, com o portal interno, o heartbeat da CDN e o download do update.exe na mesma timeline. Qual value em meta tem key host? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "User Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A tabela meta deste histórico ainda identifica a conta do perfil em que o Chrome da estação de trabalho rodou. Qual value em meta tem key user? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "User Chrome - 10 pts\nSQLite\nA tabela meta deste histórico ainda identifica a conta do perfil em que o Chrome da estação de trabalho rodou. Qual value em meta tem key user? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "IP Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.src_ip amarra este SQLite ao IPv4 da estação de finanças no caso Relé. Qual value em meta tem key src_ip? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "IP Chrome - 10 pts\nSQLite\nA meta.src_ip amarra este SQLite ao IPv4 da estação de finanças no caso Relé. Qual value em meta tem key src_ip? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Browser",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.browser confirma o cliente usado na estação de trabalho de finanças quando o boletim da IndusCom foi aberto. Qual value em meta tem key browser? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Browser - 10 pts\nSQLite\nA meta.browser confirma o cliente usado na estação de trabalho de finanças quando o boletim da IndusCom foi aberto. Qual value em meta tem key browser? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Perfil Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.profile aponta o path do perfil de onde este histórico do Chrome foi exportado. Qual value em meta tem key profile? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Perfil Chrome - 10 pts\nSQLite\nA meta.profile aponta o path do perfil de onde este histórico do Chrome foi exportado. Qual value em meta tem key profile? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Página top",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A URL mais visitada neste Chrome é o hub do incidente na estação de trabalho, não um site qualquer. Qual url tem o maior visit_count? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Página top - 10 pts\nSQLite\nA URL mais visitada neste Chrome é o hub do incidente na estação de trabalho, não um site qualquer. Qual url tem o maior visit_count? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Título OCC",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O title dessa URL mais visitada é o rótulo que a estação de trabalho via no portal do OCC. Qual title da url com maior visit_count? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Título OCC - 10 pts\nSQLite\nO title dessa URL mais visitada é o rótulo que a estação de trabalho via no portal do OCC. Qual title da url com maior visit_count? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume OCC",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A contagem de visitas mede o quanto a estação de trabalho voltou a esse endereço no dia da Relé. Qual visit_count da url mais visitada? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Volume OCC - 10 pts\nSQLite\nA contagem de visitas mede o quanto a estação de trabalho voltou a esse endereço no dia da Relé. Qual visit_count da url mais visitada? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Login digitado",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O typed_count do login em /api/auth/login mostra se a estação de trabalho digitou o portal ou só clicou. Qual typed_count da url de login /api/auth/login? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Login digitado - 10 pts\nSQLite\nO typed_count do login em /api/auth/login mostra se a estação de trabalho digitou o portal ou só clicou. Qual typed_count da url de login /api/auth/login? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Beacon Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O Chrome também registrou o heartbeat no domínio update.induscom-cdn.net, no mesmo perfil da estação de trabalho. Qual url do heartbeat no dominio update.induscom-cdn.net? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Beacon Chrome - 10 pts\nSQLite\nO Chrome também registrou o heartbeat no domínio update.induscom-cdn.net, no mesmo perfil da estação de trabalho. Qual url do heartbeat no dominio update.induscom-cdn.net? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "1o beacon Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A primeira visita a esse heartbeat marca quando o canal periódico do C2 apareceu no histórico. Qual visit_time da primeira visita ao heartbeat do C2? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "1o beacon Chrome - 10 pts\nSQLite\nA primeira visita a esse heartbeat marca quando o canal periódico do C2 apareceu no histórico. Qual visit_time da primeira visita ao heartbeat do C2? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Transição beacon",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A transition dessas visitas denuncia se o pulso do C2 foi digitado, redirecionado ou automático. Qual transition das visitas ao heartbeat do C2? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Transição beacon - 10 pts\nSQLite\nA transition dessas visitas denuncia se o pulso do C2 foi digitado, redirecionado ou automático. Qual transition das visitas ao heartbeat do C2? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume C2 Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A contagem de visitas ao heartbeat mede a persistência do canal no perfil da Transnorte. Qual visit_count da url do heartbeat no C2? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Volume C2 Chrome - 10 pts\nSQLite\nA contagem de visitas ao heartbeat mede a persistência do canal no perfil da Transnorte. Qual visit_count da url do heartbeat no C2? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Webshell Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Há uma URL neste histórico apontando para o sync.php do vendor, o mesmo canal do access log. Qual url aponta para sync.php? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Webshell Chrome - 10 pts\nSQLite\nHá uma URL neste histórico apontando para o sync.php do vendor, o mesmo canal do access log. Qual url aponta para sync.php? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Drop updater",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O download do update.exe deixou o path de destino no perfil da estação de trabalho de finanças. Qual target_path do download update.exe? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Drop updater - 10 pts\nSQLite\nO download do update.exe deixou o path de destino no perfil da estação de trabalho de finanças. Qual target_path do download update.exe? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "URL updater",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A URL de origem do update.exe é de onde a estação de trabalho puxou o binário da IndusCom. Qual url do download update.exe? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "URL updater - 10 pts\nSQLite\nA URL de origem do update.exe é de onde a estação de trabalho puxou o binário da IndusCom. Qual url do download update.exe? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "MIME updater",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O MIME registrado nesse download denuncia que o update.exe não era o PDF de boletim. Qual mime do download update.exe? Padrão da resposta: valor direto. Exemplo: application/x",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "MIME updater - 10 pts\nSQLite\nO MIME registrado nesse download denuncia que o update.exe não era o PDF de boletim. Qual mime do download update.exe? Padrão da resposta: valor direto. Exemplo: application/x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Veredito DL",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O campo danger do Chrome registra como o navegador classificou o update.exe da IndusCom. Qual danger do download update.exe? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Veredito DL - 10 pts\nSQLite\nO campo danger do Chrome registra como o navegador classificou o update.exe da IndusCom. Qual danger do download update.exe? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Referer updater",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O referrer do download amarra o update.exe à página que a estação de trabalho estava vendo no portal. Qual referrer do download update.exe? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Referer updater - 10 pts\nSQLite\nO referrer do download amarra o update.exe à página que a estação de trabalho estava vendo no portal. Qual referrer do download update.exe? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tam. updater",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O tamanho do update.exe fecha o objeto que depois vira ObsidianUpdater no antivírus. Qual total_bytes do download update.exe? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Tam. updater - 10 pts\nSQLite\nO tamanho do update.exe fecha o objeto que depois vira ObsidianUpdater no antivírus. Qual total_bytes do download update.exe? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Hora do drop",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O start_time marca quando a estação de trabalho começou a puxar o binário da IndusCom. Qual start_time do download update.exe? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Hora do drop - 10 pts\nSQLite\nO start_time marca quando a estação de trabalho começou a puxar o binário da IndusCom. Qual start_time do download update.exe? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Notes Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O boletim também foi baixado e o target_path mostra onde a estação de trabalho salvou as release notes. Qual target_path do download IndusCom_ReleaseNotes? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Notes Chrome - 10 pts\nSQLite\nO boletim também foi baixado e o target_path mostra onde a estação de trabalho salvou as release notes. Qual target_path do download IndusCom_ReleaseNotes? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tam. notes Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O tamanho das release notes contrasta com o do update.exe no mesmo perfil do Chrome. Qual total_bytes do download IndusCom_ReleaseNotes? Padrão da resposta: valor direto. Exemplo: 100",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Tam. notes Chrome - 10 pts\nSQLite\nO tamanho das release notes contrasta com o do update.exe no mesmo perfil do Chrome. Qual total_bytes do download IndusCom_ReleaseNotes? Padrão da resposta: valor direto. Exemplo: 100",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Busca operador",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A estação de trabalho ainda buscou no Chrome um termo ligado ao updater, registrado em keyword_search_terms. Qual term em keyword_search_terms cita updater? Padrão da resposta: valor direto. Exemplo: xxxx xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Busca operador - 10 pts\nSQLite\nA estação de trabalho ainda buscou no Chrome um termo ligado ao updater, registrado em keyword_search_terms. Qual term em keyword_search_terms cita updater? Padrão da resposta: valor direto. Exemplo: xxxx xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume DLs",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A contagem de linhas na tabela downloads fecha quantos objetos a estação de trabalho puxou neste recorte. Quantas linhas existem na tabela downloads? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Volume DLs - 10 pts\nSQLite\nA contagem de linhas na tabela downloads fecha quantos objetos a estação de trabalho puxou neste recorte. Quantas linhas existem na tabela downloads? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "URL oculta",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Há uma URL marcada hidden = 1 cujo title carrega a marca do caso neste histórico. Qual title da url com hidden = 1? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "URL oculta - 10 pts\nSQLite\nHá uma URL marcada hidden = 1 cujo title carrega a marca do caso neste histórico. Qual title da url com hidden = 1? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Historian SE-03",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Este arquivo é o export SQLite do historian da subestação SE-03 da Transnorte, ligado ao gateway IndusCom da Campanha Relé, onde o setpoint anômalo ficou gravado como se fosse operação de campo. Qual value em meta tem key host? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Historian SE-03 - 10 pts\nSQLite\nEste arquivo é o export SQLite do historian da subestação SE-03 da Transnorte, ligado ao gateway IndusCom da Campanha Relé, onde o setpoint anômalo ficou gravado como se fosse operação de campo. Qual value em meta tem key host? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Site historian",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.site identifica a subestação neste historian da SE-03. Qual value em meta tem key site? Padrão da resposta: valor direto. Exemplo: SE-00",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Site historian - 10 pts\nSQLite\nA meta.site identifica a subestação neste historian da SE-03. Qual value em meta tem key site? Padrão da resposta: valor direto. Exemplo: SE-00",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Produto historian",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.product nomeia o produto que gerou este SQLite de campo. Qual value em meta tem key product? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Produto historian - 10 pts\nSQLite\nA meta.product nomeia o produto que gerou este SQLite de campo. Qual value em meta tem key product? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Fornecedor hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.vendor confirma quem assina o equipamento ou o serviço deste historian. Qual value em meta tem key vendor? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Fornecedor hist - 10 pts\nSQLite\nA meta.vendor confirma quem assina o equipamento ou o serviço deste historian. Qual value em meta tem key vendor? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo historian",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.model fecha o modelo do gateway IndusCom registrado neste export. Qual value em meta tem key model? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Modelo historian - 10 pts\nSQLite\nA meta.model fecha o modelo do gateway IndusCom registrado neste export. Qual value em meta tem key model? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.firmware é a versão que o historian registrou para o ICG da SE-03. Qual value em meta tem key firmware? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Firmware hist - 10 pts\nSQLite\nA meta.firmware é a versão que o historian registrou para o ICG da SE-03. Qual value em meta tem key firmware? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Mestre historian",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.master é o IPv4 do mestre OCC neste historian. Qual value em meta tem key master? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Mestre historian - 10 pts\nSQLite\nA meta.master é o IPv4 do mestre OCC neste historian. Qual value em meta tem key master? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Escravo hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.slave é o IPv4 do gateway ou slave na SE-03. Qual value em meta tem key slave? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Escravo hist - 10 pts\nSQLite\nA meta.slave é o IPv4 do gateway ou slave na SE-03. Qual value em meta tem key slave? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tag setpoint",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O mapa de tags deste historian nomeia o holding 40081 além do setpoint. Qual name da tag com address 40081? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Tag setpoint - 10 pts\nSQLite\nO mapa de tags deste historian nomeia o holding 40081 além do setpoint. Qual name da tag com address 40081? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Unit setpoint",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O unit_id de SE03_SETPOINT é o slave em que o setpoint anômalo foi escrito. Qual unit_id da tag SE03_SETPOINT? Padrão da resposta: valor direto. Exemplo: 1",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Unit setpoint - 10 pts\nSQLite\nO unit_id de SE03_SETPOINT é o slave em que o setpoint anômalo foi escrito. Qual unit_id da tag SE03_SETPOINT? Padrão da resposta: valor direto. Exemplo: 1",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Origem telemetria",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Quem mais gerou samples neste historian é o mestre que estava polando a SE-03. Qual src gerou o maior número de samples? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Origem telemetria - 10 pts\nSQLite\nQuem mais gerou samples neste historian é o mestre que estava polando a SE-03. Qual src gerou o maior número de samples? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Origem cmd hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Quem mais gerou commands é a origem das escritas, não só dos polls do OCC. Qual src gerou o maior número de commands? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Origem cmd hist - 10 pts\nSQLite\nQuem mais gerou commands é a origem das escritas, não só dos polls do OCC. Qual src gerou o maior número de commands? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint ruim hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O new_value de 10.50.10.88 com FC6 é o setpoint que o IP corporativo gravou no historian. Qual new_value escrito pelo 10.50.10.88 com fc 6? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Setpoint ruim hist - 10 pts\nSQLite\nO new_value de 10.50.10.88 com FC6 é o setpoint que o IP corporativo gravou no historian. Qual new_value escrito pelo 10.50.10.88 com fc 6? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint anterior",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O old_value da primeira escrita de 10.50.10.88 mostra o setpoint que estava válido antes do ensaio. Qual old_value da primeira escrita do 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Setpoint anterior - 10 pts\nSQLite\nO old_value da primeira escrita de 10.50.10.88 mostra o setpoint que estava válido antes do ensaio. Qual old_value da primeira escrita do 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "1a escrita hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O ts da primeira escrita de 10.50.10.88 neste historian deve cruzar com o log Modbus da SE-03. Qual ts da primeira escrita do 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "1a escrita hist - 10 pts\nSQLite\nO ts da primeira escrita de 10.50.10.88 neste historian deve cruzar com o log Modbus da SE-03. Qual ts da primeira escrita do 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Transação hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O txn dessa primeira escrita amarra o comando no historian ao pedido no momento. Qual txn da primeira escrita do 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 0x1",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Transação hist - 10 pts\nSQLite\nO txn dessa primeira escrita amarra o comando no historian ao pedido no momento. Qual txn da primeira escrita do 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 0x1",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A contagem de commands de 10.50.10.88 mede o volume da escrita corporativa na SE-03. Quantas linhas em commands tem src 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Volume hist - 10 pts\nSQLite\nA contagem de commands de 10.50.10.88 mede o volume da escrita corporativa na SE-03. Quantas linhas em commands tem src 10.50.10.88? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "FC escrita hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O function code das escritas com new_value 13800 confirma como o setpoint anômalo entrou. Qual fc das escritas com new_value 13800? Padrão da resposta: valor direto. Exemplo: 6",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "FC escrita hist - 10 pts\nSQLite\nO function code das escritas com new_value 13800 confirma como o setpoint anômalo entrou. Qual fc das escritas com new_value 13800? Padrão da resposta: valor direto. Exemplo: 6",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Bobina hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O command FC5 é o coil, e o new_value é o estado forçado na bobina. Qual new_value do command com fc 5? Padrão da resposta: valor direto. Exemplo: FF00",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Bobina hist - 10 pts\nSQLite\nO command FC5 é o coil, e o new_value é o estado forçado na bobina. Qual new_value do command com fc 5? Padrão da resposta: valor direto. Exemplo: FF00",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tag bobina",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A tag de address 3 no mapa é o ponto discreto ligado a esse coil. Qual name da tag com address 3? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Tag bobina - 10 pts\nSQLite\nA tag de address 3 no mapa é o ponto discreto ligado a esse coil. Qual name da tag com address 3? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Probe C2 hist",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Houve um command com result drop, de uma origem que o historian recusou. Qual src do command com result drop? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Probe C2 hist - 10 pts\nSQLite\nHouve um command com result drop, de uma origem que o historian recusou. Qual src do command com result drop? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Qualidade ruim",
+    "points": 10,
+    "category": "SQLite",
+    "description": "As samples com value 13800 ainda carregam quality=, o selo de validade do ponto anômalo. Qual quality das samples com value 13800? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Qualidade ruim - 10 pts\nSQLite\nAs samples com value 13800 ainda carregam quality=, o selo de validade do ponto anômalo. Qual quality das samples com value 13800? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume tags",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A contagem de tags fecha o mapa de pontos que este historian da SE-03 conhecia. Quantas linhas existem na tabela tags? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Volume tags - 10 pts\nSQLite\nA contagem de tags fecha o mapa de pontos que este historian da SE-03 conhecia. Quantas linhas existem na tabela tags? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Endereço tensão",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O address de SE03_V_AB é o holding de tensão que o OCC de fato polava. Qual address da tag SE03_V_AB? Padrão da resposta: valor direto. Exemplo: 40000",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Endereço tensão - 10 pts\nSQLite\nO address de SE03_V_AB é o holding de tensão que o OCC de fato polava. Qual address da tag SE03_V_AB? Padrão da resposta: valor direto. Exemplo: 40000",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Hora bobina",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O ts do FC5 marca quando a bobina foi forçada no ensaio de campo. Qual ts do command com fc 5? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Hora bobina - 10 pts\nSQLite\nO ts do FC5 marca quando a bobina foi forçada no ensaio de campo. Qual ts do command com fc 5? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Alarme critico",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O alarme critical deste historian carrega a marca do caso no campo message. Qual message do alarme com severity critical? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Alarme critico - 10 pts\nSQLite\nO alarme critical deste historian carrega a marca do caso no campo message. Qual message do alarme com severity critical? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "AAA VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Este arquivo é o export SQLite do AAA do concentrador VPN da Transnorte na Campanha Relé, o mesmo ponto em que a força bruta de 198.51.100.88 virou sessão aceita. Qual value em meta tem key host? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "AAA VPN - 10 pts\nSQLite\nEste arquivo é o export SQLite do AAA do concentrador VPN da Transnorte na Campanha Relé, o mesmo ponto em que a força bruta de 198.51.100.88 virou sessão aceita. Qual value em meta tem key host? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Produto VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.product nomeia o produto do concentrador que gerou este AAA. Qual value em meta tem key product? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Produto VPN - 10 pts\nSQLite\nA meta.product nomeia o produto do concentrador que gerou este AAA. Qual value em meta tem key product? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Realm VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.realm é o reino AAA em que as sessões VPN da Transnorte foram autenticadas. Qual value em meta tem key realm? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Realm VPN - 10 pts\nSQLite\nA meta.realm é o reino AAA em que as sessões VPN da Transnorte foram autenticadas. Qual value em meta tem key realm? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Proto VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.proto confirma o protocolo do concentrador neste export AAA. Qual value em meta tem key proto? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Proto VPN - 10 pts\nSQLite\nA meta.proto confirma o protocolo do concentrador neste export AAA. Qual value em meta tem key proto? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Pool VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.pool é a faixa de IPs atribuída aos túneis VPN neste recorte. Qual value em meta tem key pool? Padrão da resposta: valor direto. Exemplo: 10.0.0.0/24",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Pool VPN - 10 pts\nSQLite\nA meta.pool é a faixa de IPs atribuída aos túneis VPN neste recorte. Qual value em meta tem key pool? Padrão da resposta: valor direto. Exemplo: 10.0.0.0/24",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Origem brute VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A origem com mais auth_events failed neste AAA é a força bruta do C2 contra o concentrador. Qual src gerou o maior número de auth_events com result failed? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Origem brute VPN - 10 pts\nSQLite\nA origem com mais auth_events failed neste AAA é a força bruta do C2 contra o concentrador. Qual src gerou o maior número de auth_events com result failed? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume brute VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A contagem de failed de 198.51.100.88 neste AAA deve cruzar com o syslog da Relé. Quantas auth_events failed vieram de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Volume brute VPN - 10 pts\nSQLite\nA contagem de failed de 198.51.100.88 neste AAA deve cruzar com o syslog da Relé. Quantas auth_events failed vieram de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo brute VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A conta mais martelada por 198.51.100.88 neste AAA é o alvo da força bruta. Qual username teve mais failed a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Alvo brute VPN - 10 pts\nSQLite\nA conta mais martelada por 198.51.100.88 neste AAA é o alvo da força bruta. Qual username teve mais failed a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Conta aceita",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Depois das falhas, 198.51.100.88 teve um result accepted neste AAA. Qual username teve result accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Conta aceita - 10 pts\nSQLite\nDepois das falhas, 198.51.100.88 teve um result accepted neste AAA. Qual username teve result accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "C2 no AAA",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O src_host desse accepted registra o nome que o cliente VPN apresentou. Qual src_host do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "C2 no AAA - 10 pts\nSQLite\nO src_host desse accepted registra o nome que o cliente VPN apresentou. Qual src_host do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Porta sessão VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A port desse accepted fecha a sessão aceita da força bruta no concentrador. Qual port do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 1234",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Porta sessão VPN - 10 pts\nSQLite\nA port desse accepted fecha a sessão aceita da força bruta no concentrador. Qual port do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 1234",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Hora login VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O ts do accepted neste AAA é o horário em que a VPN da Transnorte cedeu. Qual ts do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Hora login VPN - 10 pts\nSQLite\nO ts do accepted neste AAA é o horário em que a VPN da Transnorte cedeu. Qual ts do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "PID VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O pid do accepted amarra o processo do concentrador à sessão aceita de 198.51.100.88. Qual pid do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 1234",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "PID VPN - 10 pts\nSQLite\nO pid do accepted amarra o processo do concentrador à sessão aceita de 198.51.100.88. Qual pid do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 1234",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Metodo VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O method desse accepted diz se a entrada foi senha, chave ou outro fator. Qual method do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Metodo VPN - 10 pts\nSQLite\nO method desse accepted diz se a entrada foi senha, chave ou outro fator. Qual method do accepted a partir de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "IP tunel",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A sessão de backup_svc recebeu um IP do pool VPN, o endereço interno do túnel. Qual assigned_ip da session de backup_svc? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "IP tunel - 10 pts\nSQLite\nA sessão de backup_svc recebeu um IP do pool VPN, o endereço interno do túnel. Qual assigned_ip da session de backup_svc? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Bytes tunel",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O bytes_in da sessão de backup_svc mede o volume que entrou pelo túnel nessa conta. Qual bytes_in da session de backup_svc? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Bytes tunel - 10 pts\nSQLite\nO bytes_in da sessão de backup_svc mede o volume que entrou pelo túnel nessa conta. Qual bytes_in da session de backup_svc? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Fim sessão VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O end_ts marca quando o túnel de backup_svc caiu ou foi encerrado neste AAA. Qual end_ts da session de backup_svc? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Fim sessão VPN - 10 pts\nSQLite\nO end_ts marca quando o túnel de backup_svc caiu ou foi encerrado neste AAA. Qual end_ts da session de backup_svc? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Duração VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A duration fecha quanto tempo backup_svc ficou dentro da rede da Transnorte. Qual duration da session de backup_svc? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Duração VPN - 10 pts\nSQLite\nA duration fecha quanto tempo backup_svc ficou dentro da rede da Transnorte. Qual duration da session de backup_svc? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Grupo conta",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O grp de backup_svc neste AAA é o grupo que liberou o túnel. Qual grp do username backup_svc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Grupo conta - 10 pts\nSQLite\nO grp de backup_svc neste AAA é o grupo que liberou o túnel. Qual grp do username backup_svc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Status conta",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O status da conta backup_svc neste AAA denuncia se ela deveria estar ativa. Qual status do username backup_svc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Status conta - 10 pts\nSQLite\nO status da conta backup_svc neste AAA denuncia se ela deveria estar ativa. Qual status do username backup_svc? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Operador no AAA",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A sessão de ops.cardoso tem src= próprio, distinto da força bruta do C2. Qual src da session de ops.cardoso? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Operador no AAA - 10 pts\nSQLite\nA sessão de ops.cardoso tem src= próprio, distinto da força bruta do C2. Qual src da session de ops.cardoso? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tunel operador",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O IP atribuído a ops.cardoso é o endereço do túnel do operador legítimo. Qual assigned_ip da session de ops.cardoso? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Tunel operador - 10 pts\nSQLite\nO IP atribuído a ops.cardoso é o endereço do túnel do operador legítimo. Qual assigned_ip da session de ops.cardoso? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Metodo operador",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O method da sessão de ops.cardoso contrasta com o da sessão aceita de 198.51.100.88. Qual method da session de ops.cardoso? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Metodo operador - 10 pts\nSQLite\nO method da sessão de ops.cardoso contrasta com o da sessão aceita de 198.51.100.88. Qual method da session de ops.cardoso? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Scanner VPN",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Além de 198.51.100.88, outra origem tentou root e falhou neste AAA. Qual src gerou failed com username root além do C2? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Scanner VPN - 10 pts\nSQLite\nAlém de 198.51.100.88, outra origem tentou root e falhou neste AAA. Qual src gerou failed com username root além do C2? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume sessões",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A contagem de sessions fecha quantos túneis este recorte do AAA registrou. Quantas linhas existem na tabela sessions? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Volume sessões - 10 pts\nSQLite\nA contagem de sessions fecha quantos túneis este recorte do AAA registrou. Quantas linhas existem na tabela sessions? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Nota sessão",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A note da sessão de backup_svc carrega a marca do caso neste AAA da Transnorte. Qual note da session de backup_svc? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Nota sessão - 10 pts\nSQLite\nA note da sessão de backup_svc carrega a marca do caso neste AAA da Transnorte. Qual note da session de backup_svc? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "SQLite",
+    "downloaded": true
+  }
+]

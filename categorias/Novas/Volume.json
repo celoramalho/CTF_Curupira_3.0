@@ -1,0 +1,152 @@
+[
+  {
+    "title": "SPAN residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Este tn-span.pcap é o SPAN completo da OCC da Transnorte depois do KILLUPD na Campanha Relé. A maior parte é SYN para o C2. No meio do arquivo ainda existe um POST gzip. Qual o IPv4 de origem desse POST? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "SPAN residual - 10 pts\nVolume\nEste tn-span.pcap é o SPAN completo da OCC da Transnorte depois do KILLUPD na Campanha Relé. A maior parte é SYN para o C2. No meio do arquivo ainda existe um POST gzip. Qual o IPv4 de origem desse POST? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Host residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o Host HTTP desse POST residual? Padrão da resposta: valor direto. Exemplo: update.example.net",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "Host residual - 10 pts\nVolume\nQual o Host HTTP desse POST residual? Padrão da resposta: valor direto. Exemplo: update.example.net",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "URI residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o URI desse POST residual? Padrão da resposta: valor direto. Exemplo: /v1/xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "URI residual - 10 pts\nVolume\nQual o URI desse POST residual? Padrão da resposta: valor direto. Exemplo: /v1/xxxx",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Agente residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o User-Agent desse POST residual? Padrão da resposta: valor direto. Exemplo: Vendor/1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "Agente residual - 10 pts\nVolume\nQual o User-Agent desse POST residual? Padrão da resposta: valor direto. Exemplo: Vendor/1.0",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Flag residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "O POST vem com Content-Encoding gzip. O data.data é o blob XOR com o setpoint 13800. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "Flag residual - 10 pts\nVolume\nO POST vem com Content-Encoding gzip. O data.data é o blob XOR com o setpoint 13800. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Recursor residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Este lit-queries.jsonl é o dump completo do recursor da Litoral depois do UNHOLD na Campanha Relé. Há milhões de queries A. No meio resta um TXT com NXDOMAIN. Qual o qname dessa query? Padrão da resposta: valor direto. Exemplo: status.example.net",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Recursor residual - 10 pts\nVolume\nEste lit-queries.jsonl é o dump completo do recursor da Litoral depois do UNHOLD na Campanha Relé. Há milhões de queries A. No meio resta um TXT com NXDOMAIN. Qual o qname dessa query? Padrão da resposta: valor direto. Exemplo: status.example.net",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Origem residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o src IPv4 dessa query TXT NXDOMAIN? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Origem residual - 10 pts\nVolume\nQual o src IPv4 dessa query TXT NXDOMAIN? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Node residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o node dessa query TXT NXDOMAIN? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Node residual - 10 pts\nVolume\nQual o node dessa query TXT NXDOMAIN? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Rcode residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o rcode dessa query TXT? Padrão da resposta: valor direto. Exemplo: NOERROR",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Rcode residual - 10 pts\nVolume\nQual o rcode dessa query TXT? Padrão da resposta: valor direto. Exemplo: NOERROR",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Flag recursor",
+    "points": 10,
+    "category": "Volume",
+    "description": "O campo txt é XOR em hex com a chave hold-key. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Flag recursor - 10 pts\nVolume\nO campo txt é XOR em hex com a chave hold-key. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Auditoria residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Este clm-audit.ndjson é o dump completo da auditoria da Câmara depois do abort do wiper na Campanha Relé. Há milhões de ACK e SETTLE. No meio resta um APPLY ainda pending. Qual o batch desse APPLY pending? Padrão da resposta: valor direto. Exemplo: lote_01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Auditoria residual - 10 pts\nVolume\nEste clm-audit.ndjson é o dump completo da auditoria da Câmara depois do abort do wiper na Campanha Relé. Há milhões de ACK e SETTLE. No meio resta um APPLY ainda pending. Qual o batch desse APPLY pending? Padrão da resposta: valor direto. Exemplo: lote_01",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o target desse APPLY pending? Padrão da resposta: valor direto. Exemplo: db01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Alvo residual - 10 pts\nVolume\nQual o target desse APPLY pending? Padrão da resposta: valor direto. Exemplo: db01",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho residual",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o trigger desse APPLY pending? Padrão da resposta: valor direto. Exemplo: pre-run",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Gatilho residual - 10 pts\nVolume\nQual o trigger desse APPLY pending? Padrão da resposta: valor direto. Exemplo: pre-run",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Host residual CLM",
+    "points": 10,
+    "category": "Volume",
+    "description": "Qual o host desse APPLY pending? Padrão da resposta: valor direto. Exemplo: file-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Host residual CLM - 10 pts\nVolume\nQual o host desse APPLY pending? Padrão da resposta: valor direto. Exemplo: file-01",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Flag auditoria",
+    "points": 10,
+    "category": "Volume",
+    "description": "O campo meta é XOR em hex com o setpoint 13800. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Flag auditoria - 10 pts\nVolume\nO campo meta é XOR em hex com o setpoint 13800. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Volume",
+    "downloaded": true
+  }
+]

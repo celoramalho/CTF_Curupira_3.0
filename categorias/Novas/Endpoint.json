@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Sysmon TN",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "Este sysmon_tn.jsonl é o export Sysmon da TN-FIN-WS042 depois da mídia ICG-4200 na Campanha Relé, o EventID 1 em que o update.bin sobe a partir da ISO montada na estação de trabalho de finanças. Qual o ParentImage do processo update.bin? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Sysmon TN - 10 pts\nEndpoint\nEste sysmon_tn.jsonl é o export Sysmon da TN-FIN-WS042 depois da mídia ICG-4200 na Campanha Relé, o EventID 1 em que o update.bin sobe a partir da ISO montada na estação de trabalho de finanças. Qual o ParentImage do processo update.bin? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Nome interno TN",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O OriginalFileName do update.bin neste Sysmon denuncia o nome interno do binário ICG, não o update.bin da ISO. Qual o OriginalFileName do update.bin? Padrão da resposta: valor direto. Exemplo: xxxx.exe",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Nome interno TN - 10 pts\nEndpoint\nO OriginalFileName do update.bin neste Sysmon denuncia o nome interno do binário ICG, não o update.bin da ISO. Qual o OriginalFileName do update.bin? Padrão da resposta: valor direto. Exemplo: xxxx.exe",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Hash Sysmon TN",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O SHA256 do update.bin no Sysmon deve cruzar com o hash da ISO que a estação de trabalho montou. Qual o SHA256 do update.bin no Sysmon? Padrão da resposta: valor direto. Exemplo: aabb",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Hash Sysmon TN - 10 pts\nEndpoint\nO SHA256 do update.bin no Sysmon deve cruzar com o hash da ISO que a estação de trabalho montou. Qual o SHA256 do update.bin no Sysmon? Padrão da resposta: valor direto. Exemplo: aabb",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Guid updater",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O ProcessGuid do update.bin amarra este processo aos eventos 3, 11 e 13 do mesmo export. Qual o ProcessGuid do update.bin? Padrão da resposta: valor direto. Exemplo: {0000}",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Guid updater - 10 pts\nEndpoint\nO ProcessGuid do update.bin amarra este processo aos eventos 3, 11 e 13 do mesmo export. Qual o ProcessGuid do update.bin? Padrão da resposta: valor direto. Exemplo: {0000}",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Guid pai",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O ParentProcessGuid do update.bin fecha o pai que disparou o dropper na TN-FIN-WS042. Qual o ParentProcessGuid do update.bin? Padrão da resposta: valor direto. Exemplo: {0000}",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Guid pai - 10 pts\nEndpoint\nO ParentProcessGuid do update.bin fecha o pai que disparou o dropper na TN-FIN-WS042. Qual o ParentProcessGuid do update.bin? Padrão da resposta: valor direto. Exemplo: {0000}",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "IP Event 3 TN",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O DestinationIp da conexão EventID 3 do update.bin é o IPv4 do canal que o dropper abriu. Qual o DestinationIp da conexão EventID 3 do update.bin? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "IP Event 3 TN - 10 pts\nEndpoint\nO DestinationIp da conexão EventID 3 do update.bin é o IPv4 do canal que o dropper abriu. Qual o DestinationIp da conexão EventID 3 do update.bin? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Porta Event 3",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O DestinationPort dessa conexão é a porta do mesmo EventID 3 do update.bin. Qual o DestinationPort dessa conexão? Padrão da resposta: valor direto. Exemplo: 443",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Porta Event 3 - 10 pts\nEndpoint\nO DestinationPort dessa conexão é a porta do mesmo EventID 3 do update.bin. Qual o DestinationPort dessa conexão? Padrão da resposta: valor direto. Exemplo: 443",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo Event 11",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O TargetFilename do EventID 11 do update.bin é o path em que o dropper se gravou na estação de trabalho de ops.cardoso. Qual o TargetFilename do EventID 11 do update.bin? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Arquivo Event 11 - 10 pts\nEndpoint\nO TargetFilename do EventID 11 do update.bin é o path em que o dropper se gravou na estação de trabalho de ops.cardoso. Qual o TargetFilename do EventID 11 do update.bin? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Run Event 13",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O TargetObject do EventID 13 do update.bin é a chave Run em que o updater persistiu. Qual o TargetObject do EventID 13 do update.bin? Padrão da resposta: valor direto. Exemplo: HKCU\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Run Event 13 - 10 pts\nEndpoint\nO TargetObject do EventID 13 do update.bin é a chave Run em que o updater persistiu. Qual o TargetObject do EventID 13 do update.bin? Padrão da resposta: valor direto. Exemplo: HKCU\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Flag Sysmon TN",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O CampaignId do processo update.bin é a marca deste export Sysmon da Transnorte. Qual o CampaignId do processo update.bin? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Flag Sysmon TN - 10 pts\nEndpoint\nO CampaignId do processo update.bin é a marca deste export Sysmon da Transnorte. Qual o CampaignId do processo update.bin? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Sysmon LIT",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "Este sysmon_lit.jsonl é o export Sysmon do LIT-NMS-02 depois do atalho DNS na Campanha Relé, o EventID 1 em que o cmd.exe cita o portal litoral-dns. Qual o ParentImage do cmd.exe cujo CommandLine cita litoral-dns? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Sysmon LIT - 10 pts\nEndpoint\nEste sysmon_lit.jsonl é o export Sysmon do LIT-NMS-02 depois do atalho DNS na Campanha Relé, o EventID 1 em que o cmd.exe cita o portal litoral-dns. Qual o ParentImage do cmd.exe cujo CommandLine cita litoral-dns? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "User cmd lure",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "O User desse cmd.exe aponta a conta da Litoral que disparou o lure no NMS. Qual o User desse cmd.exe? Padrão da resposta: valor direto. Exemplo: DOMINIO\\user",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "User cmd lure - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nO User desse cmd.exe aponta a conta da Litoral que disparou o lure no NMS. Qual o User desse cmd.exe? Padrão da resposta: valor direto. Exemplo: DOMINIO\\user",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "CmdLine lure",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O CommandLine desse cmd.exe é a linha que baixa o dns-update.bin a partir do portal falso. Qual o CommandLine desse cmd.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "CmdLine lure - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO CommandLine desse cmd.exe é a linha que baixa o dns-update.bin a partir do portal falso. Qual o CommandLine desse cmd.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Guid cmd",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O ProcessGuid desse cmd.exe amarra o lure aos filhos curl e ao EventID 13. Qual o ProcessGuid desse cmd.exe? Padrão da resposta: valor direto. Exemplo: {0000}",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Guid cmd - 10 pts\nEndpoint\nO ProcessGuid desse cmd.exe amarra o lure aos filhos curl e ao EventID 13. Qual o ProcessGuid desse cmd.exe? Padrão da resposta: valor direto. Exemplo: {0000}",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Pai curl",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O ParentImage do curl.exe confirma que o download DNS saiu do cmd do lure, não de outro pai. Qual o ParentImage do curl.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Pai curl - 10 pts\nEndpoint\nO ParentImage do curl.exe confirma que o download DNS saiu do cmd do lure, não de outro pai. Qual o ParentImage do curl.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Host Event 3 LIT",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O DestinationHostname do EventID 3 do curl.exe é o host do portal que o NMS resolveu. Qual o DestinationHostname do EventID 3 do curl.exe? Padrão da resposta: valor direto. Exemplo: xxxx.net",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Host Event 3 LIT - 10 pts\nEndpoint\nO DestinationHostname do EventID 3 do curl.exe é o host do portal que o NMS resolveu. Qual o DestinationHostname do EventID 3 do curl.exe? Padrão da resposta: valor direto. Exemplo: xxxx.net",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "IP Event 3 LIT",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O DestinationIp dessa conexão é o IPv4 do mesmo EventID 3 do curl.exe. Qual o DestinationIp dessa conexão? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "IP Event 3 LIT - 10 pts\nEndpoint\nO DestinationIp dessa conexão é o IPv4 do mesmo EventID 3 do curl.exe. Qual o DestinationIp dessa conexão? Padrão da resposta: valor direto. Exemplo: 1.2.3.4",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo curl",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O TargetFilename do EventID 11 do curl.exe é o path em que o dns-update.bin caiu no NMS. Qual o TargetFilename do EventID 11 do curl.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Arquivo curl - 10 pts\nEndpoint\nO TargetFilename do EventID 11 do curl.exe é o path em que o dns-update.bin caiu no NMS. Qual o TargetFilename do EventID 11 do curl.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Run DNS",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O TargetObject do EventID 13 do cmd.exe da campanha é a chave Run do DNS da IndusCom. Qual o TargetObject do EventID 13 do cmd.exe da campanha? Padrão da resposta: valor direto. Exemplo: HKCU\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Run DNS - 10 pts\nEndpoint\nO TargetObject do EventID 13 do cmd.exe da campanha é a chave Run do DNS da IndusCom. Qual o TargetObject do EventID 13 do cmd.exe da campanha? Padrão da resposta: valor direto. Exemplo: HKCU\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Flag Sysmon LIT",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O CampaignId do cmd.exe da campanha é a marca deste export Sysmon da Litoral. Qual o CampaignId do cmd.exe da campanha? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Flag Sysmon LIT - 10 pts\nEndpoint\nO CampaignId do cmd.exe da campanha é a marca deste export Sysmon da Litoral. Qual o CampaignId do cmd.exe da campanha? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Sysmon CLM",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "Este sysmon_clm.jsonl é o export Sysmon da CLM-MESA-014 depois do HTA da Campanha Relé, o EventID 1 em que o mshta.exe abre o clm-login.hta na estação de trabalho da Câmara. Qual o ParentImage do mshta.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Sysmon CLM - 10 pts\nEndpoint\nEste sysmon_clm.jsonl é o export Sysmon da CLM-MESA-014 depois do HTA da Campanha Relé, o EventID 1 em que o mshta.exe abre o clm-login.hta na estação de trabalho da Câmara. Qual o ParentImage do mshta.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "User mshta",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O User do mshta.exe aponta a conta da CLM que abriu o HTA depois da captura do kit. Qual o User do mshta.exe? Padrão da resposta: valor direto. Exemplo: DOMINIO\\user",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "User mshta - 10 pts\nEndpoint\nO User do mshta.exe aponta a conta da CLM que abriu o HTA depois da captura do kit. Qual o User do mshta.exe? Padrão da resposta: valor direto. Exemplo: DOMINIO\\user",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "CmdLine HTA",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O CommandLine do mshta.exe é a linha que dispara o HTA a partir do Downloads da estação de trabalho. Qual o CommandLine do mshta.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "CmdLine HTA - 10 pts\nEndpoint\nO CommandLine do mshta.exe é a linha que dispara o HTA a partir do Downloads da estação de trabalho. Qual o CommandLine do mshta.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Guid mshta",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O ProcessGuid do mshta.exe amarra o HTA ao clm-agent.bin e aos EventID 11 e 13. Qual o ProcessGuid do mshta.exe? Padrão da resposta: valor direto. Exemplo: {0000}",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Guid mshta - 10 pts\nEndpoint\nO ProcessGuid do mshta.exe amarra o HTA ao clm-agent.bin e aos EventID 11 e 13. Qual o ProcessGuid do mshta.exe? Padrão da resposta: valor direto. Exemplo: {0000}",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Pai agente",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O ParentImage do clm-agent.bin confirma que o agente saiu do mshta, não de outro pai. Qual o ParentImage do clm-agent.bin? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Pai agente - 10 pts\nEndpoint\nO ParentImage do clm-agent.bin confirma que o agente saiu do mshta, não de outro pai. Qual o ParentImage do clm-agent.bin? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Nome interno CLM",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O OriginalFileName do clm-agent.bin denuncia o nome interno do cliente da CLM. Qual o OriginalFileName do clm-agent.bin? Padrão da resposta: valor direto. Exemplo: xxxx.exe",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Nome interno CLM - 10 pts\nEndpoint\nO OriginalFileName do clm-agent.bin denuncia o nome interno do cliente da CLM. Qual o OriginalFileName do clm-agent.bin? Padrão da resposta: valor direto. Exemplo: xxxx.exe",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Host Event 3 CLM",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O DestinationHostname do EventID 3 do clm-agent.bin é o host do heartbeat que o agente chamou. Qual o DestinationHostname do EventID 3 do clm-agent.bin? Padrão da resposta: valor direto. Exemplo: xxxx.net",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Host Event 3 CLM - 10 pts\nEndpoint\nO DestinationHostname do EventID 3 do clm-agent.bin é o host do heartbeat que o agente chamou. Qual o DestinationHostname do EventID 3 do clm-agent.bin? Padrão da resposta: valor direto. Exemplo: xxxx.net",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo HTA",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O TargetFilename do EventID 11 do mshta.exe é o path em que o HTA gravou o clm-agent.bin. Qual o TargetFilename do EventID 11 do mshta.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Arquivo HTA - 10 pts\nEndpoint\nO TargetFilename do EventID 11 do mshta.exe é o path em que o HTA gravou o clm-agent.bin. Qual o TargetFilename do EventID 11 do mshta.exe? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Run HTA",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O TargetObject do EventID 13 do mshta.exe é a chave Run em que o HTA persistiu o cliente. Qual o TargetObject do EventID 13 do mshta.exe? Padrão da resposta: valor direto. Exemplo: HKCU\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Run HTA - 10 pts\nEndpoint\nO TargetObject do EventID 13 do mshta.exe é a chave Run em que o HTA persistiu o cliente. Qual o TargetObject do EventID 13 do mshta.exe? Padrão da resposta: valor direto. Exemplo: HKCU\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Flag Sysmon CLM",
+    "points": 10,
+    "category": "Endpoint",
+    "description": "O CampaignId do mshta.exe é a marca deste export Sysmon da Câmara. Qual o CampaignId do mshta.exe? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Flag Sysmon CLM - 10 pts\nEndpoint\nO CampaignId do mshta.exe é a marca deste export Sysmon da Câmara. Qual o CampaignId do mshta.exe? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Endpoint",
+    "downloaded": true
+  }
+]

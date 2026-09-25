@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Taxa WAV",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Este tn-alarm.wav é o PCM residual do alarme da SE-03 depois do KILLUPD na Campanha Relé. Quase tudo é silêncio. Qual a sample rate (Hz)? Padrão da resposta: valor direto. Exemplo: 44100",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Taxa WAV - 10 pts\nFecho\nEste tn-alarm.wav é o PCM residual do alarme da SE-03 depois do KILLUPD na Campanha Relé. Quase tudo é silêncio. Qual a sample rate (Hz)? Padrão da resposta: valor direto. Exemplo: 44100",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Canais WAV",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Qual o NumChannels? Padrão da resposta: valor direto. Exemplo: 2",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Canais WAV - 10 pts\nFecho\nQual o NumChannels? Padrão da resposta: valor direto. Exemplo: 2",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Índice PCM",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Qual o índice 0-based do único sample não-zero no data chunk? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Índice PCM - 10 pts\nFecho\nQual o índice 0-based do único sample não-zero no data chunk? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Sample PCM",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Qual o valor uint16 LE desse sample? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Sample PCM - 10 pts\nFecho\nQual o valor uint16 LE desse sample? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WAV",
+    "points": 10,
+    "category": "Fecho",
+    "description": "O ICMT do LIST INFO está em Base64. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Flag WAV - 10 pts\nFecho\nO ICMT do LIST INFO está em Base64. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Serial zona",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Este lit-zone.db é a zona residual do recursor da Litoral depois do UNHOLD na Campanha Relé. Quase todos os nomes são A repetidos. Qual o serial do SOA? Padrão da resposta: valor direto. Exemplo: 2024010101",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "Serial zona - 10 pts\nFecho\nEste lit-zone.db é a zona residual do recursor da Litoral depois do UNHOLD na Campanha Relé. Quase todos os nomes são A repetidos. Qual o serial do SOA? Padrão da resposta: valor direto. Exemplo: 2024010101",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Expire zona",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Qual o expire do SOA? Padrão da resposta: valor direto. Exemplo: 3600",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "Expire zona - 10 pts\nFecho\nQual o expire do SOA? Padrão da resposta: valor direto. Exemplo: 3600",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "AAAA zona",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Há um único AAAA. Qual o endereço? Padrão da resposta: valor direto. Exemplo: 2001:db8::1",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "AAAA zona - 10 pts\nFecho\nHá um único AAAA. Qual o endereço? Padrão da resposta: valor direto. Exemplo: 2001:db8::1",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Pref MX",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Há um único MX. Qual a preference? Padrão da resposta: valor direto. Exemplo: 20",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "Pref MX - 10 pts\nFecho\nHá um único MX. Qual a preference? Padrão da resposta: valor direto. Exemplo: 20",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zona",
+    "points": 10,
+    "category": "Fecho",
+    "description": "O TXT do hold-check está em ROT13. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "Flag zona - 10 pts\nFecho\nO TXT do hold-check está em ROT13. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Contagem mbox",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Este clm-last.mbox é o correio residual da liquidação depois do abort do wiper na Campanha Relé. Quase tudo é ACK. Quantas linhas From_ (From seguido de espaço no início da linha)? Padrão da resposta: valor direto. Exemplo: 1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "Contagem mbox - 10 pts\nFecho\nEste clm-last.mbox é o correio residual da liquidação depois do abort do wiper na Campanha Relé. Quase tudo é ACK. Quantas linhas From_ (From seguido de espaço no início da linha)? Padrão da resposta: valor direto. Exemplo: 1000",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Message-ID mbox",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Qual o Message-ID que aparece uma única vez (sem <> )? Padrão da resposta: valor direto. Exemplo: leftover@host.local",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "Message-ID mbox - 10 pts\nFecho\nQual o Message-ID que aparece uma única vez (sem <> )? Padrão da resposta: valor direto. Exemplo: leftover@host.local",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "From mbox",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Qual o From: que aparece uma única vez? Padrão da resposta: valor direto. Exemplo: user@host.local",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "From mbox - 10 pts\nFecho\nQual o From: que aparece uma única vez? Padrão da resposta: valor direto. Exemplo: user@host.local",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Batch mbox",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Qual o X-Batch que aparece uma única vez? Padrão da resposta: valor direto. Exemplo: lote_01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "Batch mbox - 10 pts\nFecho\nQual o X-Batch que aparece uma única vez? Padrão da resposta: valor direto. Exemplo: lote_01",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Flag mbox",
+    "points": 10,
+    "category": "Fecho",
+    "description": "Entre FLAG16 e END16 a Flag está em UTF-16LE. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "Flag mbox - 10 pts\nFecho\nEntre FLAG16 e END16 a Flag está em UTF-16LE. Qual a Flag? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Fecho",
+    "downloaded": true
+  }
+]

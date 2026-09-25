@@ -6,7 +6,7 @@
 <title>CTF Curupira 3.0</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,6 +16,7 @@
   <div class="brand" id="brand-home-btn">CURUPIRA_3.0//CTF</div>
   <div class="topbar-right">
     <div class="score-pill" id="score-pill">0 / 0 pts</div>
+    <button class="icon-btn" id="briefing-btn" title="Ler briefing da operação">📄 Briefing</button>
     <button class="icon-btn" id="theme-toggle" title="Alternar tema">🌓 Tema</button>
     <button class="icon-btn" id="export-toggle" title="Exportar progresso">⇩ Progresso</button>
   </div>
@@ -25,11 +26,11 @@
   <!-- HOME SCREEN -->
   <section id="screen-home" class="screen">
     <h1 class="hero-title">CURUPIRA 3.0</h1>
-    <div class="hero-sub">// CAPTURE THE FLAG :: NIGHT CITY PROTOCOL</div>
+    <div class="hero-sub">// CAPTURE THE FLAG</div>
     <p class="hero-desc">
-      Uma trilha de investigação forense e resposta a incidentes distribuída em 30 categorias e 926 desafios.
-      Analise PCAPs, logs, memória, bancos SQLite, firmware, esteganografia e muito mais.
-      Seu progresso é salvo automaticamente neste navegador.
+      Recriação do evento CTF Curupira 3.0 para fins de estudo. Uma trilha de investigação forense e resposta
+      a incidentes distribuída em 30 categorias e 926 desafios. Analise PCAPs, logs, memória, bancos SQLite,
+      firmware, esteganografia e muito mais. Seu progresso é salvo automaticamente neste navegador.
     </p>
     <div class="hero-stats">
       <div class="hero-stat"><div class="num" id="stat-total">926</div><div class="lbl">Desafios</div></div>
@@ -37,10 +38,80 @@
       <div class="hero-stat"><div class="num" id="stat-solved">0</div><div class="lbl">Resolvidos</div></div>
       <div class="hero-stat"><div class="num" id="stat-points">0</div><div class="lbl">Pontos</div></div>
     </div>
-    <button class="btn-primary" id="start-btn">Iniciar CTF</button>
-    <br>
-    <button class="btn-secondary" id="import-btn">Importar progresso salvo</button>
+    <div class="hero-actions">
+      <button class="btn-primary" id="start-btn">Iniciar CTF</button>
+      <button class="btn-secondary" id="import-btn">Importar progresso salvo</button>
+    </div>
     <input type="file" id="import-file" accept="application/json" hidden>
+  </section>
+
+  <!-- BRIEFING SCREEN -->
+  <section id="screen-briefing" class="screen" hidden>
+    <div class="briefing-wrap">
+      <button class="back-link" id="briefing-back-btn">← Voltar</button>
+
+      <div class="briefing-title-block">
+        <h1 class="briefing-title">Bem-vindo ao Curupira 3.0</h1>
+        <div class="briefing-subtitle">Geral Civil</div>
+        <div class="briefing-status">Status: <span class="status-tag">FINALIZADO</span></div>
+      </div>
+
+      <h3 class="briefing-h3">Contexto</h3>
+      <p class="briefing-tag">🛡️ GUARDIÃO CIBERNÉTICO</p>
+      <p class="briefing-tag">⚡ Campanha Relé — briefing</p>
+
+      <p>No início da madrugada, três operadores de infraestrutura crítica registraram incidentes em sequência. Isoladamente, cada ocorrência foi classificada como anomalia operacional. Em conjunto, o padrão não se sustenta como coincidência.</p>
+
+      <p>Na Transnorte Energia, a estação TN-FIN-WS042 baixou um pacote assinado apresentado como firmware oficial do gateway industrial ICG-4200, da IndusCom. O Centro de Operação e Controle não sofreu interrupção. Houve, contudo, alteração silenciosa do setpoint de carga da subestação SE-03. A equipe de campo interpretou o evento como falha de relé de proteção, isolou o circuito e aplicou o procedimento padrão. No controlador de domínio, a conta de serviço backup_svc executou comandos fora da janela de manutenção. O operador ops.cardoso seguia sob a convicção de estar aplicando uma atualização legítima do fornecedor.</p>
+
+      <p>Em seguida, a Litoral Telecom. No console LIT-NMS-02, durante o turno de carla.dias, foi acionado um atalho descrito como manutenção DNS. O recursor local passou a responder de forma seletiva: resoluções internas permaneceram estáveis, enquanto destinos críticos passaram a falhar. Na tabela BGP, o anúncio do prefixo da SE-03 desapareceu sem perda física do enlace. A interface permanecia operacional; a subestação deixou de constar no sistema interligado.</p>
+
+      <p>Na Câmara de Liquidação Mercantil, minutos antes da consolidação do pregão, a estação CLM-MESA-014 autenticou-se em um portal visualmente idêntico ao ambiente corporativo. A operadora marina.alves executou um arquivo HTA recebido por e-mail, e o artefato alcançou o servidor de arquivos. Um wiper associado ao processo settlement_batch permanece em espera, condicionado ao encerramento do mercado. Há uma nota de resgate atribuída ao grupo KeyOff. Trata-se de distração. O objetivo observado não é a extorsão, e sim a coincidência de três falhas: energia, roteamento e liquidação.</p>
+
+      <p>O ponto comum às três organizações é a IndusCom, fornecedora de automação industrial com acesso privilegiado e canais de atualização presentes nos três ambientes.</p>
+
+      <p>O adversário é referenciado como Obsidian. O modo de operação privilegia persistência e controle, não impacto ostensivo. A campanha recebeu o nome Relé: o dispositivo fecha o circuito no instante definido; a operação pretende sincronizar degradação elétrica, perda de rota e interrupção da compensação na mesma janela.</p>
+
+      <p class="briefing-callout">⏱️ A infraestrutura de comando e controle permanece ativa. O wiper ainda não executou a aplicação definitiva. A equipe inicia a resposta com a campanha em andamento.</p>
+
+      <p>A equipe integra o Núcleo Guardião. Os artefatos já estão disponíveis: capturas de tráfego, registros de eventos, dumps de memória, imagens de disco, mensagens e firmware. Cabe reconstruir a campanha Relé desde o vetor inicial até a interrupção do canal de controle.</p>
+
+      <ul class="briefing-list">
+        <li>Confirmar o comprometimento da cadeia de suprimentos da IndusCom.</li>
+        <li>Identificar o vetor de acesso inicial do Obsidian.</li>
+        <li>Conter a movimentação lateral.</li>
+        <li>Mapear a persistência nas identidades comprometidas.</li>
+        <li>Neutralizar os componentes ativos antes do fechamento do pregão.</li>
+      </ul>
+
+      <p>O CTF adota o formato Jeopardy. Níveis e grupos permanecem visíveis desde a abertura. A sequência recomendada acompanha a cronologia do incidente, mas não há bloqueio entre fases. Indicadores se repetem entre artefatos (mesmo host, mesmo atualizador, mesmo C2); a correlação depende da análise conjunta. O evento permanece aberto por 60 horas corridas.</p>
+
+      <p>A investigação cobre as três organizações afetadas: Transnorte Energia, Litoral Telecom e Câmara de Liquidação Mercantil. Cada desafio corresponde a uma evidência. A primeira questão de cada artefato descreve o contexto daquele ambiente; as demais solicitam um campo específico. Pontua o valor extraído da evidência, conforme o enunciado.</p>
+
+      <p>Existem dois formatos de submissão. O enunciado de cada desafio indica qual aplicar. Verifique antes de enviar.</p>
+
+      <div class="briefing-box">
+        <p class="briefing-box-title">🚩 Resposta direta</p>
+        <p>Informe somente o valor: endereço IP, hostname, hash, conta, caminho ou carimbo de tempo. Sem o prefixo <code>CTF{}</code>, sem aspas e sem texto adicional.</p>
+      </div>
+
+      <div class="briefing-box">
+        <p class="briefing-box-title">🚩 Formato CTF</p>
+        <p>Informe o token completo, incluindo prefixo e fechamento:</p>
+        <p class="briefing-flag-example">CTF{exemplo_de_flag_aqui}</p>
+        <p>A ausência do encapsulamento invalida a submissão, ainda que o conteúdo interno esteja correto.</p>
+      </div>
+
+      <p class="briefing-signature">— A coordenação do Núcleo Guardião.</p>
+
+      <h3 class="briefing-h3">Desafios</h3>
+      <p>Quando o evento for iniciado pelo instrutor, os desafios estarão disponíveis. Para demonstrar a conclusão de cada tarefa você deve fornecer a informação solicitada (Flag) no enunciado do desafio. As flags são case sensitive e podem estar no formato <code>CTF{MinhaFlagCaseSensitive}</code>.</p>
+
+      <h3 class="briefing-h3">Respostas incorretas</h3>
+      <p>A partir da 2ª resposta, você perderá 1 ponto para cada tentativa incorreta e será penalizado até 3 vezes (Máx 3 pts).</p>
+
+      <button class="btn-primary briefing-start-btn" id="briefing-start-btn">Start</button>
+    </div>
   </section>
 
   <!-- DASHBOARD SCREEN -->
@@ -58,10 +129,27 @@
   <section id="screen-questions" class="screen" hidden>
     <button class="back-link" id="questions-back-btn">← Voltar às categorias</button>
     <div class="qs-header">
-      <h2 id="qs-title">Categoria</h2>
+      <div class="qs-title-wrap">
+        <h2 id="qs-title">Categoria</h2>
+        <button class="cat-switch-btn" id="cat-switch-btn" title="Trocar categoria">▾</button>
+        <div class="cat-switch-menu" id="cat-switch-menu" hidden></div>
+      </div>
       <div class="progress-bar-wrap" style="flex:1; min-width:120px;"><div class="progress-bar-fill" id="cat-bar" style="width:0%"></div></div>
     </div>
-    <div id="q-list"></div>
+    <div class="qs-layout">
+      <div class="q-focus-wrap">
+        <div class="q-focus-nav">
+          <button class="q-nav-btn" id="q-prev-btn">← Anterior</button>
+          <span class="q-nav-pos" id="q-nav-pos"></span>
+          <button class="q-nav-btn" id="q-next-btn">Próxima →</button>
+        </div>
+        <div id="q-focus-card"></div>
+      </div>
+      <aside class="q-sidelist">
+        <div class="q-sidelist-title">Todas as questões</div>
+        <div id="q-side-items"></div>
+      </aside>
+    </div>
   </section>
 </main>
 

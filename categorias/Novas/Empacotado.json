@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Tar residual",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Este tn-occ.tar é o pacote de logs da OCC da Transnorte depois do KILLUPD na Campanha Relé. Quase todos os nomes se repetem. Um arquivo aparece uma única vez: o setpoint residual da SE-03. Qual o nome desse arquivo? Padrão da resposta: valor direto. Exemplo: leftover.bin",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "Tar residual - 10 pts\nEmpacotado\nEste tn-occ.tar é o pacote de logs da OCC da Transnorte depois do KILLUPD na Campanha Relé. Quase todos os nomes se repetem. Um arquivo aparece uma única vez: o setpoint residual da SE-03. Qual o nome desse arquivo? Padrão da resposta: valor direto. Exemplo: leftover.bin",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Src tar",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "O corpo é XOR com o setpoint 13800. Qual o src? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "Src tar - 10 pts\nEmpacotado\nO corpo é XOR com o setpoint 13800. Qual o src? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway tar",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual o gw nesse arquivo? Padrão da resposta: valor direto. Exemplo: gw-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "Gateway tar - 10 pts\nEmpacotado\nQual o gw nesse arquivo? Padrão da resposta: valor direto. Exemplo: gw-01",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "FC tar",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual o fc nesse arquivo? Padrão da resposta: valor direto. Exemplo: 3",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "FC tar - 10 pts\nEmpacotado\nQual o fc nesse arquivo? Padrão da resposta: valor direto. Exemplo: 3",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Flag tar",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual a Flag nesse arquivo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "Flag tar - 10 pts\nEmpacotado\nQual a Flag nesse arquivo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Cpio residual",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Este lit-rec.cpio é o pacote newc do recursor da Litoral depois do UNHOLD na Campanha Relé. Quase todos os nomes se repetem. Um arquivo aparece uma única vez: o hold-check. Qual o nome desse arquivo? Padrão da resposta: valor direto. Exemplo: leftover.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Cpio residual - 10 pts\nEmpacotado\nEste lit-rec.cpio é o pacote newc do recursor da Litoral depois do UNHOLD na Campanha Relé. Quase todos os nomes se repetem. Um arquivo aparece uma única vez: o hold-check. Qual o nome desse arquivo? Padrão da resposta: valor direto. Exemplo: leftover.txt",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Src cpio",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "O corpo é XOR com a chave hold-key. Qual o src? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Src cpio - 10 pts\nEmpacotado\nO corpo é XOR com a chave hold-key. Qual o src? Padrão da resposta: valor direto. Exemplo: 10.1.2.3",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Node cpio",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual o node nesse arquivo? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Node cpio - 10 pts\nEmpacotado\nQual o node nesse arquivo? Padrão da resposta: valor direto. Exemplo: rec-01",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Qname cpio",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual o qname nesse arquivo? Padrão da resposta: valor direto. Exemplo: status.example.net",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Qname cpio - 10 pts\nEmpacotado\nQual o qname nesse arquivo? Padrão da resposta: valor direto. Exemplo: status.example.net",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Flag cpio",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual a Flag nesse arquivo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Flag cpio - 10 pts\nEmpacotado\nQual a Flag nesse arquivo? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Zip residual",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Este clm-batch.zip é o pacote stored da liquidação depois do abort do wiper na Campanha Relé. Há milhares de ACK. Um membro ainda está pending. Qual o path desse membro? Padrão da resposta: valor direto. Exemplo: pending/lote.apply",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Zip residual - 10 pts\nEmpacotado\nEste clm-batch.zip é o pacote stored da liquidação depois do abort do wiper na Campanha Relé. Há milhares de ACK. Um membro ainda está pending. Qual o path desse membro? Padrão da resposta: valor direto. Exemplo: pending/lote.apply",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Batch zip",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "O corpo é XOR com o setpoint 13800. Qual o batch? Padrão da resposta: valor direto. Exemplo: lote_01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Batch zip - 10 pts\nEmpacotado\nO corpo é XOR com o setpoint 13800. Qual o batch? Padrão da resposta: valor direto. Exemplo: lote_01",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo zip",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual o target nesse membro? Padrão da resposta: valor direto. Exemplo: db01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Alvo zip - 10 pts\nEmpacotado\nQual o target nesse membro? Padrão da resposta: valor direto. Exemplo: db01",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Host zip",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual o host nesse membro? Padrão da resposta: valor direto. Exemplo: file-01",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Host zip - 10 pts\nEmpacotado\nQual o host nesse membro? Padrão da resposta: valor direto. Exemplo: file-01",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zip",
+    "points": 10,
+    "category": "Empacotado",
+    "description": "Qual a Flag nesse membro? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Flag zip - 10 pts\nEmpacotado\nQual a Flag nesse membro? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Empacotado",
+    "downloaded": true
+  }
+]
