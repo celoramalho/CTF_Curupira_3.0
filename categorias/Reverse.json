@@ -1,0 +1,152 @@
+[
+  {
+    "title": "PE OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "PE OCC - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Arch PE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "Arch PE - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Magic PE32+",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "Magic PE32+ - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Export 0",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "Export 0 - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Flag overlay PE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-upd.exe",
+    "raw_text": "Flag overlay PE - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "SO UPX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "SO UPX - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Class packed",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "Class packed - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "SONAME",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "SONAME - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "String .obsid",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "String .obsid - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Flag .flag",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.so",
+    "raw_text": "Flag .flag - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Class Java",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "Class Java - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Magic CAFEBABE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "Magic CAFEBABE - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Major class",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "Major class - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "FAMILY",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "FAMILY - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  },
+  {
+    "title": "Flag overlay class",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/ClmSettle.class",
+    "raw_text": "Flag overlay class - 10 pts\n\n",
+    "category_group": "Reverse",
+    "downloaded": true
+  }
+]

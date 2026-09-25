@@ -1,0 +1,262 @@
+[
+  {
+    "title": "ISO ICG-4200",
+    "points": 10,
+    "category": "Dropper",
+    "description": "Este icg4200.iso é a mídia de update IndusCom montada na estação de finanças da Transnorte na Campanha Relé, o disco que a estação de trabalho tratou como firmware oficial do ICG-4200. Qual o Volume id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "ISO ICG-4200 - 10 pts\nDropper\nEste icg4200.iso é a mídia de update IndusCom montada na estação de finanças da Transnorte na Campanha Relé, o disco que a estação de trabalho tratou como firmware oficial do ICG-4200. Qual o Volume id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "System id ISO",
+    "points": 10,
+    "category": "",
+    "description": "O System id desta ISO amarra o volume à estação da Transnorte que montou a mídia. Qual o System id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "System id ISO - 10 pts\n\nO System id desta ISO amarra o volume à estação da Transnorte que montou a mídia. Qual o System id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Publisher ISO",
+    "points": 10,
+    "category": "",
+    "description": "O Publisher id desta ISO declara o vendor que assina o disco de update. Qual o Publisher id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Publisher ISO - 10 pts\n\nO Publisher id desta ISO declara o vendor que assina o disco de update. Qual o Publisher id? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Preparer ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Preparer ISO - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Application ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Application ISO - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Autorun",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Autorun - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Hash ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Hash ISO - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "C2 ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "C2 ISO - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200.iso",
+    "raw_text": "Flag ISO - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "LNK DNS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "LNK DNS - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "MachineID",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "MachineID - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "WorkingDir",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "WorkingDir - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Description LNK",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Description LNK - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Serial LNK",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Serial LNK - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Portal LNK",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Portal LNK - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Saida LNK",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Saida LNK - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag LNK",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.lnk",
+    "raw_text": "Flag LNK - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "HTA CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "HTA CLM - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "ID HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "ID HTA - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "AppName HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "AppName HTA - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Taskbar HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "Taskbar HTA - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "UA HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "UA HTA - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Portal HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "Portal HTA - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "C2 HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "C2 HTA - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Drop HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "Drop HTA - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-login.hta",
+    "raw_text": "Flag HTA - 10 pts\n\n",
+    "category_group": "Dropper",
+    "downloaded": true
+  }
+]

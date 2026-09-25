@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Volume set ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "Volume set ISO - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Setores ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "Setores ISO - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Preparer ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "Preparer ISO - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "MD5 lastack",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "MD5 lastack - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ISO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-last.iso",
+    "raw_text": "Flag ISO - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Largura BMP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "Largura BMP - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Altura BMP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "Altura BMP - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "XPels BMP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "XPels BMP - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Pixel X",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "Pixel X - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag BMP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-hold.bmp",
+    "raw_text": "Flag BMP - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Unix NetFlow",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "Unix NetFlow - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Uptime NetFlow",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "Uptime NetFlow - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Src GRE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "Src GRE - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "AS GRE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "AS GRE - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag GRE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-flows.nf5",
+    "raw_text": "Flag GRE - 10 pts\n\n",
+    "category_group": "Mídia",
+    "downloaded": true
+  }
+]

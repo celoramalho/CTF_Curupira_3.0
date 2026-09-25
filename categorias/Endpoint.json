@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Sysmon TN",
+    "points": 10,
+    "category": "",
+    "description": "Este sysmon_tn.jsonl é o export Sysmon da TN-FIN-WS042 depois da mídia ICG-4200 na Campanha Relé, o EventID 1 em que o update.bin sobe a partir da ISO montada na estação de trabalho de finanças. Qual o ParentImage do processo update.bin? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Sysmon TN - 10 pts\n\nEste sysmon_tn.jsonl é o export Sysmon da TN-FIN-WS042 depois da mídia ICG-4200 na Campanha Relé, o EventID 1 em que o update.bin sobe a partir da ISO montada na estação de trabalho de finanças. Qual o ParentImage do processo update.bin? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Nome interno TN",
+    "points": 10,
+    "category": "",
+    "description": "O OriginalFileName do update.bin neste Sysmon denuncia o nome interno do binário ICG, não o update.bin da ISO. Qual o OriginalFileName do update.bin? Padrão da resposta: valor direto. Exemplo: xxxx.exe",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Nome interno TN - 10 pts\n\nO OriginalFileName do update.bin neste Sysmon denuncia o nome interno do binário ICG, não o update.bin da ISO. Qual o OriginalFileName do update.bin? Padrão da resposta: valor direto. Exemplo: xxxx.exe",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Hash Sysmon TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Hash Sysmon TN - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Guid updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Guid updater - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Guid pai",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Guid pai - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "IP Event 3 TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "IP Event 3 TN - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Porta Event 3",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Porta Event 3 - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo Event 11",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Arquivo Event 11 - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Run Event 13",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Run Event 13 - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Flag Sysmon TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Flag Sysmon TN - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Sysmon LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Sysmon LIT - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "User cmd lure",
+    "points": 9,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "User cmd lure - 9 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "CmdLine lure",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "CmdLine lure - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Guid cmd",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Guid cmd - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Pai curl",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Pai curl - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Host Event 3 LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Host Event 3 LIT - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "IP Event 3 LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "IP Event 3 LIT - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo curl",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Arquivo curl - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Run DNS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Run DNS - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Flag Sysmon LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_tn.jsonl",
+    "raw_text": "Flag Sysmon LIT - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Sysmon CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Sysmon CLM - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "User mshta",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "User mshta - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "CmdLine HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "CmdLine HTA - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Guid mshta",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Guid mshta - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Pai agente",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Pai agente - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Nome interno CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Nome interno CLM - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Host Event 3 CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Host Event 3 CLM - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Arquivo HTA - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Run HTA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Run HTA - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  },
+  {
+    "title": "Flag Sysmon CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/sysmon_clm.jsonl",
+    "raw_text": "Flag Sysmon CLM - 10 pts\n\n",
+    "category_group": "Endpoint",
+    "downloaded": true
+  }
+]

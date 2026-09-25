@@ -1,0 +1,152 @@
+[
+  {
+    "title": "CMS C2",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "CMS C2 - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "CN CMS",
+    "points": 9,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "CN CMS - 9 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Digest CMS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "Digest CMS - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Comando eContent",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "Comando eContent - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Flag CMS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-c2.cms",
+    "raw_text": "Flag CMS - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "WebSocket C2",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "WebSocket C2 - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Texto frame",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "Texto frame - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Masking-key",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "Masking-key - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Len frame Flag",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "Len frame Flag - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Flag frame",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-c2.ws",
+    "raw_text": "Flag frame - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "gRPC C2",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "gRPC C2 - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Len protobuf",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "Len protobuf - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Metodo proto",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "Metodo proto - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo proto",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "Alvo proto - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  },
+  {
+    "title": "Flag proto",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-c2.grpc",
+    "raw_text": "Flag proto - 10 pts\n\n",
+    "category_group": "Interceptação",
+    "downloaded": true
+  }
+]

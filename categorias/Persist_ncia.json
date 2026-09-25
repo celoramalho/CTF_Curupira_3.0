@@ -1,0 +1,212 @@
+[
+  {
+    "title": "GPO PReg",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "GPO PReg - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Nome GPO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Nome GPO - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize PReg",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "RecSize PReg - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Chave Run",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Chave Run - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Valor Run",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Valor Run - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Hash Run",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Hash Run - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Conta Run",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Conta Run - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Flag PReg",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-registry.pol",
+    "raw_text": "Flag PReg - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Spool atd",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "Spool atd - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize atd",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "RecSize atd - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "CMD atd",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "CMD atd - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Hash atd",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "Hash atd - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "UID atd",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "UID atd - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Flag atd",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-atjobs.bin",
+    "raw_text": "Flag atd - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "WMI CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "WMI CLM - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize WMI",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "RecSize WMI - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Filtro WMI",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Filtro WMI - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Consumer WMI",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Consumer WMI - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Conta WMI",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Conta WMI - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Hash WMI",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Hash WMI - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WMI",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wmi.bin",
+    "raw_text": "Flag WMI - 10 pts\n\n",
+    "category_group": "Persistência",
+    "downloaded": true
+  }
+]

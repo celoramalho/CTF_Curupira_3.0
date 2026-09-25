@@ -1,0 +1,152 @@
+[
+  {
+    "title": "FAT12 wiper",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "FAT12 wiper - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "OEM FAT12",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "OEM FAT12 - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo FAT12",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "Alvo FAT12 - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho FAT12",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "Gatilho FAT12 - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag FAT12",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-wipe.ima",
+    "raw_text": "Flag FAT12 - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "CramFS wiper",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "CramFS wiper - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Magic CramFS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "Magic CramFS - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo MTD",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "Alvo MTD - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho CramFS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "Gatilho CramFS - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag CramFS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-wipe.cramfs",
+    "raw_text": "Flag CramFS - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "WIM wiper",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "WIM wiper - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Versão WIM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "Versão WIM - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo WIM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "Alvo WIM - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho WIM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "Gatilho WIM - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WIM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wipe.wim",
+    "raw_text": "Flag WIM - 10 pts\n\n",
+    "category_group": "Wiper",
+    "downloaded": true
+  }
+]

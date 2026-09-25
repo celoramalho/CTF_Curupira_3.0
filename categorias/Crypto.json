@@ -1,0 +1,472 @@
+[
+  {
+    "title": "Nota hex",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Este arquivo é a nota cifrada da IndusCom recolhida na estação de finanças da Transnorte na Campanha Relé, o recado do vendor que só fecha depois de hex e Base64. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Nota hex - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nEste arquivo é a nota cifrada da IndusCom recolhida na estação de finanças da Transnorte na Campanha Relé, o recado do vendor que só fecha depois de hex e Base64. Qual o Host no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Operador hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Operator no cabeçalho em claro aponta quem o vendor associou a esta nota da estação de trabalho. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Operador hex - 10 pts\nCrypto\nO Operator no cabeçalho em claro aponta quem o vendor associou a esta nota da estação de trabalho. Qual o Operator no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Canal hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Channel no cabeçalho em claro nomeia o canal operacional desta nota da IndusCom. Qual o Channel no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Canal hex - 10 pts\nCrypto\nO Channel no cabeçalho em claro nomeia o canal operacional desta nota da IndusCom. Qual o Channel no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Camadas hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "O Encoding no cabeçalho diz como o plaintext foi empacotado antes da cifra. Qual o Encoding no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Camadas hex - 10 pts\nCrypto\nO Encoding no cabeçalho diz como o plaintext foi empacotado antes da cifra. Qual o Encoding no cabeçalho em claro? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway hex",
+    "points": 10,
+    "category": "Crypto",
+    "description": "Depois de hex e Base64, o plaintext ainda nomeia o gateway da SE-03. Qual o Gateway no plaintext depois de hex e base64? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Gateway hex - 10 pts\nCrypto\nDepois de hex e Base64, o plaintext ainda nomeia o gateway da SE-03. Qual o Gateway no plaintext depois de hex e base64? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware hex",
+    "points": 10,
+    "category": "",
+    "description": "O Firmware no plaintext decifrado é a versão que o recado do vendor citava para o ICG. Qual o Firmware no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Firmware hex - 10 pts\n\nO Firmware no plaintext decifrado é a versão que o recado do vendor citava para o ICG. Qual o Firmware no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo hex",
+    "points": 10,
+    "category": "",
+    "description": "O Model no plaintext fecha a família ICG citada nesta nota. Qual o Model no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Modelo hex - 10 pts\n\nO Model no plaintext fecha a família ICG citada nesta nota. Qual o Model no plaintext decifrado? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "C2 hex",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "C2 hex - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "IP C2 hex",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "IP C2 hex - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint hex",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Setpoint hex - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Origem hex",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Origem hex - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Build hex",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Build hex - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Caso OCC hex",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Caso OCC hex - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Flag hex",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vendor_note.txt",
+    "raw_text": "Flag hex - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Beacon XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Beacon XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "estação XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "estação XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Operador XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Operador XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Cifra XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Cifra XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "UA XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "UA XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "C2 XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "C2 XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Path XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Path XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Intervalo XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Intervalo XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Dominio XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Dominio XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Origem XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Origem XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Destino XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Destino XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Flag XOR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/heartbeat.xor",
+    "raw_text": "Flag XOR - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Pacote AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Pacote AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "estação AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "estação AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Operador AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Operador AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Cifra AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Cifra AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "KDF AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "KDF AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "URL updater AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "URL updater AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Drop AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Drop AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Hash AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Hash AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "UA AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "UA AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "C2 AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "C2 AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Flag AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/update.enc",
+    "raw_text": "Flag AES - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Kit RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Kit RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Operador RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Operador RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Tipo chave",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Tipo chave - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Padding RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Padding RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Gateway RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Firmware RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "C2 RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "C2 RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Origem RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Origem RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "estação RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "estação RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  },
+  {
+    "title": "Flag RSA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/recovery.pem",
+    "raw_text": "Flag RSA - 10 pts\n\n",
+    "category_group": "Crypto",
+    "downloaded": true
+  }
+]

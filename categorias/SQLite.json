@@ -1,0 +1,782 @@
+[
+  {
+    "title": "Host Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "Este arquivo é o export SQLite do histórico do Chrome da estação de finanças da Transnorte na Campanha Relé, com o portal interno, o heartbeat da CDN e o download do update.exe na mesma timeline. Qual value em meta tem key host? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Host Chrome - 10 pts\nSQLite\nEste arquivo é o export SQLite do histórico do Chrome da estação de finanças da Transnorte na Campanha Relé, com o portal interno, o heartbeat da CDN e o download do update.exe na mesma timeline. Qual value em meta tem key host? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "User Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A tabela meta deste histórico ainda identifica a conta do perfil em que o Chrome da estação de trabalho rodou. Qual value em meta tem key user? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "User Chrome - 10 pts\nSQLite\nA tabela meta deste histórico ainda identifica a conta do perfil em que o Chrome da estação de trabalho rodou. Qual value em meta tem key user? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "IP Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.src_ip amarra este SQLite ao IPv4 da estação de finanças no caso Relé. Qual value em meta tem key src_ip? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "IP Chrome - 10 pts\nSQLite\nA meta.src_ip amarra este SQLite ao IPv4 da estação de finanças no caso Relé. Qual value em meta tem key src_ip? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Browser",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.browser confirma o cliente usado na estação de trabalho de finanças quando o boletim da IndusCom foi aberto. Qual value em meta tem key browser? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Browser - 10 pts\nSQLite\nA meta.browser confirma o cliente usado na estação de trabalho de finanças quando o boletim da IndusCom foi aberto. Qual value em meta tem key browser? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Perfil Chrome",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A meta.profile aponta o path do perfil de onde este histórico do Chrome foi exportado. Qual value em meta tem key profile? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Perfil Chrome - 10 pts\nSQLite\nA meta.profile aponta o path do perfil de onde este histórico do Chrome foi exportado. Qual value em meta tem key profile? Padrão da resposta: valor direto. Exemplo: C:/x",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Página top",
+    "points": 10,
+    "category": "SQLite",
+    "description": "A URL mais visitada neste Chrome é o hub do incidente na estação de trabalho, não um site qualquer. Qual url tem o maior visit_count? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Página top - 10 pts\nSQLite\nA URL mais visitada neste Chrome é o hub do incidente na estação de trabalho, não um site qualquer. Qual url tem o maior visit_count? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Título OCC",
+    "points": 10,
+    "category": "SQLite",
+    "description": "O title dessa URL mais visitada é o rótulo que a estação de trabalho via no portal do OCC. Qual title da url com maior visit_count? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Título OCC - 10 pts\nSQLite\nO title dessa URL mais visitada é o rótulo que a estação de trabalho via no portal do OCC. Qual title da url com maior visit_count? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume OCC",
+    "points": 10,
+    "category": "",
+    "description": "A contagem de visitas mede o quanto a estação de trabalho voltou a esse endereço no dia da Relé. Qual visit_count da url mais visitada? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Volume OCC - 10 pts\n\nA contagem de visitas mede o quanto a estação de trabalho voltou a esse endereço no dia da Relé. Qual visit_count da url mais visitada? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Login digitado",
+    "points": 10,
+    "category": "",
+    "description": "O typed_count do login em /api/auth/login mostra se a estação de trabalho digitou o portal ou só clicou. Qual typed_count da url de login /api/auth/login? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Login digitado - 10 pts\n\nO typed_count do login em /api/auth/login mostra se a estação de trabalho digitou o portal ou só clicou. Qual typed_count da url de login /api/auth/login? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Beacon Chrome",
+    "points": 10,
+    "category": "",
+    "description": "O Chrome também registrou o heartbeat no domínio update.induscom-cdn.net, no mesmo perfil da estação de trabalho. Qual url do heartbeat no dominio update.induscom-cdn.net? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Beacon Chrome - 10 pts\n\nO Chrome também registrou o heartbeat no domínio update.induscom-cdn.net, no mesmo perfil da estação de trabalho. Qual url do heartbeat no dominio update.induscom-cdn.net? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "1o beacon Chrome",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "1o beacon Chrome - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Transição beacon",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Transição beacon - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume C2 Chrome",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Volume C2 Chrome - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Webshell Chrome",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Webshell Chrome - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Drop updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Drop updater - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "URL updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "URL updater - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "MIME updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "MIME updater - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Veredito DL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Veredito DL - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Referer updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Referer updater - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tam. updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Tam. updater - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Hora do drop",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Hora do drop - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Notes Chrome",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Notes Chrome - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tam. notes Chrome",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Tam. notes Chrome - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Busca operador",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Busca operador - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume DLs",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "Volume DLs - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "URL oculta",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/history.db",
+    "raw_text": "URL oculta - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Historian SE-03",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Historian SE-03 - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Site historian",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Site historian - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Produto historian",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Produto historian - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Fornecedor hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Fornecedor hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo historian",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Modelo historian - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Firmware hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Mestre historian",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Mestre historian - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Escravo hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Escravo hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tag setpoint",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Tag setpoint - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Unit setpoint",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Unit setpoint - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Origem telemetria",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Origem telemetria - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Origem cmd hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Origem cmd hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint ruim hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Setpoint ruim hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint anterior",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Setpoint anterior - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "1a escrita hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "1a escrita hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Transação hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Transação hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Volume hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "FC escrita hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "FC escrita hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Bobina hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Bobina hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tag bobina",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Tag bobina - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Probe C2 hist",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Probe C2 hist - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Qualidade ruim",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Qualidade ruim - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume tags",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Volume tags - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Endereço tensão",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Endereço tensão - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Hora bobina",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Hora bobina - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Alarme critico",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/historian.db",
+    "raw_text": "Alarme critico - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "AAA VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "AAA VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Produto VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Produto VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Realm VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Realm VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Proto VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Proto VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Pool VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Pool VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Origem brute VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Origem brute VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume brute VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Volume brute VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo brute VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Alvo brute VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Conta aceita",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Conta aceita - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "C2 no AAA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "C2 no AAA - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Porta sessão VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Porta sessão VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Hora login VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Hora login VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "PID VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "PID VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Metodo VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Metodo VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "IP tunel",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "IP tunel - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Bytes tunel",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Bytes tunel - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Fim sessão VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Fim sessão VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Duração VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Duração VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Grupo conta",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Grupo conta - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Status conta",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Status conta - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Operador no AAA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Operador no AAA - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Tunel operador",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Tunel operador - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Metodo operador",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Metodo operador - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Scanner VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Scanner VPN - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Volume sessões",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Volume sessões - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  },
+  {
+    "title": "Nota sessão",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/vpn.db",
+    "raw_text": "Nota sessão - 10 pts\n\n",
+    "category_group": "SQLite",
+    "downloaded": true
+  }
+]

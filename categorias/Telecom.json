@@ -1,0 +1,152 @@
+[
+  {
+    "title": "DNSTAP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "DNSTAP - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Porta SERVFAIL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "Porta SERVFAIL - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "QNAME SERVFAIL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "QNAME SERVFAIL - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Rcode SERVFAIL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "Rcode SERVFAIL - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Flag TXT hold",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-dns.dnstap",
+    "raw_text": "Flag TXT hold - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "MRT BGP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "MRT BGP - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Subtype MRT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "Subtype MRT - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Peer AS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "Peer AS - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Withdraw SE-03",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "Withdraw SE-03 - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Flag attr",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-rib.mrt",
+    "raw_text": "Flag attr - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "SNMP QoS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "SNMP QoS - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Community SET",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "Community SET - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "CIR settle",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "CIR settle - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "ifDescr settle",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "ifDescr settle - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  },
+  {
+    "title": "Flag enterprise",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-qos.snmp",
+    "raw_text": "Flag enterprise - 10 pts\n\n",
+    "category_group": "Telecom",
+    "downloaded": true
+  }
+]

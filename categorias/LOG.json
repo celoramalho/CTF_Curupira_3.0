@@ -1,0 +1,1042 @@
+[
+  {
+    "title": "Host VPN syslog",
+    "points": 10,
+    "category": "LOG",
+    "description": "Este syslog é o rastro de autenticação do concentrador atingido na Operação Relé, com força bruta externa e um login aceito na mesma janela em que a Transnorte ainda tratava o evento como rotina. Qual o hostname do equipamento que gerou o syslog? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Host VPN syslog - 10 pts\nLOG\nEste syslog é o rastro de autenticação do concentrador atingido na Operação Relé, com força bruta externa e um login aceito na mesma janela em que a Transnorte ainda tratava o evento como rotina. Qual o hostname do equipamento que gerou o syslog? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Brute SSH",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Nas linhas event=failed_password deste syslog, a força bruta externa concentra as falhas numa única origem da faixa de documentação. Qual IP externo gerou o maior número de event=failed_password? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Brute SSH - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nNas linhas event=failed_password deste syslog, a força bruta externa concentra as falhas numa única origem da faixa de documentação. Qual IP externo gerou o maior número de event=failed_password? Padrão da resposta: valor direto. Exemplo: x.x.x.x",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Conta no brute",
+    "points": 10,
+    "category": "LOG",
+    "description": "Depois da chuva de falhas, o mesmo IP da força bruta teve um event=accepted_password neste syslog. Qual usuário teve event=accepted_password a partir do IP da força bruta? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Conta no brute - 10 pts\nLOG\nDepois da chuva de falhas, o mesmo IP da força bruta teve um event=accepted_password neste syslog. Qual usuário teve event=accepted_password a partir do IP da força bruta? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "C2 no syslog",
+    "points": 10,
+    "category": "LOG",
+    "description": "O accepted_password desse IP ainda registra o src_host que a vítima apresentou no login bem-sucedido. Qual src_host aparece no login bem-sucedido desse IP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "C2 no syslog - 10 pts\nLOG\nO accepted_password desse IP ainda registra o src_host que a vítima apresentou no login bem-sucedido. Qual src_host aparece no login bem-sucedido desse IP? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Porta origem VPN",
+    "points": 10,
+    "category": "LOG",
+    "description": "A porta de origem (port=) desse accepted_password fecha a sessão da força bruta no concentrador. Qual a porta de origem (port=) desse accepted_password? Padrão da resposta: valor direto. Exemplo: 1234",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Porta origem VPN - 10 pts\nLOG\nA porta de origem (port=) desse accepted_password fecha a sessão da força bruta no concentrador. Qual a porta de origem (port=) desse accepted_password? Padrão da resposta: valor direto. Exemplo: 1234",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Hora do VPN",
+    "points": 10,
+    "category": "LOG",
+    "description": "O horário UTC do accepted_password vindo de 198.51.100.88 marca a virada da força bruta em acesso na Relé. Qual o timestamp UTC do accepted_password vindo de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Hora do VPN - 10 pts\nLOG\nO horário UTC do accepted_password vindo de 198.51.100.88 marca a virada da força bruta em acesso na Relé. Qual o timestamp UTC do accepted_password vindo de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 2026-01-01T00:00:00Z",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "PID da sessão",
+    "points": 10,
+    "category": "LOG",
+    "description": "O pid= do sshd nesse accepted_password de 198.51.100.88 amarra a sessão aceita no host. Qual o pid= do accepted_password vindo de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 1234",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "PID da sessão - 10 pts\nLOG\nO pid= do sshd nesse accepted_password de 198.51.100.88 amarra a sessão aceita no host. Qual o pid= do accepted_password vindo de 198.51.100.88? Padrão da resposta: valor direto. Exemplo: 1234",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Sudo no syslog",
+    "points": 10,
+    "category": "LOG",
+    "description": "Depois do acesso, alguém elevou privilégio com sudo no mesmo host deste syslog. Qual usuário executou event=sudo? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Sudo no syslog - 10 pts\nLOG\nDepois do acesso, alguém elevou privilégio com sudo no mesmo host deste syslog. Qual usuário executou event=sudo? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Comando sudo",
+    "points": 10,
+    "category": "",
+    "description": "O cmd= passado ao sudo é o que o operador ou o implante rodou com root neste concentrador. Qual o cmd= executado via sudo? Padrão da resposta: valor direto. Exemplo: /bin/x",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Comando sudo - 10 pts\n\nO cmd= passado ao sudo é o que o operador ou o implante rodou com root neste concentrador. Qual o cmd= executado via sudo? Padrão da resposta: valor direto. Exemplo: /bin/x",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "TTY sudo",
+    "points": 10,
+    "category": "",
+    "description": "O tty= do evento sudo diz se essa elevação veio de sessão interativa no host da Relé. Qual o tty= do evento sudo? Padrão da resposta: valor direto. Exemplo: pts/0",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "TTY sudo - 10 pts\n\nO tty= do evento sudo diz se essa elevação veio de sessão interativa no host da Relé. Qual o tty= do evento sudo? Padrão da resposta: valor direto. Exemplo: pts/0",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "User inventado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "User inventado - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Aviso syslog",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Aviso syslog - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "VPN da estação",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "VPN da estação - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Origem VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Origem VPN - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Scan no syslog",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Scan no syslog - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Volume brute",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Volume brute - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Chave OCC syslog",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Chave OCC syslog - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Cron do aviso",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Cron do aviso - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Facility SSH",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Facility SSH - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "sessão aberta",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "sessão aberta - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Iface VPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Iface VPN - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Cwd sudo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Cwd sudo - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Proc do aviso",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Proc do aviso - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "OpenVPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "OpenVPN - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Link tunel",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Link tunel - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Unit OpenVPN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/syslog.log",
+    "raw_text": "Unit OpenVPN - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "estação OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "estação OCC - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Operador OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Operador OCC - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Status login OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Status login OCC - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Hora login OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Hora login OCC - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Referer login OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Referer login OCC - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Notes Apache",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Notes Apache - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Vhost notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Vhost notes - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Tam. notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Tam. notes - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Updater Apache",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Updater Apache - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Beacon Apache",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Beacon Apache - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Vhost beacon",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Vhost beacon - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Primeiro beacon",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Primeiro beacon - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "WPAD Apache",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "WPAD Apache - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Vhost WPAD",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Vhost WPAD - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Varredura 404",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Varredura 404 - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Volume 404",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Volume 404 - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Ferramenta OT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Ferramenta OT - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Vhost OT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Vhost OT - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "User OT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "User OT - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Webshell Apache",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Webshell Apache - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Query webshell",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Query webshell - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Build escondido",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Build escondido - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Dashboard OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Dashboard OCC - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Metodo login",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Metodo login - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Scanner UA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Scanner UA - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Next login",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/access.log",
+    "raw_text": "Next login - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Host Defender",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Host Defender - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "IP Defender",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "IP Defender - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Produto Defender",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Produto Defender - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Ameaca principal",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Ameaca principal - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Path updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Path updater - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Hash updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Hash updater - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "PID malware",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "PID malware - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Pai malware",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Pai malware - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Ação Defender",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Ação Defender - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Severidade",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Severidade - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Primeira detecção",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Primeira detecção - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "User logado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "User logado - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "C2 bloqueado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "C2 bloqueado - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "IP C2 Defender",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "IP C2 Defender - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Webshell Defender",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Webshell Defender - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Path webshell",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Path webshell - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Hash webshell",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Hash webshell - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Motor Defender",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Motor Defender - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Assinaturas",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Assinaturas - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Classificação",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Classificação - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "RTP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "RTP - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "PUA",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "PUA - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Volume updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Volume updater - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Notes Defender",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Notes Defender - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Nota do scan",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Nota do scan - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Ação webshell",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/defender.log",
+    "raw_text": "Ação webshell - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway SE-03",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Gateway SE-03 - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Produto ICG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Produto ICG - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Fornecedor ICG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Fornecedor ICG - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo ICG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Modelo ICG - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Site SE-03",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Site SE-03 - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Protocolo OT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Protocolo OT - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Porta 502",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Porta 502 - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Mestre OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Mestre OCC - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Escravo ICG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Escravo ICG - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Unit operacional",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Unit operacional - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "FC escrita",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "FC escrita - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Reg setpoint",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Reg setpoint - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint ok",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Setpoint ok - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint anomalo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Setpoint anomalo - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Origem comando",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Origem comando - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "1a escrita ruim",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "1a escrita ruim - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Transação MB",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Transação MB - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Volume escrita",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Volume escrita - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Bobina",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Bobina - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Endereço bobina",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Endereço bobina - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Valor bobina",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Valor bobina - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Exceção MB",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Exceção MB - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Unit ilegal",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Unit ilegal - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Probe C2 MB",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Probe C2 MB - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware ICG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Firmware ICG - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  },
+  {
+    "title": "Diag do rele",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/modbus.log",
+    "raw_text": "Diag do rele - 10 pts\n\n",
+    "category_group": "LOG",
+    "downloaded": true
+  }
+]

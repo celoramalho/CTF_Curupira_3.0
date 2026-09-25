@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Tar residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "Tar residual - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Src tar",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "Src tar - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway tar",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "Gateway tar - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "FC tar",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "FC tar - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Flag tar",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.tar",
+    "raw_text": "Flag tar - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Cpio residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Cpio residual - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Src cpio",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Src cpio - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Node cpio",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Node cpio - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Qname cpio",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Qname cpio - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Flag cpio",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-rec.cpio",
+    "raw_text": "Flag cpio - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Zip residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Zip residual - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Batch zip",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Batch zip - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo zip",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Alvo zip - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Host zip",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Host zip - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zip",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-batch.zip",
+    "raw_text": "Flag zip - 10 pts\n\n",
+    "category_group": "Empacotado",
+    "downloaded": true
+  }
+]

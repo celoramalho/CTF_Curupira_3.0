@@ -1,0 +1,342 @@
+[
+  {
+    "title": "RMEM TN",
+    "points": 10,
+    "category": "",
+    "description": "Este tn-mem.bin é o snapshot RMEM do processo update.bin na TN-FIN-WS042 depois da ISO ICG-4200 na Campanha Relé, o dump de memória que o plantão tirou do dropper ainda residente. Qual o Computer no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "RMEM TN - 10 pts\n\nEste tn-mem.bin é o snapshot RMEM do processo update.bin na TN-FIN-WS042 depois da ISO ICG-4200 na Campanha Relé, o dump de memória que o plantão tirou do dropper ainda residente. Qual o Computer no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "PID RWX TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "PID RWX TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off RWX TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Off RWX TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Len RWX TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Len RWX TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Hash RWX TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Hash RWX TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off MZ TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Off MZ TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "C2 PE TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "C2 PE TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "IP socket TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "IP socket TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Porta socket TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Porta socket TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Flag RMEM TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "Flag RMEM TN - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "RMEM LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "RMEM LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "PID RWX LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "PID RWX LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off RWX LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Off RWX LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Len RWX LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Len RWX LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Hash RWX LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Hash RWX LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off MZ LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Off MZ LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "C2 PE LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-mem.bin",
+    "raw_text": "C2 PE LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "IP socket LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "IP socket LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Porta socket LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Porta socket LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Flag RMEM LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-mem.bin",
+    "raw_text": "Flag RMEM LIT - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "CLMD CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "CLMD CLM - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "User CLMD",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "User CLMD - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "KeyHint AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "KeyHint AES - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Salt CLMD",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Salt CLMD - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "SockOff",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "SockOff - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "SockStride",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "SockStride - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Off JSON AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Off JSON AES - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Len JSON AES",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Len JSON AES - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Path HTA JSON",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Path HTA JSON - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Pass JSON",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Pass JSON - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "C2 JSON",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "C2 JSON - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "IP socket CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "IP socket CLM - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "PID socket CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "PID socket CLM - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  },
+  {
+    "title": "Flag CLMD",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-mem.bin",
+    "raw_text": "Flag CLMD - 10 pts\n\n",
+    "category_group": "Memória",
+    "downloaded": true
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "title": "EVTX Transnorte",
+    "points": 9,
+    "category": "",
+    "description": "Este tn-security.evtx é o Security do TN-DC-01 depois do DCSync do backup_svc na Campanha Relé. Records ElfFile, nomes só na tabela SID, e o plantão precisa do Domain no cabeçalho antes de achar o 4624 type 3. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "EVTX Transnorte - 9 pts\n\nEste tn-security.evtx é o Security do TN-DC-01 depois do DCSync do backup_svc na Campanha Relé. Records ElfFile, nomes só na tabela SID, e o plantão precisa do Domain no cabeçalho antes de achar o 4624 type 3. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize EVTX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "RecSize EVTX - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "LogonId 4624",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "LogonId 4624 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Workstation 4624",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "Workstation 4624 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "GUID 4662",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "GUID 4662 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "RID 4662",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "RID 4662 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Conta 4662",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "Conta 4662 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Flag 4672",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-security.evtx",
+    "raw_text": "Flag 4672 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "ETL CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "ETL CLM - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "RecSize ETL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "RecSize ETL - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "ActivityId 4720",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "ActivityId 4720 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Grupo 4732",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "Grupo 4732 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Host 4624",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "Host 4624 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Conta 4624",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "Conta 4624 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  },
+  {
+    "title": "Flag 4624",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-security.etl",
+    "raw_text": "Flag 4624 - 10 pts\n\n",
+    "category_group": "Event Log EVTX",
+    "downloaded": true
+  }
+]

@@ -1,0 +1,582 @@
+[
+  {
+    "title": "Saco evidência",
+    "points": 10,
+    "category": "Warmup",
+    "description": "Este ZIP é o saco de evidência exportado da estação de finanças da Transnorte na Campanha Relé, o pacote que o plantão recebeu com README apontando para a nota fiscal e o sync do vendor. Qual o Host no README.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Saco evidência - 10 pts\nWarmup\nEste ZIP é o saco de evidência exportado da estação de finanças da Transnorte na Campanha Relé, o pacote que o plantão recebeu com README apontando para a nota fiscal e o sync do vendor. Qual o Host no README.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Operador ZIP",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Operator no README aponta quem empacotou este saco de evidência da TN-FIN-WS042. Qual o Operator no README.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Operador ZIP - 10 pts\nWarmup\nO Operator no README aponta quem empacotou este saco de evidência da TN-FIN-WS042. Qual o Operator no README.txt? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Caso ZIP",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O Case no README é o IR que o plantão colou neste ZIP da Relé. Qual o Case no README.txt? Padrão da resposta: valor direto. Exemplo: IR-1",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Caso ZIP - 10 pts\nWarmup\nO Case no README é o IR que o plantão colou neste ZIP da Relé. Qual o Case no README.txt? Padrão da resposta: valor direto. Exemplo: IR-1",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo README",
+    "points": 10,
+    "category": "Warmup",
+    "description": "O README manda abrir um arquivo específico dentro do ZIP, não o sync direto. Qual arquivo o README manda abrir? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Alvo README - 10 pts\nWarmup\nO README manda abrir um arquivo específico dentro do ZIP, não o sync direto. Qual arquivo o README manda abrir? Padrão da resposta: valor direto. Exemplo: x.txt",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag invoice",
+    "points": 10,
+    "category": "",
+    "description": "O invoice.txt que o README aponta carrega a primeira marca deste saco. Qual a Flag em invoice.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Flag invoice - 10 pts\n\nO invoice.txt que o README aponta carrega a primeira marca deste saco. Qual a Flag em invoice.txt? Padrão da resposta: CTF{...}. Exemplo: CTF{xxxx}",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Path sync",
+    "points": 10,
+    "category": "",
+    "description": "O path do sync.txt no ZIP é o do canal do vendor, não o da nota fiscal. Qual o path do sync.txt listado no zip? Padrão da resposta: valor direto. Exemplo: a/b.txt",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Path sync - 10 pts\n\nO path do sync.txt no ZIP é o do canal do vendor, não o da nota fiscal. Qual o path do sync.txt listado no zip? Padrão da resposta: valor direto. Exemplo: a/b.txt",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "C2 sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "UA sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "UA sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Drop sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Drop sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Hash sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Hash sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Comentário ZIP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Comentário ZIP - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/evidence.zip",
+    "raw_text": "Flag sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Notes gzip",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Notes gzip - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Magic gzip",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Magic gzip - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Nome original",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Nome original - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Host notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Host notes - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Operador notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Operador notes - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Gateway notes - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "C2 notes - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "UA notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "UA notes - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/notes.txt",
+    "raw_text": "Flag notes - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Updater ELF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Updater ELF - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Arch updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Arch updater - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "C2 updater - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "UA updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "UA updater - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Host updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Host updater - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Versão updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Versão updater - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Produto updater",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Produto updater - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Seção QR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Seção QR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Off seção QR",
+    "points": 9,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Off seção QR - 9 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Tam. seção QR",
+    "points": 9,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Tam. seção QR - 9 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag QR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/updater.bin",
+    "raw_text": "Flag QR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware ICFW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Firmware ICFW - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Magic ICFW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Magic ICFW - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo ICFW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Modelo ICFW - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Versão ICFW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Versão ICFW - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "PayloadOff",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "PayloadOff - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "PayloadLen",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "PayloadLen - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Hash declarado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Hash declarado - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Hash carve",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Hash carve - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway ICFW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Gateway ICFW - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Site ICFW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Site ICFW - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 ICFW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "C2 ICFW - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ICFW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/firmware.bin",
+    "raw_text": "Flag ICFW - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Telemetria EDR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Telemetria EDR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Operador EDR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Operador EDR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Caso EDR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Caso EDR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Site EDR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Site EDR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Objetos JSON",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Objetos JSON - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Tipos event",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Tipos event - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Heartbeats TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Heartbeats TN - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "IP vendor_sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "IP vendor_sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "C2 vendor_sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "C2 vendor_sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "UA vendor_sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "UA vendor_sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Intervalo sync",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Intervalo sync - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway EDR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Gateway EDR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo EDR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Modelo EDR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  },
+  {
+    "title": "Flag EDR",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/telemetry.ndjson",
+    "raw_text": "Flag EDR - 10 pts\n\n",
+    "category_group": "Warmup",
+    "downloaded": true
+  }
+]

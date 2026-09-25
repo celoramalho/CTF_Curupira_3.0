@@ -1,0 +1,152 @@
+[
+  {
+    "title": "XLS IoC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "XLS IoC - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Campanha XLS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "Campanha XLS - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "C2 XLS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "C2 XLS - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Host XLS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "Host XLS - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Flag XLS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-intel.xls",
+    "raw_text": "Flag XLS - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "DOC CTI",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "DOC CTI - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Familia TLV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "Familia TLV - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Vendor TLV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "Vendor TLV - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo TLV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "Alvo TLV - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Flag TLV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-intel.doc",
+    "raw_text": "Flag TLV - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "MMDB infra",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "MMDB infra - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Host GeoIP",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "Host GeoIP - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Org ROT13",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "Org ROT13 - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "IP interno ASN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "IP interno ASN - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  },
+  {
+    "title": "Flag MMDB",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-intel.mmdb",
+    "raw_text": "Flag MMDB - 10 pts\n\n",
+    "category_group": "Intel",
+    "downloaded": true
+  }
+]

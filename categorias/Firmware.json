@@ -1,0 +1,162 @@
+[
+  {
+    "title": "uImage ICG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "uImage ICG - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "ih_load",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "ih_load - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Off squashfs",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "Off squashfs - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Compressão",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "Compressão - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Hostname fw",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "Hostname fw - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag channel",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/icg4200-3.4.12.fw",
+    "raw_text": "Flag channel - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Initramfs NMS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Initramfs NMS - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Magic newc",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Magic newc - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Hostname cpio",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Hostname cpio - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Serial named",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Serial named - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag token LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.initramfs",
+    "raw_text": "Flag token LIT - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "JFFS2 medidor",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "JFFS2 medidor - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Ino hostname",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "Ino hostname - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Dst DNP3",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "Dst DNP3 - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Index CROB fw",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "Index CROB fw - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag token CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-meter.jffs2",
+    "raw_text": "Flag token CLM - 10 pts\n\n",
+    "category_group": "Firmware",
+    "downloaded": true
+  }
+]

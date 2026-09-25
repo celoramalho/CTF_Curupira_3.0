@@ -1,0 +1,152 @@
+[
+  {
+    "title": "SPAN residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "SPAN residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Host residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "Host residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "URI residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "URI residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Agente residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "Agente residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Flag residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-span.pcap",
+    "raw_text": "Flag residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Recursor residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Recursor residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Origem residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Origem residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Node residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Node residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Rcode residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Rcode residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Flag recursor",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-queries.jsonl",
+    "raw_text": "Flag recursor - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Auditoria residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Auditoria residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Alvo residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Gatilho residual - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Host residual CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Host residual CLM - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  },
+  {
+    "title": "Flag auditoria",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-audit.ndjson",
+    "raw_text": "Flag auditoria - 10 pts\n\n",
+    "category_group": "Volume",
+    "downloaded": true
+  }
+]

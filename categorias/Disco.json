@@ -1,0 +1,352 @@
+[
+  {
+    "title": "Disco TN",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "Este tn-disk.img é o volume NTFS da estação TN-FIN-WS042 depois do dropper ICG-4200 na Campanha Relé, a imagem de disco em que o plantão ainda acha o update.bin, a lixeira e o ADS do relatório. Qual o Volume Name? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Disco TN - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nEste tn-disk.img é o volume NTFS da estação TN-FIN-WS042 depois do dropper ICG-4200 na Campanha Relé, a imagem de disco em que o plantão ainda acha o update.bin, a lixeira e o ADS do relatório. Qual o Volume Name? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Perfil TN",
+    "points": 10,
+    "category": "Tentativas Realizadas: 1 | Penalidade: 0 pts",
+    "description": "O diretório de perfil em /Users além de Public é a conta da estação de trabalho de finanças neste NTFS. Qual o diretório de perfil em /Users além de Public? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Perfil TN - 10 pts\nTentativas Realizadas: 1 | Penalidade: 0 pts\nO diretório de perfil em /Users além de Public é a conta da estação de trabalho de finanças neste NTFS. Qual o diretório de perfil em /Users além de Public? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Startup TN",
+    "points": 10,
+    "category": "",
+    "description": "O arquivo no Startup do ops.cardoso é o .cmd que o updater deixou para subir no logon. Qual o arquivo no Startup do ops.cardoso? Padrão da resposta: valor direto. Exemplo: xxxx.cmd",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Startup TN - 10 pts\n\nO arquivo no Startup do ops.cardoso é o .cmd que o updater deixou para subir no logon. Qual o arquivo no Startup do ops.cardoso? Padrão da resposta: valor direto. Exemplo: xxxx.cmd",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo Startup",
+    "points": 10,
+    "category": "",
+    "description": "O path dentro do ObsidianUpdater.cmd aponta o update.bin que o Startup dispara. Qual o path dentro do ObsidianUpdater.cmd? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Alvo Startup - 10 pts\n\nO path dentro do ObsidianUpdater.cmd aponta o update.bin que o Startup dispara. Qual o path dentro do ObsidianUpdater.cmd? Padrão da resposta: valor direto. Exemplo: C:\\xxxx",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Path dropper NTFS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Path dropper NTFS - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hash disco TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Hash disco TN - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware icg.cfg",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Firmware icg.cfg - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint Desktop",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Setpoint Desktop - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "SID lixeira",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "SID lixeira - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Path $I",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Path $I - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "C2 $R",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "C2 $R - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ADS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-disk.img",
+    "raw_text": "Flag ADS - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Disco LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Disco LIT - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hostname ext4",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Hostname ext4 - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "User UID 1000",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "User UID 1000 - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Cron IndusCom",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Cron IndusCom - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Unit DNS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Unit DNS - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "C2 dns.conf",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "C2 dns.conf - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hash disco LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Hash disco LIT - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hosts CDN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Hosts CDN - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Inode notes",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Inode notes - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "C2 apagado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "C2 apagado - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Flag apagado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-disk.img",
+    "raw_text": "Flag apagado - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Disco CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Disco CLM - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Tipo 0x07",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Tipo 0x07 - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Volume NTFS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Volume NTFS - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Perfil CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Perfil CLM - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "HTA Downloads",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "HTA Downloads - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Path agente",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Path agente - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Hash disco CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Hash disco CLM - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Pass desk.cred",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Pass desk.cred - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "State wiper",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "State wiper - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Trigger wiper",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Trigger wiper - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Target wiper",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Target wiper - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  },
+  {
+    "title": "Flag wiper",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-disk.dd",
+    "raw_text": "Flag wiper - 10 pts\n\n",
+    "category_group": "Disco",
+    "downloaded": true
+  }
+]

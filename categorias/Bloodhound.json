@@ -1,0 +1,312 @@
+[
+  {
+    "title": "BH Transnorte",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "Este tn-ad.json é o export SharpHound do domínio da Transnorte depois do acesso na TN-FIN-WS042 na Campanha Relé, o grafo em que o plantão amarra ops.cardoso, backup_svc e a GPO da IndusCom. Qual o domain no meta? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "BH Transnorte - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nEste tn-ad.json é o export SharpHound do domínio da Transnorte depois do acesso na TN-FIN-WS042 na Campanha Relé, o grafo em que o plantão amarra ops.cardoso, backup_svc e a GPO da IndusCom. Qual o domain no meta? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "DC Transnorte",
+    "points": 10,
+    "category": "",
+    "description": "O name do computer com isdc true é o DC que este export SharpHound marca no domínio da Transnorte. Qual o name do computer com isdc true? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "DC Transnorte - 10 pts\n\nO name do computer com isdc true é o DC que este export SharpHound marca no domínio da Transnorte. Qual o name do computer com isdc true? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "SID ops.cardoso",
+    "points": 8,
+    "category": "",
+    "description": "O ObjectIdentifier de OPS.CARDOSO@TRANSNORTE.LOCAL é o SID da conta da estação de trabalho de finanças neste grafo. Qual o ObjectIdentifier de OPS.CARDOSO@TRANSNORTE.LOCAL? Padrão da resposta: valor direto. Exemplo: S-1-5-21-1-2-3-1000",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "SID ops.cardoso - 8 pts\n\nO ObjectIdentifier de OPS.CARDOSO@TRANSNORTE.LOCAL é o SID da conta da estação de trabalho de finanças neste grafo. Qual o ObjectIdentifier de OPS.CARDOSO@TRANSNORTE.LOCAL? Padrão da resposta: valor direto. Exemplo: S-1-5-21-1-2-3-1000",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "sessão TN-FIN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "sessão TN-FIN - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Grupo extra TN",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "Grupo extra TN - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "GenericAll",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "GenericAll - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "GetChangesAll",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "GetChangesAll - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Jump unconstrained",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "Jump unconstrained - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "GPO IndusCom",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "GPO IndusCom - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Flag GPO",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "Flag GPO - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "BH Litoral",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "BH Litoral - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "JSON users",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "JSON users - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Tipo users",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "Tipo users - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "SID carla.dias",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "SID carla.dias - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Grupo extra LIT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "Grupo extra LIT - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "sessão NMS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "sessão NMS - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Admin local NMS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "Admin local NMS - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "User roastable",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "User roastable - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "SPN DNS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "SPN DNS - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "DN OU NMS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-ad.zip",
+    "raw_text": "DN OU NMS - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Flag OU",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "Flag OU - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "BH CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "BH CLM - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Fonte BHCE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "Fonte BHCE - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Nos grafo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "Nos grafo - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "SID marina",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "SID marina - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "sessão mesa",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "sessão mesa - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Grupo extra CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "Grupo extra CLM - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "ForceChangePassword",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "ForceChangePassword - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "AdminTo wipe",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "AdminTo wipe - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Kinds aresta",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "Kinds aresta - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  },
+  {
+    "title": "Flag SVC-WIPE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-ad.json",
+    "raw_text": "Flag SVC-WIPE - 10 pts\n\n",
+    "category_group": "Bloodhound",
+    "downloaded": true
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "title": "P7M kill",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "P7M kill - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway P7M",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "Gateway P7M - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware P7M",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "Firmware P7M - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "C2 P7M",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "C2 P7M - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Flag P7M",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-revoke.p7m",
+    "raw_text": "Flag P7M - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "DNS UPDATE",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "DNS UPDATE - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Ação TXT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "Ação TXT - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Node TXT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "Node TXT - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Nome TSIG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "Nome TSIG - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Flag TXT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-unhold.dns",
+    "raw_text": "Flag TXT - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "P12 abort",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "P12 abort - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Ação abort",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "Ação abort - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Vendor abort",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "Vendor abort - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Gatilho abort",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "Gatilho abort - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  },
+  {
+    "title": "Flag abort",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-abort.p12",
+    "raw_text": "Flag abort - 10 pts\n\n",
+    "category_group": "Final",
+    "downloaded": true
+  }
+]

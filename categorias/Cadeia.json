@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Deb ICG-4200",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "Este icg4200.deb é o pacote IndusCom que a Transnorte puxou como update do ICG-4200 na Campanha Relé, o .deb que a estação de finanças tratou como firmware oficial do gateway. Qual o nome Package? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Deb ICG-4200 - 10 pts\nCadeia\nEste icg4200.deb é o pacote IndusCom que a Transnorte puxou como update do ICG-4200 na Campanha Relé, o .deb que a estação de finanças tratou como firmware oficial do gateway. Qual o nome Package? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Versão deb",
+    "points": 10,
+    "category": "Cadeia",
+    "description": "A Version deste .deb é a mesma faixa que o vendor vendia como firmware 3.4 do ICG. Qual a Version do pacote? Padrão da resposta: valor direto. Exemplo: 1.0.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Versão deb - 10 pts\nCadeia\nA Version deste .deb é a mesma faixa que o vendor vendia como firmware 3.4 do ICG. Qual a Version do pacote? Padrão da resposta: valor direto. Exemplo: 1.0.0",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Maintainer",
+    "points": 10,
+    "category": "",
+    "description": "O Maintainer no control tenta parecer suporte da IndusCom neste update da Transnorte. Qual o endereço de e-mail do Maintainer? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Maintainer - 10 pts\n\nO Maintainer no control tenta parecer suporte da IndusCom neste update da Transnorte. Qual o endereço de e-mail do Maintainer? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Homepage deb",
+    "points": 10,
+    "category": "",
+    "description": "A Homepage deste pacote aponta o portal de firmware que o .deb declara, não o site público da IndusCom. Qual a Homepage do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Homepage deb - 10 pts\n\nA Homepage deste pacote aponta o portal de firmware que o .deb declara, não o site público da IndusCom. Qual a Homepage do pacote? Padrão da resposta: valor direto. Exemplo: http://xxxx",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "XB-Host",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "XB-Host - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Conf deb",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Conf deb - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "C2 deb",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "C2 deb - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Dropper deb",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Dropper deb - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag deb",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/cg4200.deb",
+    "raw_text": "Flag deb - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "RPM DNS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "RPM DNS - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Versão RPM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Versão RPM - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Vendor RPM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Vendor RPM - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "URL RPM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "URL RPM - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Packager",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Packager - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Buildhost",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Buildhost - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Conf RPM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Conf RPM - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "C2 RPM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "C2 RPM - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Path dns-update",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Path dns-update - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag RPM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns.rpm",
+    "raw_text": "Flag RPM - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Repo CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Repo CLM - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Label repo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Label repo - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Suite repo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Suite repo - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Codename repo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Codename repo - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Hash clearsign",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Hash clearsign - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "SHA256 Packages",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "SHA256 Packages - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Package CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Package CLM - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Filename pool",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Filename pool - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  },
+  {
+    "title": "Flag repo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-repo.tar",
+    "raw_text": "Flag repo - 10 pts\n\n",
+    "category_group": "Cadeia",
+    "downloaded": true
+  }
+]

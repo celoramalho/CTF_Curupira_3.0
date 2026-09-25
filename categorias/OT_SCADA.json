@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Modbus SE-03",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Modbus SE-03 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Unit FC6",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Unit FC6 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Função FC6",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Função FC6 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Holding FC6",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Holding FC6 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint FC6",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Setpoint FC6 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Flag FC17",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03-modbus.pcap",
+    "raw_text": "Flag FC17 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "IEC 104",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "IEC 104 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "COT C_SC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "COT C_SC - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "IOA C_SC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "IOA C_SC - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "ASDU C_SC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "ASDU C_SC - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Destino C_SC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "Destino C_SC - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Flag TypeId 136",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-iec104.pcap",
+    "raw_text": "Flag TypeId 136 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "DNP3 CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "DNP3 CLM - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Src Operate",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Src Operate - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Func Operate",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Func Operate - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Obj CROB",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Obj CROB - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Index CROB",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Index CROB - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  },
+  {
+    "title": "Flag func 129",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-dnp3.pcap",
+    "raw_text": "Flag func 129 - 10 pts\n\n",
+    "category_group": "OT/SCADA",
+    "downloaded": true
+  }
+]

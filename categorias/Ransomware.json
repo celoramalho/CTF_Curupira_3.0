@@ -1,0 +1,172 @@
+[
+  {
+    "title": "OCC cifrado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "OCC cifrado - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "KeyLen",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "KeyLen - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Chave OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "Chave OCC - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "Setpoint OCC - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-occ.enc",
+    "raw_text": "Flag OCC - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Zona cifrada",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Zona cifrada - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Cipher zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Cipher zona - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Kdf zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Kdf zona - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Chave zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Chave zona - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Serial zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Serial zona - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.enc",
+    "raw_text": "Flag zona - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Lote cifrado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Lote cifrado - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Isca PAYNOW",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Isca PAYNOW - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Chave VSS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Chave VSS - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "BatchId",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "BatchId - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Amount lote",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Amount lote - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  },
+  {
+    "title": "Flag lote",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-settle.enc",
+    "raw_text": "Flag lote - 10 pts\n\n",
+    "category_group": "Ransomware",
+    "downloaded": true
+  }
+]

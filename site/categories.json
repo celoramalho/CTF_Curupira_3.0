@@ -1,0 +1,122 @@
+[
+  {
+    "name": "PCAP",
+    "count": 79
+  },
+  {
+    "name": "LOG",
+    "count": 104
+  },
+  {
+    "name": "SQLite",
+    "count": 78
+  },
+  {
+    "name": "Stego",
+    "count": 72
+  },
+  {
+    "name": "Crypto",
+    "count": 47
+  },
+  {
+    "name": "Warmup",
+    "count": 58
+  },
+  {
+    "name": "Phishing",
+    "count": 26
+  },
+  {
+    "name": "Cadeia",
+    "count": 28
+  },
+  {
+    "name": "Dropper",
+    "count": 26
+  },
+  {
+    "name": "Endpoint",
+    "count": 30
+  },
+  {
+    "name": "Memória",
+    "count": 34
+  },
+  {
+    "name": "Disco",
+    "count": 35
+  },
+  {
+    "name": "Bloodhound",
+    "count": 31
+  },
+  {
+    "name": "Credenciais",
+    "count": 26
+  },
+  {
+    "name": "Event Log EVTX",
+    "count": 15
+  },
+  {
+    "name": "Persistência",
+    "count": 21
+  },
+  {
+    "name": "Ransomware",
+    "count": 17
+  },
+  {
+    "name": "OT/SCADA",
+    "count": 18
+  },
+  {
+    "name": "Firmware",
+    "count": 16
+  },
+  {
+    "name": "Telecom",
+    "count": 15
+  },
+  {
+    "name": "Wiper",
+    "count": 15
+  },
+  {
+    "name": "Reverse",
+    "count": 15
+  },
+  {
+    "name": "Interceptação",
+    "count": 15
+  },
+  {
+    "name": "Intel",
+    "count": 15
+  },
+  {
+    "name": "Final",
+    "count": 15
+  },
+  {
+    "name": "Volume",
+    "count": 15
+  },
+  {
+    "name": "Acervo",
+    "count": 15
+  },
+  {
+    "name": "Empacotado",
+    "count": 15
+  },
+  {
+    "name": "Mídia",
+    "count": 15
+  },
+  {
+    "name": "Fecho",
+    "count": 15
+  }
+]

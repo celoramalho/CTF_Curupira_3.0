@@ -1,0 +1,262 @@
+[
+  {
+    "title": "Boletim falso",
+    "points": 9,
+    "category": "Tentativas Realizadas: 2 | Penalidade: -1 pts",
+    "description": "Este bulletin.eml é o boletim falso da IndusCom que chegou na caixa da estação de finanças da Transnorte na Campanha Relé, o recado que a estação de trabalho de ops.cardoso abriu como se fosse aviso oficial do vendor. Qual o endereço de e-mail do destinatário To? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Boletim falso - 9 pts\nTentativas Realizadas: 2 | Penalidade: -1 pts\nEste bulletin.eml é o boletim falso da IndusCom que chegou na caixa da estação de finanças da Transnorte na Campanha Relé, o recado que a estação de trabalho de ops.cardoso abriu como se fosse aviso oficial do vendor. Qual o endereço de e-mail do destinatário To? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "From boletim",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O From declarado neste bulletin tenta parecer suporte da IndusCom, não o domínio do canal que devolve a resposta. Qual o endereço de e-mail do From declarado? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "From boletim - 10 pts\nPhishing\nO From declarado neste bulletin tenta parecer suporte da IndusCom, não o domínio do canal que devolve a resposta. Qual o endereço de e-mail do From declarado? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Return-Path",
+    "points": 10,
+    "category": "Phishing",
+    "description": "O Return-Path deste boletim, sem os sinais de agrupamento, denuncia o envelope real do envio. Qual o Return-Path (sem <> )? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Return-Path - 10 pts\nPhishing\nO Return-Path deste boletim, sem os sinais de agrupamento, denuncia o envelope real do envio. Qual o Return-Path (sem <> )? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Reply-To",
+    "points": 10,
+    "category": "",
+    "description": "O Reply-To deste bulletin aponta para onde a estação de trabalho da Transnorte responderia se clicasse em responder. Qual o endereço de e-mail do Reply-To? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Reply-To - 10 pts\n\nO Reply-To deste bulletin aponta para onde a estação de trabalho da Transnorte responderia se clicasse em responder. Qual o endereço de e-mail do Reply-To? Padrão da resposta: valor direto. Exemplo: user@dominio",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Assunto boletim",
+    "points": 10,
+    "category": "",
+    "description": "O Subject deste boletim é o gancho que a IndusCom falsa usou na caixa da TN-FIN. Qual o Subject? Padrão da resposta: valor direto. Exemplo: xxxx yyyy",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Assunto boletim - 10 pts\n\nO Subject deste boletim é o gancho que a IndusCom falsa usou na caixa da TN-FIN. Qual o Subject? Padrão da resposta: valor direto. Exemplo: xxxx yyyy",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Message-ID",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Message-ID - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Portal boletim",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Portal boletim - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Flag boletim",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/bulletin.eml",
+    "raw_text": "Flag boletim - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Helpdesk mbox",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Helpdesk mbox - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "From lure",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "From lure - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "To lure",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "To lure - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Return-Path lure",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Return-Path lure - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Reply-To lure",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Reply-To lure - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Message-ID lure",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Message-ID lure - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "IP Received",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "IP Received - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Portal lure",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Portal lure - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Flag lure",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/helpdesk.mbox",
+    "raw_text": "Flag lure - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Harvest kit",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Harvest kit - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "From kit",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "From kit - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Assunto harvest",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Assunto harvest - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Portal harvest",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Portal harvest - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "User form.dat",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "User form.dat - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Pass form.dat",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Pass form.dat - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Host form.dat",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Host form.dat - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "UA form.dat",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "UA form.dat - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  },
+  {
+    "title": "Flag harvest",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/harvest.eml",
+    "raw_text": "Flag harvest - 10 pts\n\n",
+    "category_group": "Phishing",
+    "downloaded": true
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Historian residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Historian residual - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Unit residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Unit residual - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Holding residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Holding residual - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Gateway residual - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Flag historian",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-hist.db",
+    "raw_text": "Flag historian - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "WARC residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "WARC residual - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Src WARC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "Src WARC - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Node WARC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "Node WARC - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Rcode WARC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "Rcode WARC - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WARC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-nms.warc",
+    "raw_text": "Flag WARC - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "WAL residual",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "WAL residual - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Alvo WAL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "Alvo WAL - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Host WAL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "Host WAL - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Origem WAL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "Origem WAL - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WAL",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-wal.bin",
+    "raw_text": "Flag WAL - 10 pts\n\n",
+    "category_group": "Acervo",
+    "downloaded": true
+  }
+]

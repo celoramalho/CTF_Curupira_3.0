@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Taxa WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Taxa WAV - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Canais WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Canais WAV - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Índice PCM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Índice PCM - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Sample PCM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Sample PCM - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Flag WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-alarm.wav",
+    "raw_text": "Flag WAV - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Serial zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "Serial zona - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Expire zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "Expire zona - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "AAAA zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "AAAA zona - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Pref MX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "Pref MX - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zona",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/lit-zone.db",
+    "raw_text": "Flag zona - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Contagem mbox",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "Contagem mbox - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Message-ID mbox",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "Message-ID mbox - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "From mbox",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "From mbox - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Batch mbox",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "Batch mbox - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  },
+  {
+    "title": "Flag mbox",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/clm-last.mbox",
+    "raw_text": "Flag mbox - 10 pts\n\n",
+    "category_group": "Fecho",
+    "downloaded": true
+  }
+]

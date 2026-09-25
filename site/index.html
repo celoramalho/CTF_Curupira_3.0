@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CTF Curupira 3.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="scanlines"></div>
+
+<header class="topbar">
+  <div class="brand" id="brand-home-btn">CURUPIRA_3.0//CTF</div>
+  <div class="topbar-right">
+    <div class="score-pill" id="score-pill">0 / 0 pts</div>
+    <button class="icon-btn" id="theme-toggle" title="Alternar tema">🌓 Tema</button>
+    <button class="icon-btn" id="export-toggle" title="Exportar progresso">⇩ Progresso</button>
+  </div>
+</header>
+
+<main>
+  <!-- HOME SCREEN -->
+  <section id="screen-home" class="screen">
+    <h1 class="hero-title">CURUPIRA 3.0</h1>
+    <div class="hero-sub">// CAPTURE THE FLAG :: NIGHT CITY PROTOCOL</div>
+    <p class="hero-desc">
+      Uma trilha de investigação forense e resposta a incidentes distribuída em 30 categorias e 926 desafios.
+      Analise PCAPs, logs, memória, bancos SQLite, firmware, esteganografia e muito mais.
+      Seu progresso é salvo automaticamente neste navegador.
+    </p>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num" id="stat-total">926</div><div class="lbl">Desafios</div></div>
+      <div class="hero-stat"><div class="num" id="stat-cats">30</div><div class="lbl">Categorias</div></div>
+      <div class="hero-stat"><div class="num" id="stat-solved">0</div><div class="lbl">Resolvidos</div></div>
+      <div class="hero-stat"><div class="num" id="stat-points">0</div><div class="lbl">Pontos</div></div>
+    </div>
+    <button class="btn-primary" id="start-btn">Iniciar CTF</button>
+    <br>
+    <button class="btn-secondary" id="import-btn">Importar progresso salvo</button>
+    <input type="file" id="import-file" accept="application/json" hidden>
+  </section>
+
+  <!-- DASHBOARD SCREEN -->
+  <section id="screen-dashboard" class="screen" hidden>
+    <div class="dash-header">
+      <div class="dash-title">// Selecione uma categoria</div>
+      <button class="back-link" id="dash-home-btn">← Voltar à página inicial</button>
+    </div>
+    <input type="text" class="search-bar" id="cat-search" placeholder="Buscar categoria...">
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="global-bar" style="width:0%"></div></div>
+    <div class="cat-grid" id="cat-grid"></div>
+  </section>
+
+  <!-- QUESTIONS SCREEN -->
+  <section id="screen-questions" class="screen" hidden>
+    <button class="back-link" id="questions-back-btn">← Voltar às categorias</button>
+    <div class="qs-header">
+      <h2 id="qs-title">Categoria</h2>
+      <div class="progress-bar-wrap" style="flex:1; min-width:120px;"><div class="progress-bar-fill" id="cat-bar" style="width:0%"></div></div>
+    </div>
+    <div id="q-list"></div>
+  </section>
+</main>
+
+<div class="export-panel">
+  <div class="export-box" id="export-box" hidden>
+    <h4>Progresso (JSON)</h4>
+    <textarea id="export-text" readonly></textarea>
+    <div class="export-actions">
+      <button id="copy-progress-btn">Copiar</button>
+      <button id="download-progress-btn">Baixar .json</button>
+      <button id="reset-progress-btn">Resetar</button>
+    </div>
+  </div>
+</div>
+
+<script src="questions_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

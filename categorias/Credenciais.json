@@ -1,0 +1,262 @@
+[
+  {
+    "title": "NTDS Transnorte",
+    "points": 10,
+    "category": "",
+    "description": "Este tn-ntds.bin é o dump NTDS+LSA do TN-DC-01 depois do DCSync do backup_svc na Campanha Relé. A SYSKEY não está concatenada na ordem do arquivo, e o plantão precisa do Domain no cabeçalho antes de montar JD Skew1 GBG Data. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "NTDS Transnorte - 10 pts\n\nEste tn-ntds.bin é o dump NTDS+LSA do TN-DC-01 depois do DCSync do backup_svc na Campanha Relé. A SYSKEY não está concatenada na ordem do arquivo, e o plantão precisa do Domain no cabeçalho antes de montar JD Skew1 GBG Data. Qual o Domain no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx.LOCAL",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "DC NTDS",
+    "points": 10,
+    "category": "",
+    "description": "O DC no cabeçalho confirma qual controlador gerou este dump NTDS+LSA. Qual o DC no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "DC NTDS - 10 pts\n\nO DC no cabeçalho confirma qual controlador gerou este dump NTDS+LSA. Qual o DC no cabeçalho? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Classe JD",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Classe JD - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Bootkey",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Bootkey - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Chave PEK",
+    "points": 7,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Chave PEK - 7 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "NT ops.cardoso",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "NT ops.cardoso - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "RID backup_svc",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "RID backup_svc - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Reuso NT",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Reuso NT - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Flag NTDS",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "Flag NTDS - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Ccache Litoral",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Ccache Litoral - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "KDC ccache",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "KDC ccache - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Qtde tickets",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Qtde tickets - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Off DNS-SVC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Off DNS-SVC - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Len ticket",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Len ticket - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "SPN ticket",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "SPN ticket - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Chave ticket",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Chave ticket - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "C2 ticket",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "C2 ticket - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Flag ticket",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/dns-svc.ccache",
+    "raw_text": "Flag ticket - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "PFX CLM",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "PFX CLM - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Account KDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "Account KDF - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "Passphrase P12",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "Passphrase P12 - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "PfxOff",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "PfxOff - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "CN cert",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "CN cert - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "OU cert",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "OU cert - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "FriendlyName",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/marina.pfx",
+    "raw_text": "FriendlyName - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  },
+  {
+    "title": "PEK",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/tn-ntds.bin",
+    "raw_text": "PEK - 10 pts\n\n",
+    "category_group": "Credenciais",
+    "downloaded": true
+  }
+]

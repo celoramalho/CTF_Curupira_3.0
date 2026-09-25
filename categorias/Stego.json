@@ -1,0 +1,722 @@
+[
+  {
+    "title": "Boletim PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "Este PDF é o boletim de release da IndusCom baixado na estação de finanças da Transnorte na Campanha Relé, o documento que a estação de trabalho abriu como update legítimo do ICG-4200. Qual o Title do documento? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Boletim PDF - 10 pts\nStego\nEste PDF é o boletim de release da IndusCom baixado na estação de finanças da Transnorte na Campanha Relé, o documento que a estação de trabalho abriu como update legítimo do ICG-4200. Qual o Title do documento? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Autor PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Author deste PDF ainda assina quem a IndusCom colocou no metadado do boletim. Qual o Author do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Autor PDF - 10 pts\nStego\nO Author deste PDF ainda assina quem a IndusCom colocou no metadado do boletim. Qual o Author do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Operador PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Manager no metadado aponta o responsável interno que o vendor gravou neste boletim. Qual o Manager do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Operador PDF - 10 pts\nStego\nO Manager no metadado aponta o responsável interno que o vendor gravou neste boletim. Qual o Manager do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "estação PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Station no metadado amarra o boletim à estação ou subestação citada no caso Relé. Qual o Station do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "estação PDF - 10 pts\nStego\nO Station no metadado amarra o boletim à estação ou subestação citada no caso Relé. Qual o Station do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "O Gateway no metadado nomeia o ICG que este boletim dizia atualizar. Qual o Gateway do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Gateway PDF - 10 pts\nStego\nO Gateway no metadado nomeia o ICG que este boletim dizia atualizar. Qual o Gateway do PDF? Padrão da resposta: valor direto. Exemplo: xxxx",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware PDF",
+    "points": 10,
+    "category": "Stego",
+    "description": "A versão de firmware no metadado é a que o boletim vendia como update da SE-03. Qual o Firmware no metadado do PDF? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Firmware PDF - 10 pts\nStego\nA versão de firmware no metadado é a que o boletim vendia como update da SE-03. Qual o Firmware no metadado do PDF? Padrão da resposta: valor direto. Exemplo: 1.0",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Build PDF",
+    "points": 10,
+    "category": "",
+    "description": "O Build no metadado fecha a revisão do pacote que a estação de trabalho de finanças baixou. Qual o Build no metadado do PDF? Padrão da resposta: valor direto. Exemplo: R1",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Build PDF - 10 pts\n\nO Build no metadado fecha a revisão do pacote que a estação de trabalho de finanças baixou. Qual o Build no metadado do PDF? Padrão da resposta: valor direto. Exemplo: R1",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Páginas PDF",
+    "points": 10,
+    "category": "",
+    "description": "O PageCount confirma quantas páginas este boletim da IndusCom realmente tem. Qual o PageCount do PDF? Padrão da resposta: valor direto. Exemplo: 10",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Páginas PDF - 10 pts\n\nO PageCount confirma quantas páginas este boletim da IndusCom realmente tem. Qual o PageCount do PDF? Padrão da resposta: valor direto. Exemplo: 10",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Versão PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Versão PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "PDF cifrado",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "PDF cifrado - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Largura página",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Largura página - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo no PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Modelo no PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Site no PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Site no PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "C2 no PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "C2 no PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "IP C2 PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "IP C2 PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Setpoint PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Anexo PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Anexo PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Conteúdo anexo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Conteúdo anexo - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Zip pos-EOF PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Zip pos-EOF PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zip PDF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/IndusCom_ReleaseNotes.pdf",
+    "raw_text": "Flag zip PDF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Foto de campo",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Foto de campo - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Fabricante EXIF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Fabricante EXIF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Modelo EXIF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Modelo EXIF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Software EXIF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Software EXIF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Hora da foto",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Hora da foto - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Operador EXIF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Operador EXIF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "estação EXIF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "estação EXIF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Serial EXIF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Serial EXIF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Copyright EXIF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Copyright EXIF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Comentário EXIF",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Comentário EXIF - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "UserComment",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "UserComment - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Latitude",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Latitude - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Longitude",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Longitude - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Altitude",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Altitude - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Largura foto",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Largura foto - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Zip pos-EOF JPG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Zip pos-EOF JPG - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zip JPG",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03.jpg",
+    "raw_text": "Flag zip JPG - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Relatório DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Relatório DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Autor DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Autor DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Assunto DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Assunto DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Keywords DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Keywords DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Identificador",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Identificador - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Categoria DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Categoria DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Criação DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Criação DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Empresa DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Empresa DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "App DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "App DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Setpoint DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Setpoint DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Gateway DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Gateway DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Origem cmd DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Origem cmd DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "C2 DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "C2 DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Firmware DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Firmware DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "estação DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "estação DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Comentário zip",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Comentário zip - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Arquivo oculto",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Arquivo oculto - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Flag hint DOCX",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/report.docx",
+    "raw_text": "Flag hint DOCX - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Radio OCC",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Radio OCC - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Operador WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Operador WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Comentário WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Comentário WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Copyright WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Copyright WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Software WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Software WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Engenheiro WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Engenheiro WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Gênero WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Gênero WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Produto WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Produto WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Técnico WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Técnico WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Assunto WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Assunto WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Data WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Data WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Sample rate",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Sample rate - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Canais WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Canais WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Bits WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Bits WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Amostras WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Amostras WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Zip pos-EOF WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Zip pos-EOF WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  },
+  {
+    "title": "Flag zip WAV",
+    "points": 10,
+    "category": "",
+    "description": "",
+    "target_url": "https://download.gohacking.com.br/curupira3/se03_radio.wav",
+    "raw_text": "Flag zip WAV - 10 pts\n\n",
+    "category_group": "Stego",
+    "downloaded": true
+  }
+]
